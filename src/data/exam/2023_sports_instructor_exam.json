@@ -1,0 +1,3291 @@
+{
+  "exam": "2023년도 2급류 체육지도자 필기시험",
+  "date": "2023-04-29",
+  "subjects": [
+    {
+      "subject": "SOC",
+      "subjectCode": "11",
+      "questions": [
+        {
+          "id": "11-1",
+          "questionNumber": 1,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 스포츠의 교육적 순기능으로만 묶인 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "학교와 지역사회의 통합"
+            },
+            {
+              "id": "㉡",
+              "content": "평생체육의 연계"
+            },
+            {
+              "id": "㉢",
+              "content": "스포츠의 상업화"
+            },
+            {
+              "id": "㉣",
+              "content": "학업활동의 격려"
+            },
+            {
+              "id": "㉤",
+              "content": "참여기회의 제한"
+            },
+            {
+              "id": "㉥",
+              "content": "승리지상주의"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡, ㉣"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢, ㉤"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉤, ㉥"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "11-2",
+          "questionNumber": 2,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 코클리(J. Coakley)의 상업주의에 따른 스포츠의 변화에 관한 설명으로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "스포츠 조직의 변화: 스포츠 조직은 경품 추첨, 연예인의 시구와 같은 의전행사에 관심을 갖게 되었다."
+            },
+            {
+              "id": "㉡",
+              "content": "스포츠 구조의 변화: 스포츠의 심미적 가치보다 영웅적 가치를 중시하게 되었다."
+            },
+            {
+              "id": "㉢",
+              "content": "스포츠 목적의 변화: 아마추어리즘보다 흥행에 입각한 프로페셔널리즘을 추구하게 되었다."
+            },
+            {
+              "id": "㉣",
+              "content": "스포츠 내용의 변화: 프로 농구의 경우 전·후반제에서 쿼터제로 변경되었다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉢, ㉣"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "11-3",
+          "questionNumber": 3,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 스포츠 세계화의 원인은?",
+          "context": [
+            "'코먼웰스 게임(commonwealth games)'은 영연방국가들이 참가하는 스포츠 메가 이벤트로, 영연방국가의 통합에 기여하는 측면이 있다",
+            "영국의 스포츠로 알려진 크리켓과 럭비는 대부분 영국의 식민지였던 영연방국가에서 인기가 있다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "제국주의"
+            },
+            {
+              "id": 2,
+              "content": "민족주의"
+            },
+            {
+              "id": 3,
+              "content": "다문화주의"
+            },
+            {
+              "id": 4,
+              "content": "문화적 상대주의"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "11-4",
+          "questionNumber": 4,
+          "type": "PASSAGE",
+          "question": "〈보기〉에 해당하는 케년(G. Kenyon)의 스포츠 참가유형은?",
+          "context": [
+            "특정 선수의 사인볼 수집",
+            "특정 스포츠 관련 SNS 활동",
+            "특정 스포츠 물품에 대한 애착"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "일탈적 참가"
+            },
+            {
+              "id": 2,
+              "content": "행동적 참가"
+            },
+            {
+              "id": 3,
+              "content": "정의적 참가"
+            },
+            {
+              "id": 4,
+              "content": "인지적 참가"
+            }
+          ],
+          "answer": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "11-5",
+          "questionNumber": 5,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉의 ㉠, ㉡에 해당하는 거트만(A. Guttmann)의 근대스포츠 특징은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "국제스포츠조직은 규칙의 제정, 대회의 운영, 종목 진흥 등의 역할을 담당한다."
+            },
+            {
+              "id": "㉡",
+              "content": "투수라는 같은 포지션 내에서도 선발, 중간, 마무리 등으로 구분된다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 관료화 / ㉡ 평등성"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 합리화 / ㉡ 평등성"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 관료화 / ㉡ 전문화"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 합리화 / ㉡ 전문화"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "11-6",
+          "questionNumber": 6,
+          "type": "BASIC",
+          "question": "스나이더(E. Snyder)가 제시한 스포츠 사회화의 전이 조건이 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "참가의 가치"
+            },
+            {
+              "id": 2,
+              "content": "참가의 정도"
+            },
+            {
+              "id": 3,
+              "content": "참가의 자발성 여부"
+            },
+            {
+              "id": 4,
+              "content": "사회화 주관자의 위신과 위력"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "11-7",
+          "questionNumber": 7,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉는 버렐(S. Birrell)과 로이(J. Loy)의 스포츠 미디어를 통해 충족할 수 있는 욕구에 관한 설명이다. ㉠~㉢에 해당하는 용어가 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "스포츠 경기의 결과, 선수와 팀에 대한 통계적 지식을 제공해 준다."
+            },
+            {
+              "id": "㉡",
+              "content": "스포츠에 대한 흥미와 흥분을 제공해 준다."
+            },
+            {
+              "id": "㉢",
+              "content": "다른 사회집단과 경험을 공유하게 하며 공동체 의식을 갖게 한다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 정의적 / ㉡ 인지적 / ㉢ 통합적"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 인지적 / ㉡ 통합적 / ㉢ 정의적"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 정의적 / ㉡ 통합적 / ㉢ 인지적"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 인지적 / ㉡ 정의적 / ㉢ 통합적"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "11-8",
+          "questionNumber": 8,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉의 ㉠, ㉡에 해당하는 용어가 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "국민의 관심이 높은 스포츠 경기를 무료 혹은 저렴한 비용으로 시청할 수 있는 권리를 말한다."
+            },
+            {
+              "id": "㉡",
+              "content": "선수 개인의 사생활을 중심으로 대중을 자극하고 호기심에 호소하는 흥미 위주의 스포츠 관련 보도를 지칭한다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 독점 중계권 / ㉡ 뉴 저널리즘(new journalism)"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 보편적 접근권 / ㉡ 옐로 저널리즘(yellow journalism)"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 독점 중계권 / ㉡ 옐로 저널리즘(yellow journalism)"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 보편적 접근권 / ㉡ 뉴 저널리즘(new journalism)"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "11-9",
+          "questionNumber": 9,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 프로스포츠의 제도는?",
+          "context": [
+            "프로스포츠 구단이 소속 선수와의 계약을 해지하고 다른 구단에게 해당 선수를 양도받을 의향이 있는지 공개적으로 묻는 제도이다",
+            "기량이 떨어지거나 심각한 부상을 당한 선수를 방출하는 수단으로 이용하고 있다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "보류 조항(reserve clause)"
+            },
+            {
+              "id": 2,
+              "content": "웨이버 조항(waiver rule)"
+            },
+            {
+              "id": 3,
+              "content": "선수대리인(agent)"
+            },
+            {
+              "id": 4,
+              "content": "자유계약(free agent)"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "11-10",
+          "questionNumber": 10,
+          "type": "BASIC",
+          "question": "스포츠 일탈의 순기능에 관한 사례로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "승부조작 사례를 보고 많은 선수들이 경각심을 갖는다."
+            },
+            {
+              "id": 2,
+              "content": "아이스하키 경기에서 허용된 주먹다짐은 잠재된 공격성을 해소시켜 준다."
+            },
+            {
+              "id": 3,
+              "content": "스포츠에서 선수들의 약물복용이 지속되면 경기의 공정성이 훼손된다."
+            },
+            {
+              "id": 4,
+              "content": "높이뛰기에서 배면뛰기 기술의 창안은 기록경신에 기여하고 있다."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "11-11",
+          "questionNumber": 11,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉는 스트렌크(A. Strenk)가 제시한 국제정치에서 스포츠의 기능에 관한 설명이다. ㉠~㉢에 해당하는 내용이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "2002년 한일월드컵 4강 진출로 대한민국이 축구 강국으로 인식"
+            },
+            {
+              "id": "㉡",
+              "content": "1980년 모스크바올림픽에서 서방 국가들의 보이콧 선언"
+            },
+            {
+              "id": "㉢",
+              "content": "1936년 베를린올림픽에서 나치즘의 정당성과 우월성 과시"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 외교적 도구 / ㉡ 정치이념 선전 / ㉢ 국위선양"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 국위선양 / ㉡ 외교적 항의 / ㉢ 정치이념 선전"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 국위선양 / ㉡ 외교적 도구 / ㉢ 외교적 항의"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 외교적 도구 / ㉡ 외교적 항의 / ㉢ 정치이념 선전"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "11-12",
+          "questionNumber": 12,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 부르디외(P. Bourdieu)의 문화자본 유형은?",
+          "context": [
+            "테니스의 경기 기술뿐만 아니라 경기 매너도 습득하게 된다",
+            "스포츠 활동처럼 몸으로 체득하게 되는 성향을 의미한다",
+            "획득하는데 시간이 오래 걸리고, 타인에게 양도나 전이, 교환이 어렵다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "체화된(embodied) 문화자본"
+            },
+            {
+              "id": 2,
+              "content": "객체화된(objectified) 문화자본"
+            },
+            {
+              "id": 3,
+              "content": "제도화된(institutionalized) 문화자본"
+            },
+            {
+              "id": 4,
+              "content": "주체화된(subjectified) 문화자본"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "11-13",
+          "questionNumber": 13,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 투민(M. Tumin)이 제시한 스포츠계층의 특성 중 보편성(편재성)에 해당하는 것으로만 묶인 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "스포츠는 인기종목과 비인기종목으로 구분된다."
+            },
+            {
+              "id": "㉡",
+              "content": "과거에 비해 운동선수들의 지위가 향상되고 있다."
+            },
+            {
+              "id": "㉢",
+              "content": "종합격투기는 체급에 따라 대전료와 중계권료 등에 차등이 있다."
+            },
+            {
+              "id": "㉣",
+              "content": "계층에 따라 스포츠 참여 빈도, 유형, 종목이 달라지며, 이러한 차이는 개인의 삶에 영향을 미친다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉢, ㉣"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "11-14",
+          "questionNumber": 14,
+          "type": "COMBINATION_MATCH",
+          "question": "〈보기〉의 밑줄 친 ㉠, ㉡을 설명하는 집합행동 이론이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "나는 그 경기를 경기장에서 직접 봤는데 관중들의 야유 소리가 점점 커지면서 관중폭력이 일어났어."
+            },
+            {
+              "id": "㉡",
+              "content": "맞아! 그 경기 이전에 이미 관중의 인종차별 사건이 있었잖아. 만약 인종차별이 먼저 발생하지 않았다면, 어제 경기에서 그런 관중폭력은 없었을 거야."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 전염이론 / ㉡ 규범생성이론"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 수렴이론 / ㉡ 부가가치이론"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 전염이론 / ㉡ 부가가치이론"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 수렴이론 / ㉡ 규범생성이론"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "11-15",
+          "questionNumber": 15,
+          "type": "BASIC",
+          "question": "메기(J. Magee)와 서덴(J. Sugden)이 제시한 스포츠 노동이주의 유형에 관한 설명 중 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "개척자형: 스포츠 보급을 통해 금전적 보상을 추구하는 유형"
+            },
+            {
+              "id": 2,
+              "content": "정착민형: 영구적으로 정착할 수 있는 곳을 찾는 유형"
+            },
+            {
+              "id": 3,
+              "content": "귀향민형: 해외에서의 스포츠 경험을 바탕으로 자국으로 복귀하는 유형"
+            },
+            {
+              "id": 4,
+              "content": "유목민형: 개인의 취향대로 흥미로운 장소를 돌아다니면서 스포츠에 참여하는 유형"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "11-16",
+          "questionNumber": 16,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉는 코클리(J. Coakley)가 제시한 스포츠 일탈에 관한 설명이다. ㉠, ㉡에 해당하는 용어가 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "에 따르면 스포츠 일탈이 용인되는 범위는 사회적으로 타협하는 과정을 통해 구성된다."
+            },
+            {
+              "id": "㉡",
+              "content": "는 과훈련(over-training), 부상 투혼 등을 거부감 없이 무비판적으로 수용하는 것이다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 상대론적 접근 / ㉡ 과소동조"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 절대론적 접근 / ㉡ 과잉동조"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 절대론적 접근 / ㉡ 과소동조"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 상대론적 접근 / ㉡ 과잉동조"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "11-17",
+          "questionNumber": 17,
+          "type": "BASIC",
+          "question": "스포츠사회화를 이해하기 위한 사회학습이론의 관점으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "상과 벌을 통해 행동이 변화한다."
+            },
+            {
+              "id": 2,
+              "content": "다른 사람의 행동을 관찰하여 모방이 일어난다."
+            },
+            {
+              "id": 3,
+              "content": "사회화 주관자의 가르침을 통해 행동이 변화한다."
+            },
+            {
+              "id": 4,
+              "content": "개인은 자신이 처해있는 상황을 스스로 학습하고 변화한다."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "11-18",
+          "questionNumber": 18,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 스포츠의 정치적 속성은?",
+          "context": [
+            "에티즌(D. Eitzen)과 세이지(G. Sage)에 의하면 다양한 팀, 리그, 선수단체 및 행정기구는 각각의 특성에 따라 불평등하게 배분된 자원과 권한을 갖게 되고, 더 많은 권한을 갖기 위해 대립적 갈등을 겪게 된다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "보수성"
+            },
+            {
+              "id": 2,
+              "content": "긴장관계"
+            },
+            {
+              "id": 3,
+              "content": "권력투쟁"
+            },
+            {
+              "id": 4,
+              "content": "상호의존성"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "11-19",
+          "questionNumber": 19,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 맥퍼슨(B. McPherson)의 스포츠 미디어 이론은?",
+          "context": [
+            "대중매체를 통한 개인의 스포츠 소비 형태는 중요타자의 가치와 소비행동에 의해 영향을 받는다",
+            "스포츠 수용자 역할로의 사회화는 스포츠에 참여하는 가족 구성원으로부터 받은 스포츠 소비에 대한 승인 정도가 중요하게 작용한다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "개인차 이론"
+            },
+            {
+              "id": 2,
+              "content": "사회범주 이론"
+            },
+            {
+              "id": 3,
+              "content": "문화규범 이론"
+            },
+            {
+              "id": 4,
+              "content": "사회관계 이론"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "11-20",
+          "questionNumber": 20,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 스포츠사회학 이론은?",
+          "context": [
+            "일상에서 특정 물건을 소비하는 것은 자신의 계급 위치를 상징화하는 행위이다",
+            "자원과 시간의 소비가 요구되는 스포츠에 참여하는 것은 계급 표식 행위이다",
+            "고가의 스포츠용품, 골프 회원권 등의 과시적 소비 양상이 나타난다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "갈등이론"
+            },
+            {
+              "id": 2,
+              "content": "구조기능이론"
+            },
+            {
+              "id": 3,
+              "content": "비판이론"
+            },
+            {
+              "id": 4,
+              "content": "상징적 상호작용론"
+            }
+          ],
+          "answer": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PSY",
+      "subjectCode": "33",
+      "questions": [
+        {
+          "id": "33-1",
+          "questionNumber": 1,
+          "type": "BASIC",
+          "question": "스포츠심리학의 주된 연구의 동향과 영역에 포함되지 않는 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "인지적 접근과 현장 연구"
+            },
+            {
+              "id": 2,
+              "content": "경험주의에 기초한 성격 연구"
+            },
+            {
+              "id": 3,
+              "content": "생리학적 항상성에 관한 연구"
+            },
+            {
+              "id": 4,
+              "content": "사회적 촉진 및 각성과 운동수행의 관계 연구"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "33-2",
+          "questionNumber": 2,
+          "type": "BASIC",
+          "question": "데시(E. Deci)와 라이언(R. Ryan)이 제시한 자기결정이론(self-determination theory)에서 외적동기 유형으로 분류되지 않는 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "무동기(amotivation)"
+            },
+            {
+              "id": 2,
+              "content": "확인규제(identified regulation)"
+            },
+            {
+              "id": 3,
+              "content": "통합규제(integrated regulation)"
+            },
+            {
+              "id": 4,
+              "content": "의무감규제(introjected regulation)"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "33-3",
+          "questionNumber": 3,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 개념은?",
+          "context": [
+            "체육관에서 관중의 함성과 응원 소리에도 불구하고, 작전타임에서 코치와 선수는 서로 의사소통이 가능하다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "스트룹 효과(Stroop effect)"
+            },
+            {
+              "id": 2,
+              "content": "지각협소화(perceptual narrowing)"
+            },
+            {
+              "id": 3,
+              "content": "무주의 맹시(inattention blindness)"
+            },
+            {
+              "id": 4,
+              "content": "칵테일파티 효과(cocktail party effect)"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "33-4",
+          "questionNumber": 4,
+          "type": "BASIC",
+          "question": "〈표〉는 젠타일(A. Gentile)의 이차원적 운동기술분류이다. 야구 유격수가 타구된 공을 잡아서 1루로 송구하는 움직임이 해당하는 곳은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "비안정적 조절 조건 / 동작 시도 간 환경 변이성 없음 / 물체 조작 없음"
+            },
+            {
+              "id": 2,
+              "content": "비안정적 조절 조건 / 동작 시도 간 환경 변이성 / 물체 조작 있음"
+            },
+            {
+              "id": 3,
+              "content": "비안정적 조절 조건 / 동작 시도 간 환경 변이성 없음 / 물체 조작 있음"
+            },
+            {
+              "id": 4,
+              "content": "비안정적 조절 조건 / 동작 시도 간 환경 변이성 / 신체 이동 있음 / 물체 조작 있음"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "33-5",
+          "questionNumber": 5,
+          "type": "BASIC",
+          "question": "뉴웰(K. Newell)이 제시한 움직임 제한(constraints) 요소의 유형이 다른 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "운동능력이 움직임을 제한한다."
+            },
+            {
+              "id": 2,
+              "content": "인지, 동기, 정서상태가 움직임을 제한한다."
+            },
+            {
+              "id": 3,
+              "content": "신장, 몸무게, 근육형태가 움직임을 제한한다."
+            },
+            {
+              "id": 4,
+              "content": "과제목표와 특성, 규칙, 장비가 움직임을 제한한다."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "33-6",
+          "questionNumber": 6,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 설명하는 게셀(A. Gesell)과 에임스(L. Ames)의 운동발달의 원리가 아닌 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "가",
+              "content": "머리에서 발 방향으로 발달한다."
+            },
+            {
+              "id": "나",
+              "content": "운동발달은 일련의 방향성을 갖는다."
+            },
+            {
+              "id": "다",
+              "content": "운동협응의 발달순서가 있다. 양측: 상지 혹은 하지의 양측을 동시에 움직이는 형태를 보인다. 동측: 상하지를 동시에 움직이는 형태를 보인다. 교차: 상하지를 동시에 움직이는 형태를 보인다."
+            },
+            {
+              "id": "라",
+              "content": "운동기술의 습득 과정에서 몸통이나 어깨 근육을 조절하는 능력을 먼저 갖추고 이후에 팔, 손목, 손, 그리고 손가락 근육을 조절하는 능력을 갖춘다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "머리-꼬리 원리(cephalocaudal principle)"
+            },
+            {
+              "id": 2,
+              "content": "중앙-말초 원리(proximodistal principle)"
+            },
+            {
+              "id": 3,
+              "content": "개체발생적 발달 원리(ontogenetic development principle)"
+            },
+            {
+              "id": 4,
+              "content": "양측-동측-교차 운동협응의 원리(bilateral-unilateral(ipsilateral)-crosslateral principle)"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "33-7",
+          "questionNumber": 7,
+          "type": "BASIC",
+          "question": "스포츠를 통한 인성 발달 전략에 대한 설명으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "상황에 맞는 바람직한 행동을 설명한다."
+            },
+            {
+              "id": 2,
+              "content": "도덕적으로 적절한 행동에 대하여 설명한다."
+            },
+            {
+              "id": 3,
+              "content": "바람직한 행동을 강화하고, 적대적 공격행동은 처벌한다."
+            },
+            {
+              "id": 4,
+              "content": "격한 상황에서 자신의 감정을 공격적으로 표출하도록 격려한다."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "33-8",
+          "questionNumber": 8,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 목표의 유형은?",
+          "context": [
+            "운동기술을 잘 수행하기 위해서 필요한 핵심 행동에 중점을 둔다",
+            "자기효능감과 자신감을 높이고 인지 불안을 낮추는 데 도움이 된다",
+            "자신의 운동수행에 대한 목표를 달성하는데 중점을 두는 목표로 달성의 기준점이 자신의 과거 기록이 된다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "과정목표와 결과목표"
+            },
+            {
+              "id": 2,
+              "content": "수행목표와 과정목표"
+            },
+            {
+              "id": 3,
+              "content": "수행목표와 객관적목표"
+            },
+            {
+              "id": 4,
+              "content": "객관적목표와 주관적목표"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "33-9",
+          "questionNumber": 9,
+          "type": "BASIC",
+          "question": "스미스(R. Smith)와 스몰(F. Smol)이 개발한 유소년 지도자 훈련 프로그램인 CET(Coach Effectiveness Training)의 핵심 원칙이 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "자기관찰"
+            },
+            {
+              "id": 2,
+              "content": "운동도식"
+            },
+            {
+              "id": 3,
+              "content": "상호지원"
+            },
+            {
+              "id": 4,
+              "content": "발달모델"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "33-10",
+          "questionNumber": 10,
+          "type": "BASIC",
+          "question": "균형유지와 사지협응 및 자세제어에 주된 역할을 하는 뇌 구조(영역)는?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "소뇌(cerebellum)"
+            },
+            {
+              "id": 2,
+              "content": "중심고랑(central sulcus)"
+            },
+            {
+              "id": 3,
+              "content": "대뇌피질의 후두엽(occipital lobe of cerebrum)"
+            },
+            {
+              "id": 4,
+              "content": "대뇌피질의 측두엽(temporal lobe of cerebrum)"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "33-11",
+          "questionNumber": 11,
+          "type": "BASIC",
+          "question": "골프 퍼팅 과제를 100회 연습한 뒤, 24시간 후에 동일 과제에 대해 수행하는 검사는?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "속도검사(speed test)"
+            },
+            {
+              "id": 2,
+              "content": "파지검사(retention test)"
+            },
+            {
+              "id": 3,
+              "content": "전이검사(transfer test)"
+            },
+            {
+              "id": 4,
+              "content": "지능검사(intelligence test)"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "33-12",
+          "questionNumber": 12,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 일반화된 운동프로그램(generalized motor program)의 불변 특성(invariant feature) 개념은?",
+          "context": [
+            "A 움직임 시간(movement time)=500ms, B 움직임 시간(movement time)=900ms",
+            "4개의 하위 움직임 구간의 시간적 구조 비율은 변하지 않는다",
+            "단, A와 B 움직임은 모두 동일인이 수행한 동작이며, 하위움직임 구성도 4개로 동일함"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "어트랙터(attractor)"
+            },
+            {
+              "id": 2,
+              "content": "동작유도성(affordance)"
+            },
+            {
+              "id": 3,
+              "content": "상대적 타이밍(relative timing)"
+            },
+            {
+              "id": 4,
+              "content": "절대적 타이밍(absolute timing)"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "33-13",
+          "questionNumber": 13,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 구스리(E. Guthrie)가 제시한 '운동기술 학습으로 인한 변화'에 관한 설명으로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "최대의 확실성(maximum certainty)으로 운동과제를 수행할 수 있다."
+            },
+            {
+              "id": "㉡",
+              "content": "최소의 인지적 노력(minimum cognitive effect)으로 운동과제를 수행할 수 있다."
+            },
+            {
+              "id": "㉢",
+              "content": "최소의 움직임 시간(minimum movement time)으로 운동과제를 수행할 수 있다."
+            },
+            {
+              "id": "㉣",
+              "content": "최소의 에너지 소비(minimum energy expenditure)로 운동과제를 수행할 수 있다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡, ㉢"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉡, ㉢, ㉣"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "33-14",
+          "questionNumber": 14,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉에 제시된 공격성에 관한 설명과 이론(가설)이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "환경에서 관찰과 강화로 공격행위를 학습한다."
+            },
+            {
+              "id": "㉡",
+              "content": "인간의 내부에는 공격성을 유발하는 에너지가 존재한다."
+            },
+            {
+              "id": "㉢",
+              "content": "좌절(예, 목표를 추구하는 행위가 방해받는 경험)이 공격 행동을 유발한다."
+            },
+            {
+              "id": "㉣",
+              "content": "좌절이 무조건 공격행동을 유발하지 않고, 공격행동이 적절하다는 외부적 단서가 있을 때 나타난다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 사회학습이론 / ㉡ 본능이론 / ㉢ 좌절-공격 가설 / ㉣ 수정된 좌절-공격 가설"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 사회학습이론 / ㉡ 본능이론 / ㉢ 수정된 좌절-공격 가설 / ㉣ 좌절-공격 가설"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 본능이론 / ㉡ 사회학습이론 / ㉢ 좌절-공격 가설 / ㉣ 수정된 좌절-공격 가설"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 본능이론 / ㉡ 사회학습이론 / ㉢ 수정된 좌절-공격 가설 / ㉣ 좌절-공격 가설"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "33-15",
+          "questionNumber": 15,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 하터(S. Harter)의 유능성 동기이론 모형에 관한 설명으로 옳은 것을 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "심리적 요인과 관련된 단일차원의 구성개념이다."
+            },
+            {
+              "id": "㉡",
+              "content": "실패 경험은 부정적 정서를 갖게 하여 유능성 동기를 낮추고, 결국에는 운동을 중도 포기하게 한다."
+            },
+            {
+              "id": "㉢",
+              "content": "성공 경험은 자기효능감과 긍정적 정서를 갖게 하여 유능성 동기를 높이고 숙달(mastery)을 경험하게 한다."
+            },
+            {
+              "id": "㉣",
+              "content": "스포츠 상황에서 성공하기 위한 능력이 있다는 확신의 정도나 신념으로 특성 스포츠 자신감과 상태 스포츠 자신감으로 구분한다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉣"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "33-16",
+          "questionNumber": 16,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 용어는?",
+          "context": [
+            "번스타인(N. Bernstein)은 움직임의 효율적 제어를 위해 중추신경계가 자유도를 개별적으로 제어하지 않고, 의미 있는 단위로 묶어서 조절한다고 설명하였다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "공동작용(synergy)"
+            },
+            {
+              "id": 2,
+              "content": "상변이(phase transition)"
+            },
+            {
+              "id": 3,
+              "content": "임계요동(critical fluctuation)"
+            },
+            {
+              "id": 4,
+              "content": "속도-정확성 상쇄 현상(speed-accuracy trade-off)"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "33-17",
+          "questionNumber": 17,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 연구 결과를 통해 확인할 수 있는 목표설정에 관한 설명으로 옳은 것을 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "목표설정이 운동의 수행과 학습에 효과적이다."
+            },
+            {
+              "id": "㉡",
+              "content": "학습자에게 어려운 목표를 설정하도록 조언해야 한다."
+            },
+            {
+              "id": "㉢",
+              "content": "구체적인 목표를 설정했던 집단에서 더 높은 학습 효과가 나타났다."
+            },
+            {
+              "id": "㉣",
+              "content": "구체적이고 도전적인 목표를 향해 전념하도록 격려하는 것은 운동의 수행과 학습의 효과를 감소시킨다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉣"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "33-18",
+          "questionNumber": 18,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 피드백 유형은?",
+          "context": [
+            "높이뛰기 도약 스텝 기술을 연습하게 한 후에 지도자는 학습자의 정확한 도약 기술 습득을 위해 각 발의 스텝번호(지점)를 바닥에 표시해주었다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "내적 피드백(intrinsic feedback)"
+            },
+            {
+              "id": 2,
+              "content": "부적 피드백(negative feedback)"
+            },
+            {
+              "id": 3,
+              "content": "보강 피드백(augmented feedback)"
+            },
+            {
+              "id": 4,
+              "content": "부적합 피드백(incongruent feedback)"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "33-19",
+          "questionNumber": 19,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉는 칙센트미하이(M. Csikszentmihalyi)가 주장한 몰입의 개념이다. ㉠~㉣에 들어갈 개념이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠㉡",
+              "content": "( ㉠ )과 ( ㉡ )이 균형을 이루는 상황에서 운동 수행에 완벽히 집중하는 것을 몰입(flow)이라 한다."
+            },
+            {
+              "id": "㉢",
+              "content": "( ㉡ )이 높고, ( ㉠ )이 낮으면 ( ㉢ )을 느낀다."
+            },
+            {
+              "id": "㉣",
+              "content": "( ㉡ )이 낮고, ( ㉠ )이 높으면 ( ㉣ )을 느낀다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 기술 / ㉡ 도전 / ㉢ 불안 / ㉣ 이완"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 도전 / ㉡ 기술 / ㉢ 각성 / ㉣ 무관심"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 기술 / ㉡ 도전 / ㉢ 각성 / ㉣ 불안"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 도전 / ㉡ 기술 / ㉢ 이완 / ㉣ 지루함"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "33-20",
+          "questionNumber": 20,
+          "type": "BASIC",
+          "question": "학습된 무기력(learned helplessness) 상태에 있는 학습자에게 귀인 재훈련(attribution retraining)을 위한 적절한 전략은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "실패의 원인을 외적 요인에서 찾게 한다."
+            },
+            {
+              "id": 2,
+              "content": "능력의 부족을 긍정적으로 받아들이게 한다."
+            },
+            {
+              "id": 3,
+              "content": "운이 따라 준다면 다음에 성공할 수 있다고 지도한다."
+            },
+            {
+              "id": 4,
+              "content": "실패의 원인을 노력 부족이나 전략의 미흡으로 받아들이게 한다."
+            }
+          ],
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "subject": "HIS",
+      "subjectCode": "44",
+      "questions": [
+        {
+          "id": "44-1",
+          "questionNumber": 1,
+          "type": "BASIC",
+          "question": "체육사 연구에서 사관(史觀)에 관한 설명으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "유물사관, 관념사관, 진보사관, 순환사관 등이 있다."
+            },
+            {
+              "id": 2,
+              "content": "체육 역사에 대한 견해, 해석, 관념, 사상 등을 의미한다."
+            },
+            {
+              "id": 3,
+              "content": "체육 역사가의 관점으로 다양한 과거의 역사적 사실을 해석한다."
+            },
+            {
+              "id": 4,
+              "content": "과거 체육과 관련된 사실을 담고 있는 역사 자료를 의미한다."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "44-2",
+          "questionNumber": 2,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉의 ㉠~㉢에 들어갈 용어가 바르게 연결된 것은? (단, 시대구분은 나현성의 방식을 따름)",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "( ㉠ ) 이전은 무예를 중심으로 한 무사 체육 등의 ( ㉡ ) 체육을 강조하였다."
+            },
+            {
+              "id": "㉡",
+              "content": "( ㉠ ) 이후는 「교육입국조서(敎育立國詔書)」를 통한 학교 교육에 기반을 둔 체육을 강조하였다 ( ㉢ )."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 갑오경장(1894) / ㉡ 전통 / ㉢ 근대"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 갑오경장(1894) / ㉡ 근대 / ㉢ 전통"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 을사늑약(1905) / ㉡ 전통 / ㉢ 근대"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 을사늑약(1905) / ㉡ 근대 / ㉢ 전통"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "44-3",
+          "questionNumber": 3,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 민속놀이는?",
+          "context": [
+            "사희(柶戲)라고도 불리었다",
+            "부여의 사출도(四出道)라는 관직명에서 유래되었다",
+            "남녀노소 누구나 즐길 수 있으며, 장소에 크게 구애받지 않은 놀이였다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "바둑"
+            },
+            {
+              "id": 2,
+              "content": "장기"
+            },
+            {
+              "id": 3,
+              "content": "윷놀이"
+            },
+            {
+              "id": 4,
+              "content": "주사위"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "44-4",
+          "questionNumber": 4,
+          "type": "BASIC",
+          "question": "화랑도에 관한 설명으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "진흥왕 때에 조직이 체계화되었다."
+            },
+            {
+              "id": 2,
+              "content": "세속오계는 도의교육(道義敎育)의 핵심이었다."
+            },
+            {
+              "id": 3,
+              "content": "신체미 숭배 사상, 국가주의 사상, 불국토 사상이 중시되었다."
+            },
+            {
+              "id": 4,
+              "content": "서민층만을 대상으로 한 청소년단체로서 문무겸전(文武兼全)을 추구하였다."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "44-5",
+          "questionNumber": 5,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 신체활동은?",
+          "context": [
+            "가죽 주머니로 공을 만들어 발로 차는 놀이였다",
+            "한 명, 두 명, 열 명 등 다양한 형식으로 실시되었다",
+            "〈삼국사기(三國史記)〉와 〈삼국유사(三國遺事)〉에 따르면 김유신과 김춘추가 이 신체활동을 하였다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "석전(石戰)"
+            },
+            {
+              "id": 2,
+              "content": "축국(蹴鞠)"
+            },
+            {
+              "id": 3,
+              "content": "각저(角抵)"
+            },
+            {
+              "id": 4,
+              "content": "도판희(跳板戱)"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "44-6",
+          "questionNumber": 6,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 민속놀이와 주요 활동 계층이 바르게 연결된 것으로만 묶인 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "풍연(風鳶) - 귀족"
+            },
+            {
+              "id": "㉡",
+              "content": "격구(擊毬) - 서민"
+            },
+            {
+              "id": "㉢",
+              "content": "방응(放鷹) - 귀족"
+            },
+            {
+              "id": "㉣",
+              "content": "추천(鞦韆) - 서민"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉢, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉠, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉢"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "44-7",
+          "questionNumber": 7,
+          "type": "BASIC",
+          "question": "고려시대 수박(手搏)에 관한 설명으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "관람형 무예 경기로 성행되었다."
+            },
+            {
+              "id": 2,
+              "content": "응방도감(鷹坊都監)에서 관장하였다."
+            },
+            {
+              "id": 3,
+              "content": "무인 선발의 기준과 수단이 되었다."
+            },
+            {
+              "id": 4,
+              "content": "무예 수련과 군사훈련 등의 목적으로 활용되었다."
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "44-8",
+          "questionNumber": 8,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 조선시대의 훈련원에 관한 설명으로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "성리학 교육을 담당하였다."
+            },
+            {
+              "id": "㉡",
+              "content": "활쏘기, 마상무예 등의 훈련을 실시하였다."
+            },
+            {
+              "id": "㉢",
+              "content": "무인 양성과 관련된 공식적인 교육기관이었다."
+            },
+            {
+              "id": "㉣",
+              "content": "〈무경칠서(武經七書)〉, 〈병장설(兵將說)〉 등의 병서 습득을 장려하였다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉢, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉡, ㉢, ㉣"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "44-9",
+          "questionNumber": 9,
+          "type": "BASIC",
+          "question": "조선시대 궁술(弓術)에 관한 설명으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "육예(六藝) 중 어(御)에 해당하였다."
+            },
+            {
+              "id": 2,
+              "content": "무관 선발을 위한 무과 시험의 한 과목이었다."
+            },
+            {
+              "id": 3,
+              "content": "대사례(大射禮), 향사례(鄕射禮) 등으로 행해졌다."
+            },
+            {
+              "id": 4,
+              "content": "왕, 무관, 유학자 등 다양한 계층에서 실시하였다."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "44-10",
+          "questionNumber": 10,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 조선시대의 무예서는?",
+          "context": [
+            "24종류의 무예가 기록되어 있다",
+            "정조의 명령하에 국가사업으로 간행되었다",
+            "한국, 중국, 일본의 관련 문헌 145권이 참조되었다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "무예제보(武藝諸譜)"
+            },
+            {
+              "id": 2,
+              "content": "무예신보(武藝新譜)"
+            },
+            {
+              "id": 3,
+              "content": "무예도보통지(武藝圖譜通志)"
+            },
+            {
+              "id": 4,
+              "content": "무예제보번역속집(武藝諸譜翻譯續集)"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "44-11",
+          "questionNumber": 11,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 개화기 민족사립학교는?",
+          "context": [
+            "1907년에 이승훈이 설립하였다",
+            "대운동회를 매년 1회 실시하였다",
+            "체육은 주로 군사훈련의 성격을 띠었다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "오산학교"
+            },
+            {
+              "id": 2,
+              "content": "대성학교"
+            },
+            {
+              "id": 3,
+              "content": "원산학사"
+            },
+            {
+              "id": 4,
+              "content": "숭실학교"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "44-12",
+          "questionNumber": 12,
+          "type": "BASIC",
+          "question": "개화기의 체육사적 사실에 관한 설명으로 옳은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "동래무예학교는 문예반 50명, 무예반 200명을 선발하였다."
+            },
+            {
+              "id": 2,
+              "content": "개화기 최초의 운동회는 일본인 학교에서 주관한 화류회(花柳會)였다."
+            },
+            {
+              "id": 3,
+              "content": "양반들이 주도하여 배재학당, 이화학당, 경신학당 등 미션스쿨을 설립하였다."
+            },
+            {
+              "id": 4,
+              "content": "고종은 「교육입국조서(敎育立國詔書)」를 반포하고 덕양, 체양, 지양을 강조하였다."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "44-13",
+          "questionNumber": 13,
+          "type": "BASIC",
+          "question": "개화기의 체육단체에 관한 설명으로 옳은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "청강체육부: 탁지부 관리들이 친목 도모를 위해 1902년에 조직하였고, 최초로 연식정구를 도입하였다."
+            },
+            {
+              "id": 2,
+              "content": "회동구락부: 최성희, 신완식 등이 1910년에 조직하였고, 정례적으로 축구 시합을 하였다."
+            },
+            {
+              "id": 3,
+              "content": "무도기계체육부: 우리나라 최초 기계체조 단체로서 이희두와 윤치오가 1908년에 조직하였다."
+            },
+            {
+              "id": 4,
+              "content": "대동체육구락부: 체조 교사인 조원희, 김성집, 이기동 등이 주축이 되어 보성중학교에서 1909년에 조직하였고, 병식체조를 강조하였다."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "44-14",
+          "questionNumber": 14,
+          "type": "BASIC",
+          "question": "일제강점기 체육에 관한 사실로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "박승필은 1912년에 유각권구락부를 설립해 권투를 지도하였다."
+            },
+            {
+              "id": 2,
+              "content": "조선체육협회는 1920년에 동아일보사 후원으로 설립되었다."
+            },
+            {
+              "id": 3,
+              "content": "서상천은 1926년에 일본체육회 체조학교를 졸업하고, 역도를 소개하였다."
+            },
+            {
+              "id": 4,
+              "content": "손기정은 1936년에 베를린올림픽경기대회 마라톤 종목에서 우승하였다."
+            }
+          ],
+          "answer": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "44-15",
+          "questionNumber": 15,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 단체는?",
+          "context": [
+            "외국인 선교사가 근대스포츠인 야구, 농구, 배구를 도입하였다",
+            "1916년에 실내체육관을 준공하여, 다양한 실내스포츠를 활성화하였다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "황성기독교청년회"
+            },
+            {
+              "id": 2,
+              "content": "대한체육구락부"
+            },
+            {
+              "id": 3,
+              "content": "조선체육회"
+            },
+            {
+              "id": 4,
+              "content": "조선체육협회"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "44-16",
+          "questionNumber": 16,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 박정희 정부 때 실시한 체력장 제도에 관한 설명으로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "1971년부터 실시되었다."
+            },
+            {
+              "id": "㉡",
+              "content": "1973년부터는 대학입시에 체력장 평가가 포함되었다."
+            },
+            {
+              "id": "㉢",
+              "content": "국제체력검사표준회위원회에서 정한 기준과 종목을 대상으로 하였다."
+            },
+            {
+              "id": "㉣",
+              "content": "시행 종목에는 100m 달리기, 제자리멀리뛰기, 팔굽혀 매달리기(여자), 턱걸이(남자), 윗몸일으키기, 던지기가 있었다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉢, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉠, ㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉡, ㉢, ㉣"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "44-17",
+          "questionNumber": 17,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 스포츠 경기 종목은?",
+          "context": [
+            "1988년 제24회 서울올림픽경기대회에서 시범 종목으로 채택되었다",
+            "2000년 제27회 시드니올림픽경기대회에서 정식 종목으로 채택되었다",
+            "2007년에 정부는 이 종목을 진흥하기 위한 법률을 제정하였다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "유도"
+            },
+            {
+              "id": 2,
+              "content": "복싱"
+            },
+            {
+              "id": 3,
+              "content": "태권도"
+            },
+            {
+              "id": 4,
+              "content": "레슬링"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "44-18",
+          "questionNumber": 18,
+          "type": "BASIC",
+          "question": "1948년 제5회 동계올림픽경기대회에 관한 설명으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "개최지는 스위스 생모리츠였다."
+            },
+            {
+              "id": 2,
+              "content": "제2차세계대전을 일으킨 독일과 일본도 출전하였다."
+            },
+            {
+              "id": 3,
+              "content": "광복 이후 최초로 태극기를 단 선수단이 파견되었다."
+            },
+            {
+              "id": 4,
+              "content": "이효창, 문동성, 이종국 선수는 스피드스케이팅 종목에 출전하였다."
+            }
+          ],
+          "answer": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "44-19",
+          "questionNumber": 19,
+          "type": "BASIC",
+          "question": "대한민국에서 개최된 하계아시아경기대회가 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "1986년 제10회 서울아시아경기대회"
+            },
+            {
+              "id": 2,
+              "content": "2002년 제14회 부산아시아경기대회"
+            },
+            {
+              "id": 3,
+              "content": "2014년 제17회 인천아시아경기대회"
+            },
+            {
+              "id": 4,
+              "content": "2018년 제18회 평창아시아경기대회"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "44-20",
+          "questionNumber": 20,
+          "type": "BASIC",
+          "question": "1991년에 남한과 북한이 단일팀으로 탁구 종목에 참가한 국제경기대회는?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "제41회 지바세계선수권대회"
+            },
+            {
+              "id": 2,
+              "content": "제27회 시드니올림픽경기대회"
+            },
+            {
+              "id": 3,
+              "content": "제28회 아테네올림픽경기대회"
+            },
+            {
+              "id": 4,
+              "content": "제6회 포르투갈세계청소년선수권대회"
+            }
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "subject": "PHY",
+      "subjectCode": "55",
+      "questions": [
+        {
+          "id": "55-1",
+          "questionNumber": 1,
+          "type": "BASIC",
+          "question": "ATP를 합성하는데 사용되는 에너지원이 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "근중성지방"
+            },
+            {
+              "id": 2,
+              "content": "비타민C"
+            },
+            {
+              "id": 3,
+              "content": "글루코스"
+            },
+            {
+              "id": 4,
+              "content": "젖산"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "55-2",
+          "questionNumber": 2,
+          "type": "BASIC",
+          "question": "근수축에 필수적인 Ca2+ 이온을 저장, 분비하는 근육 세포 내 소기관은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "근형질세망(sarcoplasmic reticulum)"
+            },
+            {
+              "id": 2,
+              "content": "위성세포(satellite cell)"
+            },
+            {
+              "id": 3,
+              "content": "미토콘드리아(mitochondria)"
+            },
+            {
+              "id": 4,
+              "content": "근핵(myonuclear)"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "55-3",
+          "questionNumber": 3,
+          "type": "BASIC",
+          "question": "운동 후 초과산소섭취량(EPOC)에 영향을 미치는 요인으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "운동 중 증가한 체온"
+            },
+            {
+              "id": 2,
+              "content": "운동 중 증가한 젖산"
+            },
+            {
+              "id": 3,
+              "content": "운동 중 증가한 호르몬(에피네프린, 노르에피네프린)"
+            },
+            {
+              "id": 4,
+              "content": "운동 중 증가한 크레아틴인산(phosphocreatine, PC)"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "55-4",
+          "questionNumber": 4,
+          "type": "BASIC",
+          "question": "수중 운동 시 체온유지를 위한 요인으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "폐활량"
+            },
+            {
+              "id": 2,
+              "content": "체지방량"
+            },
+            {
+              "id": 3,
+              "content": "운동 강도"
+            },
+            {
+              "id": 4,
+              "content": "물의 온도"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "55-5",
+          "questionNumber": 5,
+          "type": "BASIC",
+          "question": "운동강도 증가에 따라 동원되는 근섬유 순서로 옳은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "TypeⅡa 섬유 → TypeⅡx 섬유 → TypeⅠ 섬유"
+            },
+            {
+              "id": 2,
+              "content": "TypeⅡx 섬유 → TypeⅡa 섬유 → TypeⅠ 섬유"
+            },
+            {
+              "id": 3,
+              "content": "TypeⅠ 섬유 → TypeⅡa 섬유 → TypeⅡx 섬유"
+            },
+            {
+              "id": 4,
+              "content": "TypeⅠ 섬유 → TypeⅡx 섬유 → TypeⅡa 섬유"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "55-6",
+          "questionNumber": 6,
+          "type": "COMBINATION_SELECT",
+          "question": "장기간 규칙적 유산소 훈련의 결과로 최대 운동 시 나타나는 심폐기능의 적응으로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "최대산소섭취량 증가"
+            },
+            {
+              "id": "㉡",
+              "content": "심장용적과 심근수축력 증가"
+            },
+            {
+              "id": "㉢",
+              "content": "심박출량 증가"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉡, ㉢"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "55-7",
+          "questionNumber": 7,
+          "type": "BASIC",
+          "question": "항상성 유지를 위한 신체 조절 중 부적피드백(negative feedback)이 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "세포외액의 CO2 조절"
+            },
+            {
+              "id": 2,
+              "content": "체온 상승에 따른 땀 분비 증가"
+            },
+            {
+              "id": 3,
+              "content": "혈당 유지를 위한 호르몬 조절"
+            },
+            {
+              "id": 4,
+              "content": "출산 시 자궁 수축 활성화 증가"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "55-8",
+          "questionNumber": 8,
+          "type": "BASIC",
+          "question": "운동 중 1회 박출량(stroke volume) 증가 원인으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "대동맥압 증가에 따른 후부하(after load) 증가"
+            },
+            {
+              "id": 2,
+              "content": "호흡펌프작용에 의한 정맥회귀(venous return) 증가"
+            },
+            {
+              "id": 3,
+              "content": "골격근 수축에 의한 근육펌프작용 증가"
+            },
+            {
+              "id": 4,
+              "content": "교감신경 자극에 의한 심근 수축력 증가"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "55-9",
+          "questionNumber": 9,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉의 ㉠, ㉡에 들어갈 내용이 바르게 연결된 것은? (훈련된 운동 선수의 운동강도에 따른 에너지원 사용 그래프)",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "운동강도 25% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
+            },
+            {
+              "id": "㉡",
+              "content": "운동강도 85% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 혈중 포도당 / ㉡ 근중성지방"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 혈중 유리지방산 / ㉡ 근글리코겐"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 근글리코겐 / ㉡ 혈중 포도당"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 근중성지방 / ㉡ 혈중유리지방산"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "55-10",
+          "questionNumber": 10,
+          "type": "COMBINATION_SELECT",
+          "question": "운동 중 소뇌의 기능에 대한 설명으로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "골격근 운동 조절의 최종 단계 역할"
+            },
+            {
+              "id": "㉡",
+              "content": "빠른 동작의 정확한 수행을 위한 통합 조절"
+            },
+            {
+              "id": "㉢",
+              "content": "고유수용기로부터 유입되는 정보를 활용하여 동작 수정"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉡, ㉢"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "55-11",
+          "questionNumber": 11,
+          "type": "COMBINATION_SELECT",
+          "question": "운동에 따른 환기량의 변화로 옳은 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "운동 시작 직전에는 운동 수행에 대한 기대감으로 환기량이 증가할 수 있다."
+            },
+            {
+              "id": "㉡",
+              "content": "운동 초기 환기량 변화의 주된 요인은 경동맥에 위치한 화학수용기 반응이다."
+            },
+            {
+              "id": "㉢",
+              "content": "운동 강도가 증가하면 1회 호흡량은 감소하고 호흡수는 현저히 증가한다."
+            },
+            {
+              "id": "㉣",
+              "content": "회복기 환기량은 운동 중 생성된 체내 수소이온 및 이산화탄소 농도와 관련 있다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉠, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉢, ㉣"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "55-12",
+          "questionNumber": 12,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉의 ㉠, ㉡에 들어갈 내용이 바르게 연결된 것은? (1개의 포도당 분해에 따른 유산소성 ATP 생성 표)",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "해당작용, 피루브산→아세틸조효소A 이후 이어지는 대사적 과정 단계 명칭"
+            },
+            {
+              "id": "㉡",
+              "content": "유산소성 ATP 합계 수"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 크랩스회로 / ㉡ 32"
+            },
+            {
+              "id": 2,
+              "content": "㉠ β 산화 / ㉡ 32"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 크랩스회로 / ㉡ 35"
+            },
+            {
+              "id": 4,
+              "content": "㉠ β 산화 / ㉡ 35"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "55-13",
+          "questionNumber": 13,
+          "type": "BASIC",
+          "question": "체중이 80kg인 사람이 10METs로 10분간 달리기 했을 때 소비 칼로리는? (단, 1MET=3.5㎖·kg⁻¹·min⁻¹, O2 1L 당 5Kcal 생성)",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "130Kcal"
+            },
+            {
+              "id": 2,
+              "content": "140Kcal"
+            },
+            {
+              "id": 3,
+              "content": "150Kcal"
+            },
+            {
+              "id": 4,
+              "content": "160Kcal"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "55-14",
+          "questionNumber": 14,
+          "type": "COMBINATION_LINK",
+          "question": "〈보기〉는 신경 세포의 안정 시 막전위에 영향을 주는 Na+과 K+에 대한 그림이다. ㉠~㉣에 들어갈 내용이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "세포외액에서 150mM로 존재하는 이온 (세포막 바깥쪽 큰 원)"
+            },
+            {
+              "id": "㉡",
+              "content": "세포외액에서 5mM로 존재하는 이온 (세포막 바깥쪽 작은 원)"
+            },
+            {
+              "id": "㉢",
+              "content": "Na+/K+ 펌프에서 세포 밖으로 내보내는 이온 (3개)"
+            },
+            {
+              "id": "㉣",
+              "content": "Na+/K+ 펌프에서 세포 안으로 들여오는 이온 (2개)"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ K+ / ㉡ Na+ / ㉢ Na+ / ㉣ K+"
+            },
+            {
+              "id": 2,
+              "content": "㉠ Na+ / ㉡ K+ / ㉢ Na+ / ㉣ K+"
+            },
+            {
+              "id": 3,
+              "content": "㉠ K+ / ㉡ Na+ / ㉢ K+ / ㉣ Na+"
+            },
+            {
+              "id": 4,
+              "content": "㉠ Na+ / ㉡ K+ / ㉢ K+ / ㉣ Na+"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "55-15",
+          "questionNumber": 15,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉의 최대산소섭취량 공식에서 장기간 지구성 훈련에 의해 증가되는 요소를 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "최대 1회박출량"
+            },
+            {
+              "id": "㉡",
+              "content": "최대심박수"
+            },
+            {
+              "id": "㉢",
+              "content": "최대동정맥산소차"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 3,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉢"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "55-16",
+          "questionNumber": 16,
+          "type": "PASSAGE",
+          "question": "〈보기〉의 내용이 모두 증가되었을 때 향상되는 건강체력 요소는?",
+          "context": [
+            "모세혈관의 밀도",
+            "미토콘드리아의 수와 크기",
+            "동정맥 산소차(arterial-venous oxygen difference)"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "유연성"
+            },
+            {
+              "id": 2,
+              "content": "순발력"
+            },
+            {
+              "id": 3,
+              "content": "심폐지구력"
+            },
+            {
+              "id": 4,
+              "content": "근력"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "55-17",
+          "questionNumber": 17,
+          "type": "BASIC",
+          "question": "1시간 이내의 중강도 운동 시 시간 경과에 따라 혈중 농도가 점차 감소하는 호르몬은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "에피네프린(epinephrine)"
+            },
+            {
+              "id": 2,
+              "content": "인슐린(insulin)"
+            },
+            {
+              "id": 3,
+              "content": "성장호르몬(growth hormone)"
+            },
+            {
+              "id": 4,
+              "content": "코르티솔(cortisol)"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "55-18",
+          "questionNumber": 18,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 설명하는 고유수용기는?",
+          "context": [
+            "감각 및 운동신경의 말단이 연결되어 있다",
+            "감마운동뉴런을 통해 조절된다",
+            "근육의 길이 정보를 중추신경계로 보낸다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "근방추(muscle spindle)"
+            },
+            {
+              "id": 2,
+              "content": "골지건기관(Golgi tendon organ)"
+            },
+            {
+              "id": 3,
+              "content": "자유신경종말(free nerve ending)"
+            },
+            {
+              "id": 4,
+              "content": "파치니안 소체(Pacinian corpuscle)"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "55-19",
+          "questionNumber": 19,
+          "type": "BASIC",
+          "question": "근력 결정요인으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "근육 횡단면적"
+            },
+            {
+              "id": 2,
+              "content": "근절의 적정 길이"
+            },
+            {
+              "id": 3,
+              "content": "근섬유 구성비"
+            },
+            {
+              "id": 4,
+              "content": "근섬유막 두께"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "55-20",
+          "questionNumber": 20,
+          "type": "BASIC",
+          "question": "상완이두근의 움직임에 대한 근육 수축 형태로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "자세를 유지할 때 - 등척성 수축"
+            },
+            {
+              "id": 2,
+              "content": "턱걸이 올라갈 때 - 단축성 수축"
+            },
+            {
+              "id": 3,
+              "content": "턱걸이 내려갈 때 - 신장성 수축"
+            },
+            {
+              "id": 4,
+              "content": "공을 던질 때 - 등속성 수축"
+            }
+          ],
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "subject": "ETH",
+      "subjectCode": "77",
+      "questions": [
+        {
+          "id": "77-1",
+          "questionNumber": 1,
+          "type": "BASIC",
+          "question": "스포츠맨십(sportsmanship) 행위가 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "패자에게 승리의 우월성 과시"
+            },
+            {
+              "id": 2,
+              "content": "악의없는 순수한 경쟁"
+            },
+            {
+              "id": 3,
+              "content": "패배에 대한 겸허한 수용"
+            },
+            {
+              "id": 4,
+              "content": "승자에 대한 아낌없는 박수"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "77-2",
+          "questionNumber": 2,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 스포츠에 관한 결과론적 윤리관에 해당하는 것으로만 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "경기에서 지더라도 경기규칙은 반드시 준수해야 한다."
+            },
+            {
+              "id": "㉡",
+              "content": "개인의 최우수선수상 수상보다 팀의 우승이 더 중요하다."
+            },
+            {
+              "id": "㉢",
+              "content": "운동선수는 훈련과정보다 경기에서 승리하는 것이 더 중요하다."
+            },
+            {
+              "id": "㉣",
+              "content": "스포츠 경기는 페어플레이를 중시하기 때문에 승리를 위한 불공정한 행위를 해서는 안된다."
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉢, ㉣"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "77-3",
+          "questionNumber": 3,
+          "type": "BASIC",
+          "question": "스포츠에서 나타나는 인종차별에 관한 설명으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "경기실적 향상을 위해 우수한 외국 선수를 귀화시키기도 한다."
+            },
+            {
+              "id": 2,
+              "content": "개인의 운동기량을 인종 전체로 일반화시켜 편견과 차별이 심화되기도 한다."
+            },
+            {
+              "id": 3,
+              "content": "스포츠미디어는 인종에 대한 편견과 차별을 재생산하기도 한다."
+            },
+            {
+              "id": 4,
+              "content": "일부 관중들은 노골적으로 특정 인종을 비하하는 모욕 행위를 표출하기도 한다."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "77-4",
+          "questionNumber": 4,
+          "type": "BASIC",
+          "question": "스포츠윤리 이론 중 덕윤리의 특징으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "스포츠 상황에서의 행위의 정당성보다 개인의 인성을 강조한다."
+            },
+            {
+              "id": 2,
+              "content": "비윤리적 행위는 궁극적으로 스포츠인의 올바르지 못한 품성에서 비롯된다."
+            },
+            {
+              "id": 3,
+              "content": "'어떠한 행위를 하는 선수가 되어야 하는가'보다 '무엇이 올바른 행위인지'를 판단하는 데 더 주목한다."
+            },
+            {
+              "id": 4,
+              "content": "스포츠인의 미덕을 드러내는 행동은 옳은 것이며, 악덕을 드러내는 행동은 그릇된 것으로 간주한다."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "77-5",
+          "questionNumber": 5,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 스포츠윤리의 역할로 적절한 것으로만 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "스포츠 상황에서 행동의 옳고 그름을 판단할 수 있는 원리 탐구"
+            },
+            {
+              "id": "㉡",
+              "content": "스포츠 현상을 사실적으로 기술하는 방법 탐구"
+            },
+            {
+              "id": "㉢",
+              "content": "스포츠 현상의 미학적 탐구"
+            },
+            {
+              "id": "㉣",
+              "content": "윤리적 원리와 도덕적 덕목에 기초하여 스포츠인에게 요구되는 행위 탐구"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉡"
+            },
+            {
+              "id": 2,
+              "content": "㉠, ㉣"
+            },
+            {
+              "id": 3,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 4,
+              "content": "㉡, ㉣"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "77-6",
+          "questionNumber": 6,
+          "type": "PASSAGE",
+          "question": "〈보기〉의 괄호 안에 공통으로 들어갈 용어는?",
+          "context": [
+            "칸트(I. Kant)에게 도덕성의 기준은 ( )이다",
+            "칸트에 의하면, 페어플레이도 ( )이/가 없으면 도덕적이라 볼 수 없다",
+            "( )은/는 도덕적인 선수가 갖추어야 할 내적인 태도이자 도덕적 행위의 필요충분 조건이다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "행복"
+            },
+            {
+              "id": 2,
+              "content": "선의지"
+            },
+            {
+              "id": 3,
+              "content": "가언명령"
+            },
+            {
+              "id": 4,
+              "content": "실천"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "77-7",
+          "questionNumber": 7,
+          "type": "COMBINATION_SELECT",
+          "question": "〈보기〉에서 스포츠 선수의 유전자 도핑을 반대해야 하는 이유로 적절한 것을 모두 고른 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "선수의 신체를 실험 대상화하여 기계나 물질로 이해하도록 만들기 때문"
+            },
+            {
+              "id": "㉡",
+              "content": "유전자조작 인간과 자연적 인간 사이에 갈등을 초래하기 때문"
+            },
+            {
+              "id": "㉢",
+              "content": "생명체로서 인간의 본질을 훼손하고 존엄성을 부정하기 때문"
+            },
+            {
+              "id": "㉣",
+              "content": "선수를 우생학적 개량의 대상으로 만들기 때문"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠, ㉢"
+            },
+            {
+              "id": 2,
+              "content": "㉡, ㉢"
+            },
+            {
+              "id": 3,
+              "content": "㉠, ㉡, ㉣"
+            },
+            {
+              "id": 4,
+              "content": "㉠, ㉡, ㉢, ㉣"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "77-8",
+          "questionNumber": 8,
+          "type": "PASSAGE",
+          "question": "〈보기〉의 괄호 안에 들어갈 정의(justice)의 유형은?",
+          "context": [
+            "운동선수의 신체는 훈련으로 만들어지기도 하지만 유전적 요인으로 결정되는 경우가 많다",
+            "농구와 배구선수의 키는 타고난 우연성에 해당한다",
+            "일반적으로 스포츠 경기에서는 이러한 불평등 문제에 ( ) 정의를 적용하지 않는다",
+            "왜냐하면 스포츠는 전적으로 개인의 자발적인 선택의 문제이기 때문이다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "자연적"
+            },
+            {
+              "id": 2,
+              "content": "절차적"
+            },
+            {
+              "id": 3,
+              "content": "분배적"
+            },
+            {
+              "id": 4,
+              "content": "평균적"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "77-9",
+          "questionNumber": 9,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 A 선수의 판단 근거가 되는 윤리이론의 난점에 관한 설명으로 적절한 것은?",
+          "context": [
+            "농구경기 4쿼터 종료 3분 전, 감독에게 의도적 파울을 지시받은 A 선수는, 의도적 파울이 팀 승리에 기여할 수 있지만, 상대 선수에게 위협을 가하거나 자칫 부상을 입힐 수 있기 때문에 도덕적으로 옳지 않다고 판단했다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "사회 전체의 이익을 고려하지 않는 경우가 발생한다."
+            },
+            {
+              "id": 2,
+              "content": "상식적이고 보편적인 도덕직관과 충돌하는 판단을 내릴 수 있다."
+            },
+            {
+              "id": 3,
+              "content": "행위의 결과를 즉각 산출하기 어려울 경우에 명료한 지침을 제시하지 못할 수 있다."
+            },
+            {
+              "id": 4,
+              "content": "도덕을 수단적으로 인식한다는 점에서 근본적인 도덕개념들과 양립하기 어렵다."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "77-10",
+          "questionNumber": 10,
+          "type": "PASSAGE",
+          "question": "〈보기〉의 괄호 안에 공통으로 들어갈 용어는?",
+          "context": [
+            "예진: 스포츠에는 규칙으로 통제된 ( )이 존재해. 대표적으로 복싱과 태권도와 같은 투기종목은 최소한의 안전장치가 마련되고 그 속에서 힘의 우열이 가려지는 것이지. 따라서 스포츠 내에서 폭력은 용인된 폭력과 그렇지 않은 폭력으로 구분할 수 있어!",
+            "승현: 아니, 내 생각은 달라! 스포츠 내에서의 폭력과 일상 생활에서의 폭력은 본질적으로 동일하지. 그래서 ( )은 존재할 수 없어."
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "합법적 폭력"
+            },
+            {
+              "id": 2,
+              "content": "부당한 폭력"
+            },
+            {
+              "id": 3,
+              "content": "비목적적 폭력"
+            },
+            {
+              "id": 4,
+              "content": "반사회적 폭력"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "77-11",
+          "questionNumber": 11,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 국제수영연맹(FINA)이 기술도핑을 금지한 이유는?",
+          "context": [
+            "2008년 베이징올림픽 수영종목에서는 25개의 세계신기록이 쏟아져 나왔다",
+            "주목할만한 것이 23개의 세계신기록이 소위 최첨단 수영복이라 불리는 엘지알 레이서(LZR Racer)를 착용한 선수들에 의해 수립되었다는 것이다",
+            "그러나 이 같은 수영복을 하나의 기술도핑으로 간주한 국제수영연맹은 2010년부터 최첨단 수영복의 착용을 금지하였다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "효율성 추구"
+            },
+            {
+              "id": 2,
+              "content": "유희성 추구"
+            },
+            {
+              "id": 3,
+              "content": "공정성 추구"
+            },
+            {
+              "id": 4,
+              "content": "도전성 추구"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "77-12",
+          "questionNumber": 12,
+          "type": "COMBINATION_MATCH",
+          "question": "〈보기〉에서 나타난 현준과 수연의 공정시합에 관한 관점이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "현준",
+              "content": "승부조작은 경쟁적 스포츠의 본래적 가치를 훼손시키는 행위지만 경기규칙을 위반하지 않았다면 윤리적으로 문제없는 것이 아닌가?"
+            },
+            {
+              "id": "수연",
+              "content": "나는 경기규칙을 위반하지 않았다 하더라도, 스포츠의 역사적·사회적 보편성과 정당성 속에서 형성되고 공유된 에토스(shared ethos)에 충실해야 한다고 생각해! 그래서 스포츠의 가치를 근본적으로 훼손시키는 승부조작은 추구해서도, 용인되어서도 절대 안돼!"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "현준 물질만능주의 / 수연 인간중심주의"
+            },
+            {
+              "id": 2,
+              "content": "현준 형식주의 / 수연 비형식주의"
+            },
+            {
+              "id": 3,
+              "content": "현준 비형식주의 / 수연 형식주의"
+            },
+            {
+              "id": 4,
+              "content": "현준 인간중심주의 / 수연 물질만능주의"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "77-13",
+          "questionNumber": 13,
+          "type": "COMBINATION_MATCH",
+          "question": "〈보기〉의 ㉠, ㉡과 관련된 맹자(孟子)의 사상이 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "농구 경기에서 자신과 부딪쳐서 부상을 당해 병원으로 이송되는 상대 선수를 걱정해 주는 마음"
+            },
+            {
+              "id": "㉡",
+              "content": "배구 경기에서 자신의 손에 맞고 터치 아웃된 공을 심판이 보지 못해서 자기 팀이 득점을 했을 때 스스로 부끄러워하는 마음"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 수오지심(羞惡之心) / ㉡ 측은지심(惻隱之心)"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 측은지심(惻隱之心) / ㉡ 수오지심(羞惡之心)"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 사양지심(辭讓之心) / ㉡ 시비지심(是非之心)"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 측은지심(惻隱之心) / ㉡ 사양지심(辭讓之心)"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "77-14",
+          "questionNumber": 14,
+          "type": "BASIC",
+          "question": "장애인의 스포츠 참여를 지원하는 방법으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "장애인이 접근 가능한 장소의 확보"
+            },
+            {
+              "id": 2,
+              "content": "활동에 필요한 장비 및 기구의 안정적 지원"
+            },
+            {
+              "id": 3,
+              "content": "비장애인과의 통합수업보다 분리수업 지향"
+            },
+            {
+              "id": 4,
+              "content": "일회성 체험이 아닌 지속적인 클럽활동 보장"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "77-15",
+          "questionNumber": 15,
+          "type": "BASIC",
+          "question": "스포츠의 지속 가능한 발전에 관한 설명으로 적절하지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "새로운 스포츠 시설의 개발 금지"
+            },
+            {
+              "id": 2,
+              "content": "스포츠 시설의 개발과 자연환경의 공존"
+            },
+            {
+              "id": 3,
+              "content": "건강한 인간과 건강한 자연환경의 공존"
+            },
+            {
+              "id": 4,
+              "content": "스포츠만의 환경 운동이 아닌 국가적, 국제적 협력과 공조"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "id": "77-16",
+          "questionNumber": 16,
+          "type": "COMBINATION_LINK",
+          "question": "〈그림〉은 스포츠윤리규범의 구조이다. ㉠~㉢에 해당하는 용어가 바르게 연결된 것은?",
+          "context": null,
+          "contextItems": [
+            {
+              "id": "㉠",
+              "content": "스포츠의 정신적 가치, 인간의 보편적 미덕을 포함하는 가장 상위 규범"
+            },
+            {
+              "id": "㉡",
+              "content": "동등한 경쟁조건, 정정당당함을 포함하는 중위 규범"
+            },
+            {
+              "id": "㉢",
+              "content": "행위 규정, 시합의 조건을 포함하는 하위 규범"
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "content": "㉠ 규칙준수 / ㉡ 스포츠맨십 / ㉢ 페어플레이"
+            },
+            {
+              "id": 2,
+              "content": "㉠ 스포츠맨십 / ㉡ 페어플레이 / ㉢ 규칙준수"
+            },
+            {
+              "id": 3,
+              "content": "㉠ 페어플레이 / ㉡ 규칙준수 / ㉢ 스포츠맨십"
+            },
+            {
+              "id": 4,
+              "content": "㉠ 스포츠맨십 / ㉡ 규칙준수 / ㉢ 페어플레이"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "77-17",
+          "questionNumber": 17,
+          "type": "BASIC",
+          "question": "국민체육진흥법(시행 2022.8.11.) 제18조의3 '스포츠윤리센터의 설립'에 관한 사항으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "스포츠윤리센터는 문화체육관광부 장관이 감독한다."
+            },
+            {
+              "id": 2,
+              "content": "스포츠윤리센터의 정관에 기재할 사항은 국무총리령으로 정한다."
+            },
+            {
+              "id": 3,
+              "content": "스포츠윤리센터가 아닌 자는 스포츠윤리센터 또는 이와 비슷한 명칭을 사용하지 못한다."
+            },
+            {
+              "id": 4,
+              "content": "스포츠윤리센터의 장은 문화체육관광부 장관의 승인을 받아 관계 행정 기관 소속 임직원의 파견 또는 지원을 요청할 수 있다."
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": "77-18",
+          "questionNumber": 18,
+          "type": "PASSAGE",
+          "question": "〈보기〉에서 국제육상경기연맹(IFFA)이 출전금지를 판단한 이유는?",
+          "context": [
+            "2011년 대구세계육상선수권대회에서 남아프리카공화국의 의족 스프린터 피스토리우스(O. Pistorius)는 비장애인육상경기에 참가 신청을 했으나, 국제육상경기연맹은 경기에 사용되는 의족의 탄성이 피스토리우스에게 유리하다는 이유로 출전을 허용하지 않았다고 한다"
+          ],
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "인종적 불공정"
+            },
+            {
+              "id": 2,
+              "content": "성(性)적 불공정"
+            },
+            {
+              "id": 3,
+              "content": "기술적 불공정"
+            },
+            {
+              "id": 4,
+              "content": "계급적 불공정"
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "id": "77-19",
+          "questionNumber": 19,
+          "type": "BASIC",
+          "question": "스포츠에서 나타나는 성차별의 원인이 아닌 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "사회적 성 역할의 고착화"
+            },
+            {
+              "id": 2,
+              "content": "차이를 차별로 정당화하는 논리"
+            },
+            {
+              "id": 3,
+              "content": "신체구조와 운동능력에 대한 편견"
+            },
+            {
+              "id": 4,
+              "content": "여성성을 해치는 스포츠에의 여성 참가 옹호"
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "id": "77-20",
+          "questionNumber": 20,
+          "type": "BASIC",
+          "question": "스포츠에서 심판윤리에 관한 설명으로 옳지 않은 것은?",
+          "context": null,
+          "contextItems": null,
+          "options": [
+            {
+              "id": 1,
+              "content": "심판의 사회윤리는 협회나 종목단체의 도덕성과 밀접한 관련이 있다."
+            },
+            {
+              "id": 2,
+              "content": "심판은 공정하고 엄격한 도덕적 원칙을 적용해야 한다."
+            },
+            {
+              "id": 3,
+              "content": "심판의 개인윤리는 청렴성, 투명성 등의 인격적 도덕성을 의미한다."
+            },
+            {
+              "id": 4,
+              "content": "심판은 '이익동등 고려의 원칙'에 따라 전력이 약한 팀에게 유리한 판정을 할 수 있다."
+            }
+          ],
+          "answer": 4
+        }
+      ]
+    }
+  ]
+}
