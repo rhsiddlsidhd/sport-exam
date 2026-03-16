@@ -5,5 +5,5 @@ export const subjectLabel: Record<SubjectCode, string> = {
   PSY: "스포츠 심리학",
   HIS: "한국 체육사",
   PHY: "운동 생리학",
-  ETH: "스포츠 윤리",
+  ETH: "스포츠윤리",
 };

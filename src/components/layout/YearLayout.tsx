@@ -23,7 +23,7 @@ const YearLayout = () => {
   return (
     <div className="flex flex-col h-full text-start">
       <div className="mb-4 px-6 pt-4">
-        <TypographyH4 className="text-gray-900">
+        <TypographyH4 className="text-foreground">
           {year}년도 생활체육지도자 2급
         </TypographyH4>
       </div>

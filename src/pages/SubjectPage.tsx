@@ -1,10 +1,21 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useOutletContext, useParams } from "react-router";
-import type { ExamQuestion, Exam } from "../../types/exam";
-import { isSubjectCode } from "../../utils/subject";
-import QuestionCard from "../QuestionCard";
-import NotFound from "../../pages/NotFound";
-import { TypographySmall } from "../atoms/Typography";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import type { ExamQuestion, Exam } from "../types/exam-schema";
+import { isSubjectCode } from "../types/subject";
+import { cn } from "@/lib/utils";
+
+import NotFound from "./NotFound";
+import { Button } from "../components/atoms/Button";
+import { TypographySmall } from "../components/atoms/Typography";
+import QuestionCard from "../components/organisms/QuestionCard";
+import EmptyState from "../components/molecules/EmptyState";
+
+async function loadExam(year: string): Promise<Exam> {
+  const module = await import(`../data/exam/${year}_sports_instructor_exam.json`);
+  const data: Exam = module.default;
+  return data;
+}
 
 // Fisher-Yates shuffle algorithm
 const shuffleArray = <T,>(array: T[]): T[] => {
@@ -16,7 +27,7 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return shuffled;
 };
 
-const QuestionSession = () => {
+const SubjectPage = () => {
   const navigate = useNavigate();
   const year = useOutletContext<string>();
   const { subject } = useParams<{ subject: string }>();
@@ -38,10 +49,8 @@ const QuestionSession = () => {
       setLoading(true);
       setError(null);
       try {
-        const data = (await import(
-          `../../data/exam/${year}_sports_instructor_exam.json`
-        )) as { default: Exam };
-        const examSubject = data.default.subjects.find(
+        const data = await loadExam(year);
+        const examSubject = data.subjects.find(
           (s) => s.subject === validSubject,
         );
         if (!examSubject) return setQuestions([]);
@@ -88,7 +97,7 @@ const QuestionSession = () => {
   };
 
   const handleGrade = () => {
-    navigate("/result", {
+    navigate("/review", {
       state: {
         year,
         subject: validSubject,
@@ -104,8 +113,8 @@ const QuestionSession = () => {
   if (loading) {
     return (
       <div className="flex-1 flex flex-col items-center justify-center h-full min-h-100">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
-        <TypographySmall className="mt-4 text-gray-500 block">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+        <TypographySmall className="mt-4 text-muted-foreground block">
           기출문제 로딩 중...
         </TypographySmall>
       </div>
@@ -114,48 +123,37 @@ const QuestionSession = () => {
 
   if (error || questions.length === 0) {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center p-10 h-full text-center min-h-100">
-        <div className="text-2xl mb-4">📭</div>
-        <TypographySmall className="text-gray-500 font-bold mb-6 block">
-          {error || "등록된 기출문제가 없습니다."}
-        </TypographySmall>
-        <button
-          onClick={handleBack}
-          className="px-6 py-2 bg-blue-600 text-white rounded-xl font-bold text-sm hover:bg-blue-700 transition-all shadow-md"
-        >
-          이전으로 돌아가기
-        </button>
-      </div>
+      <EmptyState
+        icon={<span className="text-2xl">📭</span>}
+        title={error ?? "등록된 기출문제가 없습니다."}
+        action={
+          <Button onClick={handleBack} className="rounded-xl shadow-md font-bold">
+            이전으로 돌아가기
+          </Button>
+        }
+        className="flex-1 h-full min-h-100"
+      />
     );
   }
 
   return (
-    <div className="flex flex-col h-full bg-gray-50 overflow-hidden relative ">
+    <div className="flex flex-col h-full bg-background overflow-hidden relative">
       {/* 상단 컨트롤 바 */}
-      <div className="h-10 shrink-0 flex items-center justify-between px-4 bg-white border-b border-gray-100 shadow-sm z-20">
-        <button
+      <div className="h-10 shrink-0 flex items-center justify-between px-4 bg-card border-b border-border shadow-sm z-20">
+        <Button
+          variant="ghost"
+          size="sm"
           onClick={handleBack}
-          className="flex items-center gap-1.5 text-gray-500 hover:text-blue-600 transition-colors text-xs font-bold"
+          className="gap-1.5 rounded-lg text-muted-foreground hover:text-primary font-bold"
         >
-          <svg
-            className="w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2.5"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
+          <ChevronLeft className="w-4 h-4" />
           뒤로
-        </button>
+        </Button>
+
         {/* 모바일: progress bar */}
-        <div className="sm:hidden flex-1 mx-3 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+        <div className="sm:hidden flex-1 mx-3 h-1.5 bg-muted rounded-full overflow-hidden">
           <div
-            className="h-full bg-blue-500 rounded-full transition-all duration-300"
+            className="h-full bg-primary rounded-full transition-all duration-300"
             style={{
               width: `${((currentIndex + 1) / questions.length) * 100}%`,
             }}
@@ -167,24 +165,25 @@ const QuestionSession = () => {
             <button
               key={q.id}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+              className={cn(
+                "w-1.5 h-1.5 rounded-full transition-all duration-300",
                 idx === currentIndex
-                  ? "w-4 bg-blue-500"
+                  ? "w-4 bg-primary"
                   : userAnswers[q.id]
-                    ? "bg-blue-200"
-                    : "bg-gray-200"
-              }`}
+                    ? "bg-primary/30"
+                    : "bg-muted",
+              )}
             />
           ))}
         </div>
-        <span className="text-xs font-black text-gray-400">
-          <span className="text-blue-500">{currentIndex + 1}</span> /{" "}
+        <span className="text-xs font-black text-muted-foreground">
+          <span className="text-primary">{currentIndex + 1}</span> /{" "}
           {questions.length}
         </span>
       </div>
 
       {/* 문제 컨테이너 */}
-      <div className="flex-1 overflow-y-auto scrollbar-hide ">
+      <div className="flex-1 overflow-y-auto scrollbar-hide">
         <div className="w-full max-w-xl mx-auto py-3">
           <QuestionCard
             key={questions[currentIndex].id}
@@ -198,68 +197,38 @@ const QuestionSession = () => {
       </div>
 
       {/* 하단 내비게이션 바 */}
-      <div className="h-14 shrink-0 flex items-center justify-between px-4 bg-white border-t border-gray-100 shadow-[0_-2px_8px_rgba(0,0,0,0.02)] z-20">
-        <button
+      <div className="h-14 shrink-0 flex items-center justify-between px-4 bg-card border-t border-border shadow-[0_-2px_8px_rgba(0,0,0,0.02)] z-20">
+        <Button
+          variant="ghost"
+          size="sm"
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className={`flex items-center gap-1.5 px-4 py-2 rounded-lg font-bold text-sm transition-all ${
-            currentIndex === 0
-              ? "text-gray-200 cursor-not-allowed"
-              : "text-gray-600 hover:bg-gray-50 active:scale-95"
-          }`}
+          className="gap-1.5 rounded-lg px-4 font-bold text-muted-foreground"
         >
-          <svg
-            className="w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2.5"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
+          <ChevronLeft className="w-4 h-4" />
           이전
-        </button>
+        </Button>
 
         {currentIndex === questions.length - 1 ? (
-          <button
+          <Button
             onClick={handleGrade}
             disabled={!isAllAnswered}
-            className={`px-8 py-2.5 rounded-xl font-bold text-sm text-white transition-all shadow-md ${
-              !isAllAnswered
-                ? "bg-gray-200 cursor-not-allowed"
-                : "bg-blue-600 hover:bg-blue-700 active:scale-95 shadow-blue-100"
-            }`}
+            className="rounded-xl px-8 h-auto py-2.5 shadow-md font-bold"
           >
             최종 채점하기
-          </button>
+          </Button>
         ) : (
-          <button
+          <Button
             onClick={handleNext}
-            className="flex items-center gap-1.5 px-6 py-2.5 bg-gray-900 text-white rounded-xl font-bold text-sm hover:bg-black transition-all active:scale-95 shadow-md"
+            className="rounded-xl gap-1.5 px-6 h-auto py-2.5 bg-foreground text-background hover:bg-foreground/90 active:scale-95 shadow-md font-bold"
           >
             다음 문제
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2.5"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
+            <ChevronRight className="w-4 h-4" />
+          </Button>
         )}
       </div>
     </div>
   );
 };
 
-export default QuestionSession;
+export default SubjectPage;

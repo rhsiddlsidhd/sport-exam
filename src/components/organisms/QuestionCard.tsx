@@ -1,0 +1,61 @@
+import type { ExamQuestion } from "@/types/exam-schema";
+import React from "react";
+import { Check } from "lucide-react";
+import { TypographyLarge } from "../atoms/Typography";
+import IconBadge from "../molecules/IconBadge";
+import OptionButton from "../molecules/OptionButton";
+import QuestionContext from "../molecules/QuestionContext";
+
+interface QuestionCardProps {
+  question: ExamQuestion;
+  selectedOption: number | null;
+  onSelect: (id: number) => void;
+}
+
+const QuestionCard: React.FC<QuestionCardProps> = ({
+  question,
+  selectedOption,
+  onSelect,
+}) => {
+  return (
+    <div className="p-5 border-y sm:border border-border rounded-none sm:rounded-2xl text-left bg-card shadow-sm sm:transition-all sm:hover:shadow-lg">
+      <div className="flex items-center justify-end mb-3">
+        <div className="text-[10px] font-bold text-muted-foreground/50">{question.id}</div>
+      </div>
+
+      <TypographyLarge className="font-bold text-foreground mb-4 leading-snug break-keep">
+        {question.question}
+      </TypographyLarge>
+
+      {/* <보기> 섹션 (지문 또는 항목 리스트) */}
+      {(question.context ||
+        (question.contextItems && question.contextItems.length > 0)) && (
+        <QuestionContext
+          context={question.context}
+          contextItems={question.contextItems}
+        />
+      )}
+
+      {/* 4지선다 선택지 */}
+      <div className="grid grid-cols-1 gap-2 ">
+        {question.options.map((option, idx) => (
+          <OptionButton
+            key={`${question.id}-opt-${idx}`}
+            index={idx + 1}
+            content={option.content}
+            selected={selectedOption === option.id}
+            onSelect={() => onSelect(option.id)}
+          >
+            {selectedOption === option.id && (
+              <IconBadge className="animate-in zoom-in duration-300">
+                <Check strokeWidth={3} />
+              </IconBadge>
+            )}
+          </OptionButton>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default QuestionCard;
