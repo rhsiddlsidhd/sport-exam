@@ -5,7 +5,10 @@ import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
 import SelectableCard from "../components/molecules/SelectableCard";
 
-const SUBJECT_META: Record<SubjectCode, { icon: React.ReactNode; desc: string }> = {
+const SUBJECT_META: Record<
+  SubjectCode,
+  { icon: React.ReactNode; desc: string }
+> = {
   SOC: { icon: <Users className="w-5 h-5" />, desc: "사회와 스포츠의 관계" },
   PSY: { icon: <Brain className="w-5 h-5" />, desc: "스포츠와 심리" },
   HIS: { icon: <BookOpen className="w-5 h-5" />, desc: "한국 체육의 역사" },
@@ -14,26 +17,26 @@ const SUBJECT_META: Record<SubjectCode, { icon: React.ReactNode; desc: string }>
 };
 
 import React from "react";
+import { TypographyH3, TypographyMuted } from "@/components/atoms/Typography";
 
 const YearPage = () => {
   const year = useOutletContext<string>();
 
   return (
-    <div className="p-5">
-      <div className="mb-8 pt-2">
-        <span className="inline-flex items-center gap-1.5 text-[10px] font-black text-primary tracking-widest uppercase mb-3">
-          <span className="w-1.5 h-1.5 bg-primary rounded-full" />
+    <div className="h-full flex flex-col p-4">
+      <div className="mb-8">
+        <TypographyMuted className="text-primary text-xs pb-4 tracking-widest uppercase font-black">
           {year}년도 과목 선택
-        </span>
-        <h2 className="text-2xl font-black text-foreground tracking-tight leading-tight mb-1">
-          어떤 과목을<br />풀어볼까요?
-        </h2>
-        <p className="text-sm text-muted-foreground">
-          5개 과목 · 각 20문항
-        </p>
+        </TypographyMuted>
+        <TypographyH3 className="text-2xl font-black text-foreground tracking-tight leading-tight mb-1">
+          어떤 과목을
+          <br />
+          풀어볼까요?
+        </TypographyH3>
+        <p className="text-sm text-muted-foreground">5개 과목 · 각 20문항</p>
       </div>
 
-      <main className="flex flex-col gap-3">
+      <main className="flex flex-col gap-3 pb-4">
         {SUBJECT_CODES.map((s) => (
           <SelectableCard
             key={s}
