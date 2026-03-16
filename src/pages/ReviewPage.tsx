@@ -3,11 +3,7 @@ import { Bookmark, BookmarkCheck } from "lucide-react";
 import type { ExamQuestion } from "../types/exam-schema";
 import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
-import {
-  TypographyH3,
-  TypographyH4,
-  TypographySmall,
-} from "../components/atoms/Typography";
+import { TypographySmall } from "../components/atoms/Typography";
 import { Button } from "../components/atoms/Button";
 import { useNotes } from "../hooks/useNotes";
 import { cn } from "../lib/utils";
@@ -26,17 +22,10 @@ const ReviewPage = () => {
   const state = location.state as LocationState | null;
   const { add, remove, isBookmarked } = useNotes();
 
-  if (
-    !state?.subject ||
-    !state?.year ||
-    !Array.isArray(state?.questions) ||
-    !state?.userAnswers
-  ) {
+  if (!state?.subject || !state?.year || !Array.isArray(state?.questions) || !state?.userAnswers) {
     return (
-      <div className="p-10 text-center">
-        <TypographyH4 className="mb-4 text-foreground">
-          결과 데이터가 없습니다.
-        </TypographyH4>
+      <div className="p-10 text-center flex flex-col items-center gap-4">
+        <p className="text-sm font-bold text-foreground">결과 데이터가 없습니다.</p>
         <Button asChild className="rounded-xl font-bold">
           <Link to="/">홈으로 돌아가기</Link>
         </Button>
@@ -49,17 +38,14 @@ const ReviewPage = () => {
   const results = questions.map((q) => {
     const userAnswerId = userAnswers[q.id];
     const userOption = q.options.find((opt) => opt.id === userAnswerId);
-
     const isCorrect = Array.isArray(q.answer)
       ? q.answer.includes(userAnswerId)
       : userAnswerId === q.answer;
-
     const correctAnswers = Array.isArray(q.answer) ? q.answer : [q.answer];
     const correctAnswerContent = q.options
       .filter((opt) => correctAnswers.includes(opt.id))
       .map((opt) => opt.content)
       .join(", ");
-
     return {
       id: q.id,
       questionText: q.question,
@@ -71,6 +57,8 @@ const ReviewPage = () => {
 
   const correctCount = results.filter((r) => r.isCorrect).length;
   const score = Math.round((correctCount / questions.length) * 100);
+  const circumference = 2 * Math.PI * 36;
+  const strokeDashoffset = circumference - (score / 100) * circumference;
 
   const handleToggleBookmark = (res: (typeof results)[number]) => {
     if (isBookmarked(res.id)) {
@@ -89,94 +77,106 @@ const ReviewPage = () => {
 
   return (
     <div className="min-h-full bg-background pb-10">
-      {/* 상단 결과 요약 */}
-      <div className="bg-card border-b border-border px-6 py-6 text-center shadow-sm">
-        <div className="max-w-2xl mx-auto">
-          <div className="text-[10px] font-black text-primary mb-1 uppercase tracking-widest">
-            {subjectLabel[subject]} ({year}년)
-          </div>
-          <TypographyH3 className="font-black text-foreground mb-6">
-            시험 결과
-          </TypographyH3>
+      {/* 결과 요약 */}
+      <div className="bg-card border-b border-border px-5 py-8">
+        <div className="text-center mb-6">
+          <span className="text-[10px] font-black text-primary tracking-widest uppercase">
+            {subjectLabel[subject]} · {year}년
+          </span>
+        </div>
 
-          <div className="flex flex-row items-center justify-center gap-10 mb-6">
-            <div className="flex gap-2 items-baseline">
-              <TypographyH4>{score} 점</TypographyH4>
+        {/* 원형 점수 게이지 */}
+        <div className="flex flex-col items-center gap-5 mb-7">
+          <div className="relative">
+            <svg width="96" height="96" viewBox="0 0 96 96" className="-rotate-90">
+              <circle
+                cx="48" cy="48" r="36"
+                fill="none"
+                stroke="currentColor"
+                className="text-muted"
+                strokeWidth="7"
+              />
+              <circle
+                cx="48" cy="48" r="36"
+                fill="none"
+                stroke="currentColor"
+                className="text-primary transition-all duration-700"
+                strokeWidth="7"
+                strokeLinecap="round"
+                strokeDasharray={circumference}
+                strokeDashoffset={strokeDashoffset}
+              />
+            </svg>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+              <span className="text-2xl font-black text-foreground leading-none tabular-nums">
+                {score}
+              </span>
+              <span className="text-[10px] font-bold text-muted-foreground">점</span>
             </div>
+          </div>
 
-            <div className="flex gap-3">
-              <div className="bg-success/5 px-4 py-3 rounded-xl border border-success/20 text-center min-w-[80px]">
-                <div className="text-[10px] font-bold text-success mb-0.5 uppercase">
-                  정답
-                </div>
-                <div className="text-xl font-black text-success">
-                  {correctCount} <span className="text-xs font-medium">개</span>
-                </div>
-              </div>
-              <div className="bg-destructive/5 px-4 py-3 rounded-xl border border-destructive/20 text-center min-w-[80px]">
-                <div className="text-[10px] font-bold text-destructive mb-0.5 uppercase">
-                  오답
-                </div>
-                <div className="text-xl font-black text-destructive">
-                  {questions.length - correctCount}{" "}
-                  <span className="text-xs font-medium">개</span>
-                </div>
-              </div>
+          <div className="flex gap-3">
+            <div className="flex flex-col items-center px-5 py-3 bg-success/8 rounded-2xl border border-success/20 min-w-[72px]">
+              <span className="text-[9px] font-black text-success/70 uppercase tracking-wider mb-1">정답</span>
+              <span className="text-xl font-black text-success tabular-nums">{correctCount}</span>
+            </div>
+            <div className="flex flex-col items-center px-5 py-3 bg-destructive/8 rounded-2xl border border-destructive/20 min-w-[72px]">
+              <span className="text-[9px] font-black text-destructive/70 uppercase tracking-wider mb-1">오답</span>
+              <span className="text-xl font-black text-destructive tabular-nums">
+                {questions.length - correctCount}
+              </span>
             </div>
           </div>
+        </div>
 
-          <div className="flex justify-center gap-3">
-            <Button
-              onClick={() => navigate(`/${year}/${subject}`)}
-              className="rounded-xl px-6 h-auto py-2.5 bg-foreground text-background hover:bg-foreground/90 shadow-md font-bold"
-            >
-              다시 풀기
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              className="rounded-xl px-6 h-auto py-2.5 border-2 font-bold"
-            >
-              <Link to="/">홈으로 가기</Link>
-            </Button>
-          </div>
+        <div className="flex justify-center gap-2.5">
+          <Button
+            onClick={() => navigate(`/${year}/${subject}`)}
+            className="rounded-xl px-6 h-10 bg-foreground text-background hover:bg-foreground/90 font-black shadow-sm"
+          >
+            다시 풀기
+          </Button>
+          <Button
+            asChild
+            variant="outline"
+            className="rounded-xl px-6 h-10 border-2 font-bold"
+          >
+            <Link to="/">홈으로</Link>
+          </Button>
         </div>
       </div>
 
       {/* 상세 리뷰 */}
-      <div className="max-w-2xl mx-auto px-6 mt-8">
+      <div className="px-5 mt-7">
         <SectionHeader className="mb-4">상세 리뷰</SectionHeader>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {results.map((res, idx) => (
             <div
               key={res.id}
               className={cn(
-                "p-5 rounded-2xl border transition-all shadow-sm",
-                res.isCorrect
-                  ? "bg-card border-border"
-                  : "bg-destructive/5 border-destructive/20",
+                "rounded-2xl border overflow-hidden",
+                res.isCorrect ? "bg-card border-border" : "bg-destructive/5 border-destructive/15",
               )}
             >
-              <div className="flex items-start justify-between mb-3">
+              {/* 헤더 */}
+              <div className="flex items-center justify-between px-4 py-3 border-b border-inherit">
                 <div className="flex items-center gap-2">
                   <span
                     className={cn(
-                      "w-6 h-6 rounded-lg flex items-center justify-center font-bold text-[10px]",
-                      res.isCorrect
-                        ? "bg-primary/10 text-primary"
-                        : "bg-destructive/10 text-destructive",
+                      "w-5 h-5 rounded-md flex items-center justify-center font-black text-[10px]",
+                      res.isCorrect ? "bg-primary/10 text-primary" : "bg-destructive/15 text-destructive",
                     )}
                   >
                     {idx + 1}
                   </span>
                   <span
                     className={cn(
-                      "text-[10px] font-black tracking-tight",
+                      "text-[10px] font-black tracking-widest uppercase",
                       res.isCorrect ? "text-success" : "text-destructive",
                     )}
                   >
-                    {res.isCorrect ? "CORRECT" : "INCORRECT"}
+                    {res.isCorrect ? "Correct" : "Incorrect"}
                   </span>
                 </div>
 
@@ -192,43 +192,37 @@ const ReviewPage = () => {
                         : "text-muted-foreground hover:text-primary hover:bg-primary/5",
                     )}
                   >
-                    {isBookmarked(res.id) ? (
-                      <BookmarkCheck className="w-4 h-4" strokeWidth={2.5} />
-                    ) : (
-                      <Bookmark className="w-4 h-4" strokeWidth={2.5} />
-                    )}
+                    {isBookmarked(res.id)
+                      ? <BookmarkCheck className="w-4 h-4" strokeWidth={2.5} />
+                      : <Bookmark className="w-4 h-4" strokeWidth={2.5} />}
                   </Button>
                 )}
               </div>
 
-              <TypographySmall className="text-foreground font-bold mb-4 leading-tight break-keep block">
-                {res.questionText}
-              </TypographySmall>
+              {/* 문제 텍스트 */}
+              <div className="px-4 py-3">
+                <TypographySmall className="text-foreground font-bold leading-snug break-keep block mb-3">
+                  {res.questionText}
+                </TypographySmall>
 
-              <div className="grid grid-cols-2 gap-2">
-                <div className="flex flex-col p-3 bg-muted/50 rounded-xl border border-border">
-                  <span className="text-[9px] font-black text-muted-foreground uppercase mb-0.5 tracking-wider">
-                    나의 선택
-                  </span>
-                  <span
-                    className={cn(
-                      "text-xs font-bold",
-                      res.isCorrect ? "text-primary" : "text-destructive",
-                    )}
-                  >
-                    {res.userAnswerContent}
-                  </span>
-                </div>
-                {!res.isCorrect && (
-                  <div className="flex flex-col p-3 bg-success/5 rounded-xl border border-success/20">
-                    <span className="text-[9px] font-black text-success/70 uppercase mb-0.5 tracking-wider">
-                      정답
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="flex flex-col gap-1 p-3 bg-muted/60 rounded-xl">
+                    <span className="text-[9px] font-black text-muted-foreground uppercase tracking-wider">
+                      나의 선택
                     </span>
-                    <span className="text-xs font-bold text-success">
-                      {res.correctAnswerContent}
+                    <span className={cn("text-xs font-bold break-keep", res.isCorrect ? "text-primary" : "text-destructive")}>
+                      {res.userAnswerContent}
                     </span>
                   </div>
-                )}
+                  {!res.isCorrect && (
+                    <div className="flex flex-col gap-1 p-3 bg-success/8 rounded-xl border border-success/20">
+                      <span className="text-[9px] font-black text-success/60 uppercase tracking-wider">정답</span>
+                      <span className="text-xs font-bold text-success break-keep">
+                        {res.correctAnswerContent}
+                      </span>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           ))}

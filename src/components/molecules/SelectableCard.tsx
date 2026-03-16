@@ -13,9 +13,11 @@ const SelectableCard: React.FC<SelectableCardProps> = React.memo(({ to, children
     <Link to={to} className="group">
       <div
         className={cn(
-          "p-5 border border-border rounded-2xl bg-card text-center break-keep",
-          "hover:border-primary hover:bg-primary/5 transition-all duration-300",
-          "shadow-sm hover:shadow-md flex flex-col items-center justify-center",
+          "flex flex-col items-center justify-center",
+          "border border-border rounded-2xl bg-card",
+          "p-4 text-center break-keep",
+          "hover:border-primary/40 hover:bg-primary/5 hover:shadow-md",
+          "transition-all duration-200 shadow-sm",
           className,
         )}
       >

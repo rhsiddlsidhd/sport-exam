@@ -17,7 +17,6 @@ async function loadExam(year: string): Promise<Exam> {
   return data;
 }
 
-// Fisher-Yates shuffle algorithm
 const shuffleArray = <T,>(array: T[]): T[] => {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -50,9 +49,7 @@ const SubjectPage = () => {
       setError(null);
       try {
         const data = await loadExam(year);
-        const examSubject = data.subjects.find(
-          (s) => s.subject === validSubject,
-        );
+        const examSubject = data.subjects.find((s) => s.subject === validSubject);
         if (!examSubject) return setQuestions([]);
         const loaded = examSubject.questions.map((q) => ({
           ...q,
@@ -69,53 +66,30 @@ const SubjectPage = () => {
     fetchQuestions();
   }, [year, validSubject]);
 
-  if (!validSubject) {
-    return <NotFound />;
-  }
+  if (!validSubject) return <NotFound />;
 
-  const handleBack = () => {
-    navigate(`/${year}`);
-  };
-
+  const handleBack = () => navigate(`/${year}`);
   const handleSelectOption = (questionId: string, optionId: number) => {
-    setUserAnswers((prev) => ({
-      ...prev,
-      [questionId]: optionId,
-    }));
+    setUserAnswers((prev) => ({ ...prev, [questionId]: optionId }));
   };
-
   const handleNext = () => {
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-    }
+    if (currentIndex < questions.length - 1) setCurrentIndex((p) => p + 1);
   };
-
   const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
-    }
+    if (currentIndex > 0) setCurrentIndex((p) => p - 1);
   };
-
   const handleGrade = () => {
-    navigate("/review", {
-      state: {
-        year,
-        subject: validSubject,
-        questions,
-        userAnswers,
-      },
-    });
+    navigate("/review", { state: { year, subject: validSubject, questions, userAnswers } });
   };
 
-  const isAllAnswered =
-    questions.length > 0 && questions.every((q) => userAnswers[q.id]);
+  const isAllAnswered = questions.length > 0 && questions.every((q) => userAnswers[q.id]);
 
   if (loading) {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center h-full min-h-100">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-        <TypographySmall className="mt-4 text-muted-foreground block">
-          기출문제 로딩 중...
+      <div className="flex flex-col items-center justify-center h-full min-h-60 gap-4">
+        <div className="w-10 h-10 rounded-full border-2 border-muted border-t-primary animate-spin" />
+        <TypographySmall className="text-muted-foreground">
+          문제를 불러오는 중...
         </TypographySmall>
       </div>
     );
@@ -124,62 +98,71 @@ const SubjectPage = () => {
   if (error || questions.length === 0) {
     return (
       <EmptyState
-        icon={<span className="text-2xl">📭</span>}
+        icon={<span className="text-3xl">📭</span>}
         title={error ?? "등록된 기출문제가 없습니다."}
         action={
-          <Button onClick={handleBack} className="rounded-xl shadow-md font-bold">
-            이전으로 돌아가기
+          <Button onClick={handleBack} className="rounded-xl font-bold">
+            돌아가기
           </Button>
         }
-        className="flex-1 h-full min-h-100"
+        className="h-full min-h-60"
       />
     );
   }
 
+  const answeredCount = Object.keys(userAnswers).length;
+  const progress = ((currentIndex + 1) / questions.length) * 100;
+
   return (
-    <div className="flex flex-col h-full bg-background overflow-hidden relative">
+    <div className="flex flex-col h-full bg-background overflow-hidden">
       {/* 상단 컨트롤 바 */}
-      <div className="h-10 shrink-0 flex items-center justify-between px-4 bg-card border-b border-border shadow-sm z-20">
+      <div className="shrink-0 flex items-center justify-between px-4 py-2 bg-card border-b border-border gap-3">
         <Button
           variant="ghost"
           size="sm"
           onClick={handleBack}
-          className="gap-1.5 rounded-lg text-muted-foreground hover:text-primary font-bold"
+          className="gap-1 rounded-lg text-muted-foreground hover:text-primary font-bold shrink-0"
         >
           <ChevronLeft className="w-4 h-4" />
           뒤로
         </Button>
 
-        {/* 모바일: progress bar */}
-        <div className="sm:hidden flex-1 mx-3 h-1.5 bg-muted rounded-full overflow-hidden">
-          <div
-            className="h-full bg-primary rounded-full transition-all duration-300"
-            style={{
-              width: `${((currentIndex + 1) / questions.length) * 100}%`,
-            }}
-          />
-        </div>
-        {/* 데스크탑: dots */}
-        <div className="hidden sm:flex gap-1">
-          {questions.map((q, idx) => (
-            <button
-              key={q.id}
-              onClick={() => setCurrentIndex(idx)}
-              className={cn(
-                "w-1.5 h-1.5 rounded-full transition-all duration-300",
-                idx === currentIndex
-                  ? "w-4 bg-primary"
-                  : userAnswers[q.id]
-                    ? "bg-primary/30"
-                    : "bg-muted",
-              )}
+        {/* 진행 바 */}
+        <div className="flex-1 flex flex-col gap-1">
+          <div className="h-1.5 bg-muted rounded-full overflow-hidden">
+            <div
+              className="h-full bg-primary rounded-full transition-all duration-300"
+              style={{ width: `${progress}%` }}
             />
-          ))}
+          </div>
+          {/* 데스크탑: 도트 */}
+          <div className="hidden sm:flex gap-0.5 justify-center flex-wrap">
+            {questions.map((q, idx) => (
+              <button
+                key={q.id}
+                onClick={() => setCurrentIndex(idx)}
+                className={cn(
+                  "rounded-full transition-all duration-200",
+                  idx === currentIndex
+                    ? "w-3 h-1.5 bg-primary"
+                    : userAnswers[q.id]
+                      ? "w-1.5 h-1.5 bg-primary/40"
+                      : "w-1.5 h-1.5 bg-muted-foreground/20",
+                )}
+              />
+            ))}
+          </div>
         </div>
-        <span className="text-xs font-black text-muted-foreground">
-          <span className="text-primary">{currentIndex + 1}</span> /{" "}
-          {questions.length}
-        </span>
+
+        <div className="flex flex-col items-end shrink-0">
+          <span className="text-xs font-black text-foreground tabular-nums">
+            <span className="text-primary">{currentIndex + 1}</span>
+            <span className="text-muted-foreground/60">/{questions.length}</span>
+          </span>
+          <span className="text-[9px] text-muted-foreground font-medium">
+            {answeredCount}개 선택됨
+          </span>
+        </div>
       </div>
 
       {/* 문제 컨테이너 */}
@@ -189,21 +172,19 @@ const SubjectPage = () => {
             key={questions[currentIndex].id}
             question={questions[currentIndex]}
             selectedOption={userAnswers[questions[currentIndex].id] || null}
-            onSelect={(id) =>
-              handleSelectOption(questions[currentIndex].id, id)
-            }
+            onSelect={(id) => handleSelectOption(questions[currentIndex].id, id)}
           />
         </div>
       </div>
 
       {/* 하단 내비게이션 바 */}
-      <div className="h-14 shrink-0 flex items-center justify-between px-4 bg-card border-t border-border shadow-[0_-2px_8px_rgba(0,0,0,0.02)] z-20">
+      <div className="h-16 shrink-0 flex items-center justify-between px-5 bg-card border-t border-border">
         <Button
           variant="ghost"
           size="sm"
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="gap-1.5 rounded-lg px-4 font-bold text-muted-foreground"
+          className="gap-1.5 rounded-xl px-4 font-bold text-muted-foreground disabled:opacity-30"
         >
           <ChevronLeft className="w-4 h-4" />
           이전
@@ -213,16 +194,16 @@ const SubjectPage = () => {
           <Button
             onClick={handleGrade}
             disabled={!isAllAnswered}
-            className="rounded-xl px-8 h-auto py-2.5 shadow-md font-bold"
+            className="rounded-xl px-7 h-10 font-black tracking-tight shadow-sm disabled:opacity-40"
           >
-            최종 채점하기
+            채점하기
           </Button>
         ) : (
           <Button
             onClick={handleNext}
-            className="rounded-xl gap-1.5 px-6 h-auto py-2.5 bg-foreground text-background hover:bg-foreground/90 active:scale-95 shadow-md font-bold"
+            className="rounded-xl gap-1.5 px-5 h-10 bg-foreground text-background hover:bg-foreground/90 font-black shadow-sm"
           >
-            다음 문제
+            다음
             <ChevronRight className="w-4 h-4" />
           </Button>
         )}

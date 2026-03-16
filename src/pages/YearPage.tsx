@@ -1,31 +1,60 @@
 import { useOutletContext } from "react-router";
+import { Users, Brain, BookOpen, Activity, Scale } from "lucide-react";
 import { SUBJECT_CODES } from "../types/subject";
+import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
-import { TypographyH3, TypographySmall } from "../components/atoms/Typography";
 import SelectableCard from "../components/molecules/SelectableCard";
+
+const SUBJECT_META: Record<SubjectCode, { icon: React.ReactNode; desc: string }> = {
+  SOC: { icon: <Users className="w-5 h-5" />, desc: "사회와 스포츠의 관계" },
+  PSY: { icon: <Brain className="w-5 h-5" />, desc: "스포츠와 심리" },
+  HIS: { icon: <BookOpen className="w-5 h-5" />, desc: "한국 체육의 역사" },
+  PHY: { icon: <Activity className="w-5 h-5" />, desc: "운동과 신체 생리" },
+  ETH: { icon: <Scale className="w-5 h-5" />, desc: "스포츠의 윤리 기준" },
+};
+
+import React from "react";
 
 const YearPage = () => {
   const year = useOutletContext<string>();
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
-      <div className="mb-8 text-left">
-        <TypographyH3 className="font-black text-foreground mb-1">
-          과목을 선택하세요
-        </TypographyH3>
-        <TypographySmall className="text-muted-foreground">
-          준비하신 과목의 기출문제를 통해 실전 감각을 익혀보세요.
-        </TypographySmall>
+    <div className="p-5">
+      <div className="mb-8 pt-2">
+        <span className="inline-flex items-center gap-1.5 text-[10px] font-black text-primary tracking-widest uppercase mb-3">
+          <span className="w-1.5 h-1.5 bg-primary rounded-full" />
+          {year}년도 과목 선택
+        </span>
+        <h2 className="text-2xl font-black text-foreground tracking-tight leading-tight mb-1">
+          어떤 과목을<br />풀어볼까요?
+        </h2>
+        <p className="text-sm text-muted-foreground">
+          5개 과목 · 각 20문항
+        </p>
       </div>
 
-      <main className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+      <main className="flex flex-col gap-3">
         {SUBJECT_CODES.map((s) => (
-          <SelectableCard key={s} to={`/${year}/${s}`} className="min-h-30">
-            <div className="w-10 h-10 bg-muted rounded-xl mb-3 flex items-center justify-center group-hover:bg-primary/10 group-hover:text-primary transition-colors">
-              <span className="text-lg font-bold opacity-30">{s[0]}</span>
+          <SelectableCard
+            key={s}
+            to={`/${year}/${s}`}
+            className="flex-row items-center justify-between min-h-0 px-5 py-4 text-left"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 bg-muted rounded-xl flex items-center justify-center text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors shrink-0">
+                {SUBJECT_META[s].icon}
+              </div>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-sm font-black text-foreground group-hover:text-primary leading-tight">
+                  {subjectLabel[s]}
+                </span>
+                <span className="text-xs text-muted-foreground font-medium">
+                  {SUBJECT_META[s].desc}
+                </span>
+              </div>
             </div>
-            <span className="text-sm font-bold text-foreground group-hover:text-primary">
-              {subjectLabel[s]}
+            <span className="text-muted-foreground/40 group-hover:text-primary/50 transition-colors text-sm font-bold shrink-0">
+              →
             </span>
           </SelectableCard>
         ))}
