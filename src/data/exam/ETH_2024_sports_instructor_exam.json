@@ -1,0 +1,634 @@
+{
+  "subject": "ETH",
+  "exam": "2024년도 2급류 체육지도자 필기시험",
+  "date": "2024-04-27",
+  "questions": [
+    {
+      "id": "ETH-2024-1",
+      "questionNumber": 1,
+      "type": "PASSAGE",
+      "question": "〈보기〉에서 설명하는 법령은?",
+      "context": [
+        "이 법은 국민 모두가 스포츠 및 신체활동에 자유롭고 평등하게 참여하여 건강하고 행복한 삶을 영위할 수 있도록 스포츠의 가치가 교육, 문화, 환경, 인권, 복지, 정치, 경제, 여가 등 우리 사회 영역 전반에 확산될 수 있게 국가와 지방자치단체가 그 역할을 다하며, 개인이 스포츠 활동에서 차별받지 아니하고, 스포츠의 다양성, 자율성과 민주성의 원리가 조화롭게 실현되도록 하는 것을 기본 이념으로 한다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠클럽법"
+        },
+        {
+          "id": 2,
+          "content": "스포츠기본법"
+        },
+        {
+          "id": 3,
+          "content": "국민체육진흥법"
+        },
+        {
+          "id": 4,
+          "content": "학교체육진흥법"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "ETH-2024-2",
+      "questionNumber": 2,
+      "type": "COMBINATION_SELECT",
+      "question": "〈보기〉에서 스포츠에서 발생하는 폭력의 유형과 특징으로 옳은 것만을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "직접적 폭력은 가시적, 파괴적이다."
+        },
+        {
+          "id": "ㄴ",
+          "content": "직접적 폭력은 상해를 입히려는 의도가 있는 행위이다."
+        },
+        {
+          "id": "ㄷ",
+          "content": "구조적 폭력은 비가시적이며 장기간 이루어진다."
+        },
+        {
+          "id": "ㄹ",
+          "content": "구조적 폭력은 의도가 노골적이지 않지만 관습처럼 반복된다."
+        },
+        {
+          "id": "ㅁ",
+          "content": "문화적 폭력은 언어, 행동양식 등의 상징적 행위를 통해 가해진다."
+        },
+        {
+          "id": "ㅂ",
+          "content": "문화적 폭력은 위해를 '옳은 것'이라 정당화하여 '문제가 되지 않게' 만들기도 한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ, ㄷ, ㅁ"
+        },
+        {
+          "id": 2,
+          "content": "ㄱ, ㄷ, ㄹ, ㅂ"
+        },
+        {
+          "id": 3,
+          "content": "ㄱ, ㄴ, ㄷ, ㄹ, ㅁ"
+        },
+        {
+          "id": 4,
+          "content": "ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "ETH-2024-3",
+      "questionNumber": 3,
+      "type": "BASIC",
+      "question": "스포츠에서 여성에 대한 차별이 발생하거나 심화되는 원인으로 볼 수 없는 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "생물학적 환원주의"
+        },
+        {
+          "id": 2,
+          "content": "남녀의 운동 능력 차이"
+        },
+        {
+          "id": 3,
+          "content": "남성 문화에 기반한 근대스포츠"
+        },
+        {
+          "id": 4,
+          "content": "여성 참정권"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "ETH-2024-4",
+      "questionNumber": 4,
+      "type": "COMBINATION_MATCH",
+      "question": "〈보기〉에서 (가)의 문제를 해결하기 위해 생명중심주의 입장에서 (나)를 제시한 학자는?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "가",
+          "content": "스포츠에서 환경문제가 발생하는 근본 원인은 스포츠의 사회문화적 가치와 환경 혹은 자연의 보전 가치 사이의 충돌이다."
+        },
+        {
+          "id": "나",
+          "content": "불침해의 의무: 다른 생명체에 해를 끼쳐서는 안 된다. 불간섭의 의무: 생태계에 간섭해서는 안 된다. 신뢰의 의무: 낚시나 덫처럼 동물을 기만하는 행위를 해서는 안 된다. 보상적 정의의 의무: 부득이하게 해를 끼친 경우 피해를 보상해야 한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "테일러(P. Taylor)"
+        },
+        {
+          "id": 2,
+          "content": "베르크(A. Berque)"
+        },
+        {
+          "id": 3,
+          "content": "콜버그(L. Kohlberg)"
+        },
+        {
+          "id": 4,
+          "content": "패스모어(J. Passmore)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ETH-2024-5",
+      "questionNumber": 5,
+      "type": "COMBINATION_LINK",
+      "question": "〈보기〉의 ㉠~㉢에 들어갈 용어로 바르게 묶인 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "생물학적, 형태학적 특징에 따라 분류된 인간 집단"
+        },
+        {
+          "id": "㉡",
+          "content": "특정 종목에 유리하거나 불리한 인종이 실제로 존재한다는 사고 방식"
+        },
+        {
+          "id": "㉢",
+          "content": "선수의 능력 차이를 특정 인종의 우월이나 열등으로 과장하여 차등을 조장하는 것"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 인종 / ㉡ 인종주의 / ㉢ 인종 차별"
+        },
+        {
+          "id": 2,
+          "content": "㉠ 인종 / ㉡ 인종 차별 / ㉢ 젠더화 과정"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 젠더 / ㉡ 인종주의 / ㉢ 인종 차별"
+        },
+        {
+          "id": 4,
+          "content": "㉠ 젠더 / ㉡ 인종 차별 / ㉢ 젠더화 과정"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ETH-2024-6",
+      "questionNumber": 6,
+      "type": "PASSAGE",
+      "question": "〈보기〉의 축구 경기 비디오 판독(VAR)에서 심판B의 판정 견해를 지지하는 윤리 이론에 가장 부합하는 것은?",
+      "context": [
+        "심판 A: 상대 선수가 부상을 입었지만 퇴장은 가혹하다",
+        "심판 B: 그 선수가 충돌을 피할 수 있는 시간은 충분했다",
+        "그러나 그는 피하려 하지 않았다",
+        "따라서 퇴장의 처벌은 당연하다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "최대다수의 최대행복"
+        },
+        {
+          "id": 2,
+          "content": "의무주의"
+        },
+        {
+          "id": 3,
+          "content": "쾌락주의"
+        },
+        {
+          "id": 4,
+          "content": "좋음은 옳음의 근거"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "ETH-2024-7",
+      "questionNumber": 7,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 불평등 현상의 원인으로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "인종차별주의"
+        },
+        {
+          "id": 2,
+          "content": "성차별주의"
+        },
+        {
+          "id": 3,
+          "content": "장애차별주의"
+        },
+        {
+          "id": 4,
+          "content": "계층차별주의"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "ETH-2024-8",
+      "questionNumber": 8,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠맨십의 구성 요소는?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "페어플레이"
+        },
+        {
+          "id": 2,
+          "content": "존중"
+        },
+        {
+          "id": 3,
+          "content": "탁월성 추구"
+        },
+        {
+          "id": 4,
+          "content": "즐거움"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "ETH-2024-9",
+      "questionNumber": 9,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 도덕 발달 이론가는?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "길리건(C. Gilligan)"
+        },
+        {
+          "id": 2,
+          "content": "콜버그(L. Kohlberg)"
+        },
+        {
+          "id": 3,
+          "content": "피아제(J. Piaget)"
+        },
+        {
+          "id": 4,
+          "content": "레스트(J. Rest)"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "ETH-2024-10",
+      "questionNumber": 10,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 선수의 권리 침해 유형은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "신체적 폭력"
+        },
+        {
+          "id": 2,
+          "content": "정서적 폭력"
+        },
+        {
+          "id": 3,
+          "content": "성적 폭력"
+        },
+        {
+          "id": 4,
+          "content": "경제적 착취"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ETH-2024-11",
+      "questionNumber": 11,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 윤리 교육의 방향으로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "덕 윤리 교육"
+        },
+        {
+          "id": 2,
+          "content": "의무 윤리 교육"
+        },
+        {
+          "id": 3,
+          "content": "공리주의 윤리 교육"
+        },
+        {
+          "id": 4,
+          "content": "배려 윤리 교육"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "ETH-2024-12",
+      "questionNumber": 12,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 조직의 부정부패 유형은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "승부조작"
+        },
+        {
+          "id": 2,
+          "content": "선수선발 비리"
+        },
+        {
+          "id": 3,
+          "content": "재정 횡령"
+        },
+        {
+          "id": 4,
+          "content": "도핑"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "ETH-2024-13",
+      "questionNumber": 13,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 규범의 유형은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "구성적 규범"
+        },
+        {
+          "id": 2,
+          "content": "규제적 규범"
+        },
+        {
+          "id": 3,
+          "content": "보조적 규범"
+        },
+        {
+          "id": 4,
+          "content": "비공식적 규범"
+        }
+      ],
+      "answer": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ETH-2024-14",
+      "questionNumber": 14,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 선수의 의무는?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "최선의 노력"
+        },
+        {
+          "id": 2,
+          "content": "규칙 준수"
+        },
+        {
+          "id": 3,
+          "content": "상호 존중"
+        },
+        {
+          "id": 4,
+          "content": "공정한 경쟁"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ETH-2024-15",
+      "questionNumber": 15,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 도핑에 관한 내용으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "도핑은 스포츠의 공정성을 훼손한다."
+        },
+        {
+          "id": 2,
+          "content": "세계도핑방지기구(WADA)는 금지 약물 목록을 관리한다."
+        },
+        {
+          "id": 3,
+          "content": "치료목적사용면제(TUE)는 금지 약물의 사용을 허용하는 제도이다."
+        },
+        {
+          "id": 4,
+          "content": "도핑 검사는 경기 기간에만 실시한다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "ETH-2024-16",
+      "questionNumber": 16,
+      "type": "PASSAGE",
+      "question": "〈보기〉의 사례에서 나타나는 윤리적 태도와 가장 밀접한 관련이 있는 것은?",
+      "context": [
+        "선수는 윤리적 갈등을 겪을 때, 우리 사회에서 오랫동안 본보기가 되어온 위인들을 떠올린다",
+        "그리고 그 위인들처럼 행동하려고 노력한다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "맥킨타이어(A. MacIntyre)"
+        },
+        {
+          "id": 2,
+          "content": "의무주의(deontology)"
+        },
+        {
+          "id": 3,
+          "content": "쾌락주의(hedonism)"
+        },
+        {
+          "id": 4,
+          "content": "메타윤리(metaethics)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ETH-2024-17",
+      "questionNumber": 17,
+      "type": "BASIC",
+      "question": "스포츠윤리의 특징으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠 경쟁의 윤리적 기준이다."
+        },
+        {
+          "id": 2,
+          "content": "올바른 스포츠 경기의 방향이 된다."
+        },
+        {
+          "id": 3,
+          "content": "보편적 윤리로는 다를 수 없는 독자성이 있다."
+        },
+        {
+          "id": 4,
+          "content": "스포츠인의 행위, 실천의 기준이다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "ETH-2024-18",
+      "questionNumber": 18,
+      "type": "COMBINATION_SELECT",
+      "question": "〈보기〉에서 학생운동선수의 학습권 보호와 관련된 것으로 옳은 것만 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "최저 학력 제도"
+        },
+        {
+          "id": "ㄴ",
+          "content": "리그 승강 제도"
+        },
+        {
+          "id": "ㄷ",
+          "content": "주말 리그 제도"
+        },
+        {
+          "id": "ㄹ",
+          "content": "학사 관리 지원 제도"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ, ㄴ, ㄷ"
+        },
+        {
+          "id": 2,
+          "content": "ㄱ, ㄴ, ㄹ"
+        },
+        {
+          "id": 3,
+          "content": "ㄱ, ㄷ, ㄹ"
+        },
+        {
+          "id": 4,
+          "content": "ㄴ, ㄷ, ㄹ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "ETH-2024-19",
+      "questionNumber": 19,
+      "type": "PASSAGE",
+      "question": "〈보기〉의 주장에 나타난 윤리적 관점은?",
+      "context": [
+        "스포츠 행위의 도덕적 가치는 사회에 따라, 또는 사람에 따라 다를 수 있다",
+        "물론 도덕적 준거가 없는 것은 아니다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "윤리적 절대주의"
+        },
+        {
+          "id": 2,
+          "content": "윤리적 회의주의"
+        },
+        {
+          "id": 3,
+          "content": "윤리적 상대주의"
+        },
+        {
+          "id": 4,
+          "content": "윤리적 객관주의"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "ETH-2024-20",
+      "questionNumber": 20,
+      "type": "PASSAGE",
+      "question": "〈보기〉의 대화에서 논란이 되고 있는 도핑의 종류는?",
+      "context": [
+        "지원: 스포츠 뉴스 봤어? 케냐의 마라톤 선수 킵초게가 1시간 59분 40초의 기록을 세웠대!",
+        "사영: 우와! 2시간의 벽이 드디어 깨졌네요! 인간의 한계는 끝이 없나요?",
+        "성현: 그런데 이번 기록은 특수 제작된 신발을 신고 달렸으니 킵초게 선수의 능력만으로 달성했다고 볼 수 없는 거 아니야? 스포츠에 과학기술의 도입은 필요하지만, 이러다가 스포츠에서 탁월성의 근거가 인간을 넘어가는 것은 아니야?",
+        "혜름: 맞아! 수영의 전신 수영복, 야구의 압축 배트가 금지된 사례도 있잖아!"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "약물도핑(drug doping)"
+        },
+        {
+          "id": 2,
+          "content": "기술도핑(technology doping)"
+        },
+        {
+          "id": 3,
+          "content": "브레인도핑(brain doping)"
+        },
+        {
+          "id": 4,
+          "content": "유전자도핑(gene doping)"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}

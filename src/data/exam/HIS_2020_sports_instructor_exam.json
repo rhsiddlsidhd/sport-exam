@@ -1,0 +1,620 @@
+{
+  "subject": "HIS",
+  "exam": "2020년도 2급 생활스포츠지도사 필기시험",
+  "date": "2020-07-04",
+  "questions": [
+    {
+      "id": "HIS-2020-1",
+      "questionNumber": 1,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 의례는?",
+      "context": [
+        "부족의 신화를 계승하는 춤을 익혔다.",
+        "식량 확보를 위한 수렵과 채집 활동을 하였다.",
+        "삼국지의 「위지동이전」에 '큰사람'으로 부른 기록이 있다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "영고(迎鼓)"
+        },
+        {
+          "id": 2,
+          "content": "무천(舞天)"
+        },
+        {
+          "id": 3,
+          "content": "동맹(東盟)"
+        },
+        {
+          "id": 4,
+          "content": "성년의식(成年儀式)"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "HIS-2020-2",
+      "questionNumber": 2,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 화랑도의 정신은?",
+      "context": [
+        "사군이충(事君以忠) : 충성심으로 임금을 섬김",
+        "사친이효(事親以孝) : 효심으로 부모를 섬김",
+        "교우이신(交友以信) : 신의를 바탕으로 벗을 사귐",
+        "살생유택(殺生有擇) : 생명체를 함부로 죽이지 않음",
+        "임전무퇴(臨戰無退) : 전쟁에 임할 때는 후퇴를 삼가함"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "삼강오륜(三綱五倫)"
+        },
+        {
+          "id": 2,
+          "content": "세속오계(世俗五戒)"
+        },
+        {
+          "id": 3,
+          "content": "문무겸비(文武兼備)"
+        },
+        {
+          "id": 4,
+          "content": "사단칠정(四端七情)"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "HIS-2020-3",
+      "questionNumber": 3,
+      "type": "BASIC",
+      "question": "고려시대의 무예에 대한 설명으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "무학교육기관으로 강예재(講藝齋)가 있었다."
+        },
+        {
+          "id": 2,
+          "content": "수박희(手搏戱)는 인재 선발을 위한 기준이 되었다."
+        },
+        {
+          "id": 3,
+          "content": "격구(擊毬)는 군사훈련 및 여가활동으로 성행하였다."
+        },
+        {
+          "id": 4,
+          "content": "종합무예서인 무예도보통지가 편찬되었다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "HIS-2020-4",
+      "questionNumber": 4,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 민속놀이는?",
+      "context": [
+        "귀족들이 즐겼던 놀이이다.",
+        "매를 길들여 꿩이나 기타 조류를 사냥하였다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "각저(角抵)"
+        },
+        {
+          "id": 2,
+          "content": "방응(放鷹)"
+        },
+        {
+          "id": 3,
+          "content": "격구(擊毬)"
+        },
+        {
+          "id": 4,
+          "content": "추천(鞦韆)"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "HIS-2020-5",
+      "questionNumber": 5,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 고려시대의 사건은?",
+      "context": [
+        "1170년 의종이 문신들과 보현원에 행차하였다.",
+        "대장군 이소응이 젊은 병사와 오병수박희(五兵手搏戲)를 겨루었고 패하였다.",
+        "그러자 젊은 문신 한뢰가 대장군 이소응의 뺨을 때리며 비웃었다.",
+        "이 광경을 보던 정중부와 이의방 등이 선동하여 반란을 일으켰다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "무신정변"
+        },
+        {
+          "id": 2,
+          "content": "묘청의 난"
+        },
+        {
+          "id": 3,
+          "content": "이자겸의 난"
+        },
+        {
+          "id": 4,
+          "content": "삼별초의 난"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "HIS-2020-6",
+      "questionNumber": 6,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 개화기 사립학교는?",
+      "context": [
+        "무비자강(武備自强)을 강조하였다.",
+        "문예반 50명, 무예반 200명을 선발하였다.",
+        "1883년에 설립된 최초의 근대식 학교이다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "대성학교(大成學校)"
+        },
+        {
+          "id": 2,
+          "content": "오산학교(五山學校)"
+        },
+        {
+          "id": 3,
+          "content": "원산학사(元山學舍)"
+        },
+        {
+          "id": 4,
+          "content": "동래무예학교(東萊武藝學校)"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "HIS-2020-7",
+      "questionNumber": 7,
+      "type": "COMBINATION_LINK",
+      "question": "<보기>의 ㉠, ㉡에 들어갈 용어는?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "나현성의 한국체육사에 따른 시대구분이다. 갑오경장(甲午更張) 이전은 무예를 중심으로 하는 ( ㉠ )체육을 강조하였다."
+        },
+        {
+          "id": "㉡",
+          "content": "갑오경장 이후는 「교육입국조서(敎育立國詔書)」를 중심으로 하는 ( ㉡ )체육을 강조하였다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-현대 / ㉡-전통"
+        },
+        {
+          "id": 2,
+          "content": "㉠-근대 / ㉡-전통"
+        },
+        {
+          "id": 3,
+          "content": "㉠-전통 / ㉡-근대"
+        },
+        {
+          "id": 4,
+          "content": "㉠-전통 / ㉡-현대"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "HIS-2020-8",
+      "questionNumber": 8,
+      "type": "BASIC",
+      "question": "조선시대 무과제도에 관한 설명으로 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "정기적으로만 실시하였다."
+        },
+        {
+          "id": 2,
+          "content": "예조와 음양과에서 주관하였다."
+        },
+        {
+          "id": 3,
+          "content": "시험은 무예 실기만 시행되었다."
+        },
+        {
+          "id": 4,
+          "content": "초시, 복시, 전시의 3단계로 진행되었다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "HIS-2020-9",
+      "questionNumber": 9,
+      "type": "BASIC",
+      "question": "개화기 운동회에 대한 설명으로 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "일본인을 위한 축제의 성격이었다."
+        },
+        {
+          "id": 2,
+          "content": "최초 시행 종목은 야구와 농구였다."
+        },
+        {
+          "id": 3,
+          "content": "우리나라 최초의 운동회는 화류회(花柳會)이다."
+        },
+        {
+          "id": 4,
+          "content": "학교 정규교과목으로 학생에게 장려된 활동이었다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "HIS-2020-10",
+      "questionNumber": 10,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 조선시대의 기관은?",
+      "context": [
+        "무예의 수련을 담당하였다.",
+        "병서의 습독을 장려하였다.",
+        "군사의 시재(試才)를 담당하였다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "사정(射亭)"
+        },
+        {
+          "id": 2,
+          "content": "성균관(成均館)"
+        },
+        {
+          "id": 3,
+          "content": "사역원(司譯院)"
+        },
+        {
+          "id": 4,
+          "content": "훈련원(訓鍊院)"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "HIS-2020-11",
+      "questionNumber": 11,
+      "type": "BASIC",
+      "question": "활인심방(活人心方)에 대한 설명으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "이이(李珥)가 활인심방이라는 책을 펴냈다."
+        },
+        {
+          "id": 2,
+          "content": "도인법(導引法)은 목 돌리기, 마찰, 다리의 굴신 등의 보건체조이다."
+        },
+        {
+          "id": 3,
+          "content": "사계양생가(四季養生歌)는 춘하추동으로 나누어 호흡하는 방법이다."
+        },
+        {
+          "id": 4,
+          "content": "활인심서(活人心序)는 기를 조절하고, 식욕을 줄이며, 욕망을 절제하는 방법이다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "HIS-2020-12",
+      "questionNumber": 12,
+      "type": "COMBINATION_SELECT",
+      "question": "<보기>에서 대한체육회에 대한 옳은 설명을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "1920년－조선체육회가 창립되었다."
+        },
+        {
+          "id": "㉡",
+          "content": "1948년－대한체육회로 개칭되었다."
+        },
+        {
+          "id": "㉢",
+          "content": "1966년－태릉선수촌을 건립하였다."
+        },
+        {
+          "id": "㉣",
+          "content": "2016년－국민생활체육회와 통합되었다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉡, ㉢"
+        },
+        {
+          "id": 2,
+          "content": "㉡, ㉣"
+        },
+        {
+          "id": 3,
+          "content": "㉠, ㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉠, ㉡, ㉢, ㉣"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "HIS-2020-13",
+      "questionNumber": 13,
+      "type": "BASIC",
+      "question": "개화기에 도입된 스포츠에 대한 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "조원희는 교육체조를 보급하였다."
+        },
+        {
+          "id": 2,
+          "content": "우치다(內田)는 검도를 보급하였다."
+        },
+        {
+          "id": 3,
+          "content": "질레트(P. Gillett)는 야구와 농구를 보급하였다."
+        },
+        {
+          "id": 4,
+          "content": "푸트(L. Foote)는 연식정구(척구)를 보급하였다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "HIS-2020-14",
+      "questionNumber": 14,
+      "type": "BASIC",
+      "question": "일제강점기 스포츠 종목의 도입에 대한 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "권투－1914년 경성구락부에서 소개하였다."
+        },
+        {
+          "id": 2,
+          "content": "경식정구－1919년 조선철도국에서 소개하였다."
+        },
+        {
+          "id": 3,
+          "content": "스키－1921년 나카무라(中村)가 소개하였다."
+        },
+        {
+          "id": 4,
+          "content": "역도－1926년 서상천이 소개하였다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "HIS-2020-15",
+      "questionNumber": 15,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 최초의 체육진흥계획은?",
+      "context": [
+        "국민생활체육협의회가 설립되었다.",
+        "서울올림픽기념 생활관이 건립되었다.",
+        "'호돌이계획'으로 생활체육 진흥을 도모하는 계기가 되었다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "국민생활체육진흥종합계획"
+        },
+        {
+          "id": 2,
+          "content": "제1차 국민체육진흥5개년계획"
+        },
+        {
+          "id": 3,
+          "content": "제2차 국민체육진흥5개년계획"
+        },
+        {
+          "id": 4,
+          "content": "참여정부 국민체육진흥5개년계획"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "HIS-2020-16",
+      "questionNumber": 16,
+      "type": "BASIC",
+      "question": "일제강점기 황국신민체조에 대한 설명으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "군국주의 함양을 위한 것이다."
+        },
+        {
+          "id": 2,
+          "content": "무사도 정신을 고취하기 위한 것이다."
+        },
+        {
+          "id": 3,
+          "content": "식민지 통치체제의 일환으로 실시되었다."
+        },
+        {
+          "id": 4,
+          "content": "유희 중심의 체조 지도원리에 따라 교육되었다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "HIS-2020-17",
+      "questionNumber": 17,
+      "type": "BASIC",
+      "question": "1936년 제11회 베를린올림픽경기대회 마라톤에서 손기정과 함께 입상한 선수는?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "권태하"
+        },
+        {
+          "id": 2,
+          "content": "남승룡"
+        },
+        {
+          "id": 3,
+          "content": "서윤복"
+        },
+        {
+          "id": 4,
+          "content": "함길용"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "HIS-2020-18",
+      "questionNumber": 18,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 일제강점기의 체육시설은?",
+      "context": [
+        "축구장, 야구장, 정구장, 수영장 등이 있었다.",
+        "전국규모의 대회와 올림픽경기대회 예선전 등이 열렸다.",
+        "1925년에 건립되었고, 1984년에 동대문운동장으로 개칭되었다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "경성운동장"
+        },
+        {
+          "id": 2,
+          "content": "효창운동장"
+        },
+        {
+          "id": 3,
+          "content": "목동운동장"
+        },
+        {
+          "id": 4,
+          "content": "잠실종합운동장"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "HIS-2020-19",
+      "questionNumber": 19,
+      "type": "PASSAGE",
+      "question": "<보기>의 설명과 관련 있는 정부는?",
+      "context": [
+        "서울아시아경기대회를 개최하였다.",
+        "정부 행정조직에서 체육부가 신설되었다.",
+        "프로야구, 프로축구, 프로씨름 등이 출범하였다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "박정희 정부"
+        },
+        {
+          "id": 2,
+          "content": "전두환 정부"
+        },
+        {
+          "id": 3,
+          "content": "노태우 정부"
+        },
+        {
+          "id": 4,
+          "content": "김영삼 정부"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "HIS-2020-20",
+      "questionNumber": 20,
+      "type": "COMBINATION_LINK",
+      "question": "<보기>의 ㉠, ㉡에 들어갈 알맞은 국제대회의 명칭은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "1988년 개최된 ( ㉠ )의 마스코트는 '호돌이'이다."
+        },
+        {
+          "id": "㉡",
+          "content": "2018년 개최된 ( ㉡ )의 마스코트는 '수호랑'과 '반다비'이다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-서울올림픽경기대회 / ㉡-서울아시아경기대회"
+        },
+        {
+          "id": 2,
+          "content": "㉠-서울아시아경기대회 / ㉡-부산아시아경기대회"
+        },
+        {
+          "id": 3,
+          "content": "㉠-서울올림픽경기대회 / ㉡-평창올림픽경기대회"
+        },
+        {
+          "id": 4,
+          "content": "㉠-부산아시아경기대회 / ㉡-평창올림픽경기대회"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

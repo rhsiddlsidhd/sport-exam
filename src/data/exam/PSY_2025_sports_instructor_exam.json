@@ -1,0 +1,635 @@
+{
+  "subject": "PSY",
+  "exam": "2025년도 2급류 체육지도자 필기시험",
+  "date": "2025-04-26",
+  "questions": [
+    {
+      "id": "PSY-2025-1",
+      "questionNumber": 1,
+      "type": "BASIC",
+      "question": "스포츠심리학자의 역할로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠심리학 이론을 가르친다."
+        },
+        {
+          "id": 2,
+          "content": "체력 향상을 위한 의약품을 판매한다."
+        },
+        {
+          "id": 3,
+          "content": "스포츠심리학 관련 연구를 수행하고 현장에 응용한다."
+        },
+        {
+          "id": 4,
+          "content": "심리기술훈련을 적용해 선수들의 경기력 향상을 돕는다."
+        }
+      ],
+      "answer": 2,
+      "explanation": "스포츠심리학자는 교육, 연구, 상담(심리기술훈련)을 주된 역할로 수행합니다. 의약품 판매는 약사나 의사의 전문 영역으로 심리학자의 역할이 아닙니다."
+    },
+    {
+      "id": "PSY-2025-2",
+      "questionNumber": 2,
+      "type": "BASIC",
+      "question": "심상에 관한 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "동기를 유발하고 강화한다."
+        },
+        {
+          "id": 2,
+          "content": "감정을 조절하는 데 도움이 된다."
+        },
+        {
+          "id": 3,
+          "content": "스포츠 전략을 습득하고 연습할 수 있다."
+        },
+        {
+          "id": 4,
+          "content": "통증과 부상을 대처하는 데 도움이 되지 않는다."
+        }
+      ],
+      "answer": 4,
+      "explanation": "심상은 동기 유발, 감정 조절, 전략 습득뿐만 아니라 부상 상황에서의 통증 대처 및 재활 의지 고취 등 부상 관리에도 매우 효과적인 기법입니다."
+    },
+    {
+      "id": "PSY-2025-3",
+      "questionNumber": 3,
+      "type": "COMBINATION_SELECT",
+      "question": "보기 중 내적동기를 향상하는 전략으로 옳은 것만을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "성공 경험을 갖게 한다."
+        },
+        {
+          "id": "ㄴ",
+          "content": "언어적, 비언어적 칭찬을 자주 한다."
+        },
+        {
+          "id": "ㄷ",
+          "content": "팀의 의사결정에 선수를 참여시킨다."
+        },
+        {
+          "id": "ㄹ",
+          "content": "물질적 보상과 처벌을 주로 활용한다."
+        },
+        {
+          "id": "ㅁ",
+          "content": "최대한 높은 결과목표를 설정하여 도전하게 한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ, ㄴ, ㄷ"
+        },
+        {
+          "id": 2,
+          "content": "ㄱ, ㄴ, ㄹ"
+        },
+        {
+          "id": 3,
+          "content": "ㄴ, ㄷ, ㄹ"
+        },
+        {
+          "id": 4,
+          "content": "ㄷ, ㄹ, ㅁ"
+        }
+      ],
+      "answer": 1,
+      "explanation": "성공 경험(ㄱ), 칭찬(ㄴ), 의사결정 참여(ㄷ)는 선수의 유능감과 자율성을 높여 내적동기를 강화합니다. 반면 물질적 보상(ㄹ)은 외적동기 요인이며, 너무 높은 결과목표(ㅁ)는 실패에 대한 불안을 높일 수 있습니다."
+    },
+    {
+      "id": "PSY-2025-4",
+      "questionNumber": 4,
+      "type": "BASIC",
+      "question": "목표설정 원리로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "수행목표보다 결과목표를 강조한다."
+        },
+        {
+          "id": 2,
+          "content": "구체적이고 객관적인 목표를 설정한다."
+        },
+        {
+          "id": 3,
+          "content": "부정적인 목표보다 긍정적인 목표를 강조한다."
+        },
+        {
+          "id": 4,
+          "content": "단기목표, 중기목표, 장기목표를 함께 설정한다."
+        }
+      ],
+      "answer": 1,
+      "explanation": "목표 설정 시에는 승패와 같은 결과목표보다 본인의 노력으로 조절 가능한 수행목표나 과정목표를 강조하는 것이 자신감을 유지하고 불안을 조절하는 데 더 효과적입니다."
+    },
+    {
+      "id": "PSY-2025-5",
+      "questionNumber": 5,
+      "type": "PASSAGE",
+      "question": "보기가 설명하는 가설은?",
+      "context": [
+        "운동은 세로토닌, 노르에피네프린, 도파민과 같은 신경전달물질 분비를 증가시켜 우울증을 개선한다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "열발생 가설"
+        },
+        {
+          "id": 2,
+          "content": "모노아민 가설"
+        },
+        {
+          "id": 3,
+          "content": "사회심리적 가설"
+        },
+        {
+          "id": 4,
+          "content": "생리적 강인함 가설"
+        }
+      ],
+      "answer": 2,
+      "explanation": "세로토닌, 도파민 등 모노아민 계열의 신경전달물질 변화를 통해 운동의 심리적 효과(우울증 개선 등)를 설명하는 가설은 모노아민 가설입니다."
+    },
+    {
+      "id": "PSY-2025-6",
+      "questionNumber": 6,
+      "type": "PASSAGE",
+      "question": "보기에 해당하는 학자는?",
+      "context": [
+        "주요 활동은 1921~1938년",
+        "최초로 스포츠심리학 실험실 설립",
+        "북미 스포츠심리학의 아버지라고 불림",
+        "시카고 컵스 야구팀 스포츠 심리 상담사",
+        "코칭심리학(Psychology of Coaching, 1926) 책 출판"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "프랭클린 헨리(Franklin Henry)"
+        },
+        {
+          "id": 2,
+          "content": "콜먼 그리피스(Coleman Griffith)"
+        },
+        {
+          "id": 3,
+          "content": "레이너 마틴즈(Rainer Martens)"
+        },
+        {
+          "id": 4,
+          "content": "노먼 트리플렛(Norman Triplett)"
+        }
+      ],
+      "answer": 2,
+      "explanation": "콜먼 그리피스(Coleman Griffith)는 북미 최초로 스포츠심리학 실험실을 설립하고 체계적인 연구와 저술 활동을 펼쳐 '북미 스포츠심리학의 아버지'로 불립니다."
+    },
+    {
+      "id": "PSY-2025-7",
+      "questionNumber": 7,
+      "type": "BASIC",
+      "question": "그림에서 ㉠의 고원현상에 관한 설명으로 옳지 않은 것은?",
+      "context": [
+        "수행-시간 그래프에서 일정 구간 수행이 정체되는 고원현상(㉠) 구간을 나타낸 그림"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "수행은 정체되지만, 학습은 진행된다."
+        },
+        {
+          "id": 2,
+          "content": "연습 기간에 쌓인 피로나 동기 저하로 인해서 발생할 수 있다."
+        },
+        {
+          "id": 3,
+          "content": "협응 구조가 완성되어 더 이상의 질적인 변화가 없는 시기이다."
+        },
+        {
+          "id": 4,
+          "content": "하나의 동작 유형에서 다른 동작 유형으로 전환이 발생하는 시기이다."
+        }
+      ],
+      "answer": 3,
+      "explanation": "고원현상은 겉보기 수행은 정체된 것처럼 보이지만, 내부적으로는 더 높은 단계의 협응 구조나 동작 유형으로 넘어가기 위해 질적인 변화와 학습이 계속 이루어지는 시기입니다."
+    },
+    {
+      "id": "PSY-2025-8",
+      "questionNumber": 8,
+      "type": "BASIC",
+      "question": "루틴(routine)에 관한 설명으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "다음 수행을 준비할 때 도움이 된다."
+        },
+        {
+          "id": 2,
+          "content": "경기 직전에 수정하면 경기력 향상에 도움이 된다."
+        },
+        {
+          "id": 3,
+          "content": "정신이 산만해질 때 운동과 무관한 것을 차단해 준다."
+        },
+        {
+          "id": 4,
+          "content": "최고의 경기력을 위해 필요한 자신만의 심리적·행동적 절차이다."
+        }
+      ],
+      "answer": 2,
+      "explanation": "루틴은 최적의 수행을 위해 고착화된 절차이므로, 충분한 연습 없이 경기 직전에 수정하는 것은 오히려 수행에 혼란을 주어 경기력을 저해할 수 있습니다."
+    },
+    {
+      "id": "PSY-2025-9",
+      "questionNumber": 9,
+      "type": "PASSAGE",
+      "question": "보기가 설명하는 심리기술훈련은?",
+      "context": [
+        "1958년 월피(J,Wolpe)가 개발함",
+        "불안을 일으키는 상황을 중요도 순서에 따라 10단계 정도를 준비함",
+        "불안이 낮은 순서부터 극도의 불안을 일으키는 중요도가 높은 순서로 배열하고 훈련함",
+        "불안이나 스트레스를 유발하는 자극에 노출될 때 불안반응 대신 편안한 반응을 나타냄으로써 불안이나 스트레스를 감소하는 기법임"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "자생훈련(autogenic training)"
+        },
+        {
+          "id": 2,
+          "content": "점진적 이완(progressive relaxation)"
+        },
+        {
+          "id": 3,
+          "content": "인지 재구성(cognitive restructuring)"
+        },
+        {
+          "id": 4,
+          "content": "체계적 둔감화(systematic desensitization)"
+        }
+      ],
+      "answer": 4,
+      "explanation": "불안 유발 상황을 계층화하고 낮은 강도부터 이완 훈련과 병행하여 불안 반응을 점진적으로 소거하는 기법은 체계적 둔감화입니다."
+    },
+    {
+      "id": "PSY-2025-10",
+      "questionNumber": 10,
+      "type": "COMBINATION_LINK",
+      "question": "보기의 스포츠 상황과 반응시간 유형이 바르게 연결된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "가",
+          "content": "100m 달리기 출발신호에 달려 나가는 상황"
+        },
+        {
+          "id": "나",
+          "content": "타자가 다양한 구질 중 직구에만 타격하는 상황"
+        },
+        {
+          "id": "다",
+          "content": "수비수들의 움직임에 따라 공격수가 각각 다르게 대응하는 상황"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "가-㉠(단순반응시간) / 나-㉡(선택반응시간) / 다-㉢(변별반응시간)"
+        },
+        {
+          "id": 2,
+          "content": "가-㉠ / 나-㉢ / 다-㉡"
+        },
+        {
+          "id": 3,
+          "content": "가-㉡ / 나-㉢ / 다-㉠"
+        },
+        {
+          "id": 4,
+          "content": "가-㉢ / 나-㉠ / 다-㉡"
+        }
+      ],
+      "answer": 2,
+      "explanation": "가: 하나의 자극에 정해진 하나의 반응(단순반응). 나: 여러 자극 중 특정 자극에만 반응(변별반응). 다: 상황(자극)에 따라 다른 반응을 선택(선택반응). 따라서 가-㉠, 나-㉢, 다-㉡ 연결이 옳습니다."
+    },
+    {
+      "id": "PSY-2025-11",
+      "questionNumber": 11,
+      "type": "BASIC",
+      "question": "스포츠심리상담사의 상담 윤리에 관한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "내담자와 상담실 밖에서 사적인 관계를 유지한다."
+        },
+        {
+          "id": 2,
+          "content": "비언어적 메시지보다 언어적 메시지에만 집중한다."
+        },
+        {
+          "id": 3,
+          "content": "알고 지내는 사람과 전문적인 상담을 진행하지 않는다."
+        },
+        {
+          "id": 4,
+          "content": "상담 내용은 내담자의 동의가 없어도 타인과 공유할 수 있다."
+        }
+      ],
+      "answer": 3,
+      "explanation": "상담자는 객관성과 전문성을 유지하기 위해 지인, 가족 등 사적 관계에 있는 사람과의 상담(이중 관계)을 피해야 합니다."
+    },
+    {
+      "id": "PSY-2025-12",
+      "questionNumber": 12,
+      "type": "BASIC",
+      "question": "추동이론(drive theory)에 관한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "각성수준과 운동수행은 비례한다."
+        },
+        {
+          "id": 2,
+          "content": "각성을 어떻게 해석하느냐에 따라 각성과 정서의 관계가 달라진다."
+        },
+        {
+          "id": 3,
+          "content": "인지적 불안과 신체적 불안이 각성수준에 따라 수행에 다르게 영향을 미친다."
+        },
+        {
+          "id": 4,
+          "content": "적절한 각성수준에서는 최고의 수행을 보이고 각성수준이 낮거나 높으면 운동수행이 감소한다."
+        }
+      ],
+      "answer": 1,
+      "explanation": "추동이론은 각성 수준(추동)이 높아질수록 운동 수행 효율도 비례하여 증가한다고 가정하는 초기 이론입니다. (참고: 4번은 역U자 가설에 대한 설명입니다.)"
+    },
+    {
+      "id": "PSY-2025-13",
+      "questionNumber": 13,
+      "type": "COMBINATION_MATCH",
+      "question": "보기의 ㉠, ㉡에 해당하는 용어가 바르게 나열된 것은?",
+      "context": [
+        "교사: 줄다리기의 경우, 집단이 내는 힘의 총합은 개인의 힘을 모두 합친 것보다 작아지게 된다. 이것을 ( ㉠ ) 효과라고 해. 학생: '나 하나쯤이야.' 하는 생각 때문에 힘을 덜 쓰는 거 같아요. 교사: 게으름을 피우는 사람으로 인해 집단 내에 동기의 손실이 생기는데 이것을 ( ㉡ )이라고 해."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "링겔만 / 사회적 태만"
+        },
+        {
+          "id": 2,
+          "content": "링겔만 / 사회적 촉진"
+        },
+        {
+          "id": 3,
+          "content": "플라시보 / 사회적 태만"
+        },
+        {
+          "id": 4,
+          "content": "플라시보 / 사회적 촉진"
+        }
+      ],
+      "answer": 1,
+      "explanation": "㉠: 집단 크기가 커질수록 1인당 수행 기여도가 낮아지는 현상은 '링겔만 효과'입니다. ㉡: 집단 상황에서 익명성 등으로 인해 개인의 노력을 덜 들이는 현상은 '사회적 태만'입니다."
+    },
+    {
+      "id": "PSY-2025-14",
+      "questionNumber": 14,
+      "type": "BASIC",
+      "question": "질문지 측정법 도구가 아닌 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "POMS(Profile of Mood States)"
+        },
+        {
+          "id": 2,
+          "content": "MBTI(Myers-Briggs Type Indicator)"
+        },
+        {
+          "id": 3,
+          "content": "16PF(16 Personality Factor Questionnaire)"
+        },
+        {
+          "id": 4,
+          "content": "주제통각검사(Thematic Apperception Test)"
+        }
+      ],
+      "answer": 4,
+      "explanation": "주제통각검사(TAT)는 모호한 그림을 보고 이야기를 구성하게 하여 개인의 무의식을 탐색하는 투사적 검사 기법입니다. 나머지는 자기보고식 질문지법입니다."
+    },
+    {
+      "id": "PSY-2025-15",
+      "questionNumber": 15,
+      "type": "BASIC",
+      "question": "그림에서 무관심 단계의 운동 실천 전략으로 가장 적절한 것은? (프로차스카 운동변화단계이론)",
+      "context": [
+        "프로차스카(J. Prochaska) 운동변화단계이론: 무관심 → 관심 → 준비 → 실천 → 유지"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "장시간 고강도 운동에 참여하도록 조언한다."
+        },
+        {
+          "id": 2,
+          "content": "다른 사람의 운동 멘토 역할을 하도록 한다."
+        },
+        {
+          "id": 3,
+          "content": "운동의 긍정적 효과에 관한 정보를 제공한다."
+        },
+        {
+          "id": 4,
+          "content": "운동중독의 위험성에 관한 자료를 공유한다."
+        }
+      ],
+      "answer": 3,
+      "explanation": "운동의 필요성을 전혀 느끼지 못하는 무관심 단계에서는 운동이 주는 이점과 긍정적인 효과에 대한 정보를 제공하여 인식의 변화를 유도하는 것이 최우선입니다."
+    },
+    {
+      "id": "PSY-2025-16",
+      "questionNumber": 16,
+      "type": "BASIC",
+      "question": "본능이론(instinct theory)에 관한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "인간은 목표 달성이 좌절되면 공격성을 표출한다."
+        },
+        {
+          "id": 2,
+          "content": "인간은 사회적 행위와 관찰학습으로 공격성을 배우고 표출한다."
+        },
+        {
+          "id": 3,
+          "content": "인간의 내부에는 공격성을 유발하는 에너지가 있어 공격성을 표출한다."
+        },
+        {
+          "id": 4,
+          "content": "인간은 목표가 좌절되면 무조건 공격행동을 유발하지 않고, 공격행동이 적절하다는 단서가 있을 때 공격성을 표출한다."
+        }
+      ],
+      "answer": 3,
+      "explanation": "본능이론은 인간에게 선천적으로 타고난 공격적 에너지가 있으며, 이것이 주기적으로 표출되어야 한다고 보는 생득적 관점입니다."
+    },
+    {
+      "id": "PSY-2025-17",
+      "questionNumber": 17,
+      "type": "COMBINATION_LINK",
+      "question": "보기의 ㄱ~ㄷ에 해당하는 베일리(R. Vealey)의 스포츠자신감 원천을 바르게 연결한 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "시합에서 좋은 성과를 낸다."
+        },
+        {
+          "id": "ㄴ",
+          "content": "주변 사람들이 나를 믿어준다."
+        },
+        {
+          "id": "ㄷ",
+          "content": "시합에 필요한 체력, 전략, 정신력을 갖춘다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "성취 경험 / 자기조절 / 사회적 분위기"
+        },
+        {
+          "id": 2,
+          "content": "자기조절 / 사회적 분위기 / 성취 경험"
+        },
+        {
+          "id": 3,
+          "content": "성취 경험 / 사회적 분위기 / 자기조절"
+        },
+        {
+          "id": 4,
+          "content": "사회적 분위기 / 성취 경험 / 자기조절"
+        }
+      ],
+      "answer": 3,
+      "explanation": "ㄱ: 과거의 성공적인 성과를 통한 '성취 경험'. ㄴ: 타인의 지지와 믿음을 통한 '사회적 분위기'. ㄷ: 신체적·정신적 준비를 통한 '자기조절' 능력을 나타냅니다."
+    },
+    {
+      "id": "PSY-2025-18",
+      "questionNumber": 18,
+      "type": "BASIC",
+      "question": "주의집중을 높이는 방법으로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "테니스 선수가 경기 중 루틴을 변경해 서브를 시도한다."
+        },
+        {
+          "id": 2,
+          "content": "야구 선수가 지난 이닝의 수비 실책을 생각하면서 수비한다."
+        },
+        {
+          "id": 3,
+          "content": "멀리뛰기 선수가 1등의 최고 기록을 직접 확인하고 도움닫기를 한다."
+        },
+        {
+          "id": 4,
+          "content": "골프 선수가 실제 시합과 유사한 상황을 만들어 놓고 모의훈련을 한다."
+        }
+      ],
+      "answer": 4,
+      "explanation": "실제 경기 상황과 유사한 환경에서 수행하는 모의 훈련은 경기 중 발생할 수 있는 방해 자극에 적응하고 집중력을 유지하는 능력을 키워줍니다."
+    },
+    {
+      "id": "PSY-2025-19",
+      "questionNumber": 19,
+      "type": "BASIC",
+      "question": "지도자의 처벌 행동 지침으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "처벌이 필요한 경우에는 처벌의 이유를 정확하게 말한다."
+        },
+        {
+          "id": 2,
+          "content": "동일한 규칙을 위반하면 주장과 상급 학년 선수부터 처벌한다."
+        },
+        {
+          "id": 3,
+          "content": "규칙 위반에 대한 처벌 규정을 정할 때 선수의 의견은 반영하지 않는다."
+        },
+        {
+          "id": 4,
+          "content": "처벌이 필요할 때는 단호함을 보여주고 전체 선수 앞에서 본보기로 삼는다."
+        }
+      ],
+      "answer": 1,
+      "explanation": "처벌을 행할 때는 해당 선수가 납득하고 행동을 개선할 수 있도록 처벌의 구체적인 이유를 명확하게 설명하고 일관되게 집행해야 합니다."
+    },
+    {
+      "id": "PSY-2025-20",
+      "questionNumber": 20,
+      "type": "COMBINATION_LINK",
+      "question": "보기는 맥락간섭의 양에 따른 연습 형태이다. ㉠~㉢에 해당하는 코치를 바르게 나열한 것은?",
+      "context": [
+        "맥락간섭: 높음(㉠) / 중간(㉡) / 낮음(㉢). A코치: 무선연습, B코치: 구획연습, C코치: 계열연습"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "A코치 / B코치 / C코치"
+        },
+        {
+          "id": 2,
+          "content": "B코치 / C코치 / A코치"
+        },
+        {
+          "id": 3,
+          "content": "C코치 / A코치 / B코치"
+        },
+        {
+          "id": 4,
+          "content": "A코치 / C코치 / B코치"
+        }
+      ],
+      "answer": 4,
+      "explanation": "연습 과제 간의 간섭이 가장 높은 것은 순서가 불규칙한 무선연습(A)이며, 일정한 순서를 반복하는 계열연습(C)은 중간, 하나의 과제만 반복하여 간섭이 거의 없는 구획연습(B)은 낮음에 해당합니다."
+    }
+  ]
+}

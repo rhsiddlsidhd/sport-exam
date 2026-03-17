@@ -1,0 +1,621 @@
+{
+  "subject": "SOC",
+  "exam": "2024년도 2급류 체육지도자 필기시험",
+  "date": "2024-04-27",
+  "questions": [
+    {
+      "id": "SOC-2024-1",
+      "questionNumber": 1,
+      "type": "COMBINATION_SELECT",
+      "question": "〈보기〉에서 홀리한(B. Houlihan)이 제시한 '정부(정치)의 스포츠 개입 목적'에 관한 사례인 것을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "시민들의 건강 및 체력유지를 위해 체육단체에 재원을 지원한다."
+        },
+        {
+          "id": "ㄴ",
+          "content": "체육을 포함한 교육 현장의 양성 평등을 위해 Title IX을 제정했다."
+        },
+        {
+          "id": "ㄷ",
+          "content": "공공질서를 보호하기 위해 공원에서 스케이트보드 금지, 헬멧 착용 등의 도시 조례가 제정되었다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ"
+        },
+        {
+          "id": 2,
+          "content": "ㄱ, ㄷ"
+        },
+        {
+          "id": 3,
+          "content": "ㄴ, ㄷ"
+        },
+        {
+          "id": 4,
+          "content": "ㄱ, ㄴ, ㄷ"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "SOC-2024-2",
+      "questionNumber": 2,
+      "type": "BASIC",
+      "question": "스포츠클럽법(시행 2022.6.16.)의 내용으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "지정스포츠클럽은 전문선수 육성 프로그램을 운영할 수 있다."
+        },
+        {
+          "id": 2,
+          "content": "스포츠클럽의 지원과 진흥에 필요한 사항을 규정하고 있다."
+        },
+        {
+          "id": 3,
+          "content": "국민체육진흥과 스포츠 복지 향상 및 지역사회 체육발전에 기여함을 목적으로 한다."
+        },
+        {
+          "id": 4,
+          "content": "국가 및 지방자치 단체는 스포츠클럽의 지원 및 진흥에 필요한 시책을 수립·시행하여야 한다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "SOC-2024-3",
+      "questionNumber": 3,
+      "type": "COMBINATION_SELECT",
+      "question": "〈보기〉에서 스티븐슨(C. Stevenson)과 닉슨(J. Nixon)이 구조기능주의 관점으로 설명한 스포츠의 사회적 기능 중 옳은 것만을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "사회·정서적 기능"
+        },
+        {
+          "id": "ㄴ",
+          "content": "사회갈등 유발 기능"
+        },
+        {
+          "id": "ㄷ",
+          "content": "사회 통합 기능"
+        },
+        {
+          "id": "ㄹ",
+          "content": "사회계층 이동 기능"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ, ㄴ"
+        },
+        {
+          "id": 2,
+          "content": "ㄱ, ㄷ"
+        },
+        {
+          "id": 3,
+          "content": "ㄴ, ㄹ"
+        },
+        {
+          "id": 4,
+          "content": "ㄱ, ㄷ, ㄹ"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "SOC-2024-4",
+      "questionNumber": 4,
+      "type": "COMBINATION_MATCH",
+      "question": "〈보기〉의 ㉠~㉢에 해당하는 스포츠 육성 정책 모형이 바르게 제시된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "학생들의 스포츠 참여 저변이 확대되면, 이를 기반으로 기량이 좋은 학생선수가 배출된다."
+        },
+        {
+          "id": "㉡",
+          "content": "우수한 학생선수들을 육성하면 그들의 영향으로 학생들의 스포츠 참여 저변이 확대된다."
+        },
+        {
+          "id": "㉢",
+          "content": "스포츠 선수들의 우수한 성과는 청소년의 스포츠 참여를 촉진하고, 이를 통해 형성된 스포츠 참여 저변 위에서 우수한 스포츠 선수들이 성장한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 선순환 모형 / ㉡ 낙수효과 모형 / ㉢ 피라미드 모형"
+        },
+        {
+          "id": 2,
+          "content": "㉠ 피라미드 모형 / ㉡ 선순환 모형 / ㉢ 낙수효과 모형"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 피라미드 모형 / ㉡ 낙수효과 모형 / ㉢ 선순환 모형"
+        },
+        {
+          "id": 4,
+          "content": "㉠ 낙수효과 모형 / ㉡ 피라미드 모형 / ㉢ 선순환 모형"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "SOC-2024-5",
+      "questionNumber": 5,
+      "type": "COMBINATION_SELECT",
+      "question": "〈보기〉에서 스포츠 세계화의 동인으로 옳은 것만을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "민족주의"
+        },
+        {
+          "id": "ㄴ",
+          "content": "제국주의의 확대"
+        },
+        {
+          "id": "ㄷ",
+          "content": "종교 전파"
+        },
+        {
+          "id": "ㄹ",
+          "content": "과학기술의 발전"
+        },
+        {
+          "id": "ㅁ",
+          "content": "인종차별의 심화"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ, ㄴ, ㄷ"
+        },
+        {
+          "id": 2,
+          "content": "ㄴ, ㄷ, ㅁ"
+        },
+        {
+          "id": 3,
+          "content": "ㄱ, ㄴ, ㄷ, ㄹ"
+        },
+        {
+          "id": 4,
+          "content": "ㄱ, ㄷ, ㄹ, ㅁ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "SOC-2024-6",
+      "questionNumber": 6,
+      "type": "BASIC",
+      "question": "투민(M. Tumin)이 제시한 사회계층의 특성을 스포츠에 적용한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "보편성: 대부분의 스포츠 현상에는 계층 불평등이 나타난다."
+        },
+        {
+          "id": 2,
+          "content": "역사성: 현대 스포츠에서 계층은 종목 내, 종목 간에서 나타난다."
+        },
+        {
+          "id": 3,
+          "content": "영향성: 스포츠에서 계층 불평등은 역사발전 과정을 거치며 변천해 왔다."
+        },
+        {
+          "id": 4,
+          "content": "다양성: 스포츠 참여에서 나타나는 사회적 불평등은 일상 생활에도 유사하게 나타난다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "SOC-2024-7",
+      "questionNumber": 7,
+      "type": "BASIC",
+      "question": "스포츠에서 나타나는 사회계층 이동에 대한 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠는 계층 이동을 위한 수단으로 활용된다."
+        },
+        {
+          "id": 2,
+          "content": "사회계층의 이동은 사회적 상황과 개인적 상황을 반영한다."
+        },
+        {
+          "id": 3,
+          "content": "사회 지위나 보상 체계에 차이가 뚜렷하게 발생하는 계층 이동은 '수직 이동'이다."
+        },
+        {
+          "id": 4,
+          "content": "사회계층의 이동 유형은 이동 방향에 따라 '세대 내 이동', '세대 간 이동'으로 구분한다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "SOC-2024-8",
+      "questionNumber": 8,
+      "type": "PASSAGE",
+      "question": "〈보기〉에서 설명하는 스포츠 일탈과 관련된 이론은?",
+      "context": [
+        "스포츠 일탈을 상호작용론 관점으로 설명한다",
+        "일탈 규범을 내면화하는 사회화 과정이 존재한다",
+        "다른 사람과 상호작용을 통해 스포츠 일탈 행동을 학습한다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "문화규범 이론"
+        },
+        {
+          "id": 2,
+          "content": "차별교제 이론"
+        },
+        {
+          "id": 3,
+          "content": "개인차 이론"
+        },
+        {
+          "id": 4,
+          "content": "아노미 이론"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "SOC-2024-9",
+      "questionNumber": 9,
+      "type": "PASSAGE",
+      "question": "스미스(M. Smith)가 제시한 경기장 내 신체 폭력 유형 중 〈보기〉의 설명에 해당하는 것은?",
+      "context": [
+        "경기의 규칙을 위반하는 행위지만, 대부분의 선수나 지도자들이 용인하는 폭력 행위 유형이다",
+        "이 폭력 유형은 경기 전략의 하나로 활용되며, 상대방의 보복 행위를 유발할 수 있다"
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "경계 폭력"
+        },
+        {
+          "id": 2,
+          "content": "범죄 폭력"
+        },
+        {
+          "id": 3,
+          "content": "유사 범죄 폭력"
+        },
+        {
+          "id": 4,
+          "content": "격렬한 신체 접촉"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "SOC-2024-10",
+      "questionNumber": 10,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠와 종교의 관계로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠가 종교의 역할을 대체한다."
+        },
+        {
+          "id": 2,
+          "content": "스포츠가 종교의 전파를 방해한다."
+        },
+        {
+          "id": 3,
+          "content": "스포츠와 종교는 상호 배타적이다."
+        },
+        {
+          "id": 4,
+          "content": "스포츠가 종교적 제의를 모방한다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "SOC-2024-11",
+      "questionNumber": 11,
+      "type": "BASIC",
+      "question": "베블런(T. Veblen)의 과시적 소비 이론을 스포츠에 적용한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "고가의 스포츠 장비 구매는 사회적 지위를 과시하는 수단이 된다."
+        },
+        {
+          "id": 2,
+          "content": "스포츠 참여는 계층과 무관하게 이루어진다."
+        },
+        {
+          "id": 3,
+          "content": "프로선수는 자신의 능력을 숨기기 위해 스포츠에 참여한다."
+        },
+        {
+          "id": 4,
+          "content": "유한계급은 스포츠를 통해 생산적 활동을 추구한다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "SOC-2024-12",
+      "questionNumber": 12,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 미디어 이론으로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "의제 설정 이론"
+        },
+        {
+          "id": 2,
+          "content": "문화계발 이론"
+        },
+        {
+          "id": 3,
+          "content": "이용과 충족 이론"
+        },
+        {
+          "id": 4,
+          "content": "침묵의 나선 이론"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "SOC-2024-13",
+      "questionNumber": 13,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 집단의 유형은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "1차 집단"
+        },
+        {
+          "id": 2,
+          "content": "2차 집단"
+        },
+        {
+          "id": 3,
+          "content": "내집단"
+        },
+        {
+          "id": 4,
+          "content": "준거집단"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "SOC-2024-14",
+      "questionNumber": 14,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠의 정치적 속성으로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "보수성"
+        },
+        {
+          "id": 2,
+          "content": "대표성"
+        },
+        {
+          "id": 3,
+          "content": "전체주의성"
+        },
+        {
+          "id": 4,
+          "content": "상징성"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "SOC-2024-15",
+      "questionNumber": 15,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 사회화 이론으로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "역할이론"
+        },
+        {
+          "id": 2,
+          "content": "준거집단이론"
+        },
+        {
+          "id": 3,
+          "content": "사회학습이론"
+        },
+        {
+          "id": 4,
+          "content": "상징적 상호작용이론"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "SOC-2024-16",
+      "questionNumber": 16,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠 일탈 유형은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "과소순응 일탈"
+        },
+        {
+          "id": 2,
+          "content": "과잉순응 일탈"
+        },
+        {
+          "id": 3,
+          "content": "폭력적 일탈"
+        },
+        {
+          "id": 4,
+          "content": "비윤리적 일탈"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "SOC-2024-17",
+      "questionNumber": 17,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠와 교육의 관계로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠는 교육의 역기능을 강화한다."
+        },
+        {
+          "id": 2,
+          "content": "스포츠는 사회화의 장으로 기능한다."
+        },
+        {
+          "id": 3,
+          "content": "스포츠는 교육 현장에서 배제되어야 한다."
+        },
+        {
+          "id": 4,
+          "content": "스포츠는 인지 발달을 저해한다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "SOC-2024-18",
+      "questionNumber": 18,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 스포츠와 경제의 관계로 가장 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "스포츠 산업은 서비스업에 해당한다."
+        },
+        {
+          "id": 2,
+          "content": "스포츠는 경제 활동과 무관하다."
+        },
+        {
+          "id": 3,
+          "content": "스포츠 상업화는 스포츠의 순수성을 강화한다."
+        },
+        {
+          "id": 4,
+          "content": "스폰서십은 스포츠 발전을 저해한다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "SOC-2024-19",
+      "questionNumber": 19,
+      "type": "BASIC",
+      "question": "스포츠로부터의 탈사회화에 관한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "부상, 방출 등의 자발적 은퇴로 탈사회화를 경험한다."
+        },
+        {
+          "id": 2,
+          "content": "스포츠 참여를 통한 행동의 변화를 스포츠로부터의 탈사회화라고 한다."
+        },
+        {
+          "id": 3,
+          "content": "개인의 심리상태, 태도에 의해 참여가 제한되는 것을 내재적 제약이라고 한다."
+        },
+        {
+          "id": 4,
+          "content": "재정, 시간, 환경적 상황에 의해 참여가 제한되는 것을 대인적 제약이라고 한다."
+        }
+      ],
+      "answer": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "SOC-2024-20",
+      "questionNumber": 20,
+      "type": "BASIC",
+      "question": "과학기술의 발전에 따른 스포츠의 변화에 관한 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "IoT, 웨어러블 디바이스 발전으로 경기력 측정의 혁신을 가져왔다."
+        },
+        {
+          "id": 2,
+          "content": "프로야구 경기에서 VAR 시스템 적용은 인간심판의 역할을 강화시켰다."
+        },
+        {
+          "id": 3,
+          "content": "4차 산업혁명에 따른 초지능, 초연결은 스포츠 빅데이터의 활용을 확대시켰다."
+        },
+        {
+          "id": 4,
+          "content": "VR, XR 디바이스의 발전으로 가상현실 공간을 활용한 트레이닝이 가능해졌다."
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}

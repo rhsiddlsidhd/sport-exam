@@ -11,17 +11,17 @@ export const EXAM_QUESTION_TYPES = [
 export type ExamQuestionType = (typeof EXAM_QUESTION_TYPES)[number];
 
 export interface ExamOption {
-  id: number;      // 1 ~ 4 고정
+  id: number; // 1 ~ 4 고정
   content: string;
 }
 
 export interface ExamContextItem {
-  id: string;      // "ㄱ" | "ㄴ" | "가" | "나" | "㉠" 등
+  id: string; // "ㄱ" | "ㄴ" | "가" | "나" | "㉠" 등
   content: string;
 }
 
 export interface ExamQuestion {
-  id: string;
+  id: string; // "{subject}-{year}-{questionNumber}" 예: "SOC-2025-1"
   questionNumber: number;
   type: ExamQuestionType;
   question: string;
@@ -29,16 +29,12 @@ export interface ExamQuestion {
   contextItems: ExamContextItem[] | null;
   options: ExamOption[];
   answer: number | number[];
+  explanation?: string | null;
 }
 
-export interface ExamSubject {
+export interface SubjectExam {
   subject: SubjectCode;
-  subjectCode: string;
-  questions: ExamQuestion[];
-}
-
-export interface Exam {
   exam: string;
   date: string;
-  subjects: ExamSubject[];
+  questions: ExamQuestion[];
 }

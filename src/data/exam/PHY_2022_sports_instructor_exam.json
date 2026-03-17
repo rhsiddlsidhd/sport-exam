@@ -1,0 +1,650 @@
+{
+  "subject": "PHY",
+  "exam": "2022년도 2급류 체육지도자 필기시험",
+  "date": "2022-05-07",
+  "questions": [
+    {
+      "id": "PHY-2022-1",
+      "questionNumber": 1,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 트레이닝의 원리는?",
+      "context": [
+        "트레이닝의 효과는 운동에 동원된 근육에서만 발생한다.",
+        "근력 향상을 위해서는 저항성 트레이닝이 적합하다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "특이성의 원리"
+        },
+        {
+          "id": 2,
+          "content": "가역성의 원리"
+        },
+        {
+          "id": 3,
+          "content": "과부하의 원리"
+        },
+        {
+          "id": 4,
+          "content": "다양성의 원리"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2022-2",
+      "questionNumber": 2,
+      "type": "BASIC",
+      "question": "체온 저하 시 생리적 반응으로 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "심박수 증가"
+        },
+        {
+          "id": 2,
+          "content": "피부혈관 확장"
+        },
+        {
+          "id": 3,
+          "content": "땀샘의 땀 분비 증가"
+        },
+        {
+          "id": 4,
+          "content": "골격근 떨림(shivering) 증가"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2022-3",
+      "questionNumber": 3,
+      "type": "BASIC",
+      "question": "지구성 트레이닝 후 최대 동-정맥 산소차(maximal arterial-venous oxygen difference) 증가에 기여하는 요인으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "미토콘드리아 크기 증가"
+        },
+        {
+          "id": 2,
+          "content": "미토콘드리아 수 증가"
+        },
+        {
+          "id": 3,
+          "content": "모세혈관 밀도 감소"
+        },
+        {
+          "id": 4,
+          "content": "총 혈액량 증가"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2022-4",
+      "questionNumber": 4,
+      "type": "COMBINATION_SELECT",
+      "question": "<보기>에서 운동유발성 근육경직(exercise-associated muscle cramps)을 방지하기 위한 방법으로 적절한 것을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "발생하기 쉬운 근육을 규칙적으로 스트레칭 한다."
+        },
+        {
+          "id": "㉡",
+          "content": "필요 시 운동 강도와 지속 시간을 감소시킨다."
+        },
+        {
+          "id": "㉢",
+          "content": "수분과 전해질의 균형을 유지한다."
+        },
+        {
+          "id": "㉣",
+          "content": "탄수화물 저장량을 낮춘다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 3,
+          "content": "㉠, ㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉠, ㉡, ㉢, ㉣"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2022-5",
+      "questionNumber": 5,
+      "type": "BASIC",
+      "question": "1회 박출량(stroke volume)에 관한 설명으로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "심실 수축력이 증가하면 1회 박출량은 증가한다."
+        },
+        {
+          "id": 2,
+          "content": "평균 동맥혈압이 감소하면 1회 박출량은 증가한다."
+        },
+        {
+          "id": 3,
+          "content": "심장으로 돌아오는 정맥혈 회귀(venous return)가 감소하면 1회 박출량은 감소한다."
+        },
+        {
+          "id": 4,
+          "content": "수축기말 용적(end-systolic volume)에서 확장기말 용적(end-diastolic volume)을 뺀 값이다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2022-6",
+      "questionNumber": 6,
+      "type": "PASSAGE",
+      "question": "<보기>에서 설명하는 중추신경계 기관은?",
+      "context": [
+        "시상과 시상하부로 구성된다.",
+        "시상은 감각을 통합·조절한다.",
+        "시상하부는 심박수와 심장 수축, 호흡, 소화, 체온, 식욕 및 음식 섭취를 조절한다."
+      ],
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "간뇌(diencephalon)"
+        },
+        {
+          "id": 2,
+          "content": "대뇌(cerebrum)"
+        },
+        {
+          "id": 3,
+          "content": "소뇌(cerebellum)"
+        },
+        {
+          "id": 4,
+          "content": "척수(spinal cord)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2022-7",
+      "questionNumber": 7,
+      "type": "BASIC",
+      "question": "직립 상태에서 폐-혈액 간 산소확산 능력은 안정 시와 비교하여 운동 시 증가한다. 이에 기여하는 요인으로 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "폐포와 모세혈관 사이의 호흡막(respiratory membrane) 두께 증가"
+        },
+        {
+          "id": 2,
+          "content": "증가한 혈압으로 인한 폐 윗부분(상층부)으로의 혈류량 증가"
+        },
+        {
+          "id": 3,
+          "content": "폐정맥 혈액 내 높은 산소분압"
+        },
+        {
+          "id": 4,
+          "content": "폐동맥 혈액 내 높은 산소분압"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2022-8",
+      "questionNumber": 8,
+      "type": "BASIC",
+      "question": "건강체력 요소 측정으로만 나열되지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "오래달리기 측정, 생체전기저항분석(bioelectric impedance analysis)"
+        },
+        {
+          "id": 2,
+          "content": "앉아윗몸앞으로굽히기 측정, 윗몸일으키기 측정"
+        },
+        {
+          "id": 3,
+          "content": "배근력 측정, 제자리높이뛰기 측정"
+        },
+        {
+          "id": 4,
+          "content": "팔굽혀펴기 측정, 악력 측정"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2022-9",
+      "questionNumber": 9,
+      "type": "BASIC",
+      "question": "운동하는 근육으로의 혈류량을 증가시키는 국소적 내인성(intrinsic) 자율조절 요소로 적절하지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "수소이온, 이산화탄소, 젖산 등 대사 부산물"
+        },
+        {
+          "id": 2,
+          "content": "부신수질로부터 분비된 카테콜아민(catecholamine)"
+        },
+        {
+          "id": 3,
+          "content": "혈관 벽에 작용하는 압력에 따른 근원성(myogenic) 반응"
+        },
+        {
+          "id": 4,
+          "content": "혈관내피세포(endothelial cell)에서 생성된 산화질소, 프로스타글랜딘(prostaglandin), 과분극인자(hyperpolarizing factor)"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2022-10",
+      "questionNumber": 10,
+      "type": "COMBINATION_LINK",
+      "question": "<보기>의 ㉠~㉢에 들어갈 용어가 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "골격근막의 활동전위는 가로세관(T-tubule)을 타고 이동하여 근형질세망(sarcoplasmic reticulum)으로부터 ( ㉠ ) 유리를 자극한다."
+        },
+        {
+          "id": "㉡㉢",
+          "content": "유리된 ( ㉠ )은 액틴(actin) 세사의 ( ㉡ )에 결합하고, ( ㉡ )은 ( ㉢ )을 이동시켜 마이오신(myosin) 머리가 액틴과 결합할 수 있도록 한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-칼륨 / ㉡-트로포닌 / ㉢-트로포마이오신"
+        },
+        {
+          "id": 2,
+          "content": "㉠-칼슘 / ㉡-트로포마이오신 / ㉢-트로포닌"
+        },
+        {
+          "id": 3,
+          "content": "㉠-칼륨 / ㉡-트로포마이오신 / ㉢-트로포닌"
+        },
+        {
+          "id": 4,
+          "content": "㉠-칼슘 / ㉡-트로포닌 / ㉢-트로포마이오신"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2022-11",
+      "questionNumber": 11,
+      "type": "BASIC",
+      "question": "<그림>은 폐활량계를 활용하여 측정한 폐용적(량)을 나타낸 것이다. ㉠~㉣에서 안정 시와 비교하여 운동 시 변화에 대한 설명으로 적절한 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠: 증가"
+        },
+        {
+          "id": 2,
+          "content": "㉡: 감소"
+        },
+        {
+          "id": 3,
+          "content": "㉢: 감소"
+        },
+        {
+          "id": 4,
+          "content": "㉣: 증가"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2022-12",
+      "questionNumber": 12,
+      "type": "COMBINATION_SELECT",
+      "question": "<보기> 중 저항성 트레이닝 후 생리적 적응으로 적절한 것을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "골 무기질 함량 증가"
+        },
+        {
+          "id": "㉡",
+          "content": "액틴(actin) 단백질 양 증가"
+        },
+        {
+          "id": "㉢",
+          "content": "시냅스(synapse) 소포 수 감소"
+        },
+        {
+          "id": "㉣",
+          "content": "신경근접합부(neuromuscular junction) 크기 감소"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 3,
+          "content": "㉠, ㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉠, ㉡, ㉢, ㉣"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2022-13",
+      "questionNumber": 13,
+      "type": "COMBINATION_SELECT",
+      "question": "<보기> 중 지구성 트레이닝 후 1회 박출량(stroke volume) 증가에 기여하는 요인으로 적절한 것만 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "동일한 절대 강도 운동 시 확장기말 용적(end-diastolic volume) 감소"
+        },
+        {
+          "id": "㉡",
+          "content": "동일한 절대 강도 운동 시 수축기말 용적(end-systolic volume) 증가"
+        },
+        {
+          "id": "㉢",
+          "content": "동일한 절대 강도 운동 시 확장기(diastolic) 혈액 충만 시간 증가"
+        },
+        {
+          "id": "㉣",
+          "content": "동일한 절대 강도 운동 시 심박수 감소"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 3,
+          "content": "㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉢, ㉣"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2022-14",
+      "questionNumber": 14,
+      "type": "COMBINATION_MATCH",
+      "question": "<보기>의 ㉠, ㉡에 들어갈 내용이 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "골격근의 신장성 수축은 수축 속도가 ( ㉠ ) 더 큰 힘이 생성된다."
+        },
+        {
+          "id": "㉡",
+          "content": "동일 골격근에서 단축성 수축은 신장성 수축에 비해 같은 속도에서 더 ( ㉡ ) 힘이 생성된다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-빠를수록 / ㉡-작은"
+        },
+        {
+          "id": 2,
+          "content": "㉠-느릴수록 / ㉡-작은"
+        },
+        {
+          "id": 3,
+          "content": "㉠-느릴수록 / ㉡-큰"
+        },
+        {
+          "id": 4,
+          "content": "㉠-빠를수록 / ㉡-큰"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2022-15",
+      "questionNumber": 15,
+      "type": "BASIC",
+      "question": "혈액순환 시 혈압의 감소가 가장 크게 발생하는 혈관은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "모세혈관(capillary)"
+        },
+        {
+          "id": 2,
+          "content": "세동맥(arteriole)"
+        },
+        {
+          "id": 3,
+          "content": "세정맥(venule)"
+        },
+        {
+          "id": 4,
+          "content": "대동맥(aorta)"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2022-16",
+      "questionNumber": 16,
+      "type": "BASIC",
+      "question": "스프린트 트레이닝 후 나타나는 생리적 적응이 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "속근 섬유 비대 - 해당과정을 통한 ATP 생산능력 향상"
+        },
+        {
+          "id": 2,
+          "content": "지근 섬유 비대 - 해당과정을 통한 ATP 생산능력 향상"
+        },
+        {
+          "id": 3,
+          "content": "속근 섬유 비대 - 해당과정을 통한 ATP 생산능력 저하"
+        },
+        {
+          "id": 4,
+          "content": "지근 섬유 비대 - 해당과정을 통한 ATP 생산능력 저하"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2022-17",
+      "questionNumber": 17,
+      "type": "COMBINATION_MATCH",
+      "question": "<보기>의 ㉠, ㉡에 들어갈 용어가 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠㉡",
+          "content": "지방의 베타(β) 산화는 중성지방으로부터 분리된 ( ㉠ )이 미토콘드리아 내에서 여러 단계를 거쳐 ( ㉡ )(으)로 전환되는 과정을 뜻한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-유리지방산(free fatty acid) / ㉡-아세틸 조효소-A(Acetyl CoA)"
+        },
+        {
+          "id": 2,
+          "content": "㉠-유리지방산(free fatty acid) / ㉡-젖산(lactic acid)"
+        },
+        {
+          "id": 3,
+          "content": "㉠-글리세롤(glycerol) / ㉡-아세틸 조효소-A(Acetyl CoA)"
+        },
+        {
+          "id": 4,
+          "content": "㉠-글리세롤(glycerol) / ㉡-젖산(lactic acid)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2022-18",
+      "questionNumber": 18,
+      "type": "COMBINATION_MATCH",
+      "question": "<보기>의 ㉠, ㉡에 들어갈 용어가 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠㉡",
+          "content": "운동 시 교감신경계가 활성화되면, 골격근으로의 혈류량은 ( ㉠ )하고 내장기관으로의 혈류량은 ( ㉡ )한다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-감소 / ㉡-증가"
+        },
+        {
+          "id": 2,
+          "content": "㉠-감소 / ㉡-감소"
+        },
+        {
+          "id": 3,
+          "content": "㉠-증가 / ㉡-감소"
+        },
+        {
+          "id": 4,
+          "content": "㉠-증가 / ㉡-증가"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2022-19",
+      "questionNumber": 19,
+      "type": "COMBINATION_SELECT",
+      "question": "<보기> 중 적절한 것으로만 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "인슐린(insulin)은 혈당을 증가시킨다."
+        },
+        {
+          "id": "㉡",
+          "content": "성장호르몬(growth hormone)은 단백질 합성을 감소시킨다."
+        },
+        {
+          "id": "㉢",
+          "content": "에리스로포이에틴(erythropoietin)은 적혈구 생산을 촉진시킨다."
+        },
+        {
+          "id": "㉣",
+          "content": "항이뇨호르몬(antidiuretic hormone)은 수분손실을 감소시킨다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 3,
+          "content": "㉡, ㉣"
+        },
+        {
+          "id": 4,
+          "content": "㉢, ㉣"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2022-20",
+      "questionNumber": 20,
+      "type": "BASIC",
+      "question": "<그림>은 막 전위의 변화를 나타낸 것이다. ㉠~㉣ 중 탈분극(depolarization)에 해당하는 시점은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠"
+        },
+        {
+          "id": 2,
+          "content": "㉡"
+        },
+        {
+          "id": 3,
+          "content": "㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉣"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "subject": "PHY",
+  "exam": "2024년도 2급류 체육지도자 필기시험",
+  "date": "2024-04-27",
+  "questions": [
+    {
+      "id": "PHY-2024-1",
+      "questionNumber": 1,
+      "type": "BASIC",
+      "question": "지구성 훈련에 의한 지근섬유(Type I)의 생리적 변화로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "모세혈관 밀도 증가"
+        },
+        {
+          "id": 2,
+          "content": "마이오글로빈 함유량 감소"
+        },
+        {
+          "id": 3,
+          "content": "미토콘드리아의 수와 크기 증가"
+        },
+        {
+          "id": 4,
+          "content": "절대 운동강도에서의 젖산 농도 감소"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2024-2",
+      "questionNumber": 2,
+      "type": "BASIC",
+      "question": "유산소성 트레이닝을 통한 근육 내 미토콘드리아 변화와 관련된 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "근원섬유 사이의 미토콘드리아 밀도 증가"
+        },
+        {
+          "id": 2,
+          "content": "근육 내 젖산과 수소 이온(H+) 생성 감소"
+        },
+        {
+          "id": 3,
+          "content": "손상된 미토콘드리아 분해 및 제거율 감소"
+        },
+        {
+          "id": 4,
+          "content": "근육 내 크레아틴인산(phosphocreatine) 소모량 감소"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2024-3",
+      "questionNumber": 3,
+      "type": "BASIC",
+      "question": "운동 중 지방분해를 촉진하는 요인으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "인슐린 증가"
+        },
+        {
+          "id": 2,
+          "content": "글루카곤 증가"
+        },
+        {
+          "id": 3,
+          "content": "에피네프린 증가"
+        },
+        {
+          "id": 4,
+          "content": "순환성(cyclic) AMP 증가"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2024-4",
+      "questionNumber": 4,
+      "type": "BASIC",
+      "question": "운동에 대한 심혈관 반응에 관한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "점증 부하 운동 시 심근산소소비량 감소"
+        },
+        {
+          "id": 2,
+          "content": "고강도 운동 시 내장 기관으로의 혈류 분배 비율 증가"
+        },
+        {
+          "id": 3,
+          "content": "일정한 부하의 장시간 운동 시 시간 경과에 따른 심박수 감소"
+        },
+        {
+          "id": 4,
+          "content": "고강도 운동 시 활동근의 세동맥(arterioles) 확장을 통한 혈류량 증가"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2024-5",
+      "questionNumber": 5,
+      "type": "COMBINATION_LINK",
+      "question": "〈보기〉의 ㉠, ㉡에 들어갈 용어가 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "심장의 부담을 나타내는 심근산소소비량은 심박수와 ( ㉠ )을 곱하여 산출한다."
+        },
+        {
+          "id": "㉡",
+          "content": "산소섭취량이 동일한 운동 시 다리 운동이 팔 운동에 비해 심근 산소소비량이 더 ( ㉡ ) 나타난다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 1회 박출량 / ㉡ 높게"
+        },
+        {
+          "id": 2,
+          "content": "㉠ 1회 박출량 / ㉡ 낮게"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 수축기 혈압 / ㉡ 높게"
+        },
+        {
+          "id": 4,
+          "content": "㉠ 수축기 혈압 / ㉡ 낮게"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2024-6",
+      "questionNumber": 6,
+      "type": "COMBINATION_LINK",
+      "question": "골격근의 수축 특성을 결정하는 요인에 대한 설명 중 〈보기〉의 ㉠, ㉡에 들어갈 용어가 바르게 연결된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "특이장력 = 근력 / ( ㉠ )"
+        },
+        {
+          "id": "㉡",
+          "content": "근파워 = 힘 × ( ㉡ )"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 근횡단면적 / ㉡ 수축속도"
+        },
+        {
+          "id": 2,
+          "content": "㉠ 근횡단면적 / ㉡ 수축시간"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 근파워 / ㉡ 수축속도"
+        },
+        {
+          "id": 4,
+          "content": "㉠ 근파워 / ㉡ 수축시간"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2024-7",
+      "questionNumber": 7,
+      "type": "COMBINATION_LINK",
+      "question": "〈보기〉의 ㉠~㉢에 들어갈 용어가 바르게 나열된 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "㉠",
+          "content": "근방추 - ( ㉠ ) 정보 전달"
+        },
+        {
+          "id": "㉡",
+          "content": "골지건기관 - ( ㉡ ) 정보 전달"
+        },
+        {
+          "id": "㉢",
+          "content": "근육의 화학수용기 - ( ㉢ ) 정보 전달"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 근육의 길이 / ㉡ 근육 대사량 / ㉢ 힘 생성량"
+        },
+        {
+          "id": 2,
+          "content": "㉠ 근육 대사량 / ㉡ 힘 생성량 / ㉢ 근육의 길이"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 근육 대사량 / ㉡ 근육의 길이 / ㉢ 힘 생성량"
+        },
+        {
+          "id": 4,
+          "content": "㉠ 근육의 길이 / ㉡ 힘 생성량 / ㉢ 근육 대사량"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2024-8",
+      "questionNumber": 8,
+      "type": "BASIC",
+      "question": "〈그림〉은 도피반사(withdrawal reflex)와 교차신전반사(crossed-extensor reflex)를 나타낸 것이다. 이에 관한 설명으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "반사궁 경로를 통해 통증 자극에 대한 빠른 반사가 일어난다."
+        },
+        {
+          "id": 2,
+          "content": "통증 수용기로부터 활동전위가 발생하여 척수로 전달된다."
+        },
+        {
+          "id": 3,
+          "content": "신체 균형을 유지하기 위해 반대편 대퇴의 굴곡근 수축이 억제된다."
+        },
+        {
+          "id": 4,
+          "content": "통증을 회피하기 위해 통증 부위 대퇴의 굴곡근과 신전근이 동시에 수축된다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2024-9",
+      "questionNumber": 9,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 운동 시 에너지 대사 과정은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "ATP-PC 시스템"
+        },
+        {
+          "id": 2,
+          "content": "젖산 시스템"
+        },
+        {
+          "id": 3,
+          "content": "유산소 시스템"
+        },
+        {
+          "id": 4,
+          "content": "지방산 산화"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2024-10",
+      "questionNumber": 10,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 고온 환경에서의 운동 생리 반응은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "발한 감소"
+        },
+        {
+          "id": 2,
+          "content": "피부 혈류량 증가"
+        },
+        {
+          "id": 3,
+          "content": "심부 체온 감소"
+        },
+        {
+          "id": 4,
+          "content": "혈장량 증가"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2024-11",
+      "questionNumber": 11,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 운동과 면역의 관계는?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "중등도 운동은 면역기능을 향상시킨다."
+        },
+        {
+          "id": 2,
+          "content": "고강도 운동은 면역기능에 영향을 미치지 않는다."
+        },
+        {
+          "id": 3,
+          "content": "장기간 과훈련은 면역기능을 향상시킨다."
+        },
+        {
+          "id": 4,
+          "content": "운동은 NK세포의 활성을 억제한다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2024-12",
+      "questionNumber": 12,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 운동 시 호르몬 반응은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "인슐린 증가"
+        },
+        {
+          "id": 2,
+          "content": "코티졸 증가"
+        },
+        {
+          "id": 3,
+          "content": "글루카곤 감소"
+        },
+        {
+          "id": 4,
+          "content": "에스트로겐 감소"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2024-13",
+      "questionNumber": 13,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 근육 수축 유형은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "등척성 수축"
+        },
+        {
+          "id": 2,
+          "content": "등장성 수축"
+        },
+        {
+          "id": 3,
+          "content": "단축성 수축"
+        },
+        {
+          "id": 4,
+          "content": "신장성 수축"
+        }
+      ],
+      "answer": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "PHY-2024-14",
+      "questionNumber": 14,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 뼈의 리모델링(remodeling) 과정은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "골형성 과정"
+        },
+        {
+          "id": 2,
+          "content": "골흡수 과정"
+        },
+        {
+          "id": 3,
+          "content": "골리모델링 과정"
+        },
+        {
+          "id": 4,
+          "content": "골무기질화 과정"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2024-15",
+      "questionNumber": 15,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 최대산소섭취량(VO2max)에 관한 내용으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "심폐기능의 지표로 사용된다."
+        },
+        {
+          "id": 2,
+          "content": "트레이닝으로 향상될 수 있다."
+        },
+        {
+          "id": 3,
+          "content": "나이가 들수록 증가한다."
+        },
+        {
+          "id": 4,
+          "content": "유산소 능력을 나타낸다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2024-16",
+      "questionNumber": 16,
+      "type": "BASIC",
+      "question": "〈보기〉에서 설명하는 운동과 뼈 건강에 관한 내용으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "수영은 골밀도 향상에 효과적이다."
+        },
+        {
+          "id": 2,
+          "content": "체중부하 운동은 골밀도 향상에 도움이 된다."
+        },
+        {
+          "id": 3,
+          "content": "유연성 운동은 골밀도를 감소시킨다."
+        },
+        {
+          "id": 4,
+          "content": "노인의 운동 참여는 골다공증 예방에 효과가 없다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2024-17",
+      "questionNumber": 17,
+      "type": "COMBINATION_SELECT",
+      "question": "〈표〉는 참가자의 폐환기 검사 결과이다. 〈보기〉에서 옳은 것만을 모두 고른 것은?",
+      "context": null,
+      "contextItems": [
+        {
+          "id": "ㄱ",
+          "content": "세 참가자의 분당환기량은 동일하다."
+        },
+        {
+          "id": "ㄴ",
+          "content": "다영의 폐포 환기량은 분당 6L/min이다."
+        },
+        {
+          "id": "ㄷ",
+          "content": "주은의 폐포 환기량이 가장 크다."
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "content": "ㄱ, ㄴ"
+        },
+        {
+          "id": 2,
+          "content": "ㄱ, ㄷ"
+        },
+        {
+          "id": 3,
+          "content": "ㄴ, ㄷ"
+        },
+        {
+          "id": 4,
+          "content": "ㄱ, ㄴ, ㄷ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2024-18",
+      "questionNumber": 18,
+      "type": "BASIC",
+      "question": "1회 박출량(stroke volume) 증가 요인으로 옳지 않은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "심박수 증가"
+        },
+        {
+          "id": 2,
+          "content": "심실 수축력 증가"
+        },
+        {
+          "id": 3,
+          "content": "평균 동맥혈압(MAP) 감소"
+        },
+        {
+          "id": 4,
+          "content": "심실 이완기말 혈액량(EDV) 증가"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2024-19",
+      "questionNumber": 19,
+      "type": "BASIC",
+      "question": "골격근 섬유에 관한 설명으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "근수축에 필요한 칼슘(Ca2+)은 근형질세망에 저장되어 있다."
+        },
+        {
+          "id": 2,
+          "content": "운동단위(motor unit)는 감각뉴런과 그것이 지배하는 근섬유의 결합이다."
+        },
+        {
+          "id": 3,
+          "content": "신경근 접합부(neuromuscular junction)에서 분비되는 근수축 신경전달물질은 에피네프린이다."
+        },
+        {
+          "id": 4,
+          "content": "지연성 근통증은 골격근의 신장성(eccentric) 수축보다 단축성(concentric) 수축 시 더 쉽게 발생한다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2024-20",
+      "questionNumber": 20,
+      "type": "BASIC",
+      "question": "지근섬유(Type I)와 비교되는 속근섬유(Type II)의 특성으로 옳은 것은?",
+      "context": null,
+      "contextItems": null,
+      "options": [
+        {
+          "id": 1,
+          "content": "높은 피로 저항력"
+        },
+        {
+          "id": 2,
+          "content": "근형질세망의 발달"
+        },
+        {
+          "id": 3,
+          "content": "마이오신 ATPase의 느린 활성"
+        },
+        {
+          "id": 4,
+          "content": "운동신경세포(뉴런)의 작은 직경"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}
