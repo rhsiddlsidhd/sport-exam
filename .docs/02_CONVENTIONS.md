@@ -13,7 +13,7 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
 | 페이지 파일         | PascalCase | `NotesPage.tsx`, `ReviewPage.tsx`  |
 | 훅/유틸 파일        | camelCase  | `useQuiz.ts`, `shuffle.ts`         |
 | 상수/타입 파일      | camelCase  | `label.ts`                         |
-| JSON 데이터 파일    | snake_case | `2025_sports_instructor_exam.json` |
+| JSON 데이터 파일    | `{SUBJECT}_{year}_snake_case` | `SOC_2025_sports_instructor_exam.json` |
 | CSS 클래스 (커스텀) | kebab-case | `.scrollbar-hide`                  |
 
 ## Atomic Design 분류 기준

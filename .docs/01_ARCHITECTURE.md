@@ -23,7 +23,7 @@ src/
 │   ├── atoms/                     # 최소 단위 UI (Button, Typography 등)
 │   ├── molecules/                 # atoms 조합 단위
 │   ├── organisms/                 # molecules 조합 단위
-│   └── layout/                    # 레이아웃 컴포넌트 (Header, YearLayout 등)
+│   └── layout/                    # 레이아웃 컴포넌트 (Header, SubjectLayout 등)
 ├── pages/                         # 라우팅 단위 페이지
 ├── hooks/                         # 커스텀 훅
 ├── types/                         # 타입 정의
@@ -32,7 +32,8 @@ src/
 ├── constants/                     # 상수
 │   └── label.ts                   # subjectLabel 맵 (코드 → 한국어)
 └── data/                          # 정적 JSON
-    └── {year}_sports-instructor_exam.json
+    └── exam/
+        └── {SUBJECT}_{year}_sports_instructor_exam.json
 ```
 
 ## 라우팅 구조
@@ -40,10 +41,10 @@ src/
 ```
 <Header>                           # Outlet 포함 (layout route)
   /                  → <App />
-  <YearLayout>                     # Outlet 포함 (layout route)
-    /:year           → <YearPage />
-      /:year/:subject → <SubjectPage />
-  </YearLayout>
+  <SubjectLayout>                  # Outlet 포함 (layout route)
+    /:subject        → <SubjectPage />
+      /:subject/:year → <QuestionPage />
+  </SubjectLayout>
   /review            → <ReviewPage />
   /notes             → <NotesPage />  # 오답노트
   /*                 → <NotFound />
@@ -55,9 +56,9 @@ src/
 ```
 Header (layout route)
 ├── App (/)
-├── YearLayout (layout route)
-│   ├── YearPage (/:year)
-│   └── SubjectPage (/:year/:subject)
+├── SubjectLayout (layout route)
+│   ├── SubjectPage (/:subject)
+│   └── QuestionPage (/:subject/:year)
 ├── ReviewPage (/review)
 ├── NotesPage (/notes)
 └── NotFound (/*)
@@ -67,18 +68,19 @@ Header (layout route)
 
 | 상태 | 위치 | 설명 |
 |------|------|------|
-| `year` | URL 파라미터 (`/:year`) | YearLayout에서 추출 |
-| `subject` | URL 파라미터 (`/:year/:subject`) | SubjectPage에서 추출 |
-| `questions` | `SubjectPage` (useState) | JSON 로드 후 셔플된 문제 배열 |
-| `currentIndex` | `SubjectPage` (useState) | 현재 보여주는 문제 인덱스 |
-| `userAnswers` | `SubjectPage` (useState) | 문제 ID → 선택한 option.id |
-| 채점 결과 | `navigate state` | SubjectPage → Result로 전달 (새로고침 시 소멸) |
-| 오답 데이터 | `localStorage` | Result에서 저장 → 오답노트 페이지에서 읽기 |
+| `subject` | URL 파라미터 (`/:subject`) | SubjectLayout에서 추출 |
+| `year` | URL 파라미터 (`/:subject/:year`) | QuestionPage에서 추출 |
+| `questions` | `QuestionPage` (useState) | JSON 로드 후 셔플된 문제 배열 |
+| `currentIndex` | `QuestionPage` (useState) | 현재 보여주는 문제 인덱스 |
+| `userAnswers` | `QuestionPage` (useState) | 문제 ID → 선택한 option.id |
+| 채점 결과 | `navigate state` | QuestionPage → ReviewPage로 전달 (새로고침 시 소멸) |
+| 오답 데이터 | `localStorage` | ReviewPage에서 저장 → NotesPage에서 읽기 |
+| `selectedDate` | `NotesPage` (useState) | 오답노트에서 선택된 복습 날짜 필터 |
 
 ## 데이터 흐름
 
 ```
-SubjectPage
+QuestionPage
   └── 채점 완료 → navigate("/review", { state: { year, subject, questions, userAnswers } })
 
 ReviewPage (/review)

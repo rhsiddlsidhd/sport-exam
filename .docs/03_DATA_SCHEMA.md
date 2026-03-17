@@ -7,37 +7,33 @@
 
 ## 개요
 
-문제 데이터는 단일 포맷으로 존재한다.
+문제 데이터는 **과목 + 연도** 단위로 분리된 파일로 관리한다.
 
 | 포맷 | 위치 | 타입 정의 |
 |------|------|----------|
-| 시험지 포맷 | `src/data/${year}_sports-instructor_exam.json` | `src/types/exam-schema.ts` |
+| 과목+연도 포맷 | `src/data/exam/{SUBJECT}_{year}_sports_instructor_exam.json` | `src/types/exam-schema.ts` |
+
+- 과목(5) × 연도(7) = **총 35개 파일**
+- 파일명 예시: `SOC_2025_sports_instructor_exam.json`
 
 ---
 
 ## 필드 명세
 
-### Exam (최상위)
-
-| 필드 | 타입 | 필수 | 설명 |
-|------|------|------|------|
-| `exam` | `string` | ✅ | 시험명. 예: `"2025년도 2급류 체육지도자 필기시험"` |
-| `date` | `string` | ✅ | 시험일. `YYYY-MM-DD` 형식. 예: `"2025-04-26"` |
-| `subjects` | `ExamSubject[]` | ✅ | 과목 목록 |
-
-### ExamSubject
+### SubjectExam (최상위)
 
 | 필드 | 타입 | 필수 | 설명 |
 |------|------|------|------|
 | `subject` | `SubjectCode` | ✅ | 과목 코드. `"SOC"` \| `"ETH"` \| `"PSY"` \| `"HIS"` \| `"PHY"` |
-| `subjectCode` | `string` | ✅ | 시험지 과목 번호. 예: `"11"`, `"22"`, `"33"` |
+| `exam` | `string` | ✅ | 시험명. 예: `"2025년도 2급류 체육지도자 필기시험"` |
+| `date` | `string` | ✅ | 시험일. `YYYY-MM-DD` 형식. 예: `"2025-04-26"` |
 | `questions` | `ExamQuestion[]` | ✅ | 문제 목록 |
 
 ### ExamQuestion
 
 | 필드 | 타입 | 필수 | 설명 |
 |------|------|------|------|
-| `id` | `string` | ✅ | `"{subjectCode}-{questionNumber}"`. 예: `"11-1"` |
+| `id` | `string` | ✅ | `"{subject}-{year}-{questionNumber}"`. 예: `"SOC-2025-1"` |
 | `questionNumber` | `number` | ✅ | 시험지 내 문제 번호. 예: `1`, `2` |
 | `type` | `ExamQuestionType` | ✅ | 문제 유형 (아래 참조) |
 | `question` | `string` | ✅ | 문제 본문 |
@@ -45,6 +41,7 @@
 | `contextItems` | `ExamContextItem[] \| null` | ✅ | 보기 항목 목록. 없으면 `null` |
 | `options` | `ExamOption[]` | ✅ | 4지선다 선택지 |
 | `answer` | `number \| number[]` | ✅ | 정답 `option.id`. 복수 정답 시 배열 |
+| `explanation` | `string` | ❌ | 정답 및 오답에 대한 해설 |
 
 ### ExamOption
 
@@ -64,6 +61,30 @@
 
 ```ts
 "BASIC" | "PASSAGE" | "COMBINATION_SELECT" | "COMBINATION_MATCH" | "COMBINATION_LINK"
+```
+
+---
+
+## 파일 구조 예시
+
+```json
+{
+  "subject": "SOC",
+  "exam": "2025년도 2급류 체육지도자 필기시험",
+  "date": "2025-04-26",
+  "questions": [
+    {
+      "id": "SOC-2025-1",
+      "questionNumber": 1,
+      "type": "BASIC",
+      "question": "...",
+      "context": null,
+      "contextItems": null,
+      "options": [...],
+      "answer": 2
+    }
+  ]
+}
 ```
 
 ---
