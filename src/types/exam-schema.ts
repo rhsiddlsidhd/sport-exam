@@ -29,7 +29,7 @@ export interface ExamQuestion {
   contextItems: ExamContextItem[] | null;
   options: ExamOption[];
   answer: number | number[];
-  explanation?: string | null;
+  explanation?: string;
 }
 
 export interface SubjectExam {
