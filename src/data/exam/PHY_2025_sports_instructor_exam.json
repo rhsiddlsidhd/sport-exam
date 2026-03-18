@@ -6,10 +6,11 @@
     {
       "id": "PHY-2025-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "400m 트랙을 약 60초로 전력 질주 시 가장 많이 기여하는 에너지 공급 시스템에서 1분자의 글루코스(glucose) 분해로 얻을 수 있는 ATP 수는?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -34,10 +35,11 @@
     {
       "id": "PHY-2025-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "중-고강도 운동 시 필요한 ATP 합성에 사용되지 않는 기질(substrate)은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -62,27 +64,29 @@
     {
       "id": "PHY-2025-3",
       "questionNumber": 3,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 장기간의 무산소 트레이닝에 따른 생리학적 적응으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "산화 능력 증가"
-        },
-        {
-          "id": "ㄴ",
-          "content": "근육의 수축 속도 증가"
-        },
-        {
-          "id": "ㄷ",
-          "content": "미토콘드리아 밀도 증가"
-        },
-        {
-          "id": "ㄹ",
-          "content": "PCr 또는 PFK 효소의 양 및 활성도 증가"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "산화 능력 증가"
+          },
+          {
+            "label": "ㄴ",
+            "content": "근육의 수축 속도 증가"
+          },
+          {
+            "label": "ㄷ",
+            "content": "미토콘드리아 밀도 증가"
+          },
+          {
+            "label": "ㄹ",
+            "content": "PCr 또는 PFK 효소의 양 및 활성도 증가"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -107,14 +111,16 @@
     {
       "id": "PHY-2025-4",
       "questionNumber": 4,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 에너지 대사 과정은?",
-      "context": [
-        "무산소성 에너지 시스템이다",
-        "에너지 투자와 에너지 생산 단계로 구성된다",
-        "대사 과정의 최종 산물로 피루브산염 또는 젖산염을 생성한다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "무산소성 에너지 시스템이다",
+          "에너지 투자와 에너지 생산 단계로 구성된다",
+          "대사 과정의 최종 산물로 피루브산염 또는 젖산염을 생성한다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -139,14 +145,16 @@
     {
       "id": "PHY-2025-5",
       "questionNumber": 5,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 감각수용기는?",
-      "context": [
-        "주동근의 수축을 억제한다",
-        "근육 손상을 예방하는 기능을 한다",
-        "근육-건 복합체의 장력 변화를 감지한다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "주동근의 수축을 억제한다",
+          "근육 손상을 예방하는 기능을 한다",
+          "근육-건 복합체의 장력 변화를 감지한다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -171,27 +179,29 @@
     {
       "id": "PHY-2025-6",
       "questionNumber": 6,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 장기간 유산소 트레이닝에 의한 생리적 적응 현상으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "좌심실 용적 증가"
-        },
-        {
-          "id": "ㄴ",
-          "content": "마이오글로빈 함유량 증가"
-        },
-        {
-          "id": "ㄷ",
-          "content": "1회 박출량(stroke volume) 증가"
-        },
-        {
-          "id": "ㄹ",
-          "content": "골격근 내 모세혈관 밀도 증가"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "좌심실 용적 증가"
+          },
+          {
+            "label": "ㄴ",
+            "content": "마이오글로빈 함유량 증가"
+          },
+          {
+            "label": "ㄷ",
+            "content": "1회 박출량(stroke volume) 증가"
+          },
+          {
+            "label": "ㄹ",
+            "content": "골격근 내 모세혈관 밀도 증가"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -216,12 +226,14 @@
     {
       "id": "PHY-2025-7",
       "questionNumber": 7,
-      "type": "COMBINATION_MATCH",
+      "logicType": "MATCHING",
       "question": "보기의 골격근 수축 과정에 관한 설명 중 ㉠~㉢에 들어갈 용어로 옳은 것은?",
-      "context": [
-        "활동전위(action potential)는 가로세관(T-tubes)으로 이동하여 ( ㉠ )에서 ( ㉡ ) 방출을 자극한다. ( ㉠ )에서 방출된 ( ㉡ )이 트로포닌(troponin)과 결합하게 되면 ( ㉢ )의 위치를 이동시켜 마이오신 머리(myosin head)와 액틴 필라멘트(actin filament)가 강하게 결합하게 한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "ITEMIZED",
+        "passage": [
+          "활동전위(action potential)는 가로세관(T-tubes)으로 이동하여 ( ㉠ )에서 ( ㉡ ) 방출을 자극한다. ( ㉠ )에서 방출된 ( ㉡ )이 트로포닌(troponin)과 결합하게 되면 ( ㉢ )의 위치를 이동시켜 마이오신 머리(myosin head)와 액틴 필라멘트(actin filament)가 강하게 결합하게 한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -246,29 +258,32 @@
     {
       "id": "PHY-2025-8",
       "questionNumber": 8,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "그림의 산소-헤모글로빈 해리 곡선을 참고하여 보기에서 옳은 것만을 모두 고른 것은?",
-      "context": [
-        "산소-헤모글로빈 해리 곡선 그림"
-      ],
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "운동에 의한 체온상승(예: 심부온도 상승)은 헤모글로빈의 산소 친화력(affinity)을 높인다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "고강도 운동 시 동-정맥 산소 차이(arteriovenous oxygen difference)는 안정 시와 비교하여 감소한다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "고강도 운동에 의한 혈중 젖산 농도 증가는 산소-헤모글로빈 해리 곡선을 오른쪽으로 이동시킨다."
-        },
-        {
-          "id": "ㄹ",
-          "content": "운동 중 증가한 혈중 이산화탄소는 헤모글로빈의 산소 해리(dissociation)를 높이는데, 이를 보어 효과(Bohr effect)라고 한다."
-        }
-      ],
+      "view": {
+        "type": "COMPOSITE",
+        "passage": [
+          "산소-헤모글로빈 해리 곡선 그림"
+        ],
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "운동에 의한 체온상승(예: 심부온도 상승)은 헤모글로빈의 산소 친화력(affinity)을 높인다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "고강도 운동 시 동-정맥 산소 차이(arteriovenous oxygen difference)는 안정 시와 비교하여 감소한다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "고강도 운동에 의한 혈중 젖산 농도 증가는 산소-헤모글로빈 해리 곡선을 오른쪽으로 이동시킨다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "운동 중 증가한 혈중 이산화탄소는 헤모글로빈의 산소 해리(dissociation)를 높이는데, 이를 보어 효과(Bohr effect)라고 한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -293,31 +308,33 @@
     {
       "id": "PHY-2025-9",
       "questionNumber": 9,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 건강관련체력 요인으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "근력"
-        },
-        {
-          "id": "ㄴ",
-          "content": "유연성"
-        },
-        {
-          "id": "ㄷ",
-          "content": "근지구력"
-        },
-        {
-          "id": "ㄹ",
-          "content": "신체구성"
-        },
-        {
-          "id": "ㅁ",
-          "content": "심폐지구력"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "근력"
+          },
+          {
+            "label": "ㄴ",
+            "content": "유연성"
+          },
+          {
+            "label": "ㄷ",
+            "content": "근지구력"
+          },
+          {
+            "label": "ㄹ",
+            "content": "신체구성"
+          },
+          {
+            "label": "ㅁ",
+            "content": "심폐지구력"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -342,27 +359,29 @@
     {
       "id": "PHY-2025-10",
       "questionNumber": 10,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 동방결절(SA node)에 관한 특성으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "심장의 페이스메이커(pacemaker)로 불림"
-        },
-        {
-          "id": "ㄴ",
-          "content": "전도체계 중 가장 빠른 내인성 박동률을 가짐"
-        },
-        {
-          "id": "ㄷ",
-          "content": "심실이 혈액을 충만하게 모을 수 있도록 자극전도 시간을 지연시킴"
-        },
-        {
-          "id": "ㄹ",
-          "content": "다른 심장 전도 시스템보다 약 6배 빠르게 전기적 자극을 심실 전체로 전달하여 심실의 거의 모든 부위가 동시에 수축할 수 있게 함"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "심장의 페이스메이커(pacemaker)로 불림"
+          },
+          {
+            "label": "ㄴ",
+            "content": "전도체계 중 가장 빠른 내인성 박동률을 가짐"
+          },
+          {
+            "label": "ㄷ",
+            "content": "심실이 혈액을 충만하게 모을 수 있도록 자극전도 시간을 지연시킴"
+          },
+          {
+            "label": "ㄹ",
+            "content": "다른 심장 전도 시스템보다 약 6배 빠르게 전기적 자극을 심실 전체로 전달하여 심실의 거의 모든 부위가 동시에 수축할 수 있게 함"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -387,29 +406,32 @@
     {
       "id": "PHY-2025-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "안정 시와 운동 중 심장 주기에 따른 좌심실의 용적과 압력을 나타낸 곡선을 참고하여 보기에서 옳은 것만을 모두 고른 것은?",
-      "context": [
-        "좌심실 용적-압력 루프 그림(안정 시 vs 운동 중)"
-      ],
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "A~B 구간은 이첨판(bicupid valve)과 대동맥 판막(aortic valve)이 모두 닫힌 상태이며, 이를 등용적 수축(isovolumic contraction)이라고 한다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "운동 중 좌심실 수축력의 증가는 C시점에서의 좌심실 용적 증가로 이어진다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "안정 시와 운동 중 좌심실 박출률(%ejection fraction)은 동일하다."
-        },
-        {
-          "id": "ㄹ",
-          "content": "D~A 구간의 증가는 1회 박출량 증가로 이어진다."
-        }
-      ],
+      "view": {
+        "type": "COMPOSITE",
+        "passage": [
+          "좌심실 용적-압력 루프 그림(안정 시 vs 운동 중)"
+        ],
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "A~B 구간은 이첨판(bicupid valve)과 대동맥 판막(aortic valve)이 모두 닫힌 상태이며, 이를 등용적 수축(isovolumic contraction)이라고 한다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "운동 중 좌심실 수축력의 증가는 C시점에서의 좌심실 용적 증가로 이어진다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "안정 시와 운동 중 좌심실 박출률(%ejection fraction)은 동일하다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "D~A 구간의 증가는 1회 박출량 증가로 이어진다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -434,27 +456,29 @@
     {
       "id": "PHY-2025-12",
       "questionNumber": 12,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 고지대 환경에서 장기간 노출 시 나타나는 생리학적 적응으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "심박출량 증가"
-        },
-        {
-          "id": "ㄴ",
-          "content": "모세혈관 밀도 증가"
-        },
-        {
-          "id": "ㄷ",
-          "content": "근육 단면적 증가"
-        },
-        {
-          "id": "ㄹ",
-          "content": "산소운반능력 증가"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "심박출량 증가"
+          },
+          {
+            "label": "ㄴ",
+            "content": "모세혈관 밀도 증가"
+          },
+          {
+            "label": "ㄷ",
+            "content": "근육 단면적 증가"
+          },
+          {
+            "label": "ㄹ",
+            "content": "산소운반능력 증가"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -479,12 +503,14 @@
     {
       "id": "PHY-2025-13",
       "questionNumber": 13,
-      "type": "COMBINATION_MATCH",
+      "logicType": "MATCHING",
       "question": "운동 자극에 관한 신체 내 기관(organs)과 기능에 대한 설명이다. ㉠~㉢에 해당하는 것으로 옳은 것은?",
-      "context": [
-        "표: 기관(뇌하수체/부신/㉠)별 기능 - 고온다습한 환경 체액조절 호르몬 분비(㉡), 중강도 이상 운동 중 교감신경 영향으로 호르몬(㉢) 분비, 부교감신경 미주신경 위치하며 운동 종료 후 심박수 감소"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "ITEMIZED",
+        "passage": [
+          "표: 기관(뇌하수체/부신/㉠)별 기능 - 고온다습한 환경 체액조절 호르몬 분비(㉡), 중강도 이상 운동 중 교감신경 영향으로 호르몬(㉢) 분비, 부교감신경 미주신경 위치하며 운동 종료 후 심박수 감소"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -509,29 +535,32 @@
     {
       "id": "PHY-2025-14",
       "questionNumber": 14,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "단축성 수축 시 그림의 골격근 초미세구조를 참고하여 보기에서 옳은 것만을 모두 고른 것은?",
-      "context": [
-        "골격근 초미세구조(액틴, 마이오신, Z선, A밴드, I밴드, 근절) 그림"
-      ],
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "I 밴드의 길이는 변하지 않는다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "A 밴드의 길이는 변하지 않는다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "근절(sarcomere)의 길이는 짧아진다."
-        },
-        {
-          "id": "ㄹ",
-          "content": "액틴(actin)과 마이오신(myosin)의 길이는 짧아진다."
-        }
-      ],
+      "view": {
+        "type": "COMPOSITE",
+        "passage": [
+          "골격근 초미세구조(액틴, 마이오신, Z선, A밴드, I밴드, 근절) 그림"
+        ],
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "I 밴드의 길이는 변하지 않는다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "A 밴드의 길이는 변하지 않는다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "근절(sarcomere)의 길이는 짧아진다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "액틴(actin)과 마이오신(myosin)의 길이는 짧아진다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -556,27 +585,29 @@
     {
       "id": "PHY-2025-15",
       "questionNumber": 15,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 속근섬유(type Ⅱ) 관한 특성으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "피로 저항이 높음"
-        },
-        {
-          "id": "ㄴ",
-          "content": "수축 속도가 빠름"
-        },
-        {
-          "id": "ㄷ",
-          "content": "산화 능력이 높음"
-        },
-        {
-          "id": "ㄹ",
-          "content": "칼슘이온 방출 속도가 빠름"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "피로 저항이 높음"
+          },
+          {
+            "label": "ㄴ",
+            "content": "수축 속도가 빠름"
+          },
+          {
+            "label": "ㄷ",
+            "content": "산화 능력이 높음"
+          },
+          {
+            "label": "ㄹ",
+            "content": "칼슘이온 방출 속도가 빠름"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -601,10 +632,11 @@
     {
       "id": "PHY-2025-16",
       "questionNumber": 16,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "순환계의 구조와 기능에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -628,14 +660,16 @@
     },
     {
       "id": "PHY-2025-17",
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 호르몬은?",
-      "context": [
-        "간의 글리코겐을 분해한다",
-        "췌장 알파세포에서 분비된다",
-        "혈중 글루코스 농도를 높인다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "간의 글리코겐을 분해한다",
+          "췌장 알파세포에서 분비된다",
+          "혈중 글루코스 농도를 높인다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -660,10 +694,11 @@
     {
       "id": "PHY-2025-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "골격근의 운동단위(motor unit) 동원에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -688,12 +723,14 @@
     {
       "id": "PHY-2025-19",
       "questionNumber": 19,
-      "type": "COMBINATION_MATCH",
+      "logicType": "MATCHING",
       "question": "보기의 ㉠, ㉡에 들어갈 용어는?",
-      "context": [
-        "( ㉠ )은 근육조직에서 산소를 저장하고, 운반하는 데 중요한 역할을 한다. 적혈구용적률이 증가하면 혈액의 점성은 ( ㉡ )한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "ITEMIZED",
+        "passage": [
+          "( ㉠ )은 근육조직에서 산소를 저장하고, 운반하는 데 중요한 역할을 한다. 적혈구용적률이 증가하면 혈액의 점성은 ( ㉡ )한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -718,23 +755,25 @@
     {
       "id": "PHY-2025-20",
       "questionNumber": 20,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 운동 중 혈류 재분배(blood re-distribution)에 관한 설명으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "운동 시 골격근의 산소 요구량을 충족하기 위해 비활동 조직으로의 혈류량은 감소한다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "최대 운동 시 심박출량은 증가하지만 안정 시와 비교하여 기관별(예: 신장, 내장, 골격근 등) 혈류 분배 비율은 동일하다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "고강도 운동에 참여하는 골격근의 세동맥(arterioles) 혈관 저항은 안정 시와 비교하여 감소한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "운동 시 골격근의 산소 요구량을 충족하기 위해 비활동 조직으로의 혈류량은 감소한다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "최대 운동 시 심박출량은 증가하지만 안정 시와 비교하여 기관별(예: 신장, 내장, 골격근 등) 혈류 분배 비율은 동일하다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "고강도 운동에 참여하는 골격근의 세동맥(arterioles) 혈관 저항은 안정 시와 비교하여 감소한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,

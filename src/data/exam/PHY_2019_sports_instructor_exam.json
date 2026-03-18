@@ -6,13 +6,15 @@
     {
       "id": "PHY-2019-1",
       "questionNumber": 1,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 운동훈련의 원리는?",
-      "context": [
-        "운동훈련에 의한 효과는 운동량이 일상생활 수준보다 높을 때 일어난다.",
-        "운동량은 운동의 빈도, 강도 또는 지속시간을 증가시킴으로써 늘릴 수 있다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "운동훈련에 의한 효과는 운동량이 일상생활 수준보다 높을 때 일어난다.",
+          "운동량은 운동의 빈도, 강도 또는 지속시간을 증가시킴으로써 늘릴 수 있다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -36,10 +38,11 @@
     {
       "id": "PHY-2019-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "근섬유의 형태에 따른 특성으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -63,10 +66,11 @@
     {
       "id": "PHY-2019-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "혈액 내 산소운반 물질은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -90,10 +94,11 @@
     {
       "id": "PHY-2019-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "고강도 운동 중 젖산역치(LT)가 발생하는 원인으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -117,19 +122,21 @@
     {
       "id": "PHY-2019-5",
       "questionNumber": 5,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>는 췌장에서 분비되는 혈당조절 호르몬에 대한 설명이다. ㉠, ㉡에 들어갈 용어를 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "혈당 저하 시 글리코겐과 중성지방의 분해를 증가시켜, 혈당을 높여주는 역할을 한다."
-        },
-        {
-          "id": "㉡",
-          "content": "혈당 증가 시 세포 안으로 포도당 흡수를 촉진하여, 혈당을 낮추는 역할을 한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "혈당 저하 시 글리코겐과 중성지방의 분해를 증가시켜, 혈당을 높여주는 역할을 한다."
+          },
+          {
+            "label": "㉡",
+            "content": "혈당 증가 시 세포 안으로 포도당 흡수를 촉진하여, 혈당을 낮추는 역할을 한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -153,10 +160,11 @@
     {
       "id": "PHY-2019-6",
       "questionNumber": 6,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "건강체력 요소가 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -180,10 +188,11 @@
     {
       "id": "PHY-2019-7",
       "questionNumber": 7,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "고지대에서 장기간 노출 시 나타나는 생리적 적응 현상으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -207,19 +216,21 @@
     {
       "id": "PHY-2019-8",
       "questionNumber": 8,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 용어를 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "신경계는 중추신경계(CNS)와 말초신경계(PNS)로 구분된다. 말초신경계 중, 자율신경계(autonomic nervous system)는 '흥분성'의 ( ㉠ )으로 구분된다."
-        },
-        {
-          "id": "㉡",
-          "content": "'억제성'의 ( ㉡ )으로 구분된다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "신경계는 중추신경계(CNS)와 말초신경계(PNS)로 구분된다. 말초신경계 중, 자율신경계(autonomic nervous system)는 '흥분성'의 ( ㉠ )으로 구분된다."
+          },
+          {
+            "label": "㉡",
+            "content": "'억제성'의 ( ㉡ )으로 구분된다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -243,10 +254,11 @@
     {
       "id": "PHY-2019-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 시 폐포와 폐모세혈관 사이에서의 산소교환율을 증가시키는 직접적인 원인은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -270,27 +282,29 @@
     {
       "id": "PHY-2019-10",
       "questionNumber": 10,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 근수축 과정을 단계별로 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "근육세포의 활동전위(action potential) 발생"
-        },
-        {
-          "id": "㉡",
-          "content": "근형질세망(SR)에서 칼슘이온(Ca2+) 분비"
-        },
-        {
-          "id": "㉢",
-          "content": "축삭 종말에서 아세틸콜린(ACh) 방출"
-        },
-        {
-          "id": "㉣",
-          "content": "ATP 분해에 따른 근세사 활주 시작"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "근육세포의 활동전위(action potential) 발생"
+          },
+          {
+            "label": "㉡",
+            "content": "근형질세망(SR)에서 칼슘이온(Ca2+) 분비"
+          },
+          {
+            "label": "㉢",
+            "content": "축삭 종말에서 아세틸콜린(ACh) 방출"
+          },
+          {
+            "label": "㉣",
+            "content": "ATP 분해에 따른 근세사 활주 시작"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -314,10 +328,11 @@
     {
       "id": "PHY-2019-11",
       "questionNumber": 11,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 시 비훈련자의 심혈관계 변화로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -341,23 +356,25 @@
     {
       "id": "PHY-2019-12",
       "questionNumber": 12,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 운동단위(motor unit)에 대한 설명 중 옳은 것을 있는 대로 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "하나의 운동신경과 그 신경에 의해 지배되는 근육섬유들로 정의된다."
-        },
-        {
-          "id": "㉡",
-          "content": "운동신경에 연결된 근섬유 수가 많을수록 큰 힘을 내는 데 유리하다."
-        },
-        {
-          "id": "㉢",
-          "content": "자극비율(innervation ratio)이 낮은 근육은 정교한 움직임에 적합하다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "하나의 운동신경과 그 신경에 의해 지배되는 근육섬유들로 정의된다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동신경에 연결된 근섬유 수가 많을수록 큰 힘을 내는 데 유리하다."
+          },
+          {
+            "label": "㉢",
+            "content": "자극비율(innervation ratio)이 낮은 근육은 정교한 움직임에 적합하다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -381,12 +398,14 @@
     {
       "id": "PHY-2019-13",
       "questionNumber": 13,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "호흡교환율(Respiratory Exchange Ratio: RER)이 <보기>와 같을 때의 생리적 현상에 대한 설명으로 가장 적절한 것은?",
-      "context": [
-        "호흡교환율(RER) ＝ 0.8"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "호흡교환율(RER) ＝ 0.8"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -410,10 +429,11 @@
     {
       "id": "PHY-2019-14",
       "questionNumber": 14,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "장기간의 규칙적인 유산소 훈련에 따른 생리적 적응 현상으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -437,14 +457,16 @@
     {
       "id": "PHY-2019-15",
       "questionNumber": 15,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 호르몬은?",
-      "context": [
-        "운동 시 부신수질로부터 분비가 증가된다.",
-        "간과 근육의 글리코겐 분해를 촉진시킨다.",
-        "심박수와 심근의 수축력을 증가시킨다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "운동 시 부신수질로부터 분비가 증가된다.",
+          "간과 근육의 글리코겐 분해를 촉진시킨다.",
+          "심박수와 심근의 수축력을 증가시킨다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -468,27 +490,29 @@
     {
       "id": "PHY-2019-16",
       "questionNumber": 16,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 지방(fat)에 대한 설명 중 옳은 것으로만 묶인 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "지방은 유리지방산의 형태로 지방조직과 골격근 등에 저장된다."
-        },
-        {
-          "id": "㉡",
-          "content": "중성지방은 탄수화물이 고갈되더라도 에너지원으로 사용되지 않는다."
-        },
-        {
-          "id": "㉢",
-          "content": "중성지방은 리파아제(lipase)에 의해 지방산과 글리세롤(glycerol)로 분해된다."
-        },
-        {
-          "id": "㉣",
-          "content": "운동강도가 증가함에 따라 에너지 생산을 위한 주 연료는 지방에서 탄수화물로 전환된다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "지방은 유리지방산의 형태로 지방조직과 골격근 등에 저장된다."
+          },
+          {
+            "label": "㉡",
+            "content": "중성지방은 탄수화물이 고갈되더라도 에너지원으로 사용되지 않는다."
+          },
+          {
+            "label": "㉢",
+            "content": "중성지방은 리파아제(lipase)에 의해 지방산과 글리세롤(glycerol)로 분해된다."
+          },
+          {
+            "label": "㉣",
+            "content": "운동강도가 증가함에 따라 에너지 생산을 위한 주 연료는 지방에서 탄수화물로 전환된다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -512,14 +536,16 @@
     {
       "id": "PHY-2019-17",
       "questionNumber": 17,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 근육 기관은?",
-      "context": [
-        "골격근에서 발견된다.",
-        "근육의 길이를 감지한다.",
-        "근육의 급격한 신전 시 반사적 근육활동을 촉발시킨다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "골격근에서 발견된다.",
+          "근육의 길이를 감지한다.",
+          "근육의 급격한 신전 시 반사적 근육활동을 촉발시킨다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -543,10 +569,11 @@
     {
       "id": "PHY-2019-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 후 초과산소섭취량(EPOC)이 발생하는 원인으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -570,13 +597,15 @@
     {
       "id": "PHY-2019-19",
       "questionNumber": 19,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 용어는?",
-      "context": [
-        "심실이 수축할 때 배출되는 혈액의 양",
-        "확장기말 혈액량(EDV)과 수축기말 혈액량(ESV)의 차이"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "심실이 수축할 때 배출되는 혈액의 양",
+          "확장기말 혈액량(EDV)과 수축기말 혈액량(ESV)의 차이"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -600,14 +629,16 @@
     {
       "id": "PHY-2019-20",
       "questionNumber": 20,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 에너지 시스템은?",
-      "context": [
-        "순간적인 고강도 운동을 위한 주요 에너지 시스템",
-        "운동 시작 시기에 가장 빠르게 에너지를 생산하는 방법",
-        "역도, 높이뛰기, 20m 달리기 등에 사용되는 주요 에너지 시스템"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "순간적인 고강도 운동을 위한 주요 에너지 시스템",
+          "운동 시작 시기에 가장 빠르게 에너지를 생산하는 방법",
+          "역도, 높이뛰기, 20m 달리기 등에 사용되는 주요 에너지 시스템"
+        ]
+      },
       "options": [
         {
           "id": 1,

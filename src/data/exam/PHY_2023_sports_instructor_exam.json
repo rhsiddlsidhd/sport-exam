@@ -6,10 +6,11 @@
     {
       "id": "PHY-2023-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "ATP를 합성하는데 사용되는 에너지원이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,10 +34,11 @@
     {
       "id": "PHY-2023-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "근수축에 필수적인 Ca2+ 이온을 저장, 분비하는 근육 세포 내 소기관은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -60,10 +62,11 @@
     {
       "id": "PHY-2023-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 후 초과산소섭취량(EPOC)에 영향을 미치는 요인으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -87,10 +90,11 @@
     {
       "id": "PHY-2023-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "수중 운동 시 체온유지를 위한 요인으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -114,10 +118,11 @@
     {
       "id": "PHY-2023-5",
       "questionNumber": 5,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동강도 증가에 따라 동원되는 근섬유 순서로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -141,23 +146,25 @@
     {
       "id": "PHY-2023-6",
       "questionNumber": 6,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "장기간 규칙적 유산소 훈련의 결과로 최대 운동 시 나타나는 심폐기능의 적응으로 옳은 것을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "최대산소섭취량 증가"
-        },
-        {
-          "id": "㉡",
-          "content": "심장용적과 심근수축력 증가"
-        },
-        {
-          "id": "㉢",
-          "content": "심박출량 증가"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "최대산소섭취량 증가"
+          },
+          {
+            "label": "㉡",
+            "content": "심장용적과 심근수축력 증가"
+          },
+          {
+            "label": "㉢",
+            "content": "심박출량 증가"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -181,10 +188,11 @@
     {
       "id": "PHY-2023-7",
       "questionNumber": 7,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "항상성 유지를 위한 신체 조절 중 부적피드백(negative feedback)이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -208,10 +216,11 @@
     {
       "id": "PHY-2023-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 1회 박출량(stroke volume) 증가 원인으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -235,19 +244,21 @@
     {
       "id": "PHY-2023-9",
       "questionNumber": 9,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 들어갈 내용이 바르게 연결된 것은? (훈련된 운동 선수의 운동강도에 따른 에너지원 사용 그래프)",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "운동강도 25% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
-        },
-        {
-          "id": "㉡",
-          "content": "운동강도 85% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동강도 25% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
+          },
+          {
+            "label": "㉡",
+            "content": "운동강도 85% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -271,23 +282,25 @@
     {
       "id": "PHY-2023-10",
       "questionNumber": 10,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 소뇌의 기능에 대한 설명으로 옳은 것을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "골격근 운동 조절의 최종 단계 역할"
-        },
-        {
-          "id": "㉡",
-          "content": "빠른 동작의 정확한 수행을 위한 통합 조절"
-        },
-        {
-          "id": "㉢",
-          "content": "고유수용기로부터 유입되는 정보를 활용하여 동작 수정"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "골격근 운동 조절의 최종 단계 역할"
+          },
+          {
+            "label": "㉡",
+            "content": "빠른 동작의 정확한 수행을 위한 통합 조절"
+          },
+          {
+            "label": "㉢",
+            "content": "고유수용기로부터 유입되는 정보를 활용하여 동작 수정"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -311,27 +324,29 @@
     {
       "id": "PHY-2023-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동에 따른 환기량의 변화로 옳은 것을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "운동 시작 직전에는 운동 수행에 대한 기대감으로 환기량이 증가할 수 있다."
-        },
-        {
-          "id": "㉡",
-          "content": "운동 초기 환기량 변화의 주된 요인은 경동맥에 위치한 화학수용기 반응이다."
-        },
-        {
-          "id": "㉢",
-          "content": "운동 강도가 증가하면 1회 호흡량은 감소하고 호흡수는 현저히 증가한다."
-        },
-        {
-          "id": "㉣",
-          "content": "회복기 환기량은 운동 중 생성된 체내 수소이온 및 이산화탄소 농도와 관련 있다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동 시작 직전에는 운동 수행에 대한 기대감으로 환기량이 증가할 수 있다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동 초기 환기량 변화의 주된 요인은 경동맥에 위치한 화학수용기 반응이다."
+          },
+          {
+            "label": "㉢",
+            "content": "운동 강도가 증가하면 1회 호흡량은 감소하고 호흡수는 현저히 증가한다."
+          },
+          {
+            "label": "㉣",
+            "content": "회복기 환기량은 운동 중 생성된 체내 수소이온 및 이산화탄소 농도와 관련 있다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -355,19 +370,21 @@
     {
       "id": "PHY-2023-12",
       "questionNumber": 12,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 들어갈 내용이 바르게 연결된 것은? (1개의 포도당 분해에 따른 유산소성 ATP 생성 표)",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "해당작용, 피루브산→아세틸조효소A 이후 이어지는 대사적 과정 단계 명칭"
-        },
-        {
-          "id": "㉡",
-          "content": "유산소성 ATP 합계 수"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "해당작용, 피루브산→아세틸조효소A 이후 이어지는 대사적 과정 단계 명칭"
+          },
+          {
+            "label": "㉡",
+            "content": "유산소성 ATP 합계 수"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -391,10 +408,11 @@
     {
       "id": "PHY-2023-13",
       "questionNumber": 13,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "체중이 80kg인 사람이 10METs로 10분간 달리기 했을 때 소비 칼로리는? (단, 1MET=3.5㎖·kg⁻¹·min⁻¹, O2 1L 당 5Kcal 생성)",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -418,27 +436,29 @@
     {
       "id": "PHY-2023-14",
       "questionNumber": 14,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "〈보기〉는 신경 세포의 안정 시 막전위에 영향을 주는 Na+과 K+에 대한 그림이다. ㉠~㉣에 들어갈 내용이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "세포외액에서 150mM로 존재하는 이온 (세포막 바깥쪽 큰 원)"
-        },
-        {
-          "id": "㉡",
-          "content": "세포외액에서 5mM로 존재하는 이온 (세포막 바깥쪽 작은 원)"
-        },
-        {
-          "id": "㉢",
-          "content": "Na+/K+ 펌프에서 세포 밖으로 내보내는 이온 (3개)"
-        },
-        {
-          "id": "㉣",
-          "content": "Na+/K+ 펌프에서 세포 안으로 들여오는 이온 (2개)"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "세포외액에서 150mM로 존재하는 이온 (세포막 바깥쪽 큰 원)"
+          },
+          {
+            "label": "㉡",
+            "content": "세포외액에서 5mM로 존재하는 이온 (세포막 바깥쪽 작은 원)"
+          },
+          {
+            "label": "㉢",
+            "content": "Na+/K+ 펌프에서 세포 밖으로 내보내는 이온 (3개)"
+          },
+          {
+            "label": "㉣",
+            "content": "Na+/K+ 펌프에서 세포 안으로 들여오는 이온 (2개)"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -462,23 +482,25 @@
     {
       "id": "PHY-2023-15",
       "questionNumber": 15,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 최대산소섭취량 공식에서 장기간 지구성 훈련에 의해 증가되는 요소를 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "최대 1회박출량"
-        },
-        {
-          "id": "㉡",
-          "content": "최대심박수"
-        },
-        {
-          "id": "㉢",
-          "content": "최대동정맥산소차"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "최대 1회박출량"
+          },
+          {
+            "label": "㉡",
+            "content": "최대심박수"
+          },
+          {
+            "label": "㉢",
+            "content": "최대동정맥산소차"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -502,14 +524,16 @@
     {
       "id": "PHY-2023-16",
       "questionNumber": 16,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 내용이 모두 증가되었을 때 향상되는 건강체력 요소는?",
-      "context": [
-        "모세혈관의 밀도",
-        "미토콘드리아의 수와 크기",
-        "동정맥 산소차(arterial-venous oxygen difference)"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "모세혈관의 밀도",
+          "미토콘드리아의 수와 크기",
+          "동정맥 산소차(arterial-venous oxygen difference)"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -533,10 +557,11 @@
     {
       "id": "PHY-2023-17",
       "questionNumber": 17,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "1시간 이내의 중강도 운동 시 시간 경과에 따라 혈중 농도가 점차 감소하는 호르몬은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -560,14 +585,16 @@
     {
       "id": "PHY-2023-18",
       "questionNumber": 18,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 고유수용기는?",
-      "context": [
-        "감각 및 운동신경의 말단이 연결되어 있다",
-        "감마운동뉴런을 통해 조절된다",
-        "근육의 길이 정보를 중추신경계로 보낸다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "감각 및 운동신경의 말단이 연결되어 있다",
+          "감마운동뉴런을 통해 조절된다",
+          "근육의 길이 정보를 중추신경계로 보낸다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -591,10 +618,11 @@
     {
       "id": "PHY-2023-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "근력 결정요인으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -618,10 +646,11 @@
     {
       "id": "PHY-2023-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "상완이두근의 움직임에 대한 근육 수축 형태로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,

@@ -6,96 +6,67 @@
     {
       "id": "PHY-2024-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "지구성 훈련에 의한 지근섬유(Type I)의 생리적 변화로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "모세혈관 밀도 증가"
-        },
-        {
-          "id": 2,
-          "content": "마이오글로빈 함유량 감소"
-        },
-        {
-          "id": 3,
-          "content": "미토콘드리아의 수와 크기 증가"
-        },
-        {
-          "id": 4,
-          "content": "절대 운동강도에서의 젖산 농도 감소"
-        }
+        { "id": 1, "content": "모세혈관 밀도 증가" },
+        { "id": 2, "content": "마이오글로빈 함유량 감소" },
+        { "id": 3, "content": "미토콘드리아의 수와 크기 증가" },
+        { "id": 4, "content": "절대 운동강도에서의 젖산 농도 감소" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "지구성 훈련을 수행하면 산소 운반 및 이용 효율을 높이기 위해 지근섬유 내 **마이오글로빈(Myoglobin) 함유량은 증가**합니다. 산소 확산을 돕는 모세혈관 밀도와 유산소 대사의 핵심인 미토콘드리아의 크기 및 수도 증가하며, 이는 젖산 생성을 억제하고 산화 능력을 높이는 결과를 가져옵니다."
     },
     {
       "id": "PHY-2024-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "유산소성 트레이닝을 통한 근육 내 미토콘드리아 변화와 관련된 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "근원섬유 사이의 미토콘드리아 밀도 증가"
-        },
-        {
-          "id": 2,
-          "content": "근육 내 젖산과 수소 이온(H+) 생성 감소"
-        },
-        {
-          "id": 3,
-          "content": "손상된 미토콘드리아 분해 및 제거율 감소"
-        },
+        { "id": 1, "content": "근원섬유 사이의 미토콘드리아 밀도 증가" },
+        { "id": 2, "content": "근육 내 젖산과 수소 이온(H+) 생성 감소" },
+        { "id": 3, "content": "손상된 미토콘드리아 분해 및 제거율 감소" },
         {
           "id": 4,
           "content": "근육 내 크레아틴인산(phosphocreatine) 소모량 감소"
         }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "트레이닝은 미토콘드리아의 질적 관리를 위해 **손상된 미토콘드리아를 제거하고 새로운 미토콘드리아를 생성하는 회전율(Turnover)을 증가**시킵니다. 즉, 자식작용(Mitophagy)을 통한 제거율은 감소가 아닌 증가가 맞습니다. 훈련된 근육은 지방 산화 능력이 좋아져 글리코겐 및 크레아틴인산의 소모를 아끼는 효과(Sparing effect)가 나타납니다."
     },
     {
       "id": "PHY-2024-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 지방분해를 촉진하는 요인으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "인슐린 증가"
-        },
-        {
-          "id": 2,
-          "content": "글루카곤 증가"
-        },
-        {
-          "id": 3,
-          "content": "에피네프린 증가"
-        },
-        {
-          "id": 4,
-          "content": "순환성(cyclic) AMP 증가"
-        }
+        { "id": 1, "content": "인슐린 증가" },
+        { "id": 2, "content": "글루카곤 증가" },
+        { "id": 3, "content": "에피네프린 증가" },
+        { "id": 4, "content": "순환성(cyclic) AMP 증가" }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "**인슐린(Insulin)은 지방 합성을 촉진하고 분해를 강력하게 억제**하는 호르몬입니다. 운동 중에는 인슐린 농도가 감소하며, 대신 지방분해를 돕는 에피네프린, 글루카곤, 코티졸 등이 증가합니다. 이들은 세포 내 2차 전령인 cAMP를 활성화하여 리파아제(HSL)의 활동을 촉진함으로써 중성지방을 유리지방산으로 분해합니다."
     },
     {
       "id": "PHY-2024-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동에 대한 심혈관 반응에 관한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "점증 부하 운동 시 심근산소소비량 감소"
-        },
+        { "id": 1, "content": "점증 부하 운동 시 심근산소소비량 감소" },
         {
           "id": 2,
           "content": "고강도 운동 시 내장 기관으로의 혈류 분배 비율 증가"
@@ -109,100 +80,70 @@
           "content": "고강도 운동 시 활동근의 세동맥(arterioles) 확장을 통한 혈류량 증가"
         }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "운동 강도가 높아지면 활동 근육의 대사 요구량을 충족하기 위해 **세동맥이 확장되어 혈류량이 급격히 증가**합니다. 반면 내장 기관으로 가는 혈류는 수축을 통해 차단되며, 심박동수와 수축기 혈압이 오름에 따라 심근의 산소 소비량(RPP)은 당연히 증가합니다."
     },
     {
       "id": "PHY-2024-5",
       "questionNumber": 5,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 들어갈 용어가 바르게 나열된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "심장의 부담을 나타내는 심근산소소비량은 심박수와 ( ㉠ )을 곱하여 산출한다."
-        },
-        {
-          "id": "㉡",
-          "content": "산소섭취량이 동일한 운동 시 다리 운동이 팔 운동에 비해 심근 산소소비량이 더 ( ㉡ ) 나타난다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "심장의 부담을 나타내는 심근산소소비량은 심박수와 ( ㉠ )을 곱하여 산출한다."
+          },
+          {
+            "label": "㉡",
+            "content": "산소섭취량이 동일한 운동 시 다리 운동이 팔 운동에 비해 심근 산소소비량이 더 ( ㉡ ) 나타난다."
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "㉠ 1회 박출량 / ㉡ 높게"
-        },
-        {
-          "id": 2,
-          "content": "㉠ 1회 박출량 / ㉡ 낮게"
-        },
-        {
-          "id": 3,
-          "content": "㉠ 수축기 혈압 / ㉡ 높게"
-        },
-        {
-          "id": 4,
-          "content": "㉠ 수축기 혈압 / ㉡ 낮게"
-        }
+        { "id": 1, "content": "㉠ 1회 박출량 / ㉡ 높게" },
+        { "id": 2, "content": "㉠ 1회 박출량 / ㉡ 낮게" },
+        { "id": 3, "content": "㉠ 수축기 혈압 / ㉡ 높게" },
+        { "id": 4, "content": "㉠ 수축기 혈압 / ㉡ 낮게" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "심근의 산소 소비량을 간접적으로 나타내는 지표인 RPP(Double Product)는 **심박수 × 수축기 혈압**으로 구합니다. 동일한 산소섭취량 조건에서 팔 운동은 다리 운동보다 교감신경 활성도가 높고 근육 펌프 작용이 약해 혈압과 심박수가 더 높게 나타납니다. 따라서 **다리 운동 시의 심근 부담은 팔 운동에 비해 상대적으로 낮습니다.**"
     },
     {
       "id": "PHY-2024-6",
       "questionNumber": 6,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "골격근의 수축 특성을 결정하는 요인에 대한 설명 중 〈보기〉의 ㉠, ㉡에 들어갈 용어가 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "특이장력 = 근력 / ( ㉠ )"
-        },
-        {
-          "id": "㉡",
-          "content": "근파워 = 힘 × ( ㉡ )"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          { "label": "㉠", "content": "특이장력 = 근력 / ( ㉠ )" },
+          { "label": "㉡", "content": "근파워 = 힘 × ( ㉡ )" }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "㉠ 근횡단면적 / ㉡ 수축속도"
-        },
-        {
-          "id": 2,
-          "content": "㉠ 근횡단면적 / ㉡ 수축시간"
-        },
-        {
-          "id": 3,
-          "content": "㉠ 근파워 / ㉡ 수축속도"
-        },
-        {
-          "id": 4,
-          "content": "㉠ 근파워 / ㉡ 수축시간"
-        }
+        { "id": 1, "content": "㉠ 근횡단면적 / ㉡ 수축속도" },
+        { "id": 2, "content": "㉠ 근횡단면적 / ㉡ 수축시간" },
+        { "id": 3, "content": "㉠ 근파워 / ㉡ 수축속도" },
+        { "id": 4, "content": "㉠ 근파워 / ㉡ 수축시간" }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "특이장력(Specific tension)은 근육의 질을 나타내는 지표로 **근력(힘)을 근횡단면적(CSA)으로 나눈 값**입니다. 또한 물리학적 정의에 따라 **일률(Power)은 힘 × 속도**로 계산되므로, 근파워는 수축 시 발생하는 힘과 수축 속도의 곱으로 결정됩니다."
     },
     {
       "id": "PHY-2024-7",
       "questionNumber": 7,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠~㉢에 들어갈 용어가 바르게 나열된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "근방추 - ( ㉠ ) 정보 전달"
-        },
-        {
-          "id": "㉡",
-          "content": "골지건기관 - ( ㉡ ) 정보 전달"
-        },
-        {
-          "id": "㉢",
-          "content": "근육의 화학수용기 - ( ㉢ ) 정보 전달"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          { "label": "㉠", "content": "근방추 - ( ㉠ ) 정보 전달" },
+          { "label": "㉡", "content": "골지건기관 - ( ㉡ ) 정보 전달" },
+          { "label": "㉢", "content": "근육의 화학수용기 - ( ㉢ ) 정보 전달" }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -216,20 +157,24 @@
           "id": 3,
           "content": "㉠ 근육 대사량 / ㉡ 근육의 길이 / ㉢ 힘 생성량"
         },
-        {
-          "id": 4,
-          "content": "㉠ 근육의 길이 / ㉡ 힘 생성량 / ㉢ 근육 대사량"
-        }
+        { "id": 4, "content": "㉠ 근육의 길이 / ㉡ 힘 생성량 / ㉢ 근육 대사량" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "고유수용기 중 **근방추(Muscle spindle)**는 근육의 길이 변화와 속도를, **골지건기관(GTO)**은 근육과 건에 가해지는 장력(힘 생성량)을 감지합니다. **근육 화학수용기**는 운동 중 발생하는 수소이온, 이산화탄소, 젖산 등 대사산물(대사량 변화)을 감지하여 중추신경계에 전달합니다."
     },
     {
       "id": "PHY-2024-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈그림〉은 도피반사(withdrawal reflex)와 교차신전반사(crossed-extensor reflex)를 나타낸 것이다. 이에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "VISUAL",
+        "media": {
+          "type": "IMAGE",
+          "url": "/exam/PHY_2024_08.webp",
+          "alt": "도피반사와 교차신전반사 신경 회로도"
+        }
+      },
       "options": [
         {
           "id": 1,
@@ -248,301 +193,275 @@
           "content": "통증을 회피하기 위해 통증 부위 대퇴의 굴곡근과 신전근이 동시에 수축된다."
         }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "통증 자극이 발생한 쪽(Affected side)에서는 다리를 들어 올리기 위해 **굴곡근이 수축하고 동시에 신전근은 이완(억제)**되어야 합니다(상호 억제 기전). 두 근육이 동시에 수축하면 움직임이 불가능해집니다. 반대편 다리는 신전근이 수축하여 신체를 지지하게 되는데 이를 교차신전반사라고 합니다."
     },
     {
       "id": "PHY-2024-9",
       "questionNumber": 9,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 운동 시 에너지 대사 과정은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉에서 고온 환경의 장시간 최대하 운동 시 운동수행능력을 저하시키는 요인으로 옳은 것만을 모두 고른 것은? (단, 심각한 탈수 현상은 발생하지 않는 환경)",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          { "label": "ㄱ", "content": "글리코겐 고갈 가속" },
+          { "label": "ㄴ", "content": "근혈류량 감소" },
+          { "label": "ㄷ", "content": "1회 박출량 감소" },
+          { "label": "ㄹ", "content": "운동단위 활성 감소" }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "ATP-PC 시스템"
-        },
-        {
-          "id": 2,
-          "content": "젖산 시스템"
-        },
-        {
-          "id": 3,
-          "content": "유산소 시스템"
-        },
-        {
-          "id": 4,
-          "content": "지방산 산화"
-        }
+        { "id": 1, "content": "ㄱ, ㄷ" },
+        { "id": 2, "content": "ㄱ, ㄴ, ㄹ" },
+        { "id": 3, "content": "ㄴ, ㄷ, ㄹ" },
+        { "id": 4, "content": "ㄱ, ㄴ, ㄷ, ㄹ" }
       ],
-      "answer": 2
+      "answer": 4,
+      "explanation": "고온 환경에서 운동 시 체온 조절을 위해 피부 혈류량이 증가하고 상대적으로 **근혈류량은 감소**(ㄴ)합니다. 또한 체온 상승은 글리코겐 사용을 촉진(ㄱ)시키며, 발한으로 인한 혈장량 감소는 **1회 박출량 감소**(ㄷ)와 보상적 심박수 증가(심혈관 표류)를 유발합니다. 중추신경계 피로로 인해 **운동단위 활성**(ㄹ)도 저하됩니다."
     },
     {
       "id": "PHY-2024-10",
       "questionNumber": 10,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 고온 환경에서의 운동 생리 반응은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉의 조건으로 트레드밀 운동 시 운동량(kgm)은? (단, 운동량 = 힘 × 거리)",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "조건",
+            "content": "체중=50 kg, 속도=12 km/h, 시간=10분, 경사도=5%"
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "발한 감소"
-        },
-        {
-          "id": 2,
-          "content": "피부 혈류량 증가"
-        },
-        {
-          "id": 3,
-          "content": "심부 체온 감소"
-        },
-        {
-          "id": 4,
-          "content": "혈장량 증가"
-        }
+        { "id": 1, "content": "1,000 kgm" },
+        { "id": 2, "content": "5,000 kgm" },
+        { "id": 3, "content": "10,000 kgm" },
+        { "id": 4, "content": "12,000 kgm" }
       ],
-      "answer": 3
+      "answer": 2,
+      "explanation": "수직 운동량(Work) 계산식: **체중(kg) × [속도(m/min) × 시간(min) × 경사도(%)]**. \n1. 속도 변환: 12 km/h = 12,000 m / 60 min = 200 m/min. \n2. 수직 이동 거리: 200 m/min × 10 min × 0.05(5%) = 100 m. \n3. 최종 계산: 50 kg × 100 m = **5,000 kgm**."
     },
     {
       "id": "PHY-2024-11",
       "questionNumber": 11,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 운동과 면역의 관계는?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "에너지 대사 과정과 속도조절효소의 연결이 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "중등도 운동은 면역기능을 향상시킨다."
-        },
-        {
-          "id": 2,
-          "content": "고강도 운동은 면역기능에 영향을 미치지 않는다."
-        },
-        {
-          "id": 3,
-          "content": "장기간 과훈련은 면역기능을 향상시킨다."
-        },
-        {
-          "id": 4,
-          "content": "운동은 NK세포의 활성을 억제한다."
-        }
+        { "id": 1, "content": "ATP-PC 시스템 / 크레아틴 키나아제" },
+        { "id": 2, "content": "해당작용 / 젖산 탈수소효소" },
+        { "id": 3, "content": "크렙스 회로 / 이소시트르산 탈수소효소" },
+        { "id": 4, "content": "전자전달체계 / 사이토크롬 산화효소" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "해당작용(Glycolysis)의 핵심적인 **속도조절효소는 포스포프록토키나아제(PFK)**입니다. 젖산 탈수소효소(LDH)는 피루브산을 젖산으로 전환하거나 그 반대 과정을 촉매하는 효소일 뿐 전체 대사 속도를 결정하는 속도조절효소는 아닙니다."
     },
     {
       "id": "PHY-2024-12",
       "questionNumber": 12,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 운동 시 호르몬 반응은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉에서 근육의 힘, 파워, 속도의 관계에 대한 설명 중 옳은 것만을 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "단축성 수축 시 수축 속도가 빨라짐에 따라 힘(장력)생성은 감소한다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "신장성 수축 시 신장 속도가 빨라짐에 따라 힘(장력)생성은 증가한다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "근육이 발현할 수 있는 최대 근파워는 등척성 수축 시에 나타난다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "단축성 수축 속도가 동일할 때 속근섬유가 많을수록 큰 힘을 발휘한다."
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "인슐린 증가"
-        },
-        {
-          "id": 2,
-          "content": "코티졸 증가"
-        },
-        {
-          "id": 3,
-          "content": "글루카곤 감소"
-        },
-        {
-          "id": 4,
-          "content": "에스트로겐 감소"
-        }
+        { "id": 1, "content": "ㄱ, ㄴ, ㄷ" },
+        { "id": 2, "content": "ㄱ, ㄴ, ㄹ" },
+        { "id": 3, "content": "ㄱ, ㄷ, ㄹ" },
+        { "id": 4, "content": "ㄴ, ㄷ, ㄹ" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "단축성 수축은 속도가 빠를수록 십자형교(Cross-bridge) 형성 시간이 부족해 힘이 감소(ㄱ)하고, 신장성 수축은 속도가 빠를수록 더 큰 힘을 발휘(ㄴ)합니다. 또한 속근섬유는 동일 속도에서 더 높은 장력을 냅니다(ㄹ). **등척성 수축은 수축 속도가 0이므로 파워(힘×속도) 또한 0**입니다(ㄷ-오답)."
     },
     {
       "id": "PHY-2024-13",
       "questionNumber": 13,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 근육 수축 유형은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "MULTIPLE_CHOICE",
+      "question": "카테콜라민(에피네프린, 노르에피네프린)에 대한 설명으로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "등척성 수축"
-        },
-        {
-          "id": 2,
-          "content": "등장성 수축"
-        },
-        {
-          "id": 3,
-          "content": "단축성 수축"
-        },
-        {
-          "id": 4,
-          "content": "신장성 수축"
-        }
+        { "id": 1, "content": "부신피질에서 분비" },
+        { "id": 2, "content": "교감신경의 말단에서 분비" },
+        { "id": 3, "content": "α1 수용체 결합 시 기관지 수축" },
+        { "id": 4, "content": "β1 수용체 결합 시 심박수 증가" }
       ],
-      "answer": [
-        1,
-        3
-      ]
+      "answer": [1, 3],
+      "explanation": "카테콜라민은 부신피질이 아닌 **부신수질**에서 분비(1번 오답)됩니다. 또한 운동 시 기관지 확장은 **β2 수용체** 결합을 통해 일어나며, α1 수용체는 주로 말초 혈관 수축과 관련이 있습니다(3번 오답). β1 수용체는 심장에 위치하여 심박수와 수축력을 높입니다."
     },
     {
       "id": "PHY-2024-14",
       "questionNumber": 14,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 뼈의 리모델링(remodeling) 과정은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉의 에너지 대사 과정에 관한 설명 중 옳은 것만을 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          { "label": "ㄱ", "content": "해당과정 중 NADH가 생성된다." },
+          {
+            "label": "ㄴ",
+            "content": "크렙스 회로와 베타산화는 미토콘드리아에서 관찰되는 에너지 대사 과정이다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "포도당 한 분자의 해당과정 최종산물은 ATP 2분자와 피루브산염 2분자(또는 젖산염 2분자)이다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "낮은 운동강도로 30분 이상 운동 시 점진적으로 호흡교환율이 감소하고 지방 대사 비중은 높아진다."
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "골형성 과정"
-        },
-        {
-          "id": 2,
-          "content": "골흡수 과정"
-        },
-        {
-          "id": 3,
-          "content": "골리모델링 과정"
-        },
-        {
-          "id": 4,
-          "content": "골무기질화 과정"
-        }
+        { "id": 1, "content": "ㄱ, ㄴ" },
+        { "id": 2, "content": "ㄱ, ㄹ" },
+        { "id": 3, "content": "ㄴ, ㄷ" },
+        { "id": 4, "content": "ㄴ, ㄷ, ㄹ" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "세포질에서의 **해당과정 중에도 NADH가 생성**(ㄱ-참)됩니다. 크렙스 회로와 지방의 베타산화는 미토콘드리아 기질에서 일어나는 유산소 대사(ㄴ)이며, 포도당 분해 시 순수 ATP 2개와 피루브산 2개가 생성(ㄷ)됩니다. 저강도 장시간 운동 시에는 지방 이용률이 높아져 호흡교환율(RER)은 낮아집니다(ㄹ)."
     },
     {
       "id": "PHY-2024-15",
       "questionNumber": 15,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 최대산소섭취량(VO2max)에 관한 내용으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 중 혈중 포도당 농도를 유지하기 위한 호르몬에 대한 설명으로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "심폐기능의 지표로 사용된다."
-        },
+        { "id": 1, "content": "성장호르몬 - 간에서 포도당신생합성 증가" },
         {
           "id": 2,
-          "content": "트레이닝으로 향상될 수 있다."
+          "content": "코티솔 - 중성지방으로부터 유리지방산으로 분해 촉진"
         },
         {
           "id": 3,
-          "content": "나이가 들수록 증가한다."
+          "content": "노르에피네프린 - 골격근 조직 내 유리지방산 산화 억제"
         },
         {
           "id": 4,
-          "content": "유산소 능력을 나타낸다."
+          "content": "에피네프린 - 간에서 글리코겐 분해 촉진 및 조직의 혈중 포도당 사용 억제"
         }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "**노르에피네프린은 지방 분해를 자극하고 유리지방산의 산화 및 이용을 촉진**함으로써 혈중 포도당을 절약(Sparing)하는 역할을 합니다. 억제한다는 설명은 틀린 것입니다. 성장호르몬과 코티솔은 당신생을 돕고, 에피네프린은 강력하게 글리코겐을 분해하여 혈당을 유지합니다."
     },
     {
       "id": "PHY-2024-16",
       "questionNumber": 16,
-      "type": "BASIC",
-      "question": "〈보기〉에서 설명하는 운동과 뼈 건강에 관한 내용으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 중 수분과 전해질 균형에 관한 설명으로 옳은 것만을 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "장시간의 중강도 운동 시 혈장량 감소에 의해 알도스테론 분비는 증가한다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "땀 분비로 인한 혈장량 감소는 뇌하수체 후엽의 항이뇨호르몬 분비를 유도한다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "충분한 수분 섭취 없이 장시간 운동 시 체내 수분 재흡수를 위해 레닌-안지오텐신 II 호르몬이 분비된다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "운동에 의한 땀 분비는 수분 상실을 초래하며 혈중 삼투질 농도를 증가시킨다."
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "수영은 골밀도 향상에 효과적이다."
-        },
-        {
-          "id": 2,
-          "content": "체중부하 운동은 골밀도 향상에 도움이 된다."
-        },
-        {
-          "id": 3,
-          "content": "유연성 운동은 골밀도를 감소시킨다."
-        },
-        {
-          "id": 4,
-          "content": "노인의 운동 참여는 골다공증 예방에 효과가 없다."
-        }
+        { "id": 1, "content": "ㄱ, ㄷ" },
+        { "id": 2, "content": "ㄴ, ㄷ, ㄹ" },
+        { "id": 3, "content": "ㄱ, ㄴ, ㄷ, ㄹ" },
+        { "id": 4, "content": "ㄴ, ㄹ" }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "운동 중 탈수가 일어나면 혈장량이 줄어들고 **혈중 삼투질 농도는 증가**(ㄹ)합니다. 이를 감지하여 **뇌하수체 후엽에서 항이뇨호르몬(ADH)이 분비**(ㄴ)되어 수분 재흡수를 돕고, 신장 혈류 감소에 반응하여 **레닌-안지오텐신-알도스테론 체계가 활성화**(ㄱ, ㄷ)되어 나트륨과 수분을 보존합니다. (제시된 모든 보기가 생리학적으로 타당합니다.)"
     },
     {
       "id": "PHY-2024-17",
       "questionNumber": 17,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈표〉는 참가자의 폐환기 검사 결과이다. 〈보기〉에서 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "세 참가자의 분당환기량은 동일하다."
+      "view": {
+        "type": "COMPOSITE",
+        "media": {
+          "type": "IMAGE",
+          "url": "/exam/PHY_2024_17.webp",
+          "alt": "다영, 주은, 혜림의 1회호흡량 및 호흡수가 기재된 폐환기 검사 결과 표"
         },
-        {
-          "id": "ㄴ",
-          "content": "다영의 폐포 환기량은 분당 6L/min이다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "주은의 폐포 환기량이 가장 크다."
-        }
-      ],
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "세 참가자의 분당환기량(Ve)은 동일하다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "다영의 폐포환기량(Va)은 분당 6L/min이다."
+          },
+          { "label": "ㄷ", "content": "혜림의 폐포환기량(Va)이 가장 크다." }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "ㄱ, ㄴ"
-        },
-        {
-          "id": 2,
-          "content": "ㄱ, ㄷ"
-        },
-        {
-          "id": 3,
-          "content": "ㄴ, ㄷ"
-        },
-        {
-          "id": 4,
-          "content": "ㄱ, ㄴ, ㄷ"
-        }
+        { "id": 1, "content": "ㄱ, ㄴ" },
+        { "id": 2, "content": "ㄱ, ㄷ" },
+        { "id": 3, "content": "ㄴ, ㄷ" },
+        { "id": 4, "content": "ㄱ, ㄴ, ㄷ" }
       ],
-      "answer": 1
+      "answer": 4,
+      "explanation": "분당환기량(Ve) = 1회호흡량(TV) × 호흡수(RR). 세 사람 모두 곱이 10,000ml(10L)로 동일(ㄱ)합니다. \n폐포환기량(Va) = (TV - 사강용적) × RR. \n1. 다영: (500-200)×20 = 6,000ml = **6L**(ㄴ-참). \n2. 주은: (400-160)×25 = 6,000ml = 6L. \n3. 혜림: (1000-150)×10 = 8,500ml = 8.5L. \n따라서 **혜림의 폐포환기량이 가장 효율적이고 큽니다**(ㄷ-참)."
     },
     {
       "id": "PHY-2024-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "1회 박출량(stroke volume) 증가 요인으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "심박수 증가"
-        },
-        {
-          "id": 2,
-          "content": "심실 수축력 증가"
-        },
-        {
-          "id": 3,
-          "content": "평균 동맥혈압(MAP) 감소"
-        },
-        {
-          "id": 4,
-          "content": "심실 이완기말 혈액량(EDV) 증가"
-        }
+        { "id": 1, "content": "심박수 증가" },
+        { "id": 2, "content": "심실 수축력 증가" },
+        { "id": 3, "content": "평균 동맥혈압(MAP) 감소" },
+        { "id": 4, "content": "심실 이완기말 혈액량(EDV) 증가" }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "1회 박출량은 심근 수축력(2), 전부하(EDV, 4), 후부하의 감소(동맥혈압 저하, 3)에 의해 증가합니다. **심박수가 과도하게 증가하면 심실에 혈액이 충만될 시간(Filling time)이 부족**해져 오히려 1회 박출량이 감소하게 됩니다."
     },
     {
       "id": "PHY-2024-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "골격근 섬유에 관한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -561,34 +480,25 @@
           "content": "지연성 근통증은 골격근의 신장성(eccentric) 수축보다 단축성(concentric) 수축 시 더 쉽게 발생한다."
         }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "**칼슘이온은 근형질세망(SR) 내의 종말조에 저장**되어 있다가 활동전위 전달 시 방출되어 근수축을 유발합니다. 운동단위는 **운동뉴런**과 지배 근섬유를 말하며, 신경근 접합부의 물질은 **아세틸콜린**입니다. 지연성 근통증(DOMS)은 신장성 수축 시 더 심하게 발생합니다."
     },
     {
       "id": "PHY-2024-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "지근섬유(Type I)와 비교되는 속근섬유(Type II)의 특성으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "높은 피로 저항력"
-        },
-        {
-          "id": 2,
-          "content": "근형질세망의 발달"
-        },
-        {
-          "id": 3,
-          "content": "마이오신 ATPase의 느린 활성"
-        },
-        {
-          "id": 4,
-          "content": "운동신경세포(뉴런)의 작은 직경"
-        }
+        { "id": 1, "content": "높은 피로 저항력" },
+        { "id": 2, "content": "근형질세망의 발달" },
+        { "id": 3, "content": "마이오신 ATPase의 느린 활성" },
+        { "id": 4, "content": "운동신경세포(뉴런)의 작은 직경" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "**속근섬유(Type II)는 지근에 비해 칼슘을 관리하는 근형질세망(SR)이 고도로 발달**되어 있어 빠른 수축과 이완이 가능합니다. 또한 마이오신 ATPase 활성이 높아 에너지 방출 속도가 빠르며 지배하는 운동뉴런의 직경도 더 큽니다. 피로 저항력은 지근보다 현저히 낮습니다."
     }
   ]
 }

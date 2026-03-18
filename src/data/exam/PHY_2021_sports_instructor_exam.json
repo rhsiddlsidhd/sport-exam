@@ -6,19 +6,21 @@
     {
       "id": "PHY-2021-1",
       "questionNumber": 1,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉣에 해당하는 용어를 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "골격근은 ( ㉠ )신경계의 조절에 의해 ( ㉡ )으로 수축한다."
-        },
-        {
-          "id": "㉡",
-          "content": "걷기와 같은 저강도 운동 중에는 ( ㉢ ) 섬유가 주로 동원되고 전력 질주와 같은 고강도 운동 중에는 ( ㉣ ) 섬유가 주로 동원된다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "골격근은 ( ㉠ )신경계의 조절에 의해 ( ㉡ )으로 수축한다."
+          },
+          {
+            "label": "㉡",
+            "content": "걷기와 같은 저강도 운동 중에는 ( ㉢ ) 섬유가 주로 동원되고 전력 질주와 같은 고강도 운동 중에는 ( ㉣ ) 섬유가 주로 동원된다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -42,10 +44,11 @@
     {
       "id": "PHY-2021-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "안정 시와 운동 중 에너지 소비량 측정 및 추정에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -69,10 +72,11 @@
     {
       "id": "PHY-2021-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 심근(myocardium)으로 혈액을 공급하는 동맥은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -96,10 +100,11 @@
     {
       "id": "PHY-2021-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "해수면과 비교하여 고지 환경에서 운동 시 생리적 반응으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -123,10 +128,11 @@
     {
       "id": "PHY-2021-5",
       "questionNumber": 5,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "유산소 트레이닝에 의한 골격근의 적응 현상으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -150,27 +156,29 @@
     {
       "id": "PHY-2021-6",
       "questionNumber": 6,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 운동 중 호흡계 전도영역의 기능으로만 묶인 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "호흡하는 공기에 습기를 제공한다."
-        },
-        {
-          "id": "㉡",
-          "content": "폐포의 표면장력을 감소시키는 표면활성제(surfactant)를 제공한다."
-        },
-        {
-          "id": "㉢",
-          "content": "공기를 여과하는 역할을 한다."
-        },
-        {
-          "id": "㉣",
-          "content": "호흡가스 확산을 증가시킨다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "호흡하는 공기에 습기를 제공한다."
+          },
+          {
+            "label": "㉡",
+            "content": "폐포의 표면장력을 감소시키는 표면활성제(surfactant)를 제공한다."
+          },
+          {
+            "label": "㉢",
+            "content": "공기를 여과하는 역할을 한다."
+          },
+          {
+            "label": "㉣",
+            "content": "호흡가스 확산을 증가시킨다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -194,35 +202,37 @@
     {
       "id": "PHY-2021-7",
       "questionNumber": 7,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 내용 중 옳은 것으로만 묶인 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "유산소 시스템 : 장시간의 운동 시 글루코스 외에도 유리지방산을 이용하여 ATP 합성"
-        },
-        {
-          "id": "㉡",
-          "content": "유산소 시스템 : 세포질에서 크렙스회로와 전자전달계를 통해 ATP 합성"
-        },
-        {
-          "id": "㉢",
-          "content": "무산소 해당 시스템 : 혈액 혹은 글리코겐으로부터 얻어진 포도당을 피루브산으로 분해"
-        },
-        {
-          "id": "㉣",
-          "content": "무산소 해당 시스템 : 산화적 인산화를 통해 피루브산을 젖산으로 분해"
-        },
-        {
-          "id": "㉤",
-          "content": "ATP-PCr 시스템 : 세포 내 ADP 또는 Pi의 농도가 증가할 때 포스포프록토키나아제(PFK)를 활성화시켜 ATP 합성"
-        },
-        {
-          "id": "㉥",
-          "content": "ATP-PCr 시스템 : 단시간의 폭발적인 힘을 발휘하는 운동 시 PCr이 분해되며 발생한 에너지를 이용하여 ATP 합성"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "유산소 시스템 : 장시간의 운동 시 글루코스 외에도 유리지방산을 이용하여 ATP 합성"
+          },
+          {
+            "label": "㉡",
+            "content": "유산소 시스템 : 세포질에서 크렙스회로와 전자전달계를 통해 ATP 합성"
+          },
+          {
+            "label": "㉢",
+            "content": "무산소 해당 시스템 : 혈액 혹은 글리코겐으로부터 얻어진 포도당을 피루브산으로 분해"
+          },
+          {
+            "label": "㉣",
+            "content": "무산소 해당 시스템 : 산화적 인산화를 통해 피루브산을 젖산으로 분해"
+          },
+          {
+            "label": "㉤",
+            "content": "ATP-PCr 시스템 : 세포 내 ADP 또는 Pi의 농도가 증가할 때 포스포프록토키나아제(PFK)를 활성화시켜 ATP 합성"
+          },
+          {
+            "label": "㉥",
+            "content": "ATP-PCr 시스템 : 단시간의 폭발적인 힘을 발휘하는 운동 시 PCr이 분해되며 발생한 에너지를 이용하여 ATP 합성"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -246,19 +256,21 @@
     {
       "id": "PHY-2021-8",
       "questionNumber": 8,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 호르몬이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "혈중 칼슘 농도가 증가하면 뼈의 칼슘 방출을 감소시키는 호르몬"
-        },
-        {
-          "id": "㉡",
-          "content": "혈중 칼슘 농도가 감소하면 뼈의 칼슘 방출을 증가시키는 호르몬"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "혈중 칼슘 농도가 증가하면 뼈의 칼슘 방출을 감소시키는 호르몬"
+          },
+          {
+            "label": "㉡",
+            "content": "혈중 칼슘 농도가 감소하면 뼈의 칼슘 방출을 증가시키는 호르몬"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -282,10 +294,11 @@
     {
       "id": "PHY-2021-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "근섬유(muscle fiber) 및 근원섬유(myofibril)에 관한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -309,10 +322,11 @@
     {
       "id": "PHY-2021-10",
       "questionNumber": 10,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "골격근의 수축형태와 기능에 관한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -336,31 +350,33 @@
     {
       "id": "PHY-2021-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 심전도(ECG)에 관한 설명 중 옳은 것으로만 묶인 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "심방을 통한 전도속도가 감소하면 P파는 넓어진다."
-        },
-        {
-          "id": "㉡",
-          "content": "PR간격은 심방의 탈분극부터 심실의 탈분극 전까지 걸리는 시간이다."
-        },
-        {
-          "id": "㉢",
-          "content": "QRS복합파를 이용해서 심박수를 측정할 수 없다."
-        },
-        {
-          "id": "㉣",
-          "content": "QRS복합파는 심실에서의 탈분극을 일컫는다."
-        },
-        {
-          "id": "㉤",
-          "content": "ST분절은 심실 재분극에 소요되는 총 시간이다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "심방을 통한 전도속도가 감소하면 P파는 넓어진다."
+          },
+          {
+            "label": "㉡",
+            "content": "PR간격은 심방의 탈분극부터 심실의 탈분극 전까지 걸리는 시간이다."
+          },
+          {
+            "label": "㉢",
+            "content": "QRS복합파를 이용해서 심박수를 측정할 수 없다."
+          },
+          {
+            "label": "㉣",
+            "content": "QRS복합파는 심실에서의 탈분극을 일컫는다."
+          },
+          {
+            "label": "㉤",
+            "content": "ST분절은 심실 재분극에 소요되는 총 시간이다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -384,10 +400,11 @@
     {
       "id": "PHY-2021-12",
       "questionNumber": 12,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 시 호르몬이 분비되는 내분비선과 주요기능에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -411,10 +428,11 @@
     {
       "id": "PHY-2021-13",
       "questionNumber": 13,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "유산소 운동 중 호흡계의 환기량 증가 요인에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -438,13 +456,15 @@
     {
       "id": "PHY-2021-14",
       "questionNumber": 14,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 신경세포 활동전위의 단계는?",
-      "context": [
-        "칼륨(K+) 채널이 열려있고, 칼륨이 세포 외로 이동하면서 세포 내는 음전하를 띠게 되는 단계",
-        "이 단계 이후 칼륨 채널이 닫히고, 칼륨의 세포 외 유출이 적어짐에 따라 안정막 전위로 복귀"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "칼륨(K+) 채널이 열려있고, 칼륨이 세포 외로 이동하면서 세포 내는 음전하를 띠게 되는 단계",
+          "이 단계 이후 칼륨 채널이 닫히고, 칼륨의 세포 외 유출이 적어짐에 따라 안정막 전위로 복귀"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -468,14 +488,16 @@
     {
       "id": "PHY-2021-15",
       "questionNumber": 15,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 용어는?",
-      "context": [
-        "운동뉴런의 말단과 근섬유가 접합되어 있는 기능적 연결부위",
-        "신경전달물질이 분비되는 공간",
-        "시냅스 전 축삭말단, 시냅스 간극, 근섬유 원형질막의 운동종판으로 구성"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "운동뉴런의 말단과 근섬유가 접합되어 있는 기능적 연결부위",
+          "신경전달물질이 분비되는 공간",
+          "시냅스 전 축삭말단, 시냅스 간극, 근섬유 원형질막의 운동종판으로 구성"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -499,14 +521,16 @@
     {
       "id": "PHY-2021-16",
       "questionNumber": 16,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 열손실 기전은?",
-      "context": [
-        "피부의 땀이나 호흡을 통하여 체열을 손실시킨다.",
-        "실내 트레드밀 달리기 중 열손실의 가장 주된 기전이다.",
-        "대기조건(습도, 온도)과 노출된 피부 표면적의 영향을 받는다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "피부의 땀이나 호흡을 통하여 체열을 손실시킨다.",
+          "실내 트레드밀 달리기 중 열손실의 가장 주된 기전이다.",
+          "대기조건(습도, 온도)과 노출된 피부 표면적의 영향을 받는다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -530,14 +554,16 @@
     {
       "id": "PHY-2021-17",
       "questionNumber": 17,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 것은?",
-      "context": [
-        "고온환경의 운동 중 극도의 피로, 혼란, 혼미, 현기증, 구토",
-        "심한 탈수 현상으로 심혈관계가 인체의 요구에 적절히 대처하지 못함",
-        "심부체온 40 ℃ 미만"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "고온환경의 운동 중 극도의 피로, 혼란, 혼미, 현기증, 구토",
+          "심한 탈수 현상으로 심혈관계가 인체의 요구에 적절히 대처하지 못함",
+          "심부체온 40 ℃ 미만"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -561,31 +587,33 @@
     {
       "id": "PHY-2021-18",
       "questionNumber": 18,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 감각-운동 신경계의 인체 운동 반응 조절 과정을 단계별로 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "자극이 감각 뉴런을 통해 중추신경계로 전달된다."
-        },
-        {
-          "id": "㉡",
-          "content": "운동 자극이 중추신경계에서 운동 뉴런으로 전달된다."
-        },
-        {
-          "id": "㉢",
-          "content": "운동 자극이 근섬유에 전달되면 운동 반응이 일어난다."
-        },
-        {
-          "id": "㉣",
-          "content": "중추신경계가 정보를 해석하고 운동 반응을 결정한다."
-        },
-        {
-          "id": "㉤",
-          "content": "감각 수용기가 감각 자극을 받아들인다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "자극이 감각 뉴런을 통해 중추신경계로 전달된다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동 자극이 중추신경계에서 운동 뉴런으로 전달된다."
+          },
+          {
+            "label": "㉢",
+            "content": "운동 자극이 근섬유에 전달되면 운동 반응이 일어난다."
+          },
+          {
+            "label": "㉣",
+            "content": "중추신경계가 정보를 해석하고 운동 반응을 결정한다."
+          },
+          {
+            "label": "㉤",
+            "content": "감각 수용기가 감각 자극을 받아들인다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -609,10 +637,11 @@
     {
       "id": "PHY-2021-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "저항성 트레이닝에 의한 근력 향상의 요인으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -636,10 +665,11 @@
     {
       "id": "PHY-2021-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "고강도 운동 시 심박출량 증가 요인으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,

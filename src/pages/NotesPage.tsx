@@ -6,10 +6,10 @@ import { Badge } from "../components/atoms/badge";
 import { Button } from "../components/atoms/Button";
 import { TypographySmall } from "../components/atoms/Typography";
 import { cn, formatDate, formatDisplayDate } from "../lib/utils";
-import type { ExamContextItem } from "../types/exam-schema";
 import type { Note } from "../types/note";
 import SectionHeader from "../components/molecules/SectionHeader";
 import EmptyState from "../components/molecules/EmptyState";
+import QuestionContext from "../components/molecules/QuestionContext";
 
 const NotesPage = () => {
   const { notes, remove } = useNotes();
@@ -140,44 +140,8 @@ const NotesPage = () => {
                   {note.questionText}
                 </TypographySmall>
 
-                {/* PASSAGE: 지문 */}
-                {note.context && note.context.length > 0 && (
-                  <div className="bg-muted/40 border-border mb-3 rounded-xl border p-3">
-                    <span className="text-muted-foreground mb-1.5 block text-[9px] font-black tracking-wider uppercase">
-                      지문
-                    </span>
-                    <ul className="space-y-1">
-                      {note.context.map((line, i) => (
-                        <li key={i}>
-                          <TypographySmall className="text-foreground/80 block leading-snug break-keep">
-                            {line}
-                          </TypographySmall>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                {/* COMBINATION_*: 보기 항목 */}
-                {note.contextItems && note.contextItems.length > 0 && (
-                  <div className="bg-muted/40 border-border mb-3 rounded-xl border p-3">
-                    <span className="text-muted-foreground mb-1.5 block text-[9px] font-black tracking-wider uppercase">
-                      보기
-                    </span>
-                    <ul className="space-y-1.5">
-                      {note.contextItems.map((item: ExamContextItem) => (
-                        <li key={item.id} className="flex gap-2">
-                          <span className="text-primary shrink-0 text-xs font-black">
-                            {item.id}
-                          </span>
-                          <TypographySmall className="text-foreground/80 block leading-snug break-keep">
-                            {item.content}
-                          </TypographySmall>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
+                {/* 새로운 QuestionContext 컴포넌트 재사용 */}
+                <QuestionContext view={note.view} />
 
                 <div className="flex flex-col gap-1 p-3 bg-success/8 rounded-xl border border-success/20">
                   <span className="text-[9px] font-black text-success/60 uppercase tracking-wider">

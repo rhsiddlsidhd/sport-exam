@@ -6,10 +6,11 @@
     {
       "id": "ETH-2020-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠윤리의 역할로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,10 +34,11 @@
     {
       "id": "ETH-2020-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "가치판단의 사례로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -60,19 +62,21 @@
     {
       "id": "ETH-2020-3",
       "questionNumber": 3,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 용어로 바른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "스포츠에는 ( ㉠ )적 요소와 ( ㉡ )적 요소가 모두 내재되어 있다. ( ㉠ )적 요소는 경기에 긴장과 흥미를 불러일으킨다. 선수들은 승리하려는 강렬한 욕망으로 인해 경기에 몰입하고, 스포츠팬들 역시 승부로 인해 응원의 동기를 갖게 된다."
-        },
-        {
-          "id": "㉡",
-          "content": "그러나 경쟁심이 과열되고 승리가 절대화될 경우 제도화된 규칙이 무시될 우려가 있으며, 스포츠는 폭력의 투쟁으로 변질될 수 있다. 이것이 스포츠에서 ( ㉠ )적 요소보다 ( ㉡ )적 요소를 더욱 중시하는 이유이다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "스포츠에는 ( ㉠ )적 요소와 ( ㉡ )적 요소가 모두 내재되어 있다. ( ㉠ )적 요소는 경기에 긴장과 흥미를 불러일으킨다. 선수들은 승리하려는 강렬한 욕망으로 인해 경기에 몰입하고, 스포츠팬들 역시 승부로 인해 응원의 동기를 갖게 된다."
+          },
+          {
+            "label": "㉡",
+            "content": "그러나 경쟁심이 과열되고 승리가 절대화될 경우 제도화된 규칙이 무시될 우려가 있으며, 스포츠는 폭력의 투쟁으로 변질될 수 있다. 이것이 스포츠에서 ( ㉠ )적 요소보다 ( ㉡ )적 요소를 더욱 중시하는 이유이다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -96,10 +100,11 @@
     {
       "id": "ETH-2020-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "에토스(ethos)의 실천으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -123,13 +128,15 @@
     {
       "id": "ETH-2020-5",
       "questionNumber": 5,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 괄호에 들어갈 용어로 적절한 것은?",
-      "context": [
-        "스포츠윤리 교육의 목적은 스포츠인의 도덕적 ( ) 함양이라고 할 수 있다.",
-        "도덕적 ( )이란 '도덕적 문제에 대한 비판적, 독립적인 사고를 바탕으로 스포츠 상황에 적용하는 능력'을 의미한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "BLANK",
+        "passage": [
+          "스포츠윤리 교육의 목적은 스포츠인의 도덕적 ( ) 함양이라고 할 수 있다.",
+          "도덕적 ( )이란 '도덕적 문제에 대한 비판적, 독립적인 사고를 바탕으로 스포츠 상황에 적용하는 능력'을 의미한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -153,31 +160,33 @@
     {
       "id": "ETH-2020-6",
       "questionNumber": 6,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 의무론적 도덕 추론에 해당하는 것을 바르게 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "행위의 결과에 상관없이 절대적인 도덕규칙에 따라 판단을 내린다."
-        },
-        {
-          "id": "㉡",
-          "content": "행위를 함에 있어 유용성의 원리, 공평성의 원리 등이 적용된다."
-        },
-        {
-          "id": "㉢",
-          "content": "행위의 옳고 그름은 그 행위로 인해 발생하는 결과에 따라 결정된다."
-        },
-        {
-          "id": "㉣",
-          "content": "의무론적 도덕 추론은 정언적 도덕 추론이라고도 한다."
-        },
-        {
-          "id": "㉤",
-          "content": "행위에 있어 선의지가 중요하며, 목적은 수단을 정당화할 수 없다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "행위의 결과에 상관없이 절대적인 도덕규칙에 따라 판단을 내린다."
+          },
+          {
+            "label": "㉡",
+            "content": "행위를 함에 있어 유용성의 원리, 공평성의 원리 등이 적용된다."
+          },
+          {
+            "label": "㉢",
+            "content": "행위의 옳고 그름은 그 행위로 인해 발생하는 결과에 따라 결정된다."
+          },
+          {
+            "label": "㉣",
+            "content": "의무론적 도덕 추론은 정언적 도덕 추론이라고도 한다."
+          },
+          {
+            "label": "㉤",
+            "content": "행위에 있어 선의지가 중요하며, 목적은 수단을 정당화할 수 없다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -201,14 +210,16 @@
     {
       "id": "ETH-2020-7",
       "questionNumber": 7,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 국제축구연맹(FIFA)의 판단과정에 영향을 준 윤리 이론은?",
-      "context": [
-        "국제축구연맹은 선수부상 위험과 종교적인 갈등을 불러일으킬 수 있다는 이유로 경기 중 히잡(hijab) 착용을 금지했었다.",
-        "그러나 국제축구연맹 부회장인 알리빈 알 후세인은 이러한 조치가 오히려 종교적인 역차별이라는 주장을 내세우며 제도개선을 요구하였다.",
-        "오늘날 국제축구연맹은 히잡을 쓴 이슬람권 여성 선수의 참가를 허용하고 있다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "국제축구연맹은 선수부상 위험과 종교적인 갈등을 불러일으킬 수 있다는 이유로 경기 중 히잡(hijab) 착용을 금지했었다.",
+          "그러나 국제축구연맹 부회장인 알리빈 알 후세인은 이러한 조치가 오히려 종교적인 역차별이라는 주장을 내세우며 제도개선을 요구하였다.",
+          "오늘날 국제축구연맹은 히잡을 쓴 이슬람권 여성 선수의 참가를 허용하고 있다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -232,10 +243,11 @@
     {
       "id": "ETH-2020-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "도핑검사에서 선수의 역할 및 책임으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -259,10 +271,11 @@
     {
       "id": "ETH-2020-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "폭력을 설명한 학자의 개념과 그에 대한 설명으로 바르게 연결되지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -286,13 +299,15 @@
     {
       "id": "ETH-2020-10",
       "questionNumber": 10,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 내용과 연관된 학자의 이론으로 적절하지 않은 것은?",
-      "context": [
-        "자연중심주의 환경윤리는 환경에 있어서 도덕적 고려의 대상을 자연의 생명체를 포함한 생태계 전체로 확대할 것을 주문한다.",
-        "이런 점에서 보면 동물 스포츠라 불리는 스페인의 투우, 한국의 전통 민속놀이인 소싸움 등은 동물을 인간의 오락 대상으로 삼았다는 점에서 윤리적으로 허용되기 어렵다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "자연중심주의 환경윤리는 환경에 있어서 도덕적 고려의 대상을 자연의 생명체를 포함한 생태계 전체로 확대할 것을 주문한다.",
+          "이런 점에서 보면 동물 스포츠라 불리는 스페인의 투우, 한국의 전통 민속놀이인 소싸움 등은 동물을 인간의 오락 대상으로 삼았다는 점에서 윤리적으로 허용되기 어렵다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -316,31 +331,33 @@
     {
       "id": "ETH-2020-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 (가)에서 A팀의 행동을 지지하는 이론의 제한점을 (나)에서 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "결과로 행위를 평가하기 때문에 정의의 문제가 소홀해질 수 있다."
-        },
-        {
-          "id": "㉡",
-          "content": "도덕규칙 간의 충돌 문제가 발생했을 때 실질적인 도움을 주지 못할 수 있다."
-        },
-        {
-          "id": "㉢",
-          "content": "일반적인 사실로부터 도덕적인 당위를 추론하지 못할 수 있다."
-        },
-        {
-          "id": "㉣",
-          "content": "사회 전체의 이익을 제대로 고려하지 못하는 경우가 있다."
-        },
-        {
-          "id": "㉤",
-          "content": "개인의 이익과 공공의 이익이 충돌할 때 사익(私益)의 희생을 당연시한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "결과로 행위를 평가하기 때문에 정의의 문제가 소홀해질 수 있다."
+          },
+          {
+            "label": "㉡",
+            "content": "도덕규칙 간의 충돌 문제가 발생했을 때 실질적인 도움을 주지 못할 수 있다."
+          },
+          {
+            "label": "㉢",
+            "content": "일반적인 사실로부터 도덕적인 당위를 추론하지 못할 수 있다."
+          },
+          {
+            "label": "㉣",
+            "content": "사회 전체의 이익을 제대로 고려하지 못하는 경우가 있다."
+          },
+          {
+            "label": "㉤",
+            "content": "개인의 이익과 공공의 이익이 충돌할 때 사익(私益)의 희생을 당연시한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -364,27 +381,29 @@
     {
       "id": "ETH-2020-12",
       "questionNumber": 12,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 스포츠 현장에서 발생하는 도핑(약물복용)의 원인을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "선수 또는 동물의 수행능력 향상을 위한 것이다."
-        },
-        {
-          "id": "㉡",
-          "content": "상대와의 경쟁에서 승리하기 위한 것이다."
-        },
-        {
-          "id": "㉢",
-          "content": "경기에 참가하고 싶은 지나친 욕구 때문이다."
-        },
-        {
-          "id": "㉣",
-          "content": "물질적 보상이 동기가 되기 때문이다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "선수 또는 동물의 수행능력 향상을 위한 것이다."
+          },
+          {
+            "label": "㉡",
+            "content": "상대와의 경쟁에서 승리하기 위한 것이다."
+          },
+          {
+            "label": "㉢",
+            "content": "경기에 참가하고 싶은 지나친 욕구 때문이다."
+          },
+          {
+            "label": "㉣",
+            "content": "물질적 보상이 동기가 되기 때문이다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -408,19 +427,21 @@
     {
       "id": "ETH-2020-13",
       "questionNumber": 13,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡과 스포츠에서의 정의(justice)에 대한 개념이 바르게 묶인 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "핸드볼 - 양 팀에 동일한 골대의 규격을 적용"
-        },
-        {
-          "id": "㉡",
-          "content": "테니스 - 시합 전 동전 던지기로 선공/후공을 결정"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "핸드볼 - 양 팀에 동일한 골대의 규격을 적용"
+          },
+          {
+            "label": "㉡",
+            "content": "테니스 - 시합 전 동전 던지기로 선공/후공을 결정"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -444,15 +465,17 @@
     {
       "id": "ETH-2020-14",
       "questionNumber": 14,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 밑줄 친 A 선수의 입장과 관련된 맹자(孟子)의 사상으로 적절한 것은?",
-      "context": [
-        "태권도 국가대표선발 결승전, 먼저 득점하면 경기가 종료되는 서든데스(sudden death) 상황에서 A 선수가 실수로 경기장 한계선을 넘었다.",
-        "A 선수가 패배해야 할 상황이었지만 심판은 감점을 선언하지 않았다.",
-        "상대 팀 감독과 선수는 강력히 항의했으나 판정은 번복되지 않았고 경기는 계속 진행됐다.",
-        "결국 A 선수는 승리했지만, 부끄러운 마음에 팀 동료들과 승리의 기쁨을 나누지 않고 조용히 집으로 돌아갔다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "태권도 국가대표선발 결승전, 먼저 득점하면 경기가 종료되는 서든데스(sudden death) 상황에서 A 선수가 실수로 경기장 한계선을 넘었다.",
+          "A 선수가 패배해야 할 상황이었지만 심판은 감점을 선언하지 않았다.",
+          "상대 팀 감독과 선수는 강력히 항의했으나 판정은 번복되지 않았고 경기는 계속 진행됐다.",
+          "결국 A 선수는 승리했지만, 부끄러운 마음에 팀 동료들과 승리의 기쁨을 나누지 않고 조용히 집으로 돌아갔다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -476,13 +499,15 @@
     {
       "id": "ETH-2020-15",
       "questionNumber": 15,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 대화 내용과 성차별적 인식이 다른 것은?",
-      "context": [
-        "보연 : 내 친구 수현이는 얼마 전부터 권투를 시작했어. 남자들이나 하는 거친 운동을 여자가 겁도 없이 한다기에 내가 못 하게 적극적으로 말렸어.",
-        "지웅 : 잘했어. 여자에게 어울리는 스포츠도 많잖아. 요가나 필라테스처럼 여자에게 어울리는 종목을 추천해줘."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "보연 : 내 친구 수현이는 얼마 전부터 권투를 시작했어. 남자들이나 하는 거친 운동을 여자가 겁도 없이 한다기에 내가 못 하게 적극적으로 말렸어.",
+          "지웅 : 잘했어. 여자에게 어울리는 스포츠도 많잖아. 요가나 필라테스처럼 여자에게 어울리는 종목을 추천해줘."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -506,10 +531,11 @@
     {
       "id": "ETH-2020-16",
       "questionNumber": 16,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "심판에게 요구되는 개인윤리적 덕목에 대한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -533,27 +559,29 @@
     {
       "id": "ETH-2020-17",
       "questionNumber": 17,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 (가)에서 환경단체의 입장과 관련이 있는 주장을 (나)에서 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "효율성의 극대화를 목표로 하는 경제학을 추구한다."
-        },
-        {
-          "id": "㉡",
-          "content": "인간의 사용 가치에 비례하여 자연의 가치를 평가한다."
-        },
-        {
-          "id": "㉢",
-          "content": "인간을 소중히 여기는 마음으로 자연환경도 소중히 대한다."
-        },
-        {
-          "id": "㉣",
-          "content": "인간도 생태계 구성원으로 보는 생태 공동체 의식을 기른다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "효율성의 극대화를 목표로 하는 경제학을 추구한다."
+          },
+          {
+            "label": "㉡",
+            "content": "인간의 사용 가치에 비례하여 자연의 가치를 평가한다."
+          },
+          {
+            "label": "㉢",
+            "content": "인간을 소중히 여기는 마음으로 자연환경도 소중히 대한다."
+          },
+          {
+            "label": "㉣",
+            "content": "인간도 생태계 구성원으로 보는 생태 공동체 의식을 기른다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -577,10 +605,11 @@
     {
       "id": "ETH-2020-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "성폭력 예방 또는 대처에 대한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -604,10 +633,11 @@
     {
       "id": "ETH-2020-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "장애인 선수들의 인권향상을 위한 방안으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -631,12 +661,14 @@
     {
       "id": "ETH-2020-20",
       "questionNumber": 20,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 괄호에 들어갈 용어로 적절한 것은?",
-      "context": [
-        "1968년 제19회 멕시코올림픽의 육상 200 M 경기에서 1위와 3위로 입상한 미국의 토미 스미스와 존 카롤로스는 시상식에서 검은 장갑, 검은 양말 등으로 ( )에 대해 저항을 표현했다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "BLANK",
+        "passage": [
+          "1968년 제19회 멕시코올림픽의 육상 200 M 경기에서 1위와 3위로 입상한 미국의 토미 스미스와 존 카롤로스는 시상식에서 검은 장갑, 검은 양말 등으로 ( )에 대해 저항을 표현했다."
+        ]
+      },
       "options": [
         {
           "id": 1,

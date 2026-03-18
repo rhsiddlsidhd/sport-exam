@@ -45,6 +45,8 @@ const QuestionPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+  // 사용자의 선택 답변 (문제 ID -> 선택한 option.id)
   const [userAnswers, setUserAnswers] = useState<Record<string, number>>({});
 
   const validYear = year && VALID_YEARS.has(year) ? year : null;
@@ -77,9 +79,11 @@ const QuestionPage = () => {
   if (!validYear) return <NotFound />;
 
   const handleBack = () => navigate(`/${subject}`);
+
   const handleSelectOption = (questionId: string, optionId: number) => {
     setUserAnswers((prev) => ({ ...prev, [questionId]: optionId }));
   };
+
   const handleNext = () => {
     if (currentIndex < questions.length - 1) setCurrentIndex((p) => p + 1);
   };
@@ -92,8 +96,9 @@ const QuestionPage = () => {
     });
   };
 
+  // 모든 문제가 답변되었는지 확인
   const isAllAnswered =
-    questions.length > 0 && questions.every((q) => userAnswers[q.id]);
+    questions.length > 0 && questions.every((q) => !!userAnswers[q.id]);
 
   if (loading) {
     return (
@@ -123,6 +128,8 @@ const QuestionPage = () => {
 
   const answeredCount = Object.keys(userAnswers).length;
   const progress = ((currentIndex + 1) / questions.length) * 100;
+  const currentQuestion = questions[currentIndex];
+  const currentAnswer = userAnswers[currentQuestion.id];
 
   return (
     <div className="flex flex-col h-full bg-background overflow-hidden">
@@ -180,10 +187,10 @@ const QuestionPage = () => {
       <div className="flex-1 overflow-y-auto scrollbar-hide">
         <div className="w-full max-w-xl mx-auto py-3">
           <QuestionCard
-            key={questions[currentIndex].id}
-            question={questions[currentIndex]}
-            selectedOption={userAnswers[questions[currentIndex].id] || null}
-            onSelect={(id) => handleSelectOption(questions[currentIndex].id, id)}
+            key={currentQuestion.id}
+            question={currentQuestion}
+            selectedOption={currentAnswer || null}
+            onSelect={(id) => handleSelectOption(currentQuestion.id, id)}
           />
         </div>
       </div>

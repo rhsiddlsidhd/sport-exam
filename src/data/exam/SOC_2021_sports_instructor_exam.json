@@ -6,10 +6,11 @@
     {
       "id": "SOC-2021-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회학에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,13 +34,15 @@
     {
       "id": "SOC-2021-2",
       "questionNumber": 2,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠의 국제 정치적 사건은?",
-      "context": [
-        "온두라스와 엘살바도르 간의 갈등 심화",
-        "1969년 중남미 월드컵 지역 예선 경기에서 발생"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "온두라스와 엘살바도르 간의 갈등 심화",
+          "1969년 중남미 월드컵 지역 예선 경기에서 발생"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -63,10 +66,11 @@
     {
       "id": "SOC-2021-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "파슨즈(T. Parsons)의 AGIL 모형에 근거한 스포츠의 사회적 기능으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -90,10 +94,11 @@
     {
       "id": "SOC-2021-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "훌리한(B. Houlihan)이 제시한 정부(정치)가 스포츠에 개입한 목적에 해당하지 않는 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -117,27 +122,29 @@
     {
       "id": "SOC-2021-5",
       "questionNumber": 5,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 프로스포츠의 순기능을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "스포츠의 대중화"
-        },
-        {
-          "id": "㉡",
-          "content": "생활의 활력소 역할"
-        },
-        {
-          "id": "㉢",
-          "content": "지역사회 연대감 증대"
-        },
-        {
-          "id": "㉣",
-          "content": "아마추어 스포츠의 활성화"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "스포츠의 대중화"
+          },
+          {
+            "label": "㉡",
+            "content": "생활의 활력소 역할"
+          },
+          {
+            "label": "㉢",
+            "content": "지역사회 연대감 증대"
+          },
+          {
+            "label": "㉣",
+            "content": "아마추어 스포츠의 활성화"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -161,35 +168,37 @@
     {
       "id": "SOC-2021-6",
       "questionNumber": 6,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 스포츠 상업화에 따른 변화를 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "프로페셔널리즘 추구"
-        },
-        {
-          "id": "㉡",
-          "content": "심미적 가치의 경시"
-        },
-        {
-          "id": "㉢",
-          "content": "직업선수의 등장"
-        },
-        {
-          "id": "㉣",
-          "content": "아마추어리즘의 강조"
-        },
-        {
-          "id": "㉤",
-          "content": "스포츠조직의 세계화"
-        },
-        {
-          "id": "㉥",
-          "content": "농구 쿼터제 도입"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "프로페셔널리즘 추구"
+          },
+          {
+            "label": "㉡",
+            "content": "심미적 가치의 경시"
+          },
+          {
+            "label": "㉢",
+            "content": "직업선수의 등장"
+          },
+          {
+            "label": "㉣",
+            "content": "아마추어리즘의 강조"
+          },
+          {
+            "label": "㉤",
+            "content": "스포츠조직의 세계화"
+          },
+          {
+            "label": "㉥",
+            "content": "농구 쿼터제 도입"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -213,27 +222,29 @@
     {
       "id": "SOC-2021-7",
       "questionNumber": 7,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 투민(M. Tumin)의 스포츠계층 형성과정의 서열화에 관한 설명 중 옳은 것을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "특정 선수를 선망의 대상으로 생각하거나 팬으로서 특정 선수를 좋아한다."
-        },
-        {
-          "id": "㉡",
-          "content": "스포츠 팀 구성원으로 자신의 능력이 팀의 승리에 미치는 영향력이 커야 한다."
-        },
-        {
-          "id": "㉢",
-          "content": "뛰어난 운동신경과 능력뿐만 아니라 탁월한 개인적 특성을 갖추고 있어야 한다."
-        },
-        {
-          "id": "㉣",
-          "content": "특정 스포츠 영역에서 요구되는 운동기술이 특출한 기량을 발휘해야 한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "특정 선수를 선망의 대상으로 생각하거나 팬으로서 특정 선수를 좋아한다."
+          },
+          {
+            "label": "㉡",
+            "content": "스포츠 팀 구성원으로 자신의 능력이 팀의 승리에 미치는 영향력이 커야 한다."
+          },
+          {
+            "label": "㉢",
+            "content": "뛰어난 운동신경과 능력뿐만 아니라 탁월한 개인적 특성을 갖추고 있어야 한다."
+          },
+          {
+            "label": "㉣",
+            "content": "특정 스포츠 영역에서 요구되는 운동기술이 특출한 기량을 발휘해야 한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -257,10 +268,11 @@
     {
       "id": "SOC-2021-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "로이(J. Loy)와 레오나르드(G. Leonard)가 제시한 사회이동 기제로서 스포츠 역할의 근거로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -284,10 +296,11 @@
     {
       "id": "SOC-2021-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 미디어 이론에 관한 설명이 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -311,27 +324,29 @@
     {
       "id": "SOC-2021-10",
       "questionNumber": 10,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉣에 해당하는 머튼(R. Merton)의 아노미이론에서 제시한 일탈행동 유형이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "벤 존슨은 불법약물복용으로 올림픽 금메달을 박탈당했다."
-        },
-        {
-          "id": "㉡",
-          "content": "승리에 대한 집념보다는 규칙을 지키며 최선을 다해 경기에 참여한다."
-        },
-        {
-          "id": "㉢",
-          "content": "스스로 실력의 한계를 느끼고 운동부에서 탈퇴한다."
-        },
-        {
-          "id": "㉣",
-          "content": "학생선수의 학습권을 보장하기 위해 최저학력제를 도입하였다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "벤 존슨은 불법약물복용으로 올림픽 금메달을 박탈당했다."
+          },
+          {
+            "label": "㉡",
+            "content": "승리에 대한 집념보다는 규칙을 지키며 최선을 다해 경기에 참여한다."
+          },
+          {
+            "label": "㉢",
+            "content": "스스로 실력의 한계를 느끼고 운동부에서 탈퇴한다."
+          },
+          {
+            "label": "㉣",
+            "content": "학생선수의 학습권을 보장하기 위해 최저학력제를 도입하였다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -355,27 +370,29 @@
     {
       "id": "SOC-2021-11",
       "questionNumber": 11,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉣에 해당하는 집합행동 이론이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "군중은 피암시성, 순환적 반작용에 의해 폭력적 집단행동이 나타난다."
-        },
-        {
-          "id": "㉡",
-          "content": "군중들의 반사회적 성향이 익명성, 몰개성화에 의해 집합행동으로 나타난다."
-        },
-        {
-          "id": "㉢",
-          "content": "특정 사회적 상황에서의 공유의식은 구성원의 감정과 정숙 정도, 수용성 등에 영향을 준다."
-        },
-        {
-          "id": "㉣",
-          "content": "선행적 사회구조적·문화적 요인으로 인한 단계적 절차는 집합행동을 생성, 발전 및 소멸시킨다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "군중은 피암시성, 순환적 반작용에 의해 폭력적 집단행동이 나타난다."
+          },
+          {
+            "label": "㉡",
+            "content": "군중들의 반사회적 성향이 익명성, 몰개성화에 의해 집합행동으로 나타난다."
+          },
+          {
+            "label": "㉢",
+            "content": "특정 사회적 상황에서의 공유의식은 구성원의 감정과 정숙 정도, 수용성 등에 영향을 준다."
+          },
+          {
+            "label": "㉣",
+            "content": "선행적 사회구조적·문화적 요인으로 인한 단계적 절차는 집합행동을 생성, 발전 및 소멸시킨다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -399,23 +416,25 @@
     {
       "id": "SOC-2021-12",
       "questionNumber": 12,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>는 코클리(J. Coakley)가 제시한 일탈적 과잉동조를 유발하는 스포츠 윤리규범의 유형과 특징에 관한 설명이다. ㉠∼㉢에 들어갈 내용이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "운동선수는 위험을 받아들이고 고통 속에서도 경기에 참여해야 한다."
-        },
-        {
-          "id": "㉡",
-          "content": "운동선수는 장애물을 극복하고 역경을 헤쳐 나가는 노력을 해야 한다."
-        },
-        {
-          "id": "㉢",
-          "content": "운동선수는 경기에 헌신해야 하며 이를 그들의 삶에서 우선순위에 두어야 한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동선수는 위험을 받아들이고 고통 속에서도 경기에 참여해야 한다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동선수는 장애물을 극복하고 역경을 헤쳐 나가는 노력을 해야 한다."
+          },
+          {
+            "label": "㉢",
+            "content": "운동선수는 경기에 헌신해야 하며 이를 그들의 삶에서 우선순위에 두어야 한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -439,14 +458,16 @@
     {
       "id": "SOC-2021-13",
       "questionNumber": 13,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 매기(J. Magee)와 서덴(J. Sugden)이 제시한 스포츠의 노동이주 유형은?",
-      "context": [
-        "종목의 특성으로 인해 국가 간 이동이 발생한다.",
-        "개인의 취향에 의해 선택하는 경우도 발생한다.",
-        "흥미로운 장소를 돌면서 스포츠를 즐기는 유형이다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "종목의 특성으로 인해 국가 간 이동이 발생한다.",
+          "개인의 취향에 의해 선택하는 경우도 발생한다.",
+          "흥미로운 장소를 돌면서 스포츠를 즐기는 유형이다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -470,13 +491,15 @@
     {
       "id": "SOC-2021-14",
       "questionNumber": 14,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠일탈이론의 관점은?",
-      "context": [
-        "동일한 행위도 상황에 따라 일탈로 규정되거나 그렇지 않을 수 있다.",
-        "경기장에도 다양한 일탈 행동으로 낙인 찍힌 선수들이 있다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "동일한 행위도 상황에 따라 일탈로 규정되거나 그렇지 않을 수 있다.",
+          "경기장에도 다양한 일탈 행동으로 낙인 찍힌 선수들이 있다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -500,23 +523,25 @@
     {
       "id": "SOC-2021-15",
       "questionNumber": 15,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉢에 해당하는 스포츠사회화 과정이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "테니스 지도자가 되어 초등학교에서 테니스를 가르치게 되었다."
-        },
-        {
-          "id": "㉡",
-          "content": "부모님의 권유로 테니스를 배우게 되었다."
-        },
-        {
-          "id": "㉢",
-          "content": "테니스참여를 통해 사회성, 준법정신이 강한 선수가 되었다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "테니스 지도자가 되어 초등학교에서 테니스를 가르치게 되었다."
+          },
+          {
+            "label": "㉡",
+            "content": "부모님의 권유로 테니스를 배우게 되었다."
+          },
+          {
+            "label": "㉢",
+            "content": "테니스참여를 통해 사회성, 준법정신이 강한 선수가 되었다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -540,27 +565,29 @@
     {
       "id": "SOC-2021-16",
       "questionNumber": 16,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 신자유주의 시대 스포츠 세계화의 특징에 해당하는 것으로만 묶인 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "스포츠 시장의 경계가 국경을 초월해 전 세계로 확대되었다."
-        },
-        {
-          "id": "㉡",
-          "content": "프로스포츠의 이윤 극대화로 인해 빈익빈 부익부 현상이 해소되었다."
-        },
-        {
-          "id": "㉢",
-          "content": "세계인들에게 표준화된 스포츠 상품과 스포츠 문화를 소비하게 만들었다."
-        },
-        {
-          "id": "㉣",
-          "content": "각 나라의 전통스포츠가 전 세계로 보급되어 새로운 스포츠 시장을 개척할 수 있게 되었다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "스포츠 시장의 경계가 국경을 초월해 전 세계로 확대되었다."
+          },
+          {
+            "label": "㉡",
+            "content": "프로스포츠의 이윤 극대화로 인해 빈익빈 부익부 현상이 해소되었다."
+          },
+          {
+            "label": "㉢",
+            "content": "세계인들에게 표준화된 스포츠 상품과 스포츠 문화를 소비하게 만들었다."
+          },
+          {
+            "label": "㉣",
+            "content": "각 나라의 전통스포츠가 전 세계로 보급되어 새로운 스포츠 시장을 개척할 수 있게 되었다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -584,19 +611,21 @@
     {
       "id": "SOC-2021-17",
       "questionNumber": 17,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 용어가 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "미디어는 스포츠 중계를 통해 시청자들의 상품 소비를 촉진시키는 ( ㉠ ) 이데올로기를 생산한다."
-        },
-        {
-          "id": "㉡",
-          "content": "미디어는 남성스포츠 경기를 역사적 중요성을 갖고 있는 것처럼 묘사하며, 여성 스포츠를 실력보다 외모를 부각시키는 ( ㉡ ) 이데올로기를 생산한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "미디어는 스포츠 중계를 통해 시청자들의 상품 소비를 촉진시키는 ( ㉠ ) 이데올로기를 생산한다."
+          },
+          {
+            "label": "㉡",
+            "content": "미디어는 남성스포츠 경기를 역사적 중요성을 갖고 있는 것처럼 묘사하며, 여성 스포츠를 실력보다 외모를 부각시키는 ( ㉡ ) 이데올로기를 생산한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -620,10 +649,11 @@
     {
       "id": "SOC-2021-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "교육현장에서 스포츠의 역기능에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -647,14 +677,16 @@
     {
       "id": "SOC-2021-19",
       "questionNumber": 19,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠사회화 이론은?",
-      "context": [
-        "상과 벌을 통해 행동의 변화가 일어난다.",
-        "사회화 주관자의 가르침을 통해 행동이 변화한다.",
-        "다른 사람의 행동을 관찰하여 모방이 일어난다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "상과 벌을 통해 행동의 변화가 일어난다.",
+          "사회화 주관자의 가르침을 통해 행동이 변화한다.",
+          "다른 사람의 행동을 관찰하여 모방이 일어난다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -678,10 +710,11 @@
     {
       "id": "SOC-2021-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "미래 스포츠의 변화와 전망에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,

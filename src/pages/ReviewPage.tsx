@@ -1,10 +1,6 @@
 import { useLocation, useNavigate, Link } from "react-router";
 import { Bookmark, BookmarkCheck } from "lucide-react";
-import type {
-  ExamQuestion,
-  ExamContextItem,
-  ExamQuestionType,
-} from "../types/exam-schema";
+import type { ExamQuestion } from "../types/exam-schema";
 import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
 import { TypographySmall } from "../components/atoms/Typography";
@@ -12,6 +8,7 @@ import { Button } from "../components/atoms/Button";
 import { useNotes } from "../hooks/useNotes";
 import { cn } from "../lib/utils";
 import SectionHeader from "../components/molecules/SectionHeader";
+import QuestionContext from "../components/molecules/QuestionContext";
 
 interface LocationState {
   year: string;
@@ -48,26 +45,30 @@ const ReviewPage = () => {
 
   const results = questions.map((q) => {
     const userAnswerId = userAnswers[q.id];
-
-    const userOption = q.options.find((opt) => opt.id === userAnswerId);
+    
+    // 정답 체크 로직 (중복 정답 대응: 사용자 선택이 정답 배열/값에 포함되는지 확인)
     const isCorrect = Array.isArray(q.answer)
       ? q.answer.includes(userAnswerId)
       : userAnswerId === q.answer;
-    const correctAnswers = Array.isArray(q.answer) ? q.answer : [q.answer];
-    const correctAnswerContent = q.options
-      .filter((opt) => correctAnswers.includes(opt.id))
-      .map((opt) => opt.content)
-      .join(", ");
+
+    const getUserAnswerContent = () => {
+      if (userAnswerId === undefined || userAnswerId === null) return "미선택";
+      return q.options.find(opt => opt.id === userAnswerId)?.content || "미선택";
+    };
+
+    const getCorrectAnswerContent = () => {
+      const correctIds = Array.isArray(q.answer) ? q.answer : [q.answer];
+      return q.options
+        .filter(opt => correctIds.includes(opt.id))
+        .map(opt => opt.content)
+        .join(", ");
+    };
+
     return {
-      id: q.id,
-      type: q.type as ExamQuestionType,
-      questionText: q.question,
-      context: q.context,
-      contextItems: q.contextItems,
+      ...q,
       isCorrect,
-      userAnswerContent: userOption?.content || "미선택",
-      correctAnswerContent,
-      explanation: q.explanation,
+      userAnswerContent: getUserAnswerContent(),
+      correctAnswerContent: getCorrectAnswerContent(),
     };
   });
 
@@ -84,9 +85,8 @@ const ReviewPage = () => {
         id: res.id,
         year,
         subject,
-        questionText: res.questionText,
-        context: res.context,
-        contextItems: res.contextItems,
+        questionText: res.question,
+        view: res.view, // 새로운 view 구조 저장
         correctAnswerContent: res.correctAnswerContent,
         explanation: res.explanation,
         savedAt: new Date().toISOString(),
@@ -167,7 +167,7 @@ const ReviewPage = () => {
 
         <div className="flex justify-center gap-2.5">
           <Button
-            onClick={() => navigate(`/${year}/${subject}`)}
+            onClick={() => navigate(`/${subject}/${year}`)}
             className="bg-foreground text-background hover:bg-foreground/90 h-10 rounded-xl px-6 font-black shadow-sm"
           >
             다시 풀기
@@ -244,47 +244,11 @@ const ReviewPage = () => {
               {/* 문제 텍스트 + 지문/보기 */}
               <div className="px-4 py-3">
                 <TypographySmall className="text-foreground mb-3 block leading-snug font-bold break-keep">
-                  {res.questionText}
+                  {res.question}
                 </TypographySmall>
 
-                {/* PASSAGE: 지문 */}
-                {res.context && res.context.length > 0 && (
-                  <div className="bg-muted/40 border-border mb-3 rounded-xl border p-3">
-                    <span className="text-muted-foreground mb-1.5 block text-[9px] font-black tracking-wider uppercase">
-                      보기
-                    </span>
-                    <ul className="space-y-1">
-                      {res.context.map((line, i) => (
-                        <li key={i}>
-                          <TypographySmall className="text-foreground/80 block leading-snug break-keep">
-                            {line}
-                          </TypographySmall>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                {/* COMBINATION_*: 보기 항목 */}
-                {res.contextItems && res.contextItems.length > 0 && (
-                  <div className="bg-muted/40 border-border mb-3 rounded-xl border p-3">
-                    <span className="text-muted-foreground mb-1.5 block text-[9px] font-black tracking-wider uppercase">
-                      보기
-                    </span>
-                    <ul className="space-y-1.5">
-                      {res.contextItems.map((item: ExamContextItem) => (
-                        <li key={item.id} className="flex gap-2">
-                          <span className="text-primary shrink-0 text-xs font-black">
-                            {item.id}
-                          </span>
-                          <TypographySmall className="text-foreground/80 block leading-snug break-keep">
-                            {item.content}
-                          </TypographySmall>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
+                {/* 새로운 QuestionContext 컴포넌트 재사용 */}
+                <QuestionContext view={res.view} />
 
                 <div className="grid grid-cols-2 gap-2">
                   <div className="bg-muted/60 flex flex-col gap-1 rounded-xl p-3">
@@ -312,7 +276,7 @@ const ReviewPage = () => {
                   )}
                 </div>
 
-                {/* 해설 추가 */}
+                {/* 해설 */}
                 {res.explanation && (
                   <div className="mt-3 p-3 bg-primary/5 border border-primary/10 rounded-xl">
                     <span className="text-[9px] font-black text-primary/60 uppercase tracking-wider mb-1 block">

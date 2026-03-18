@@ -6,10 +6,11 @@
     {
       "id": "HIS-2019-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "체육사 연구에서 사료(史料)에 대한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,19 +34,21 @@
     {
       "id": "HIS-2019-2",
       "questionNumber": 2,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 알맞은 용어는?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "선사시대에는 애니미즘(animism, 만유정령설)에 대한 믿음을 바탕으로 놀이와 신체활동이 포함된 제천의식을 시행하였다. 부족국가와 삼국시대의 제천의식으로는 부여의 영고, 동예의 무천, 고구려의 ( ㉠ )이/가 있었다."
-        },
-        {
-          "id": "㉡",
-          "content": "신라의 ( ㉡ )이/가 있었다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "선사시대에는 애니미즘(animism, 만유정령설)에 대한 믿음을 바탕으로 놀이와 신체활동이 포함된 제천의식을 시행하였다. 부족국가와 삼국시대의 제천의식으로는 부여의 영고, 동예의 무천, 고구려의 ( ㉠ )이/가 있었다."
+          },
+          {
+            "label": "㉡",
+            "content": "신라의 ( ㉡ )이/가 있었다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -69,10 +72,11 @@
     {
       "id": "HIS-2019-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "삼국시대 민속놀이에 대한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -96,13 +100,15 @@
     {
       "id": "HIS-2019-4",
       "questionNumber": 4,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 고려시대의 민속놀이는?",
-      "context": [
-        "단오절 행사에 여성들의 놀이로 인기가 있었다.",
-        "두 줄을 붙잡고 온몸을 흔들고 발의 탄력을 이용해 온몸을 마음껏 날려 보내는 놀이이다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "단오절 행사에 여성들의 놀이로 인기가 있었다.",
+          "두 줄을 붙잡고 온몸을 흔들고 발의 탄력을 이용해 온몸을 마음껏 날려 보내는 놀이이다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -126,13 +132,15 @@
     {
       "id": "HIS-2019-5",
       "questionNumber": 5,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 조선 시대의 무예는?",
-      "context": [
-        "무과 시험 과목의 하나였다.",
-        "각 사정을 대표하는 궁수 5인 이상이 편을 나누어 활을 쏘는 단체경기였다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "무과 시험 과목의 하나였다.",
+          "각 사정을 대표하는 궁수 5인 이상이 편을 나누어 활을 쏘는 단체경기였다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -156,13 +164,15 @@
     {
       "id": "HIS-2019-6",
       "questionNumber": 6,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 고려 시대의 무예는?",
-      "context": [
-        "무인집권시대에 인재 선발의 중요한 수단이었다.",
-        "맨손으로 치기, 주먹지르기 등의 기술을 사용하는 일종의 격투기였다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "무인집권시대에 인재 선발의 중요한 수단이었다.",
+          "맨손으로 치기, 주먹지르기 등의 기술을 사용하는 일종의 격투기였다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -186,14 +196,16 @@
     {
       "id": "HIS-2019-7",
       "questionNumber": 7,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 괄호 안에 들어갈 알맞은 용어는?",
-      "context": [
-        "정조(正祖, 1752~1800)는 문무겸비를 강조한 왕으로서 문과 무를 양립시키는 것이 국가를 부강하게 하는 계책이라고 여겼다.",
-        "그는 규장각의 이덕무, 박제가와 장용영의 백동수를 통해 ( )를 편찬케 하였다.",
-        "이 책은 조선 시대를 대표하는 병서이자 무예교범서였다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "BLANK",
+        "passage": [
+          "정조(正祖, 1752~1800)는 문무겸비를 강조한 왕으로서 문과 무를 양립시키는 것이 국가를 부강하게 하는 계책이라고 여겼다.",
+          "그는 규장각의 이덕무, 박제가와 장용영의 백동수를 통해 ( )를 편찬케 하였다.",
+          "이 책은 조선 시대를 대표하는 병서이자 무예교범서였다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -217,14 +229,16 @@
     {
       "id": "HIS-2019-8",
       "questionNumber": 8,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 단체의 활동으로 옳은 것은?",
-      "context": [
-        "1903년 '황성기독교청년회'라는 이름으로 창설된 단체이다.",
-        "외국인 선교사를 주축으로 근대스포츠를 도입, 보급하여 한국 근대스포츠 발전에 많은 영향을 미쳤다.",
-        "1910년 한일병합 이후에도 스포츠보급 활동에 기여하였다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "1903년 '황성기독교청년회'라는 이름으로 창설된 단체이다.",
+          "외국인 선교사를 주축으로 근대스포츠를 도입, 보급하여 한국 근대스포츠 발전에 많은 영향을 미쳤다.",
+          "1910년 한일병합 이후에도 스포츠보급 활동에 기여하였다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -248,10 +262,11 @@
     {
       "id": "HIS-2019-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "개화기 교육입국조서(敎育立國詔書)가 반포된 이후의 체육사적 사실이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -275,10 +290,11 @@
     {
       "id": "HIS-2019-10",
       "questionNumber": 10,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "개화기에 발생한 체육사적 사실이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -302,27 +318,29 @@
     {
       "id": "HIS-2019-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠~㉣을 연대순으로 바르게 연결한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "태권도가 하계올림픽경기대회에서 정식 종목으로 채택되었다."
-        },
-        {
-          "id": "㉡",
-          "content": "손기정은 하계올림픽경기대회 마라톤 종목에서 금메달을 획득했다."
-        },
-        {
-          "id": "㉢",
-          "content": "한국은 하계올림픽경기대회에 'KOREA'라는 정식국호를 달고 최초로 참가했다."
-        },
-        {
-          "id": "㉣",
-          "content": "양정모는 하계올림픽경기대회 레슬링 종목에서 한국 선수 최초로 금메달을 획득했다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "태권도가 하계올림픽경기대회에서 정식 종목으로 채택되었다."
+          },
+          {
+            "label": "㉡",
+            "content": "손기정은 하계올림픽경기대회 마라톤 종목에서 금메달을 획득했다."
+          },
+          {
+            "label": "㉢",
+            "content": "한국은 하계올림픽경기대회에 'KOREA'라는 정식국호를 달고 최초로 참가했다."
+          },
+          {
+            "label": "㉣",
+            "content": "양정모는 하계올림픽경기대회 레슬링 종목에서 한국 선수 최초로 금메달을 획득했다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -346,10 +364,11 @@
     {
       "id": "HIS-2019-12",
       "questionNumber": 12,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "개화기 배재학당에 대한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -373,10 +392,11 @@
     {
       "id": "HIS-2019-13",
       "questionNumber": 13,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "조선체육회에 대한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -400,13 +420,15 @@
     {
       "id": "HIS-2019-14",
       "questionNumber": 14,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 정부가 시행한 체육 정책에 해당하지 않은 것은?",
-      "context": [
-        "이 정부는 '체력은 국력'이란 슬로건을 채택했으며, '국민재건체조'를 제정하고 대한체육회의 예산을 정부가 지원하기로 결정했다.",
-        "그 외 국민체육진흥법공포(1961), 체육진흥법 시행령 공포(1963), 체육의 날 제정(1962), 매월 마지막 주의 '체육주간' 제정 등과 같은 조치가 이루어졌다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "이 정부는 '체력은 국력'이란 슬로건을 채택했으며, '국민재건체조'를 제정하고 대한체육회의 예산을 정부가 지원하기로 결정했다.",
+          "그 외 국민체육진흥법공포(1961), 체육진흥법 시행령 공포(1963), 체육의 날 제정(1962), 매월 마지막 주의 '체육주간' 제정 등과 같은 조치가 이루어졌다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -430,14 +452,16 @@
     {
       "id": "HIS-2019-15",
       "questionNumber": 15,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 체육 단체는?",
-      "context": [
-        "제24회 서울올림픽경기대회를 기념하여 1989년 공익법인으로 설립되었다.",
-        "체육지도자 국가자격시험을 전담하고 있다.",
-        "경정, 경륜, 스포츠토토 등의 기금조성사업을 하고 있다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "제24회 서울올림픽경기대회를 기념하여 1989년 공익법인으로 설립되었다.",
+          "체육지도자 국가자격시험을 전담하고 있다.",
+          "경정, 경륜, 스포츠토토 등의 기금조성사업을 하고 있다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -461,14 +485,16 @@
     {
       "id": "HIS-2019-16",
       "questionNumber": 16,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 인물은?",
-      "context": [
-        "1903년 황성기독교청년회 초대 총무를 역임하였다.",
-        "우리나라 최초로 야구와 농구를 소개하였다.",
-        "개화기 YMCA를 통해서 우리나라 근대스포츠의 발달에 큰 역할을 담당했다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "1903년 황성기독교청년회 초대 총무를 역임하였다.",
+          "우리나라 최초로 야구와 농구를 소개하였다.",
+          "개화기 YMCA를 통해서 우리나라 근대스포츠의 발달에 큰 역할을 담당했다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -492,10 +518,11 @@
     {
       "id": "HIS-2019-17",
       "questionNumber": 17,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "조선시대에 남성들이 양편으로 나누어 서로 마주 보고 돌을 던지던 민속놀이는?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -519,10 +546,11 @@
     {
       "id": "HIS-2019-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "우리나라가 대한민국 국호를 걸고 최초로 참가한 동계올림픽 경기대회는?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -546,14 +574,16 @@
     {
       "id": "HIS-2019-19",
       "questionNumber": 19,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 올림픽 경기대회는?",
-      "context": [
-        "분단 후 남한과 북한의 선수가 최초로 동시에 입장한 대회였다.",
-        "남한과 북한의 대표선수단은 KOREA라는 표지판과 한반도기를 앞세우고 함께 입장하여 세계인의 박수를 받았다.",
-        "태권도가 올림픽 정식 종목으로 시행되었다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "분단 후 남한과 북한의 선수가 최초로 동시에 입장한 대회였다.",
+          "남한과 북한의 대표선수단은 KOREA라는 표지판과 한반도기를 앞세우고 함께 입장하여 세계인의 박수를 받았다.",
+          "태권도가 올림픽 정식 종목으로 시행되었다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -577,14 +607,16 @@
     {
       "id": "HIS-2019-20",
       "questionNumber": 20,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 장소는?",
-      "context": [
-        "대한체육회가 1966년 우수선수의 육성을 위해 건립했다.",
-        "스포츠를 통한 국위선양 및 국민통합 실현의 목적이 있다.",
-        "국가대표선수들을 과학적으로 육성하는 기반이 되었다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "대한체육회가 1966년 우수선수의 육성을 위해 건립했다.",
+          "스포츠를 통한 국위선양 및 국민통합 실현의 목적이 있다.",
+          "국가대표선수들을 과학적으로 육성하는 기반이 되었다."
+        ]
+      },
       "options": [
         {
           "id": 1,

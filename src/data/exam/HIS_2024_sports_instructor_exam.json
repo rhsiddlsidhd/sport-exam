@@ -6,255 +6,170 @@
     {
       "id": "HIS-2024-1",
       "questionNumber": 1,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 한국체육사에 관한 설명으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "한국 체육과 스포츠의 시대별 양상을 연구한다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "한국 체육과 스포츠를 역사학적 방법으로 연구한다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "한국 체육과 스포츠에 관한 역사 기술은 사실 확인보다 가치 평가가 우선한다."
-        },
-        {
-          "id": "ㄹ",
-          "content": "한국 체육과 스포츠의 과거를 살펴보고, 이를 통해 현재를 직시하고 미래를 조망한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "한국 체육과 스포츠의 시대별 양상을 연구한다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "한국 체육과 스포츠를 역사학적 방법으로 연구한다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "한국 체육과 스포츠에 관한 역사 기술은 사실 확인보다 가치 평가가 우선한다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "한국 체육과 스포츠의 과거를 살펴보고, 이를 통해 현재를 직시하고 미래를 조망한다."
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "ㄱ, ㄴ, ㄷ"
-        },
-        {
-          "id": 2,
-          "content": "ㄱ, ㄴ, ㄹ"
-        },
-        {
-          "id": 3,
-          "content": "ㄱ, ㄷ, ㄹ"
-        },
-        {
-          "id": 4,
-          "content": "ㄴ, ㄷ, ㄹ"
-        }
+        { "id": 1, "content": "ㄱ, ㄴ, ㄷ" },
+        { "id": 2, "content": "ㄱ, ㄴ, ㄹ" },
+        { "id": 3, "content": "ㄱ, ㄷ, ㄹ" },
+        { "id": 4, "content": "ㄴ, ㄷ, ㄹ" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "한국체육사는 한국의 체육과 스포츠 현상을 역사학적 방법론을 통해 시대별로 연구하며(ㄱ, ㄴ), 과거의 사실을 통해 현재를 이해하고 미래의 방향을 설정하는 온고지신(溫故知新)의 성격을 가집니다(ㄹ). 역사 기술에서는 객관적인 사실 확인(史實)이 가치 평가보다 선행되어야 하므로 ㄷ은 부적절합니다."
     },
     {
       "id": "HIS-2024-2",
       "questionNumber": 2,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 신체활동이 행해진 제천의식과 부족국가가 바르게 연결된 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "무천 - 신라"
-        },
-        {
-          "id": "ㄴ",
-          "content": "가배 - 동예"
-        },
-        {
-          "id": "ㄷ",
-          "content": "영고 - 부여"
-        },
-        {
-          "id": "ㄹ",
-          "content": "동맹 - 고구려"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          { "label": "ㄱ", "content": "무천 - 신라" },
+          { "label": "ㄴ", "content": "가배 - 동예" },
+          { "label": "ㄷ", "content": "영고 - 부여" },
+          { "label": "ㄹ", "content": "동맹 - 고구려" }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "ㄱ, ㄴ"
-        },
-        {
-          "id": 2,
-          "content": "ㄷ, ㄹ"
-        },
-        {
-          "id": 3,
-          "content": "ㄱ, ㄴ, ㄹ"
-        },
-        {
-          "id": 4,
-          "content": "ㄴ, ㄷ, ㄹ"
-        }
+        { "id": 1, "content": "ㄱ, ㄴ" },
+        { "id": 2, "content": "ㄷ, ㄹ" },
+        { "id": 3, "content": "ㄱ, ㄴ, ㄹ" },
+        { "id": 4, "content": "ㄴ, ㄷ, ㄹ" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "고대 부족국가의 제천의식은 부여의 **영고**(ㄷ), 고구려의 **동맹**(ㄹ), 동예의 **무천**(ㄴ-오답), 삼한의 5월제 및 10월제 등이 있습니다. 신라의 **가배**(ㄱ-오답)는 추석의 유래가 된 풍속으로 부족국가의 제천의식과는 시기적·성격적 차이가 있습니다."
     },
     {
       "id": "HIS-2024-3",
       "questionNumber": 3,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에 해당하는 부족국가시대 신체활동의 목적은?",
-      "context": [
-        "중국 역사 자료인「위지·동이전(魏志·東夷傳)」에 따르면, '나이 어리고 씩씩한 청년들의 등가죽을 뚫고 굵은 줄로 그곳을 꿰었다",
-        "그리고 한 장(-丈) 남짓의 나무를 그곳에 매달고 온종일 소리를 지르며 일을 하는데도 아프다고 하지 않고, 착실하게 일을 한다",
-        "이를 큰사람이라 부른다'"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "중국 역사 자료인「위지·동이전(魏志·東夷傳)」에 따르면, '나이 어리고 씩씩한 청년들의 등가죽을 뚫고 굵은 줄로 그곳을 꿰었다",
+          "그리고 한 장(-丈) 남짓의 나무를 그곳에 매달고 온종일 소리를 지르며 일을 하는데도 아프다고 하지 않고, 착실하게 일을 한다",
+          "이를 큰사람이라 부른다'"
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "주술의식"
-        },
-        {
-          "id": 2,
-          "content": "농경의식"
-        },
-        {
-          "id": 3,
-          "content": "성년의식"
-        },
-        {
-          "id": 4,
-          "content": "제천의식"
-        }
+        { "id": 1, "content": "주술의식" },
+        { "id": 2, "content": "농경의식" },
+        { "id": 3, "content": "성년의식" },
+        { "id": 4, "content": "제천의식" }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "제시는 마한(삼한) 지역에서 행해진 **성년의식**에 관한 기록입니다. 이는 육체적 고통을 인내함으로써 공동체의 정식 일원이 될 자격을 검증받는 과정으로, 당시의 신체활동이 사회적 통과의례의 성격을 띠었음을 보여줍니다."
     },
     {
       "id": "HIS-2024-4",
       "questionNumber": 4,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 삼국시대의 무예에 관한 설명으로 옳은 것만을 모두 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "신라: 궁전법(弓箭法)을 통해 인재를 등용하였다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "고구려: 경당(扃堂)에서 활쏘기 교육이 이루어졌다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "백제: 훈련원(訓鍊院)에서 무예 시험과 훈련이 행해졌다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "신라: 궁전법(弓箭法)을 통해 인재를 등용하였다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "고구려: 경당(扃堂)에서 활쏘기 교육이 이루어졌다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "백제: 훈련원(訓鍊院)에서 무예 시험과 훈련이 행해졌다."
+          }
+        ]
+      },
       "options": [
-        {
-          "id": 1,
-          "content": "ㄱ, ㄴ"
-        },
-        {
-          "id": 2,
-          "content": "ㄱ, ㄷ"
-        },
-        {
-          "id": 3,
-          "content": "ㄴ, ㄷ"
-        },
-        {
-          "id": 4,
-          "content": "ㄱ, ㄴ, ㄷ"
-        }
+        { "id": 1, "content": "ㄱ, ㄴ" },
+        { "id": 2, "content": "ㄱ, ㄷ" },
+        { "id": 3, "content": "ㄴ, ㄷ" },
+        { "id": 4, "content": "ㄱ, ㄴ, ㄷ" }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "신라는 원성왕 때 활쏘기 실력으로 관리를 선발하는 **궁전법**(ㄱ)을 시행하였고, 고구려는 지방 교육기관인 **경당**(ㄴ)에서 독서와 활쏘기(무예)를 병행 교육했습니다. **훈련원**(ㄷ)은 조선시대의 군사 훈련 및 무과 주관 기관이므로 삼국시대 백제의 설명으로는 부적절합니다."
     },
     {
       "id": "HIS-2024-5",
       "questionNumber": 5,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "고려시대 최고 교육기관과 무학(武學) 교육이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "성균관(成均館) - 대빙재(待聘齋)"
-        },
-        {
-          "id": 2,
-          "content": "성균관(成均館) - 강예재(講藝齋)"
-        },
-        {
-          "id": 3,
-          "content": "국자감(國子監) - 대빙재(待聘齋)"
-        },
-        {
-          "id": 4,
-          "content": "국자감(國子監) - 강예재(講藝齋)"
-        }
+        { "id": 1, "content": "성균관(成均館) - 대빙재(待聘齋)" },
+        { "id": 2, "content": "성균관(成均館) - 강예재(講藝齋)" },
+        { "id": 3, "content": "국자감(國子監) - 대빙재(待聘齋)" },
+        { "id": 4, "content": "국자감(國子監) - 강예재(講藝齋)" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "고려시대 국립 최고 교육기관인 **국자감**에는 7개의 전문 강좌인 '7재'가 있었으며, 이 중 무학(武學)을 가르치는 반을 **강예재**라고 불렀습니다. 성균관은 무학 교육이 폐지된 이후 유교 중심 교육으로 개편된 형태입니다."
     },
     {
       "id": "HIS-2024-6",
       "questionNumber": 6,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "고려시대의 신체활동에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "기격구(騎擊毬): 서민층이 유희로 즐겼다."
-        },
-        {
-          "id": 2,
-          "content": "궁술(弓術): 국난을 대비하여 장려되었다."
-        },
-        {
-          "id": 3,
-          "content": "마술(馬術): 무인의 덕목 중 하나로 장려되었다."
-        },
+        { "id": 1, "content": "기격구(騎擊毬): 서민층이 유희로 즐겼다." },
+        { "id": 2, "content": "궁술(弓術): 국난을 대비하여 장려되었다." },
+        { "id": 3, "content": "마술(馬術): 무인의 덕목 중 하나로 장려되었다." },
         {
           "id": 4,
           "content": "수박(手搏): 무관이나 무예 인재의 선발에 활용되었다."
         }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "말을 타고 공을 치는 **기격구**는 주로 왕실, 귀족, 무인 집단에서 군사 훈련과 오락을 겸해 즐겼던 상류층의 신체활동이었습니다. 서민들은 주로 말을 타지 않고 걸어서 하는 보격구를 즐겼습니다. 수박(手搏)은 무신정권기에 무인 선발의 중요한 기준이 되었습니다."
     },
     {
       "id": "HIS-2024-7",
       "questionNumber": 7,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "석전(石戰)의 성격에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "관료 선발에 활용되었다."
-        },
-        {
-          "id": 2,
-          "content": "명절에 종종 행해지던 민속놀이였다."
-        },
-        {
-          "id": 3,
-          "content": "전쟁에 대비한 군사훈련에 활용되었다."
-        },
-        {
-          "id": 4,
-          "content": "실전 부대인 석투군(石投軍)과 관련이 있었다."
-        }
+        { "id": 1, "content": "관료 선발에 활용되었다." },
+        { "id": 2, "content": "명절에 종종 행해지던 민속놀이였다." },
+        { "id": 3, "content": "전쟁에 대비한 군사훈련에 활용되었다." },
+        { "id": 4, "content": "실전 부대인 석투군(石投軍)과 관련이 있었다." }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "돌싸움인 **석전**은 군사적 훈련(석투군)과 민속놀이적 성격(단오 등)을 동시에 가졌으나, 문·무관 관료를 선발하는 공식적인 과거 시험이나 임용 수단으로 활용되지는 않았습니다."
     },
     {
       "id": "HIS-2024-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "조선시대 서민층이 주로 행했던 민속놀이와 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "추천(鞦韆): 단오절이나 한가위에 즐겼다."
-        },
+        { "id": 1, "content": "추천(鞦韆): 단오절이나 한가위에 즐겼다." },
         {
           "id": 2,
           "content": "각지(角紙), 각력(角力): 마을 간의 겨룸이 있었는데, 풍년 기원의 의미도 있었다."
@@ -264,19 +179,19 @@
           "content": "종정도(從政圖), 승경도(陞卿圖): 관직 체계의 이해와 출세 동기 부여의 뜻이 담겨 있었다."
         },
         {
-          "id": 4,
+          "label": "4",
           "content": "삭전(索戰), 갈전(葛戰): 농경사회의 대표적인 민속놀이로서 농사의 풍흉(豊凶)을 점치는 의미도 있었다."
         }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "**승경도**나 **종정도**는 주사위를 던져 관직 승진을 겨루는 놀이로, 주로 양반 자제들이 관직 체계를 익히기 위해 즐겼던 **지배계층의 놀이**입니다. 추천(그네), 각력(씨름), 삭전(줄다리기)은 대표적인 서민 민속놀이입니다."
     },
     {
       "id": "HIS-2024-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "조선시대의 무예서에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
         {
           "id": 1,
@@ -295,304 +210,173 @@
           "content": "『무예제보(武藝諸譜)』: 선조의 명에 따라 전란 중에 긴급하게 필요했던 단병기 6기가 수록, 간행되었다."
         }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "조선은 선조 때 **무예제보**(6기)를 시작으로 영조(사도세자 대리청정기) 때 **무예신보**(18기), 정조 때 **무예도보통지**(24기)로 무예 체계를 집대성했습니다. 3번의 설명은 역사적 사실과 부합하지 않는 허구의 설명입니다."
     },
     {
       "id": "HIS-2024-10",
       "questionNumber": 10,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 근대 스포츠의 도입과 관련된 인물은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "서재필"
-        },
-        {
-          "id": 2,
-          "content": "이상재"
-        },
-        {
-          "id": 3,
-          "content": "조원희"
-        },
-        {
-          "id": 4,
-          "content": "김종순"
-        }
+        { "id": 1, "content": "서재필" },
+        { "id": 2, "content": "이상재" },
+        { "id": 3, "content": "조원희" },
+        { "id": 4, "content": "김종순" }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "**조원희**는 개화기 한국인 체육 교사로서, 병식체조 일변도의 교육에서 벗어나 유희와 서구식 스포츠를 학교 교육에 도입하고자 노력했던 근대 체육의 선구자 중 한 명입니다."
     },
     {
       "id": "HIS-2024-11",
       "questionNumber": 11,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 일제강점기 체육 활동은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "YMCA 야구단"
-        },
-        {
-          "id": 2,
-          "content": "전조선축구대회"
-        },
-        {
-          "id": 3,
-          "content": "전조선마라톤대회"
-        },
-        {
-          "id": 4,
-          "content": "조선체육회 창립"
-        }
+        { "id": 1, "content": "YMCA 야구단" },
+        { "id": 2, "content": "전조선축구대회" },
+        { "id": 3, "content": "전조선마라톤대회" },
+        { "id": 4, "content": "조선체육회 창립" }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "**YMCA 야구단**은 1905년 질레트에 의해 창단되어 한국 최초의 야구 보급과 민족의식 고취에 기여했습니다. 특히 1912년 일본 원정 경기를 통해 스포츠를 통한 항일 정신을 표출하기도 했습니다."
     },
     {
       "id": "HIS-2024-12",
       "questionNumber": 12,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 일제강점기 민족 체육 운동은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "조선체육회 창립"
-        },
-        {
-          "id": 2,
-          "content": "전조선육상경기대회"
-        },
-        {
-          "id": 3,
-          "content": "조선올림픽대회 개최"
-        },
-        {
-          "id": 4,
-          "content": "전국체육대회 개최"
-        }
+        { "id": 1, "content": "조선체육회 창립" },
+        { "id": 2, "content": "전조선육상경기대회" },
+        { "id": 3, "content": "조선올림픽대회 개최" },
+        { "id": 4, "content": "전국체육대회 개최" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "1920년 조선체육회의 창립과 함께 개최된 **전조선야구대회**는 오늘날 **전국체육대회**의 효시가 되었습니다. 이는 일제의 식민 통치 하에서 스포츠를 통해 민족의 단결력을 과시하고 체력을 증진하려는 민족 체육 운동의 일환이었습니다."
     },
     {
       "id": "HIS-2024-13",
       "questionNumber": 13,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 개화기 체육의 특징은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "병식체조의 도입"
-        },
-        {
-          "id": 2,
-          "content": "서양 스포츠의 수용"
-        },
-        {
-          "id": 3,
-          "content": "민족 체육 의식의 고취"
-        },
-        {
-          "id": 4,
-          "content": "학교체육의 제도화"
-        }
+        { "id": 1, "content": "병식체조의 도입" },
+        { "id": 2, "content": "서양 스포츠의 수용" },
+        { "id": 3, "content": "민족 체육 의식의 고취" },
+        { "id": 4, "content": "학교체육의 제도화" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "개화기는 선교사와 외국인 교사들을 통해 축구, 야구, 농구, 테니스 등 다양한 **서양 스포츠가 본격적으로 수용**되던 시기입니다. 이는 전통적인 무예 중심의 신체활동에서 근대적인 유희 및 경쟁 중심의 스포츠로 패러다임이 전환되었음을 의미합니다."
     },
     {
       "id": "HIS-2024-14",
       "questionNumber": 14,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 광복 이후 체육 발전 사건은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "대한체육회 재건"
-        },
-        {
-          "id": 2,
-          "content": "국민체육진흥법 제정"
-        },
-        {
-          "id": 3,
-          "content": "태릉선수촌 건립"
-        },
-        {
-          "id": 4,
-          "content": "서울올림픽 유치"
-        }
+        { "id": 1, "content": "대한체육회 재건" },
+        { "id": 2, "content": "국민체육진흥법 제정" },
+        { "id": 3, "content": "태릉선수촌 건립" },
+        { "id": 4, "content": "서울올림픽 유치" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "1962년 제정된 **국민체육진흥법**은 국가가 체육 진흥을 위한 정책적 기틀을 마련하고 법적 근거를 확보한 중대한 사건입니다. 이를 통해 체육 예산 지원, 시설 확충, 우수 선수 양성 등이 체계화되었습니다."
     },
     {
       "id": "HIS-2024-15",
       "questionNumber": 15,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 근대체육 도입기의 교육기관은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "배재학당"
-        },
-        {
-          "id": 2,
-          "content": "원산학사"
-        },
-        {
-          "id": 3,
-          "content": "이화학당"
-        },
-        {
-          "id": 4,
-          "content": "경신학당"
-        }
+        { "id": 1, "content": "배재학당" },
+        { "id": 2, "content": "원산학사" },
+        { "id": 3, "content": "이화학당" },
+        { "id": 4, "content": "경신학당" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "**경신학당**은 1885년 언더우드 선교사에 의해 설립되었으며, 초기부터 야구 등 서구식 스포츠를 적극적으로 장려하여 한국 근대 체육의 발원지 역할을 수행했습니다."
     },
     {
       "id": "HIS-2024-16",
       "questionNumber": 16,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 광복 이후 체육 정책은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "국민체육진흥법 제정"
-        },
-        {
-          "id": 2,
-          "content": "체육의 날 제정"
-        },
-        {
-          "id": 3,
-          "content": "생활체육 진흥 정책"
-        },
-        {
-          "id": 4,
-          "content": "프로스포츠 출범"
-        }
+        { "id": 1, "content": "국민체육진흥법 제정" },
+        { "id": 2, "content": "체육의 날 제정" },
+        { "id": 3, "content": "생활체육 진흥 정책" },
+        { "id": 4, "content": "프로스포츠 출범" }
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "제시는 국가 주도의 체육 행정 체계 구축과 진흥을 목적으로 한 **국민체육진흥법**에 대한 설명입니다. 이는 5.16 이후 '체력은 국력'이라는 슬로건 하에 추진된 국가주의 체육 정책의 핵심입니다."
     },
     {
       "id": "HIS-2024-17",
       "questionNumber": 17,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 한국 스포츠 국제 무대 진출 사건은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "1936년 베를린 올림픽 손기정 금메달"
-        },
-        {
-          "id": 2,
-          "content": "1948년 런던 올림픽 첫 참가"
-        },
-        {
-          "id": 3,
-          "content": "1976년 몬트리올 올림픽 레슬링 금메달"
-        },
-        {
-          "id": 4,
-          "content": "1988년 서울 올림픽 개최"
-        }
+        { "id": 1, "content": "1936년 베를린 올림픽 손기정 금메달" },
+        { "id": 2, "content": "1948년 런던 올림픽 첫 참가" },
+        { "id": 3, "content": "1976년 몬트리올 올림픽 레슬링 금메달" },
+        { "id": 4, "content": "1988년 서울 올림픽 개최" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "**1988년 서울 올림픽**의 개최는 한국 스포츠가 아시아를 넘어 세계의 중심으로 진입한 상징적 사건입니다. 이를 통해 종합 4위라는 역대 최고 성적을 거두었을 뿐만 아니라, 스포츠 인프라와 국민들의 스포츠 의식이 비약적으로 발전했습니다."
     },
     {
       "id": "HIS-2024-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 태권도의 역사적 사실은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "1945년 광복 이후 태권도 도장 설립"
-        },
-        {
-          "id": 2,
-          "content": "1973년 세계태권도연맹 창설"
-        },
-        {
-          "id": 3,
-          "content": "1988년 서울올림픽 시범 종목 채택"
-        },
-        {
-          "id": 4,
-          "content": "2000년 시드니올림픽 정식 종목 채택"
-        }
+        { "id": 1, "content": "1945년 광복 이후 태권도 도장 설립" },
+        { "id": 2, "content": "1973년 세계태권도연맹 창설" },
+        { "id": 3, "content": "1988년 서울올림픽 시범 종목 채택" },
+        { "id": 4, "content": "2000년 시드니올림픽 정식 종목 채택" }
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "**1988년 서울 올림픽**에서 태권도가 **시범 종목**으로 채택된 것은 우리 고유의 무예가 국제적인 스포츠 종목으로 공인받기 시작한 결정적인 계기였습니다. 이후 2000년 시드니 올림픽에서 정식 종목으로 승격되었습니다."
     },
     {
       "id": "HIS-2024-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 조선시대 무예 수련 기관은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "훈련원(訓鍊院)"
-        },
-        {
-          "id": 2,
-          "content": "무예청(武藝廳)"
-        },
-        {
-          "id": 3,
-          "content": "장용영(壯勇營)"
-        },
-        {
-          "id": 4,
-          "content": "어영청(御營廳)"
-        }
+        { "id": 1, "content": "훈련원(訓鍊院)" },
+        { "id": 2, "content": "무예청(武藝廳)" },
+        { "id": 3, "content": "장용영(壯勇營)" },
+        { "id": 4, "content": "어영청(御營廳)" }
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "**무예청**은 국왕의 근접 호위와 무예 전수를 담당하던 전문 기관입니다. 훈련원이 일반적인 군사 교육과 무과를 담당했다면, 무예청은 보다 고도화된 무술 연마에 집중된 조직이었습니다."
     },
     {
       "id": "HIS-2024-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 한국 체육 발전의 전환점이 된 사건은?",
-      "context": null,
-      "contextItems": null,
+      "view": { "type": "NONE" },
       "options": [
-        {
-          "id": 1,
-          "content": "1970년대 체육과학연구원 설립"
-        },
-        {
-          "id": 2,
-          "content": "1982년 프로야구 출범"
-        },
-        {
-          "id": 3,
-          "content": "1986년 서울 아시안게임 개최"
-        },
-        {
-          "id": 4,
-          "content": "1990년대 생활체육 진흥 정책"
-        }
+        { "id": 1, "content": "1970년대 체육과학연구원 설립" },
+        { "id": 2, "content": "1982년 프로야구 출범" },
+        { "id": 3, "content": "1986년 서울 아시안게임 개최" },
+        { "id": 4, "content": "1990년대 생활체육 진흥 정책" }
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "1990년대부터 본격화된 **생활체육 진흥 정책**(호돌이 계획 등)은 엘리트 스포츠 중심에서 '모두를 위한 스포츠(Sport for All)'로 국가 체육의 패러다임이 전환된 중요한 시점입니다. 이를 통해 국민의 삶의 질 향상과 보편적 복지로서의 체육 개념이 확립되었습니다."
     }
   ]
 }

@@ -6,10 +6,11 @@
     {
       "id": "ETH-2025-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠윤리센터의 주요 역할에 해당하지 않는 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -34,10 +35,11 @@
     {
       "id": "ETH-2025-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠에 관한 가치 판단에 해당하지 않는 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -62,14 +64,16 @@
     {
       "id": "ETH-2025-3",
       "questionNumber": 3,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기의 스포츠 상황에 부합하는 개념과 해석은?",
-      "context": [
-        "태권도 겨루기에서 소극적인 자세로 경기에 임하는 선수는 제재를 받는다",
-        "적극적이고 공격적인 태도의 요구는 투쟁심을 독려하는 것이지만, 그 폭력적인 성향이 지나치면 또 다른 제재의 대상이 되기도 한다",
-        "이처럼 스포츠는 폭력적인 성향의 분출을 자극함과 동시에 그것을 감시하고 제어한다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "태권도 겨루기에서 소극적인 자세로 경기에 임하는 선수는 제재를 받는다",
+          "적극적이고 공격적인 태도의 요구는 투쟁심을 독려하는 것이지만, 그 폭력적인 성향이 지나치면 또 다른 제재의 대상이 되기도 한다",
+          "이처럼 스포츠는 폭력적인 성향의 분출을 자극함과 동시에 그것을 감시하고 제어한다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -94,10 +98,11 @@
     {
       "id": "ETH-2025-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "'타이틀 나인(Title Ⅸ)'에 따른 스포츠계의 변화로 가장 적절한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -122,10 +127,11 @@
     {
       "id": "ETH-2025-5",
       "questionNumber": 5,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "세계도핑방지기구(World Anti-Doping Agency)가 정한 '금지 방법'의 분류 목록에 해당하지 않는 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -150,10 +156,11 @@
     {
       "id": "ETH-2025-6",
       "questionNumber": 6,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "레건(T. Regan)의 동물권리론에 가장 부합하는 태도는?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -178,16 +185,18 @@
     {
       "id": "ETH-2025-7",
       "questionNumber": 7,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기의 대화 내용에 해당하는 정의(justice)의 유형에 가장 가까운 것은?",
-      "context": [
-        "A: 오늘 테니스 경기 봤어? 한쪽 코트는 해가 정면에서 비치고 다른 쪽은 완전 그늘이더라",
-        "B: 응",
-        "그런 조건이면 한쪽 선수가 불리할 것 같아",
-        "C: 그래서 테니스는 계속 코트를 바꾸면서 경기를 진행해",
-        "A: 그러면 시합을 시작할 때 코트나 서브권은 어떻게 정해? C: 동전 던지기로 정하는 경우가 많아"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "A: 오늘 테니스 경기 봤어? 한쪽 코트는 해가 정면에서 비치고 다른 쪽은 완전 그늘이더라",
+          "B: 응",
+          "그런 조건이면 한쪽 선수가 불리할 것 같아",
+          "C: 그래서 테니스는 계속 코트를 바꾸면서 경기를 진행해",
+          "A: 그러면 시합을 시작할 때 코트나 서브권은 어떻게 정해? C: 동전 던지기로 정하는 경우가 많아"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -212,10 +221,11 @@
     {
       "id": "ETH-2025-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "롤랜드(S. Loland)가 분류한 규칙 위반의 유형에 연결한 사례로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -240,14 +250,16 @@
     {
       "id": "ETH-2025-9",
       "questionNumber": 9,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "칸트(I. Kant)의 의무론에서 보기 속 A와 B의 태도에 부합하는 행위 유형은?",
-      "context": [
-        "선생님: 도핑을 하면 경기 결과가 달라질 수 있는데, 여러분은 왜 하지 않나요? A: 저는 도핑이 공정하지 못한 행위이기 때문에 하지 않아요",
-        "제 실력으로 인정받고 싶어요",
-        "B: 저는 사실 도핑 검사에 걸리면 처벌을 받으니까 하고 싶어도 못 하고 있어요"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "선생님: 도핑을 하면 경기 결과가 달라질 수 있는데, 여러분은 왜 하지 않나요? A: 저는 도핑이 공정하지 못한 행위이기 때문에 하지 않아요",
+          "제 실력으로 인정받고 싶어요",
+          "B: 저는 사실 도핑 검사에 걸리면 처벌을 받으니까 하고 싶어도 못 하고 있어요"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -272,10 +284,11 @@
     {
       "id": "ETH-2025-10",
       "questionNumber": 10,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "부올레(P. Vuolle)가 분류한 스포츠 환경이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -300,10 +313,11 @@
     {
       "id": "ETH-2025-11",
       "questionNumber": 11,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "뒤르켐(E. Durkheim)의 도덕교육론에 근거한 스포츠윤리 교육의 내용과 방법으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -328,10 +342,11 @@
     {
       "id": "ETH-2025-12",
       "questionNumber": 12,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠조직의 윤리경영에 관한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -356,12 +371,14 @@
     {
       "id": "ETH-2025-13",
       "questionNumber": 13,
-      "type": "COMBINATION_MATCH",
+      "logicType": "MATCHING",
       "question": "보기의 사례에서 ㉠에 해당하는 심판의 자질과 ㉡에 해당하는 맹자의 사단(四端)은?",
-      "context": [
-        "부심으로 경기를 관장하던 B심판은 오심임을 알았으나 A 심판에 대한 징계가 걱정되어 침묵했다. 시합이 끝난 후 ㉡ B 심판은 양심의 가책을 지우지 못하고 활동을 중단했다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "ITEMIZED",
+        "passage": [
+          "부심으로 경기를 관장하던 B심판은 오심임을 알았으나 A 심판에 대한 징계가 걱정되어 침묵했다. 시합이 끝난 후 ㉡ B 심판은 양심의 가책을 지우지 못하고 활동을 중단했다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -386,10 +403,11 @@
     {
       "id": "ETH-2025-14",
       "questionNumber": 14,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "공리주의 윤리 규범을 스포츠에 바르게 적용한 것이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -414,27 +432,29 @@
     {
       "id": "ETH-2025-15",
       "questionNumber": 15,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 장애 차별의 개선을 위한 스포츠 실천의 조건만을 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "ㄱ",
-          "content": "참여 종목과 대회는 지도자의 결정에 맡겨야 한다."
-        },
-        {
-          "id": "ㄴ",
-          "content": "비장애인과 분리하여 수업하는 것을 원칙으로 한다."
-        },
-        {
-          "id": "ㄷ",
-          "content": "활동 장비와 기구에 대한 재정적인 지원을 확보해야 한다."
-        },
-        {
-          "id": "ㄹ",
-          "content": "다양한 사람과의 관계를 통해 사회성 함양의 기회를 제공해야 한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "ㄱ",
+            "content": "참여 종목과 대회는 지도자의 결정에 맡겨야 한다."
+          },
+          {
+            "label": "ㄴ",
+            "content": "비장애인과 분리하여 수업하는 것을 원칙으로 한다."
+          },
+          {
+            "label": "ㄷ",
+            "content": "활동 장비와 기구에 대한 재정적인 지원을 확보해야 한다."
+          },
+          {
+            "label": "ㄹ",
+            "content": "다양한 사람과의 관계를 통해 사회성 함양의 기회를 제공해야 한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -459,14 +479,16 @@
     {
       "id": "ETH-2025-16",
       "questionNumber": 16,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기의 내용에 부합하는 철학자와 개념의 연결이 옳은 것은?",
-      "context": [
-        "지도자와 선배의 체벌과 폭력이 일상화되어 있다",
-        "악은 포악한 괴물이나 악마처럼 괴이하지 않고 합숙소 생활과 같은 일상에 함께 있다",
-        "폭력을 멈추게 할 방법은 행위의 내용과 책임을 묻고 반성하는 '사유' 또는 '이성'에 있다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "지도자와 선배의 체벌과 폭력이 일상화되어 있다",
+          "악은 포악한 괴물이나 악마처럼 괴이하지 않고 합숙소 생활과 같은 일상에 함께 있다",
+          "폭력을 멈추게 할 방법은 행위의 내용과 책임을 묻고 반성하는 '사유' 또는 '이성'에 있다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -491,13 +513,15 @@
     {
       "id": "ETH-2025-17",
       "questionNumber": 17,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "의무주의 윤리 규범에 근거할 경우, 보기의 괄호 안에 들어갈 내용으로 옳은 것은?",
-      "context": [
-        "나는 반칙을 하지 않으려고 노력한다",
-        "왜냐하면 ( ) 때문이다"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "BLANK",
+        "passage": [
+          "나는 반칙을 하지 않으려고 노력한다",
+          "왜냐하면 ( ) 때문이다"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -522,12 +546,14 @@
     {
       "id": "ETH-2025-18",
       "questionNumber": 18,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "보기는 트랜스젠더 여성의 여성 스포츠 참여에 관한 설명이다. 이를 지지하는 견해의 근거가 아닌 것은?",
-      "context": [
-        "국제올림픽위원회(IOC)는 2016년 1월에 올림픽 대회를 비롯한 국제 경기대회에서 외과적인 수술을 받지 않은 성 전환자들도 선수로 출전할 수 있도록 허용해야 한다는 새로운 지침을 발표했다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "NONE",
+        "passage": [
+          "국제올림픽위원회(IOC)는 2016년 1월에 올림픽 대회를 비롯한 국제 경기대회에서 외과적인 수술을 받지 않은 성 전환자들도 선수로 출전할 수 있도록 허용해야 한다는 새로운 지침을 발표했다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -552,10 +578,11 @@
     {
       "id": "ETH-2025-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "함무라비 법전의 탈리오 법칙(Lex Talionis)이 정확하게 적용된 상황은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -580,10 +607,11 @@
     {
       "id": "ETH-2025-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "인종 차별과 관련된 사례로 맞지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,

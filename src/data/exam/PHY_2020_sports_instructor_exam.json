@@ -6,10 +6,11 @@
     {
       "id": "PHY-2020-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "유산소 시스템의 특징으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,10 +34,11 @@
     {
       "id": "PHY-2020-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "근육 내에서 산소를 운반하는 물질은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -60,10 +62,11 @@
     {
       "id": "PHY-2020-3",
       "questionNumber": 3,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "고강도 운동 시 ATP 합성에 사용되는 주요 기질(substrate)로 적절한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -87,13 +90,15 @@
     {
       "id": "PHY-2020-4",
       "questionNumber": 4,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 호르몬은?",
-      "context": [
-        "부신수질로부터 분비된다.",
-        "운동의 강도와 시간이 증가함에 따라 분비가 증가하며, 지방조직과 근육 내 지방의 분해를 촉진하는 역할을 한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "부신수질로부터 분비된다.",
+          "운동의 강도와 시간이 증가함에 따라 분비가 증가하며, 지방조직과 근육 내 지방의 분해를 촉진하는 역할을 한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -117,10 +122,11 @@
     {
       "id": "PHY-2020-5",
       "questionNumber": 5,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "장기간의 저항성 트레이닝에 따른 골격근의 적응으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -144,19 +150,21 @@
     {
       "id": "PHY-2020-6",
       "questionNumber": 6,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠과 ㉡에 들어갈 용어를 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "지구성 트레이닝에 대한 적응으로 최대 동-정맥산소차는 ( ㉠ )하고,"
-        },
-        {
-          "id": "㉡",
-          "content": "최대 1회박출량(stroke volume)은 ( ㉡ )한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "지구성 트레이닝에 대한 적응으로 최대 동-정맥산소차는 ( ㉠ )하고,"
+          },
+          {
+            "label": "㉡",
+            "content": "최대 1회박출량(stroke volume)은 ( ㉡ )한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -180,27 +188,29 @@
     {
       "id": "PHY-2020-7",
       "questionNumber": 7,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 신경세포 구조 및 전기적 활동에 관한 적절한 설명을 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "안정 시 신경세포 막의 안쪽은 Na+의 농도가 높고, 바깥쪽은 K+의 농도가 높다."
-        },
-        {
-          "id": "㉡",
-          "content": "역치(threshold)는 신경세포 막의 차등성전위(graded potential)가 안정막전위(resting membrane potential)로 바뀌는 시점을 말한다."
-        },
-        {
-          "id": "㉢",
-          "content": "활동전위(action potential)는 신경세포 막의 탈분극(depolarization)을 유도한다."
-        },
-        {
-          "id": "㉣",
-          "content": "신경세포는 신경-근접합부(neuromuscular junction)를 통해 근섬유와 상호신호전달을 한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "안정 시 신경세포 막의 안쪽은 Na+의 농도가 높고, 바깥쪽은 K+의 농도가 높다."
+          },
+          {
+            "label": "㉡",
+            "content": "역치(threshold)는 신경세포 막의 차등성전위(graded potential)가 안정막전위(resting membrane potential)로 바뀌는 시점을 말한다."
+          },
+          {
+            "label": "㉢",
+            "content": "활동전위(action potential)는 신경세포 막의 탈분극(depolarization)을 유도한다."
+          },
+          {
+            "label": "㉣",
+            "content": "신경세포는 신경-근접합부(neuromuscular junction)를 통해 근섬유와 상호신호전달을 한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -224,10 +234,11 @@
     {
       "id": "PHY-2020-8",
       "questionNumber": 8,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "적혈구용적률(hematocrit)에 관한 설명으로 적절한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -251,10 +262,11 @@
     {
       "id": "PHY-2020-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "근세사 활주설(sliding filament theory)에 관한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -278,27 +290,29 @@
     {
       "id": "PHY-2020-10",
       "questionNumber": 10,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>는 산소-헤모글로빈 해리 곡선의 운동 시 변화에 관한 설명이다. ㉠, ㉡, ㉢, ㉣에 들어갈 용어를 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "심부체온이 증가하여 산소-헤모글로빈 해리 곡선은 ( ㉠ )으로 이동하며,"
-        },
-        {
-          "id": "㉡",
-          "content": "헤모글로빈의 산소 친화력을 ( ㉡ )시킨다."
-        },
-        {
-          "id": "㉢",
-          "content": "신체의 pH가 감소하여 산소-헤모글로빈 해리 곡선은 ( ㉢ )으로 이동하며,"
-        },
-        {
-          "id": "㉣",
-          "content": "헤모글로빈의 산소 친화력을 ( ㉣ )시킨다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "심부체온이 증가하여 산소-헤모글로빈 해리 곡선은 ( ㉠ )으로 이동하며,"
+          },
+          {
+            "label": "㉡",
+            "content": "헤모글로빈의 산소 친화력을 ( ㉡ )시킨다."
+          },
+          {
+            "label": "㉢",
+            "content": "신체의 pH가 감소하여 산소-헤모글로빈 해리 곡선은 ( ㉢ )으로 이동하며,"
+          },
+          {
+            "label": "㉣",
+            "content": "헤모글로빈의 산소 친화력을 ( ㉣ )시킨다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -322,27 +336,29 @@
     {
       "id": "PHY-2020-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 근수축 유형에 따른 힘-속도-파워 간의 관계에 관한 설명으로 적절한 것만 고른 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "신장성 수축은 수축 속도가 빠를수록 힘이 더 증가한다."
-        },
-        {
-          "id": "㉡",
-          "content": "단축성 수축은 수축 속도가 빠를수록 최대파워가 더 증가한다."
-        },
-        {
-          "id": "㉢",
-          "content": "동일 근육에서의 느린 단축성 수축은 빠른 신장성 수축에 비해 더 큰 힘이 생성된다."
-        },
-        {
-          "id": "㉣",
-          "content": "동일 근육에서의 신장성 수축은 단축성 수축에 비해 같은 속도에서 더 큰 힘이 생성된다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "신장성 수축은 수축 속도가 빠를수록 힘이 더 증가한다."
+          },
+          {
+            "label": "㉡",
+            "content": "단축성 수축은 수축 속도가 빠를수록 최대파워가 더 증가한다."
+          },
+          {
+            "label": "㉢",
+            "content": "동일 근육에서의 느린 단축성 수축은 빠른 신장성 수축에 비해 더 큰 힘이 생성된다."
+          },
+          {
+            "label": "㉣",
+            "content": "동일 근육에서의 신장성 수축은 단축성 수축에 비해 같은 속도에서 더 큰 힘이 생성된다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -366,10 +382,11 @@
     {
       "id": "PHY-2020-12",
       "questionNumber": 12,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "장시간의 운동 시 발생하는 탈수현상이 심혈관계에 미치는 영향으로 적절한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -393,10 +410,11 @@
     {
       "id": "PHY-2020-13",
       "questionNumber": 13,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동단위(motor unit)에 관한 설명으로 적절한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -420,13 +438,15 @@
     {
       "id": "PHY-2020-14",
       "questionNumber": 14,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 호르몬은?",
-      "context": [
-        "운동 시 뇌하수체 전엽에서 분비된다.",
-        "트라이아이오드타이로닌(T3)과 티록신(T4) 호르몬의 분비를 조절한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "운동 시 뇌하수체 전엽에서 분비된다.",
+          "트라이아이오드타이로닌(T3)과 티록신(T4) 호르몬의 분비를 조절한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -450,12 +470,14 @@
     {
       "id": "PHY-2020-15",
       "questionNumber": 15,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 ㉠과 ㉡의 근섬유 유형별 특성으로 적절한 것은?",
-      "context": [
-        "훈련되지 않은 사람과 비교하여 단거리 선수의 장딴지 근육은 주로 ( ㉠ )의 비율이 높고, 장거리 수영선수의 팔 근육은 ( ㉡ )의 비율이 높은 경향이 있다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "훈련되지 않은 사람과 비교하여 단거리 선수의 장딴지 근육은 주로 ( ㉠ )의 비율이 높고, 장거리 수영선수의 팔 근육은 ( ㉡ )의 비율이 높은 경향이 있다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -479,13 +501,15 @@
     {
       "id": "PHY-2020-16",
       "questionNumber": 16,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 것은?",
-      "context": [
-        "우심방 벽에 위치한다.",
-        "심장수축을 위한 전기적 자극이 시작되므로 페이스메이커(pacemaker)라고 한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "우심방 벽에 위치한다.",
+          "심장수축을 위한 전기적 자극이 시작되므로 페이스메이커(pacemaker)라고 한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -509,10 +533,11 @@
     {
       "id": "PHY-2020-17",
       "questionNumber": 17,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "저강도(1RM의 30~40%)의 고반복(세트당 20~25회) 저항성 트레이닝에 따른 골격근의 주요 변화로 적절한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -536,19 +561,21 @@
     {
       "id": "PHY-2020-18",
       "questionNumber": 18,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>에서 인체 내 가스교환에 관한 설명 중 ㉠과 ㉡에 들어갈 용어를 바르게 나열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "운동 시 폐포로 유입된 ( ㉠ )는 폐 모세혈관으로 확산된다."
-        },
-        {
-          "id": "㉡",
-          "content": "운동 시 근육에서 생성된 ( ㉡ )는 모세혈관으로 확산된다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동 시 폐포로 유입된 ( ㉠ )는 폐 모세혈관으로 확산된다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동 시 근육에서 생성된 ( ㉡ )는 모세혈관으로 확산된다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -572,10 +599,11 @@
     {
       "id": "PHY-2020-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "운동 시 교감신경계의 활성화에 따른 반응으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -599,10 +627,11 @@
     {
       "id": "PHY-2020-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "장기간의 유산소 트레이닝에 따른 심혈관계의 적응으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,

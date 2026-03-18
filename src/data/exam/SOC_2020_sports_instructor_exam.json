@@ -6,10 +6,11 @@
     {
       "id": "SOC-2020-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 사회적 순기능으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,14 +34,16 @@
     {
       "id": "SOC-2020-2",
       "questionNumber": 2,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 이론은?",
-      "context": [
-        "지배계급은 피지배계급을 억압하고 착취한다.",
-        "재화의 불평등한 분배는 사회의 본질적 속성이다.",
-        "스포츠는 일부 지배계급에 의해 그들의 이익을 증대시키는 데 이용된다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "지배계급은 피지배계급을 억압하고 착취한다.",
+          "재화의 불평등한 분배는 사회의 본질적 속성이다.",
+          "스포츠는 일부 지배계급에 의해 그들의 이익을 증대시키는 데 이용된다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -64,23 +67,25 @@
     {
       "id": "SOC-2020-3",
       "questionNumber": 3,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>에서 정치가 스포츠를 이용하는 방식을 바르게 연결한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "경기에 앞서 국가연주, 국기에 대한 경례 등의 의식을 갖는다."
-        },
-        {
-          "id": "㉡",
-          "content": "대중은 선수나 팀을 자신과 일치시키는 태도를 형성한다."
-        },
-        {
-          "id": "㉢",
-          "content": "정치인의 비리, 부정 등을 은폐하기 위해 스포츠를 이용한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "경기에 앞서 국가연주, 국기에 대한 경례 등의 의식을 갖는다."
+          },
+          {
+            "label": "㉡",
+            "content": "대중은 선수나 팀을 자신과 일치시키는 태도를 형성한다."
+          },
+          {
+            "label": "㉢",
+            "content": "정치인의 비리, 부정 등을 은폐하기 위해 스포츠를 이용한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -104,10 +109,11 @@
     {
       "id": "SOC-2020-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠와 미디어의 상호관계에서 미디어가 스포츠에 미치는 영향에 해당하는 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -131,10 +137,11 @@
     {
       "id": "SOC-2020-5",
       "questionNumber": 5,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "상업주의 심화에 따른 스포츠의 변화에 대한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -158,13 +165,15 @@
     {
       "id": "SOC-2020-6",
       "questionNumber": 6,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 A 선수에 해당하는 사회계층 이동의 유형을 바르게 연결한 것은?",
-      "context": [
-        "A 선수는 2002년부터 2019년까지 프로축구리그 S 팀의 주전선수로 활동하면서 MVP 3회 수상 등 축구선수로서 명성을 얻었다.",
-        "은퇴 후, 2020년부터 프로축구 A 팀의 수석코치로 활동하게 되었다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "A 선수는 2002년부터 2019년까지 프로축구리그 S 팀의 주전선수로 활동하면서 MVP 3회 수상 등 축구선수로서 명성을 얻었다.",
+          "은퇴 후, 2020년부터 프로축구 A 팀의 수석코치로 활동하게 되었다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -188,10 +197,11 @@
     {
       "id": "SOC-2020-7",
       "questionNumber": 7,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "버렐(S. Birrell)과 로이(J. Loy)가 제시한 스포츠미디어를 통해 충족할 수 있는 욕구유형에 대한 설명으로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -215,13 +225,15 @@
     {
       "id": "SOC-2020-8",
       "questionNumber": 8,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 에티즌(D. Eitzen)과 세이지(G. Sage)가 제시한 스포츠의 정치적 속성은?",
-      "context": [
-        "스포츠 경기에 수반되는 의식과 행동은 선수의 충성심을 상징적으로 재확인하는 것에 목적이 있다.",
-        "스포츠 조직은 구호, 응원가, 유니폼, 마스코트 등의 상징을 통해 조직에 대한 선수의 충성심을 지속시키거나 강화한다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "스포츠 경기에 수반되는 의식과 행동은 선수의 충성심을 상징적으로 재확인하는 것에 목적이 있다.",
+          "스포츠 조직은 구호, 응원가, 유니폼, 마스코트 등의 상징을 통해 조직에 대한 선수의 충성심을 지속시키거나 강화한다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -245,10 +257,11 @@
     {
       "id": "SOC-2020-9",
       "questionNumber": 9,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈의 유형과 원인을 규정하기 어려운 이유로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -272,10 +285,11 @@
     {
       "id": "SOC-2020-10",
       "questionNumber": 10,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "맥루한(M. McLuhan)의 미디어 이론에 따른 구분 및 특성을 바르게 제시한 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -299,27 +313,29 @@
     {
       "id": "SOC-2020-11",
       "questionNumber": 11,
-      "type": "COMBINATION_SELECT",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>를 투민(M. Tumin)의 스포츠계층 형성과정 순서에 따라 바르게 배열한 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "세계적인 테니스 선수는 기업으로부터 많은 후원금을 받고 있다."
-        },
-        {
-          "id": "㉡",
-          "content": "세계랭킹에 따라 참가할 수 있는 테니스 대회가 나누어져 있다."
-        },
-        {
-          "id": "㉢",
-          "content": "테니스는 선수, 코치, 감독, 트레이너 등으로 역할이 구분되어 있다."
-        },
-        {
-          "id": "㉣",
-          "content": "국제 테니스 대회에서 우승하면 사회적 명성이 높아진다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "세계적인 테니스 선수는 기업으로부터 많은 후원금을 받고 있다."
+          },
+          {
+            "label": "㉡",
+            "content": "세계랭킹에 따라 참가할 수 있는 테니스 대회가 나누어져 있다."
+          },
+          {
+            "label": "㉢",
+            "content": "테니스는 선수, 코치, 감독, 트레이너 등으로 역할이 구분되어 있다."
+          },
+          {
+            "label": "㉣",
+            "content": "국제 테니스 대회에서 우승하면 사회적 명성이 높아진다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -343,10 +359,11 @@
     {
       "id": "SOC-2020-12",
       "questionNumber": 12,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 세계화의 원인이 아닌 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -370,14 +387,16 @@
     {
       "id": "SOC-2020-13",
       "questionNumber": 13,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠이 설명하는 집합행동의 유형과 관련된 이론은?",
-      "context": [
-        "A : 어제 축구 봤어? 경기 도중 관중 폭력이 발생했잖아.",
-        "B : 나도 방송에서 봤는데 관중 폭력의 원인이 인종차별 때문이래.",
-        "A : ㉠ 인종차별과 같은 사회구조적·문화적 선행요건이 없었다면, 두 팀 관중들 간에 폭력은 없었을 거야."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "A : 어제 축구 봤어? 경기 도중 관중 폭력이 발생했잖아.",
+          "B : 나도 방송에서 봤는데 관중 폭력의 원인이 인종차별 때문이래.",
+          "A : ㉠ 인종차별과 같은 사회구조적·문화적 선행요건이 없었다면, 두 팀 관중들 간에 폭력은 없었을 거야."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -401,10 +420,11 @@
     {
       "id": "SOC-2020-14",
       "questionNumber": 14,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈에 관한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -428,10 +448,11 @@
     {
       "id": "SOC-2020-15",
       "questionNumber": 15,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈을 설명하는 이론과 그 특징이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -455,14 +476,16 @@
     {
       "id": "SOC-2020-16",
       "questionNumber": 16,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 사건은?",
-      "context": [
-        "1972년 제20회 뮌헨올림픽에서 발생",
-        "팔레스타인 테러조직에 의한 이스라엘 선수단 인질사건",
-        "국가 간 갈등이 올림픽을 통해 표출된 테러 사건"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "1972년 제20회 뮌헨올림픽에서 발생",
+          "팔레스타인 테러조직에 의한 이스라엘 선수단 인질사건",
+          "국가 간 갈등이 올림픽을 통해 표출된 테러 사건"
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -486,10 +509,11 @@
     {
       "id": "SOC-2020-17",
       "questionNumber": 17,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "상류계급의 스포츠 참가 특징에 대한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -513,14 +537,16 @@
     {
       "id": "SOC-2020-18",
       "questionNumber": 18,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠사회화 과정은?",
-      "context": [
-        "이용대 선수의 경기 보도 증가는 대중들의 배드민턴 참여를 촉진한다.",
-        "부모의 스포츠에 대한 긍정적인 태도는 자녀의 스포츠 참여 가능성을 높인다.",
-        "학생들은 교내에서 체육교과와 다양한 프로그램을 통해 스포츠에 참여하고 있다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "이용대 선수의 경기 보도 증가는 대중들의 배드민턴 참여를 촉진한다.",
+          "부모의 스포츠에 대한 긍정적인 태도는 자녀의 스포츠 참여 가능성을 높인다.",
+          "학생들은 교내에서 체육교과와 다양한 프로그램을 통해 스포츠에 참여하고 있다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -544,13 +570,15 @@
     {
       "id": "SOC-2020-19",
       "questionNumber": 19,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠의 교육적 순기능은?",
-      "context": [
-        "스포츠 참여를 통해 생애주기에 적합한 스포츠를 즐길 수 있는 습관을 형성할 수 있다.",
-        "학교에서의 스포츠 경험은 개인이 전 생애에 걸쳐 스포츠를 즐길 수 있는 토대를 마련해준다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "스포츠 참여를 통해 생애주기에 적합한 스포츠를 즐길 수 있는 습관을 형성할 수 있다.",
+          "학교에서의 스포츠 경험은 개인이 전 생애에 걸쳐 스포츠를 즐길 수 있는 토대를 마련해준다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -574,13 +602,15 @@
     {
       "id": "SOC-2020-20",
       "questionNumber": 20,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 케년(G. Kenyon)의 스포츠 참가유형은?",
-      "context": [
-        "스포츠 상황 내에서 다양한 지위와 규범을 이행함으로써 스포츠에 실질적으로 참가하는 형태",
-        "생활체육 동호인, 선수, 감독, 심판, 해설자로 활동"
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "스포츠 상황 내에서 다양한 지위와 규범을 이행함으로써 스포츠에 실질적으로 참가하는 형태",
+          "생활체육 동호인, 선수, 감독, 심판, 해설자로 활동"
+        ]
+      },
       "options": [
         {
           "id": 1,

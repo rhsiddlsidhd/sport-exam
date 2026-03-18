@@ -6,10 +6,11 @@
     {
       "id": "PSY-2020-1",
       "questionNumber": 1,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "다이나믹 시스템 관점에서의 협응구조 형성에 대한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -33,10 +34,11 @@
     {
       "id": "PSY-2020-2",
       "questionNumber": 2,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "목표설정에서 수행목표로 적합하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -60,19 +62,21 @@
     {
       "id": "PSY-2020-3",
       "questionNumber": 3,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "학습자가 새로운 기술을 연습한 후, 특정한 시간이 지난 후 연습한 기술의 수행력을 평가하는 검사"
-        },
-        {
-          "id": "㉡",
-          "content": "연습한 기술이 다른 수행상황에서도 발휘될 수 있는지를 평가하는 검사"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "학습자가 새로운 기술을 연습한 후, 특정한 시간이 지난 후 연습한 기술의 수행력을 평가하는 검사"
+          },
+          {
+            "label": "㉡",
+            "content": "연습한 기술이 다른 수행상황에서도 발휘될 수 있는지를 평가하는 검사"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -96,10 +100,11 @@
     {
       "id": "PSY-2020-4",
       "questionNumber": 4,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "주의집중 방법으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -123,19 +128,21 @@
     {
       "id": "PSY-2020-5",
       "questionNumber": 5,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>에 제시된 심상(imagery)의 요소로 바르게 나타낸 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "선수 : 시합에서 느꼈던 자신감, 흥분, 행복감을 실제처럼 시각화한다."
-        },
-        {
-          "id": "㉡",
-          "content": "선수 : 부정적인 수행 장면을 성공적인 수행 이미지로 바꾼다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "선수 : 시합에서 느꼈던 자신감, 흥분, 행복감을 실제처럼 시각화한다."
+          },
+          {
+            "label": "㉡",
+            "content": "선수 : 부정적인 수행 장면을 성공적인 수행 이미지로 바꾼다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -159,12 +166,14 @@
     {
       "id": "PSY-2020-6",
       "questionNumber": 6,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 지도자가 제공하는 보강적 피드백의 유형으로 적절한 것은?",
-      "context": [
-        "지도자 : 창하야! 다운스윙 전에 백스윙이 제대로 이루어지지 않았어."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "지도자 : 창하야! 다운스윙 전에 백스윙이 제대로 이루어지지 않았어."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -188,19 +197,21 @@
     {
       "id": "PSY-2020-7",
       "questionNumber": 7,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "줄다리기에서 집단이 내는 힘의 총합이 개인의 힘을 모두 합친 것보다 적게 나타나는 현상"
-        },
-        {
-          "id": "㉡",
-          "content": "집단의 인원수가 증가할 때 발생하는 개인의 수행 감소의 원인"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "줄다리기에서 집단이 내는 힘의 총합이 개인의 힘을 모두 합친 것보다 적게 나타나는 현상"
+          },
+          {
+            "label": "㉡",
+            "content": "집단의 인원수가 증가할 때 발생하는 개인의 수행 감소의 원인"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -224,23 +235,25 @@
     {
       "id": "PSY-2020-8",
       "questionNumber": 8,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>에서 피츠(P. Fitts)와 포스너(M. Posner)의 운동학습 단계와 설명이 바르게 제시된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "테니스 포핸드 스트로크 자세를 안정적이고 일관성 있게 수행할 수 있다."
-        },
-        {
-          "id": "㉡",
-          "content": "학습자는 오류를 수정하기 위해서 연습하고, 스스로 오류를 탐지하여 그 오류의 일부를 수정할 수 있다."
-        },
-        {
-          "id": "㉢",
-          "content": "학습자는 테니스 포핸드 스트로크의 개념을 이해한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "테니스 포핸드 스트로크 자세를 안정적이고 일관성 있게 수행할 수 있다."
+          },
+          {
+            "label": "㉡",
+            "content": "학습자는 오류를 수정하기 위해서 연습하고, 스스로 오류를 탐지하여 그 오류의 일부를 수정할 수 있다."
+          },
+          {
+            "label": "㉢",
+            "content": "학습자는 테니스 포핸드 스트로크의 개념을 이해한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -264,13 +277,15 @@
     {
       "id": "PSY-2020-9",
       "questionNumber": 9,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 참가자를 위한 와이너(B. Weiner)의 귀인 이론에 기반한 지도 방법으로 옳은 것은?",
-      "context": [
-        "수영 교실에 참가하는 A씨는 다른 참가자들보다 수영에 재능이 없어 기술 습득이 늦다고 생각한다.",
-        "이로 인해 결석이 잦고 운동 중단이 예상된다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "수영 교실에 참가하는 A씨는 다른 참가자들보다 수영에 재능이 없어 기술 습득이 늦다고 생각한다.",
+          "이로 인해 결석이 잦고 운동 중단이 예상된다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -294,13 +309,15 @@
     {
       "id": "PSY-2020-10",
       "questionNumber": 10,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
-      "context": [
-        "수현이는 오랫동안 배드민턴을 즐기다가 새롭게 테니스 교실에 등록했다.",
-        "테니스 코치는 포핸드 스트로크를 지도할 때, 수현이가 손목 스냅을 습관적으로 사용하는 것을 보고 손목을 고정하도록 지도했다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "수현이는 오랫동안 배드민턴을 즐기다가 새롭게 테니스 교실에 등록했다.",
+          "테니스 코치는 포핸드 스트로크를 지도할 때, 수현이가 손목 스냅을 습관적으로 사용하는 것을 보고 손목을 고정하도록 지도했다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -324,23 +341,25 @@
     {
       "id": "PSY-2020-11",
       "questionNumber": 11,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡, ㉢에 해당하는 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "자극 제시와 반응 시작 간의 시간 간격을 의미한다."
-        },
-        {
-          "id": "㉡",
-          "content": "반응 시작과 반응 종료 간의 시간 간격을 의미한다."
-        },
-        {
-          "id": "㉢",
-          "content": "자극 제시와 반응 종료 간의 시간 간격을 의미한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "자극 제시와 반응 시작 간의 시간 간격을 의미한다."
+          },
+          {
+            "label": "㉡",
+            "content": "반응 시작과 반응 종료 간의 시간 간격을 의미한다."
+          },
+          {
+            "label": "㉢",
+            "content": "자극 제시와 반응 종료 간의 시간 간격을 의미한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -364,13 +383,15 @@
     {
       "id": "PSY-2020-12",
       "questionNumber": 12,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
-      "context": [
-        "양궁 선수 A는 첫 엔드에서 6점을 한 발 기록했다.",
-        "그러나 A는 바람 부는 상황으로 인해 총 36발의 슈팅 중에서 6점은 한 번 정도 나올 수 있는 점수이며, 첫 엔드에 나온 것이 다행이라고 긍정적으로 생각했다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "양궁 선수 A는 첫 엔드에서 6점을 한 발 기록했다.",
+          "그러나 A는 바람 부는 상황으로 인해 총 36발의 슈팅 중에서 6점은 한 번 정도 나올 수 있는 점수이며, 첫 엔드에 나온 것이 다행이라고 긍정적으로 생각했다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -394,13 +415,15 @@
     {
       "id": "PSY-2020-13",
       "questionNumber": 13,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
-      "context": [
-        "철수는 처음으로 깊은 바닷속으로 다이빙하면서 각성 수준이 높아졌다.",
-        "높은 각성 수준으로 인해 깊은 바닷속에서 시야가 평소보다 훨씬 좁아졌다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "철수는 처음으로 깊은 바닷속으로 다이빙하면서 각성 수준이 높아졌다.",
+          "높은 각성 수준으로 인해 깊은 바닷속에서 시야가 평소보다 훨씬 좁아졌다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -424,10 +447,11 @@
     {
       "id": "PSY-2020-14",
       "questionNumber": 14,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 지도자의 리더십 행동으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -451,23 +475,25 @@
     {
       "id": "PSY-2020-15",
       "questionNumber": 15,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>에서 ㉠, ㉡, ㉢에 해당하는 기억의 유형이 바르게 연결된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "기억 용량-제한 / 특징-반복하거나 시연하지 않으면 사라진다 / 지도 방법-한 번에 너무 많은 정보를 제공하지 않고, 정보를 처리할 수 있는 시간을 제공한다."
-        },
-        {
-          "id": "㉡",
-          "content": "기억 용량-극히 제한 / 특징-새로운 정보가 유입되면 쉽게 손실된다 / 지도 방법-불필요한 외부정보를 줄이고 집중할 수 있도록 지도한다."
-        },
-        {
-          "id": "㉢",
-          "content": "기억 용량-무제한 / 특징-반복과 시연을 통해 강화된다 / 지도 방법-연습을 통해 기억을 강화한다."
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "기억 용량-제한 / 특징-반복하거나 시연하지 않으면 사라진다 / 지도 방법-한 번에 너무 많은 정보를 제공하지 않고, 정보를 처리할 수 있는 시간을 제공한다."
+          },
+          {
+            "label": "㉡",
+            "content": "기억 용량-극히 제한 / 특징-새로운 정보가 유입되면 쉽게 손실된다 / 지도 방법-불필요한 외부정보를 줄이고 집중할 수 있도록 지도한다."
+          },
+          {
+            "label": "㉢",
+            "content": "기억 용량-무제한 / 특징-반복과 시연을 통해 강화된다 / 지도 방법-연습을 통해 기억을 강화한다."
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -491,10 +517,11 @@
     {
       "id": "PSY-2020-16",
       "questionNumber": 16,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "프로차스카(J. Prochaska)의 운동변화단계 이론(transtheoretical model)에 대한 설명으로 옳지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -518,12 +545,14 @@
     {
       "id": "PSY-2020-17",
       "questionNumber": 17,
-      "type": "PASSAGE",
+      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
-      "context": [
-        "피겨 스케이팅 경기에서 영희는 앞 선수가 완벽에 가까운 연기를 펼치자, 불안해지고 긴장되었다."
-      ],
-      "contextItems": null,
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "피겨 스케이팅 경기에서 영희는 앞 선수가 완벽에 가까운 연기를 펼치자, 불안해지고 긴장되었다."
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -547,19 +576,21 @@
     {
       "id": "PSY-2020-18",
       "questionNumber": 18,
-      "type": "COMBINATION_LINK",
+      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 배구 기술을 지도하기 위한 연습구조가 적절하게 제시된 것은?",
-      "context": null,
-      "contextItems": [
-        {
-          "id": "㉠",
-          "content": "1차 시: 서브/서브/서브, 2차 시: 세팅(토스)/세팅(토스)/세팅(토스), 3차 시: 언더핸드/언더핸드/언더핸드"
-        },
-        {
-          "id": "㉡",
-          "content": "1차 시: 서브/세팅(토스)/언더핸드, 2차 시: 세팅(토스)/언더핸드/서브, 3차 시: 언더핸드/서브/세팅(토스)"
-        }
-      ],
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "1차 시: 서브/서브/서브, 2차 시: 세팅(토스)/세팅(토스)/세팅(토스), 3차 시: 언더핸드/언더핸드/언더핸드"
+          },
+          {
+            "label": "㉡",
+            "content": "1차 시: 서브/세팅(토스)/언더핸드, 2차 시: 세팅(토스)/언더핸드/서브, 3차 시: 언더핸드/서브/세팅(토스)"
+          }
+        ]
+      },
       "options": [
         {
           "id": 1,
@@ -583,10 +614,11 @@
     {
       "id": "PSY-2020-19",
       "questionNumber": 19,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 심리상담사에 관한 설명으로 적절하지 않은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
@@ -610,10 +642,11 @@
     {
       "id": "PSY-2020-20",
       "questionNumber": 20,
-      "type": "BASIC",
+      "logicType": "SINGLE_CHOICE",
       "question": "정보처리 3단계의 관점에서 100m 달리기 스타트의 반응시간이 배구 서브 리시브 상황에서의 반응시간보다 짧은 이유로 옳은 것은?",
-      "context": null,
-      "contextItems": null,
+      "view": {
+        "type": "NONE"
+      },
       "options": [
         {
           "id": 1,
