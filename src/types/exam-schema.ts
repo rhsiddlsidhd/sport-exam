@@ -1,44 +1,56 @@
-import type { SubjectCode } from "./subject";
+export type SubjectCode = "SOC" | "ETH" | "PSY" | "HIS" | "PHY";
 
-export const EXAM_QUESTION_TYPES = [
-  "BASIC",
-  "PASSAGE",
-  "COMBINATION_SELECT",
-  "COMBINATION_MATCH",
-  "COMBINATION_LINK",
-] as const;
+export type QuestionLogicType =
+  | "SINGLE_CHOICE"
+  | "MULTIPLE_CHOICE"
+  | "MATCHING"
+  | "ORDERING";
 
-export type ExamQuestionType = (typeof EXAM_QUESTION_TYPES)[number];
+export type QuestionViewType =
+  | "NONE"
+  | "PASSAGE"
+  | "ITEMIZED"
+  | "BLANK"
+  | "VISUAL"
+  | "COMPOSITE";
 
-export interface ExamOption {
-  id: number;      // 1 ~ 4 고정
+export interface ExamMedia {
+  type: "IMAGE" | "CHART" | "SVG";
+  url: string; // public 폴더 기준 경로 (예: /exam/PHY_2024_17.png)
+  alt?: string;
+}
+
+export interface ExamViewItem {
+  label: string;
   content: string;
 }
 
-export interface ExamContextItem {
-  id: string;      // "ㄱ" | "ㄴ" | "가" | "나" | "㉠" 등
+export interface ExamView {
+  type: QuestionViewType;
+  passage?: string[];
+  items?: ExamViewItem[];
+  media?: ExamMedia;
+}
+
+export interface ExamOption {
+  id: number;
   content: string;
 }
 
 export interface ExamQuestion {
   id: string;
   questionNumber: number;
-  type: ExamQuestionType;
+  logicType: QuestionLogicType;
   question: string;
-  context: string[] | null;
-  contextItems: ExamContextItem[] | null;
+  view: ExamView;
   options: ExamOption[];
   answer: number | number[];
+  explanation?: string;
 }
 
-export interface ExamSubject {
+export interface SubjectExam {
   subject: SubjectCode;
-  subjectCode: string;
-  questions: ExamQuestion[];
-}
-
-export interface Exam {
   exam: string;
   date: string;
-  subjects: ExamSubject[];
+  questions: ExamQuestion[];
 }

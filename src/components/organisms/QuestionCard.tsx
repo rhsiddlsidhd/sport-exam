@@ -20,23 +20,19 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
   return (
     <div className="p-5 border-y sm:border border-border rounded-none sm:rounded-2xl text-left bg-card shadow-sm sm:transition-all sm:hover:shadow-lg">
       <div className="flex items-center justify-end mb-3">
-        <div className="text-[10px] font-bold text-muted-foreground/50">{question.id}</div>
+        <div className="text-[10px] font-bold text-muted-foreground/50">
+          {question.id} · {question.logicType}
+        </div>
       </div>
 
       <TypographyLarge className="font-bold text-foreground mb-4 leading-snug break-keep">
         {question.question}
       </TypographyLarge>
 
-      {/* <보기> 섹션 (지문 또는 항목 리스트) */}
-      {(question.context ||
-        (question.contextItems && question.contextItems.length > 0)) && (
-        <QuestionContext
-          context={question.context}
-          contextItems={question.contextItems}
-        />
-      )}
+      {/* <보기> 섹션 (시각적 렌더링 영역) */}
+      <QuestionContext view={question.view} />
 
-      {/* 4지선다 선택지 */}
+      {/* 4지선다 선택지 (미래에 MULTIPLE_CHOICE 등 logicType에 따라 UI 분기 가능) */}
       <div className="grid grid-cols-1 gap-2 ">
         {question.options.map((option, idx) => (
           <OptionButton

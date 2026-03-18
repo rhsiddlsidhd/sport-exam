@@ -25,3 +25,5 @@ dist-ssr
 
 # AI CLI
 .claude/
+.gemini/
+scripts/

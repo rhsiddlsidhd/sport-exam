@@ -1,0 +1,675 @@
+{
+  "subject": "PHY",
+  "exam": "2023년도 2급류 체육지도자 필기시험",
+  "date": "2023-04-29",
+  "questions": [
+    {
+      "id": "PHY-2023-1",
+      "questionNumber": 1,
+      "logicType": "SINGLE_CHOICE",
+      "question": "ATP를 합성하는데 사용되는 에너지원이 아닌 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "근중성지방"
+        },
+        {
+          "id": 2,
+          "content": "비타민C"
+        },
+        {
+          "id": 3,
+          "content": "글루코스"
+        },
+        {
+          "id": 4,
+          "content": "젖산"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2023-2",
+      "questionNumber": 2,
+      "logicType": "SINGLE_CHOICE",
+      "question": "근수축에 필수적인 Ca2+ 이온을 저장, 분비하는 근육 세포 내 소기관은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "근형질세망(sarcoplasmic reticulum)"
+        },
+        {
+          "id": 2,
+          "content": "위성세포(satellite cell)"
+        },
+        {
+          "id": 3,
+          "content": "미토콘드리아(mitochondria)"
+        },
+        {
+          "id": 4,
+          "content": "근핵(myonuclear)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2023-3",
+      "questionNumber": 3,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 후 초과산소섭취량(EPOC)에 영향을 미치는 요인으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "운동 중 증가한 체온"
+        },
+        {
+          "id": 2,
+          "content": "운동 중 증가한 젖산"
+        },
+        {
+          "id": 3,
+          "content": "운동 중 증가한 호르몬(에피네프린, 노르에피네프린)"
+        },
+        {
+          "id": 4,
+          "content": "운동 중 증가한 크레아틴인산(phosphocreatine, PC)"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2023-4",
+      "questionNumber": 4,
+      "logicType": "SINGLE_CHOICE",
+      "question": "수중 운동 시 체온유지를 위한 요인으로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "폐활량"
+        },
+        {
+          "id": 2,
+          "content": "체지방량"
+        },
+        {
+          "id": 3,
+          "content": "운동 강도"
+        },
+        {
+          "id": 4,
+          "content": "물의 온도"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2023-5",
+      "questionNumber": 5,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동강도 증가에 따라 동원되는 근섬유 순서로 옳은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "TypeⅡa 섬유 → TypeⅡx 섬유 → TypeⅠ 섬유"
+        },
+        {
+          "id": 2,
+          "content": "TypeⅡx 섬유 → TypeⅡa 섬유 → TypeⅠ 섬유"
+        },
+        {
+          "id": 3,
+          "content": "TypeⅠ 섬유 → TypeⅡa 섬유 → TypeⅡx 섬유"
+        },
+        {
+          "id": 4,
+          "content": "TypeⅠ 섬유 → TypeⅡx 섬유 → TypeⅡa 섬유"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2023-6",
+      "questionNumber": 6,
+      "logicType": "SINGLE_CHOICE",
+      "question": "장기간 규칙적 유산소 훈련의 결과로 최대 운동 시 나타나는 심폐기능의 적응으로 옳은 것을 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "최대산소섭취량 증가"
+          },
+          {
+            "label": "㉡",
+            "content": "심장용적과 심근수축력 증가"
+          },
+          {
+            "label": "㉢",
+            "content": "심박출량 증가"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 3,
+          "content": "㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉠, ㉡, ㉢"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2023-7",
+      "questionNumber": 7,
+      "logicType": "SINGLE_CHOICE",
+      "question": "항상성 유지를 위한 신체 조절 중 부적피드백(negative feedback)이 아닌 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "세포외액의 CO2 조절"
+        },
+        {
+          "id": 2,
+          "content": "체온 상승에 따른 땀 분비 증가"
+        },
+        {
+          "id": 3,
+          "content": "혈당 유지를 위한 호르몬 조절"
+        },
+        {
+          "id": 4,
+          "content": "출산 시 자궁 수축 활성화 증가"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2023-8",
+      "questionNumber": 8,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 중 1회 박출량(stroke volume) 증가 원인으로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "대동맥압 증가에 따른 후부하(after load) 증가"
+        },
+        {
+          "id": 2,
+          "content": "호흡펌프작용에 의한 정맥회귀(venous return) 증가"
+        },
+        {
+          "id": 3,
+          "content": "골격근 수축에 의한 근육펌프작용 증가"
+        },
+        {
+          "id": 4,
+          "content": "교감신경 자극에 의한 심근 수축력 증가"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2023-9",
+      "questionNumber": 9,
+      "logicType": "MATCHING",
+      "question": "〈보기〉의 ㉠, ㉡에 들어갈 내용이 바르게 연결된 것은? (훈련된 운동 선수의 운동강도에 따른 에너지원 사용 그래프)",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동강도 25% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
+          },
+          {
+            "label": "㉡",
+            "content": "운동강도 85% VO2max 부근에서 가장 높은 비율을 차지하는 에너지원"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 혈중 포도당 / ㉡ 근중성지방"
+        },
+        {
+          "id": 2,
+          "content": "㉠ 혈중 유리지방산 / ㉡ 근글리코겐"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 근글리코겐 / ㉡ 혈중 포도당"
+        },
+        {
+          "id": 4,
+          "content": "㉠ 근중성지방 / ㉡ 혈중유리지방산"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2023-10",
+      "questionNumber": 10,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 중 소뇌의 기능에 대한 설명으로 옳은 것을 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "골격근 운동 조절의 최종 단계 역할"
+          },
+          {
+            "label": "㉡",
+            "content": "빠른 동작의 정확한 수행을 위한 통합 조절"
+          },
+          {
+            "label": "㉢",
+            "content": "고유수용기로부터 유입되는 정보를 활용하여 동작 수정"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 3,
+          "content": "㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉠, ㉡, ㉢"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2023-11",
+      "questionNumber": 11,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동에 따른 환기량의 변화로 옳은 것을 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동 시작 직전에는 운동 수행에 대한 기대감으로 환기량이 증가할 수 있다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동 초기 환기량 변화의 주된 요인은 경동맥에 위치한 화학수용기 반응이다."
+          },
+          {
+            "label": "㉢",
+            "content": "운동 강도가 증가하면 1회 호흡량은 감소하고 호흡수는 현저히 증가한다."
+          },
+          {
+            "label": "㉣",
+            "content": "회복기 환기량은 운동 중 생성된 체내 수소이온 및 이산화탄소 농도와 관련 있다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 3,
+          "content": "㉠, ㉣"
+        },
+        {
+          "id": 4,
+          "content": "㉡, ㉢, ㉣"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2023-12",
+      "questionNumber": 12,
+      "logicType": "MATCHING",
+      "question": "〈보기〉의 ㉠, ㉡에 들어갈 내용이 바르게 연결된 것은? (1개의 포도당 분해에 따른 유산소성 ATP 생성 표)",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "해당작용, 피루브산→아세틸조효소A 이후 이어지는 대사적 과정 단계 명칭"
+          },
+          {
+            "label": "㉡",
+            "content": "유산소성 ATP 합계 수"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ 크랩스회로 / ㉡ 32"
+        },
+        {
+          "id": 2,
+          "content": "㉠ β 산화 / ㉡ 32"
+        },
+        {
+          "id": 3,
+          "content": "㉠ 크랩스회로 / ㉡ 35"
+        },
+        {
+          "id": 4,
+          "content": "㉠ β 산화 / ㉡ 35"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2023-13",
+      "questionNumber": 13,
+      "logicType": "SINGLE_CHOICE",
+      "question": "체중이 80kg인 사람이 10METs로 10분간 달리기 했을 때 소비 칼로리는? (단, 1MET=3.5㎖·kg⁻¹·min⁻¹, O2 1L 당 5Kcal 생성)",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "130Kcal"
+        },
+        {
+          "id": 2,
+          "content": "140Kcal"
+        },
+        {
+          "id": 3,
+          "content": "150Kcal"
+        },
+        {
+          "id": 4,
+          "content": "160Kcal"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2023-14",
+      "questionNumber": 14,
+      "logicType": "MATCHING",
+      "question": "〈보기〉는 신경 세포의 안정 시 막전위에 영향을 주는 Na+과 K+에 대한 그림이다. ㉠~㉣에 들어갈 내용이 바르게 연결된 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "세포외액에서 150mM로 존재하는 이온 (세포막 바깥쪽 큰 원)"
+          },
+          {
+            "label": "㉡",
+            "content": "세포외액에서 5mM로 존재하는 이온 (세포막 바깥쪽 작은 원)"
+          },
+          {
+            "label": "㉢",
+            "content": "Na+/K+ 펌프에서 세포 밖으로 내보내는 이온 (3개)"
+          },
+          {
+            "label": "㉣",
+            "content": "Na+/K+ 펌프에서 세포 안으로 들여오는 이온 (2개)"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠ K+ / ㉡ Na+ / ㉢ Na+ / ㉣ K+"
+        },
+        {
+          "id": 2,
+          "content": "㉠ Na+ / ㉡ K+ / ㉢ Na+ / ㉣ K+"
+        },
+        {
+          "id": 3,
+          "content": "㉠ K+ / ㉡ Na+ / ㉢ K+ / ㉣ Na+"
+        },
+        {
+          "id": 4,
+          "content": "㉠ Na+ / ㉡ K+ / ㉢ K+ / ㉣ Na+"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2023-15",
+      "questionNumber": 15,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉의 최대산소섭취량 공식에서 장기간 지구성 훈련에 의해 증가되는 요소를 모두 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "최대 1회박출량"
+          },
+          {
+            "label": "㉡",
+            "content": "최대심박수"
+          },
+          {
+            "label": "㉢",
+            "content": "최대동정맥산소차"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 3,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉡, ㉢"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2023-16",
+      "questionNumber": 16,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉의 내용이 모두 증가되었을 때 향상되는 건강체력 요소는?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "모세혈관의 밀도",
+          "미토콘드리아의 수와 크기",
+          "동정맥 산소차(arterial-venous oxygen difference)"
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "유연성"
+        },
+        {
+          "id": 2,
+          "content": "순발력"
+        },
+        {
+          "id": 3,
+          "content": "심폐지구력"
+        },
+        {
+          "id": 4,
+          "content": "근력"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PHY-2023-17",
+      "questionNumber": 17,
+      "logicType": "SINGLE_CHOICE",
+      "question": "1시간 이내의 중강도 운동 시 시간 경과에 따라 혈중 농도가 점차 감소하는 호르몬은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "에피네프린(epinephrine)"
+        },
+        {
+          "id": 2,
+          "content": "인슐린(insulin)"
+        },
+        {
+          "id": 3,
+          "content": "성장호르몬(growth hormone)"
+        },
+        {
+          "id": 4,
+          "content": "코르티솔(cortisol)"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PHY-2023-18",
+      "questionNumber": 18,
+      "logicType": "SINGLE_CHOICE",
+      "question": "〈보기〉에서 설명하는 고유수용기는?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "감각 및 운동신경의 말단이 연결되어 있다",
+          "감마운동뉴런을 통해 조절된다",
+          "근육의 길이 정보를 중추신경계로 보낸다"
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "근방추(muscle spindle)"
+        },
+        {
+          "id": 2,
+          "content": "골지건기관(Golgi tendon organ)"
+        },
+        {
+          "id": 3,
+          "content": "자유신경종말(free nerve ending)"
+        },
+        {
+          "id": 4,
+          "content": "파치니안 소체(Pacinian corpuscle)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PHY-2023-19",
+      "questionNumber": 19,
+      "logicType": "SINGLE_CHOICE",
+      "question": "근력 결정요인으로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "근육 횡단면적"
+        },
+        {
+          "id": 2,
+          "content": "근절의 적정 길이"
+        },
+        {
+          "id": 3,
+          "content": "근섬유 구성비"
+        },
+        {
+          "id": 4,
+          "content": "근섬유막 두께"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PHY-2023-20",
+      "questionNumber": 20,
+      "logicType": "SINGLE_CHOICE",
+      "question": "상완이두근의 움직임에 대한 근육 수축 형태로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "자세를 유지할 때 - 등척성 수축"
+        },
+        {
+          "id": 2,
+          "content": "턱걸이 올라갈 때 - 단축성 수축"
+        },
+        {
+          "id": 3,
+          "content": "턱걸이 내려갈 때 - 신장성 수축"
+        },
+        {
+          "id": 4,
+          "content": "공을 던질 때 - 등속성 수축"
+        }
+      ],
+      "answer": 4
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "subject": "PSY",
+  "exam": "2019년도 2급 생활스포츠지도사 필기시험",
+  "date": "2019-05-11",
+  "questions": [
+    {
+      "id": "PSY-2019-1",
+      "questionNumber": 1,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에서 ㉠에 해당하는 스포츠심리학의 하위 분야는?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "야구에서 공을 잡은 외야수는 2루 주자의 주력과 경기상황을 고려하여 홈으로 송구하기로 결정한다.",
+          "그리고 홈까지의 거리와 위치를 확인하고 공을 던진다.",
+          "( ㉠ ) 분야에서는 외야수가 경기상황에서의 여러 정보를 종합·판단하여 어떻게 동작을 생성하고 조절하는지와 관련된 원리와 법칙을 밝히는 데 관심을 가진다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "운동제어"
+        },
+        {
+          "id": 2,
+          "content": "운동발달"
+        },
+        {
+          "id": 3,
+          "content": "운동심리학"
+        },
+        {
+          "id": 4,
+          "content": "건강심리학"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-2",
+      "questionNumber": 2,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동기술(motor skill)의 일차원적 분류체계가 아닌 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "과제의 난이도에 따른 분류"
+        },
+        {
+          "id": 2,
+          "content": "환경의 안정성에 따른 분류"
+        },
+        {
+          "id": 3,
+          "content": "움직임의 연속성에 따른 분류"
+        },
+        {
+          "id": 4,
+          "content": "움직임에 동원되는 근육의 크기에 따른 분류"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-3",
+      "questionNumber": 3,
+      "logicType": "SINGLE_CHOICE",
+      "question": "스포츠 상황에서 루틴(routine)에 대한 설명으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "시합 당일에 수정한다."
+        },
+        {
+          "id": 2,
+          "content": "불안을 감소시키고 집중력을 증대시킨다."
+        },
+        {
+          "id": 3,
+          "content": "심상과 혼잣말이 포함될 수 있다."
+        },
+        {
+          "id": 4,
+          "content": "상황이 달라져도 편안함을 유지 시킨다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-4",
+      "questionNumber": 4,
+      "logicType": "SINGLE_CHOICE",
+      "question": "응용스포츠심리학회(AAASP)가 제시하는 스포츠심리상담의 윤리규정이 아닌 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "평소 알고 지내는 사람(가족, 친구 등)과의 상담과정은 전문적으로 진행한다."
+        },
+        {
+          "id": 2,
+          "content": "나이, 성별, 국적, 종교, 장애, 사회경제적 지위 등의 개인차를 존중한다."
+        },
+        {
+          "id": 3,
+          "content": "교육, 연수, 수련 경험 등을 통해 인정받은 전문 지식과 기법을 제공한다."
+        },
+        {
+          "id": 4,
+          "content": "내담자의 이익을 최우선에 두고 상담을 진행하며 필요한 경우 다른 전문가에게 의뢰한다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-5",
+      "questionNumber": 5,
+      "logicType": "SINGLE_CHOICE",
+      "question": "정보처리단계 중 '반응실행 단계'에 해당하는 내용으로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "실제 움직임을 생성하기 위하여 움직임을 조직화한다."
+        },
+        {
+          "id": 2,
+          "content": "받아들인 정보의 내용을 분석하여 의미를 부여한다."
+        },
+        {
+          "id": 3,
+          "content": "자극을 확인한 후, 환경특성에 맞는 반응을 선택한다."
+        },
+        {
+          "id": 4,
+          "content": "환경정보 자극에 대한 확인과 자극의 유형에 대해 인식한다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-6",
+      "questionNumber": 6,
+      "logicType": "SINGLE_CHOICE",
+      "question": "반두라(A. Bandura)의 자기효능감(self-efficacy)이론에 대한 설명으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "자기효능감이 높은 선수는 역경 상황에 잘 대처한다."
+        },
+        {
+          "id": 2,
+          "content": "타인의 수행에 대한 관찰은 자기효능감에 영향을 주지 않는다."
+        },
+        {
+          "id": 3,
+          "content": "자기효능감은 농구드리블과 같은 구체적인 기술을 수행할 수 있다는 믿음이다."
+        },
+        {
+          "id": 4,
+          "content": "경쟁상황에서 각성상태에 대해 부정적으로 인식할 때 자기효능감은 떨어질 수 있다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PSY-2019-7",
+      "questionNumber": 7,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에 해당하는 와이너(B. Weiner)의 귀인 범주를 바르게 나열한 것은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "탁구 선수 A는 경기에서 패배한 것을 상대 선수의 능력이 자신보다 더 우수하였기 때문이라고 생각했다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "안정성-안정적 요인 / 인과성-외적 요인 / 통제성-통제가능요인"
+        },
+        {
+          "id": 2,
+          "content": "안정성-안정적 요인 / 인과성-외적 요인 / 통제성-통제불가능요인"
+        },
+        {
+          "id": 3,
+          "content": "안정성-불안정적 요인 / 인과성-외적 요인 / 통제성-통제가능요인"
+        },
+        {
+          "id": 4,
+          "content": "안정성-불안정적 요인 / 인과성-내적 요인 / 통제성-통제불가능요인"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PSY-2019-8",
+      "questionNumber": 8,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에서 설명하는 이론은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "각성 수준에 대한 개인의 인지적 해석에 따라 정서 경험이 다를 수 있다.",
+          "각성 수준이 높은 상태를 기분 좋은 흥분상태나 불쾌한 정서로 해석할 수 있다.",
+          "결정적 순간에 발생하는 심판의 오심은 선수의 정서 상태를 순간적으로 변화시킬 수 있다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "반전 이론(reversal theory)"
+        },
+        {
+          "id": 2,
+          "content": "카타스트로피 이론(catastrophe theory)"
+        },
+        {
+          "id": 3,
+          "content": "다차원불안 이론(multidimensional anxiety theory)"
+        },
+        {
+          "id": 4,
+          "content": "최적수행지역 이론(zone of optimal functioning theory)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-9",
+      "questionNumber": 9,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>의 야구 투구와 타격 상황에 대한 해석으로 적절하지 않은 것은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "투수가 시속 145 km의 속도로 던진 공이 홈플레이트에 도달하는 시간은 460 ms이다.",
+          "두 명의 타자 중 A 타자의 스윙 시간은 160 ms이며, B 타자의 스윙 시간은 140 ms이다.",
+          "두 타자의 신체 조건, 사용하는 배트, 기술 수준, 공이 맞는 지점은 모두 같다고 가정한다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "B 타자는 A 타자보다 구질을 파악하는데 더 많은 시간을 활용할 수 있다."
+        },
+        {
+          "id": 2,
+          "content": "B 타자는 A 타자보다 타격의 충격력이 커서 더 멀리 공을 쳐 낼 수 있다."
+        },
+        {
+          "id": 3,
+          "content": "B 타자는 A 타자보다 공에 대한 정보를 파악하는데 유리하다."
+        },
+        {
+          "id": 4,
+          "content": "B 타자는 A 타자보다 스윙 시작이 빨라야 한다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PSY-2019-10",
+      "questionNumber": 10,
+      "logicType": "SINGLE_CHOICE",
+      "question": "자기목표성향(ego-goal orientation)보다 과제목표성향(task-goal orientation)이 높은 선수의 특성으로 가장 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "달성하기 어려운 목표를 설정한다."
+        },
+        {
+          "id": 2,
+          "content": "평가상황에서는 평소보다 수행이 더 저조할 수 있다."
+        },
+        {
+          "id": 3,
+          "content": "상대 선수의 실수로 인해 승리하였다고 생각한다."
+        },
+        {
+          "id": 4,
+          "content": "자신의 노력 부족으로 인해 패배하였다고 생각한다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PSY-2019-11",
+      "questionNumber": 11,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>가 설명하는 자기결정이론(self-determination theory)의 동기 유형으로 가장 적절한 것은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "동수는 배드민턴에 흥미를 느끼고 스포츠클럽 활동을 시작했다.",
+          "시간이 지날수록 재미가 없어져서 클럽을 그만두고 싶었지만, 지도자와 동료들로부터 부정적인 평가를 받기 싫어서 클럽 활동을 유지하고 있다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "무동기(amotivation)"
+        },
+        {
+          "id": 2,
+          "content": "행동규제(behavior regulation)"
+        },
+        {
+          "id": 3,
+          "content": "확인규제(identified regulation)"
+        },
+        {
+          "id": 4,
+          "content": "의무감규제(introjected regulation)"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PSY-2019-12",
+      "questionNumber": 12,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에서 설명하는 자기존중감(self-esteem) 향상과 관련된 가설로 가장 적절한 것은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "정기적으로 운동하여 체지방의 감량과 체형의 변화를 확인하였다.",
+          "피트니스센터에 가면 정서적 안정감을 느낀다.",
+          "스포츠지도사로부터 칭찬을 자주 받는다.",
+          "가족들로부터 운동참여에 대한 지지를 받고 있다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "신체상(body-image) 향상설"
+        },
+        {
+          "id": 2,
+          "content": "자기도식(self-schema) 향상설"
+        },
+        {
+          "id": 3,
+          "content": "자기효능감(self-efficacy) 향상설"
+        },
+        {
+          "id": 4,
+          "content": "자기결정성(self-determination) 향상설"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PSY-2019-13",
+      "questionNumber": 13,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동학습의 정의 및 특성에 대한 설명으로 옳지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "학습 과정 그 자체를 직접 관찰할 수 있다."
+        },
+        {
+          "id": 2,
+          "content": "신경가소성(neural plasticity)의 특성을 나타낸다."
+        },
+        {
+          "id": 3,
+          "content": "비교적 영구적인 운동 수행의 향상으로 나타나는 일련의 내적 과정이다."
+        },
+        {
+          "id": 4,
+          "content": "연습과 경험에 의해서 나타나는 현상이며, 성숙이나 동기 또는 훈련 등에 의해 일시적으로 변화하는 것은 포함하지 않는다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-14",
+      "questionNumber": 14,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에서 설명하는 심리기술훈련은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "테니스선수 A는 평소 연습과는 달리 시합만 하면 생리적 각성상태가 높아져서 서비스 실수가 자주 발생한다.",
+          "스포츠지도사 B는 A 선수의 어깨 부분에 근육의 긴장도를 측정하는 센서와 가슴에 심박수를 측정하는 센서를 부착하였다.",
+          "불안감이 높아질 때 어깨 근육의 긴장도가 함께 증가하는 것을 시각적으로 보여 주면서 각성 조절능력을 높이도록 하였다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "심상훈련(imagery training)"
+        },
+        {
+          "id": 2,
+          "content": "자생훈련(autogenic training)"
+        },
+        {
+          "id": 3,
+          "content": "바이오피드백훈련(biofeedback training)"
+        },
+        {
+          "id": 4,
+          "content": "점진적이완훈련(progressive relaxation training)"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "PSY-2019-15",
+      "questionNumber": 15,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 애착(exercise adherence)을 촉진하는 스포츠지도사의 전략으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "개인적인 피드백을 제공한다."
+        },
+        {
+          "id": 2,
+          "content": "참여자를 위해 운동을 선택해준다."
+        },
+        {
+          "id": 3,
+          "content": "운동을 자극하는 표어나 포스터를 활용한다."
+        },
+        {
+          "id": 4,
+          "content": "친구 또는 가족과 함께 운동하는 것을 장려한다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PSY-2019-16",
+      "questionNumber": 16,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에서 대한야구협회가 활용한 행동수정 전략은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "본 협회는 선수들의 경기장 폭력을 감소시키기 위해 폭력 정도에 따라 출전시간을 제한하는 제도를 시행합니다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "정적강화"
+        },
+        {
+          "id": 2,
+          "content": "부적강화"
+        },
+        {
+          "id": 3,
+          "content": "정적처벌"
+        },
+        {
+          "id": 4,
+          "content": "부적처벌"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "PSY-2019-17",
+      "questionNumber": 17,
+      "logicType": "MATCHING",
+      "question": "<보기>의 ㉠과 ㉡에 들어갈 용어가 바르게 묶인 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "다른 근육군을 사용하여 같은 움직임을 수행할 수 있는 능력을 말한다."
+          },
+          {
+            "label": "㉡",
+            "content": "근육의 활동이 동일해도 조건에 따라 운동결과가 달라질 수 있다는 것이다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-운동 등가(motor equivalence) / ㉡-맥락 조건 가변성(context-conditioned variability)"
+        },
+        {
+          "id": 2,
+          "content": "㉠-운동 등가(motor equivalence) / ㉡-자유도(degree of freedom)"
+        },
+        {
+          "id": 3,
+          "content": "㉠-맥락 조건 가변성(context-conditioned variability) / ㉡-자유도(degree of freedom)"
+        },
+        {
+          "id": 4,
+          "content": "㉠-맥락 조건 가변성(context-conditioned variability) / ㉡-운동 등가(motor equivalence)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-18",
+      "questionNumber": 18,
+      "logicType": "SINGLE_CHOICE",
+      "question": "캐론(A. V. Carron)의 응집력 모형에서 응집력과 관련이 있는 팀 요소가 아닌 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "팀의 능력"
+        },
+        {
+          "id": 2,
+          "content": "팀의 규모"
+        },
+        {
+          "id": 3,
+          "content": "팀의 목표"
+        },
+        {
+          "id": 4,
+          "content": "팀의 승부욕"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "PSY-2019-19",
+      "questionNumber": 19,
+      "logicType": "SINGLE_CHOICE",
+      "question": "수영장에서 연습한 수영기술이 바다에서도 잘 발휘할 수 있는지를 확인하는 검사로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "전이 검사(transfer test)"
+        },
+        {
+          "id": 2,
+          "content": "파지 검사(retention test)"
+        },
+        {
+          "id": 3,
+          "content": "효율성 검사(efficiency test)"
+        },
+        {
+          "id": 4,
+          "content": "수행 검사(performance test)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "PSY-2019-20",
+      "questionNumber": 20,
+      "logicType": "SINGLE_CHOICE",
+      "question": "반응시간(reaction time)의 유형이 아닌 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "변별반응시간(discrimination reaction time)"
+        },
+        {
+          "id": 2,
+          "content": "단순반응시간(simple reaction time)"
+        },
+        {
+          "id": 3,
+          "content": "자유반응시간(free reaction time)"
+        },
+        {
+          "id": 4,
+          "content": "선택반응시간(choice reaction time)"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

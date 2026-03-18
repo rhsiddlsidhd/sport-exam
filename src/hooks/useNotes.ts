@@ -19,7 +19,9 @@ export function useNotes() {
       const updated = [...filtered, note];
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-      } catch {}
+      } catch (e) {
+        console.error(e);
+      }
       return updated;
     });
   };
@@ -29,7 +31,9 @@ export function useNotes() {
       const updated = prev.filter((n) => n.id !== id);
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-      } catch {}
+      } catch (e) {
+        console.error(e);
+      }
       return updated;
     });
   };
