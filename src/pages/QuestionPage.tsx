@@ -60,7 +60,7 @@ const QuestionPage = () => {
     };
   }, [api]);
 
-  const quizAnswer = useQuiz(questions, subject, validYear ?? "", currentIndex);
+  const { userAnswers, answeredCount, handleSelectOption } = useQuiz();
 
   if (!validYear) return <NotFound />;
 
@@ -94,9 +94,16 @@ const QuestionPage = () => {
 
   return (
     <QuizNavigationContext.Provider
-      value={{ currentIndex, totalCount: questions.length, api }}
+      value={{
+        currentIndex,
+        totalCount: questions.length,
+        api,
+        currentQuestionId: questions[currentIndex]?.id ?? "",
+      }}
     >
-      <QuizAnswerContext.Provider value={quizAnswer}>
+      <QuizAnswerContext.Provider
+        value={{ userAnswers, answeredCount, handleSelectOption }}
+      >
         <div className="bg-background flex h-full flex-col overflow-hidden">
           <QuestionControlBar onBack={handleBack} />
 
@@ -110,8 +117,8 @@ const QuestionPage = () => {
                 <QuestionCarouselItem
                   key={q.id}
                   question={q}
-                  selectedOption={quizAnswer.userAnswers[q.id] ?? null}
-                  onSelect={quizAnswer.handleSelectOption}
+                  selectedOption={userAnswers[q.id] ?? null}
+                  onSelect={handleSelectOption}
                 />
               ))}
             </CarouselContent>

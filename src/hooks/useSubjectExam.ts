@@ -23,7 +23,9 @@ interface UseSubjectExamResult {
 export function useSubjectExam(
   subject: SubjectCode,
   year: string | null,
+  options?: { shuffle?: boolean },
 ): UseSubjectExamResult {
+  const shuffle = options?.shuffle ?? true;
   const [questions, setQuestions] = useState<ExamQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -40,7 +42,7 @@ export function useSubjectExam(
         const data = await loadSubjectExam(subject, year);
         const loaded = data.questions.map((q) => ({
           ...q,
-          options: shuffleArray(q.options),
+          options: shuffle ? shuffleArray(q.options) : q.options,
         }));
         setQuestions(loaded);
       } catch (err) {

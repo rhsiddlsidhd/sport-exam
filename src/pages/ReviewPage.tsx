@@ -1,39 +1,35 @@
-import { useLocation, useNavigate, Link } from "react-router";
+import { useLocation, useNavigate, Link, useParams } from "react-router";
 import { Bookmark, BookmarkCheck } from "lucide-react";
-import type { ExamQuestion } from "../types/exam-schema";
 import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
 import { TypographySmall } from "../components/atoms/Typography";
 import { Button } from "../components/atoms/Button";
 import { useNotes } from "../hooks/useNotes";
+import { useSubjectExam } from "../hooks/useSubjectExam";
 import { cn } from "../lib/utils";
 import SectionHeader from "../components/molecules/SectionHeader";
 import QuestionContext from "../components/molecules/QuestionContext";
 
 interface LocationState {
-  year: string;
-  subject: SubjectCode;
-  questions: ExamQuestion[];
   userAnswers: Record<string, number>;
 }
 
 const ReviewPage = () => {
+  const { subject: rawSubject, year } = useParams<{ subject: string; year: string }>();
+  const subject = rawSubject as SubjectCode | undefined;
   const location = useLocation();
   const navigate = useNavigate();
   const state = location.state as LocationState | null;
   const { add, remove, isBookmarked } = useNotes();
 
-  if (
-    !state?.subject ||
-    !state?.year ||
-    !Array.isArray(state?.questions) ||
-    !state?.userAnswers
-  ) {
+  const { questions, loading } = useSubjectExam(subject ?? ("" as SubjectCode), year ?? null, {
+    shuffle: false,
+  });
+
+  if (!state?.userAnswers || !subject || !year) {
     return (
       <div className="flex flex-col items-center gap-4 p-10 text-center">
-        <p className="text-foreground text-sm font-bold">
-          결과 데이터가 없습니다.
-        </p>
+        <p className="text-foreground text-sm font-bold">결과 데이터가 없습니다.</p>
         <Button asChild className="rounded-xl font-bold">
           <Link to="/">홈으로 돌아가기</Link>
         </Button>
@@ -41,26 +37,34 @@ const ReviewPage = () => {
     );
   }
 
-  const { year, subject, questions, userAnswers } = state;
+  if (loading) {
+    return (
+      <div className="flex h-full min-h-60 flex-col items-center justify-center gap-4">
+        <div className="border-muted border-t-primary h-10 w-10 animate-spin rounded-full border-2" />
+        <TypographySmall className="text-muted-foreground">결과를 불러오는 중...</TypographySmall>
+      </div>
+    );
+  }
+
+  const { userAnswers } = state;
 
   const results = questions.map((q) => {
     const userAnswerId = userAnswers[q.id];
-    
-    // 정답 체크 로직 (중복 정답 대응: 사용자 선택이 정답 배열/값에 포함되는지 확인)
+
     const isCorrect = Array.isArray(q.answer)
       ? q.answer.includes(userAnswerId)
       : userAnswerId === q.answer;
 
     const getUserAnswerContent = () => {
       if (userAnswerId === undefined || userAnswerId === null) return "미선택";
-      return q.options.find(opt => opt.id === userAnswerId)?.content || "미선택";
+      return q.options.find((opt) => opt.id === userAnswerId)?.content || "미선택";
     };
 
     const getCorrectAnswerContent = () => {
       const correctIds = Array.isArray(q.answer) ? q.answer : [q.answer];
       return q.options
-        .filter(opt => correctIds.includes(opt.id))
-        .map(opt => opt.content)
+        .filter((opt) => correctIds.includes(opt.id))
+        .map((opt) => opt.content)
         .join(", ");
     };
 
@@ -86,7 +90,7 @@ const ReviewPage = () => {
         year,
         subject,
         questionText: res.question,
-        view: res.view, // 새로운 view 구조 저장
+        view: res.view,
         correctAnswerContent: res.correctAnswerContent,
         explanation: res.explanation,
         savedAt: new Date().toISOString(),
@@ -107,12 +111,7 @@ const ReviewPage = () => {
         {/* 원형 점수 게이지 */}
         <div className="mb-7 flex flex-col items-center gap-5">
           <div className="relative">
-            <svg
-              width="96"
-              height="96"
-              viewBox="0 0 96 96"
-              className="-rotate-90"
-            >
+            <svg width="96" height="96" viewBox="0 0 96 96" className="-rotate-90">
               <circle
                 cx="48"
                 cy="48"
@@ -139,9 +138,7 @@ const ReviewPage = () => {
               <span className="text-foreground text-2xl leading-none font-black tabular-nums">
                 {score}
               </span>
-              <span className="text-muted-foreground text-[10px] font-bold">
-                점
-              </span>
+              <span className="text-muted-foreground text-[10px] font-bold">점</span>
             </div>
           </div>
 
@@ -150,9 +147,7 @@ const ReviewPage = () => {
               <span className="text-success/70 mb-1 text-[9px] font-black tracking-wider uppercase">
                 정답
               </span>
-              <span className="text-success text-xl font-black tabular-nums">
-                {correctCount}
-              </span>
+              <span className="text-success text-xl font-black tabular-nums">{correctCount}</span>
             </div>
             <div className="bg-destructive/8 border-destructive/20 flex min-w-[72px] flex-col items-center rounded-2xl border px-5 py-3">
               <span className="text-destructive/70 mb-1 text-[9px] font-black tracking-wider uppercase">
@@ -247,7 +242,6 @@ const ReviewPage = () => {
                   {res.question}
                 </TypographySmall>
 
-                {/* 새로운 QuestionContext 컴포넌트 재사용 */}
                 <QuestionContext view={res.view} />
 
                 <div className="grid grid-cols-2 gap-2">

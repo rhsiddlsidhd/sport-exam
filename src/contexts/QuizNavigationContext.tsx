@@ -5,6 +5,7 @@ interface QuizNavigationContextValue {
   currentIndex: number;
   totalCount: number;
   api: CarouselApi | undefined;
+  currentQuestionId: string;
 }
 
 export const QuizNavigationContext = createContext<QuizNavigationContextValue | null>(null);

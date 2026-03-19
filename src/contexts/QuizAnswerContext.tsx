@@ -2,11 +2,8 @@ import { createContext, useContext } from "react";
 
 interface QuizAnswerContextValue {
   userAnswers: Record<string, number>;
-  currentAnswer: number | null;
-  isAllAnswered: boolean;
   answeredCount: number;
   handleSelectOption: (questionId: string, optionId: number) => void;
-  handleGrade: () => void;
 }
 
 export const QuizAnswerContext = createContext<QuizAnswerContextValue | null>(null);

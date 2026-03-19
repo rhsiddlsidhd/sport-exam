@@ -1,14 +1,23 @@
 import { memo } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/atoms/Button";
+import { useNavigate, useParams } from "react-router";
 import { useQuizNavigation } from "@/contexts/QuizNavigationContext";
 import { useQuizAnswer } from "@/contexts/QuizAnswerContext";
 
 const QuestionNavBar: React.FC = memo(() => {
-  const { currentIndex, totalCount, api } = useQuizNavigation();
-  const { currentAnswer, isAllAnswered, handleGrade } = useQuizAnswer();
+  const navigate = useNavigate();
+  const { subject, year } = useParams();
+  const { currentIndex, totalCount, api, currentQuestionId } = useQuizNavigation();
+  const { userAnswers } = useQuizAnswer();
 
   const isLastQuestion = currentIndex === totalCount - 1;
+  const currentAnswer = userAnswers[currentQuestionId] ?? null;
+  const lastAnswered = !!userAnswers[currentQuestionId];
+
+  const handleGrade = () => {
+    navigate(`/${subject}/${year}/review`, { state: { userAnswers } });
+  };
 
   return (
     <div className="bg-card border-border flex h-16 shrink-0 items-center justify-between border-t px-5">
@@ -26,7 +35,7 @@ const QuestionNavBar: React.FC = memo(() => {
       {isLastQuestion ? (
         <Button
           onClick={handleGrade}
-          disabled={!isAllAnswered}
+          disabled={!lastAnswered}
           className="h-10 rounded-xl px-7 font-black tracking-tight shadow-sm disabled:opacity-40"
         >
           채점하기
