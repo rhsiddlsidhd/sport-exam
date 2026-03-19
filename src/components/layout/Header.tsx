@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-background">
       {/* 고정 헤더 */}
-      <header className="h-14 flex-shrink-0 px-5 bg-primary flex justify-between items-center z-10">
+      <header className="h-14 shrink-0 px-5 bg-primary flex justify-between items-center z-10">
         <Link to="/" className="hover:opacity-85 transition-opacity">
           <div className="flex flex-col gap-0.5">
             <span className="text-[9px] font-bold text-primary-foreground/50 tracking-widest uppercase leading-none">
@@ -46,9 +46,9 @@ const Header = () => {
       {/* 하단 푸터 */}
       <footer
         className={cn(
-          "h-10 flex-shrink-0 flex items-center justify-center text-[10px] text-muted-foreground/50 border-t border-border bg-card",
+          "h-10 shrink-0 flex items-center justify-center text-[10px] text-muted-foreground/50 border-t border-border bg-card",
           isQuizActive && "hidden",
-        )}
+        )} 
       >
         © 2025 스포츠 기출문제
       </footer>

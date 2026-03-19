@@ -16,19 +16,6 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
 | JSON 데이터 파일    | `{SUBJECT}_{year}_snake_case` | `SOC_2025_sports_instructor_exam.json` |
 | CSS 클래스 (커스텀) | kebab-case | `.scrollbar-hide`                  |
 
-## Atomic Design 분류 기준
-
-| 계층        | 위치                    | 기준                                                   | 예시                              |
-| ----------- | ----------------------- | ------------------------------------------------------ | --------------------------------- |
-| `atoms`     | `components/atoms/`     | 더 이상 분리 불가한 단일 UI 요소. 자체 상태 없음       | `Button`, `Typography`, `Label`   |
-| `molecules` | `components/molecules/` | atoms 2개 이상 조합. 단일 책임 유지. `React.memo` 적용 | `OptionButton`, `QuestionContext` |
-| `organisms` | `components/organisms/` | molecules/atoms 조합으로 독립적인 UI 블록 구성         | `QuestionCard`                    |
-| `layout`    | `components/layout/`    | 페이지 레이아웃 구조. Outlet 포함 가능                 | `Header`, `YearLayout`            |
-
-**판단 순서**: 단일 요소인가? → `atoms` / atoms 조합인가? → `molecules` / 독립 UI 블록인가? → `organisms`
-
----
-
 ## TypeScript 규칙
 
 - `any` 사용 금지 — 타입 불명확 시 `unknown` 또는 제네릭 사용
@@ -159,22 +146,4 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
   const { save, load } = useNotes();
   ```
 
----
-
-## Typography 컴포넌트 사용 규칙
-
-원시 HTML 태그(`<h1>`, `<p>`, `<small>`) 대신 `src/components/atoms/Typography.tsx` 사용.
-
-| 컴포넌트               | 사용 상황                              |
-| ---------------------- | -------------------------------------- |
-| `TypographyH1`         | 페이지 최상위 제목 (Hero, 랜딩)        |
-| `TypographyH2`         | 섹션 제목 (구분선 포함)                |
-| `TypographyH3`         | 서브 섹션 / 카드 그룹 헤더             |
-| `TypographyH4`         | 폼 섹션, 리스트 아이템 타이틀          |
-| `TypographyP`          | 일반 본문 단락                         |
-| `TypographyLarge`      | 강조된 텍스트 (카드 제목, 문제 텍스트) |
-| `TypographySmall`      | 날짜, 태그, 캡션 등 보조 정보          |
-| `TypographyMuted`      | 비활성 상태 메시지, 힌트               |
-| `TypographyLead`       | 히어로 아래 부제목, 페이지 요약        |
-| `TypographyBlockquote` | 인용문, 강조 노트                      |
 

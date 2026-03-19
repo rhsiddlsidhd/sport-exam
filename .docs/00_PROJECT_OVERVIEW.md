@@ -52,13 +52,6 @@ AI가 이 앱의 존재 이유와 최종 목표를 파악하는 용도로 사용
 | 데이터     | 정적 JSON 파일 (동적 import) |
 | 저장소     | 브라우저 Local Storage       |
 
-## 로컬 실행
-
-```bash
-npm install
-npm run dev
-```
-
 ## 과목 코드 매핑
 
 | SubjectCode | 과목명       |

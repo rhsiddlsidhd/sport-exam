@@ -24,6 +24,32 @@
 - 자체 상태 없음
 - 커스텀 atom 은 `Typography.tsx` 가 유일하며 원시 HTML 태그 대신 사용
 
+## Typography 사용 가이드
+
+원시 HTML 태그(`<h1>`, `<p>`, `<small>`) 대신 `src/components/atoms/Typography.tsx` 사용.
+
+| 컴포넌트               | 사용 상황                              |
+| ---------------------- | -------------------------------------- |
+| `TypographyH1`         | 페이지 최상위 제목 (Hero, 랜딩)        |
+| `TypographyH2`         | 섹션 제목 (구분선 포함)                |
+| `TypographyH3`         | 서브 섹션 / 카드 그룹 헤더             |
+| `TypographyH4`         | 폼 섹션, 리스트 아이템 타이틀          |
+| `TypographyP`          | 일반 본문 단락                         |
+| `TypographyLarge`      | 강조된 텍스트 (카드 제목, 문제 텍스트) |
+| `TypographySmall`      | 날짜, 태그, 캡션 등 보조 정보          |
+| `TypographyMuted`      | 비활성 상태 메시지, 힌트               |
+| `TypographyLead`       | 히어로 아래 부제목, 페이지 요약        |
+| `TypographyBlockquote` | 인용문, 강조 노트                      |
+
+---
+
+## layout 설계 기준
+
+- 페이지 레이아웃 구조 담당. `components/layout/` 에 위치
+- `<Outlet />` 포함 가능 (React Router layout route)
+- 비즈니스 로직 포함 금지
+- 예시: `Header`, `SubjectLayout`
+
 ---
 
 ## molecules 설계 기준

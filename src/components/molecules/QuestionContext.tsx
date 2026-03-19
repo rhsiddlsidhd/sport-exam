@@ -3,6 +3,7 @@ import type { ExamView } from "@/types/exam-schema";
 import { Card, CardContent } from "@/components/atoms/card";
 import { Badge } from "@/components/atoms/badge";
 import { TypographySmall } from "@/components/atoms/Typography";
+import { renderTextWithHighlight } from "@/utils/highlight";
 
 interface QuestionContextProps {
   view: ExamView;
@@ -14,23 +15,6 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
 
     if (type === "NONE") return null;
 
-    // BLANK 타입 등을 위한 텍스트 하이라이트 로직 (ㄱ, ㄴ, ㉠ 등 강조)
-    const renderTextWithHighlight = (text: string) => {
-      const regex =
-        /(\([ㄱ-ㅎㅏ-ㅣ가-힣\d\s㉠-㉿]+\)|[ㄱ-ㅎㅏ-ㅣ가-힣㉠-㉿]\s*:)/g;
-      const parts = text.split(regex);
-
-      return parts.map((part, i) =>
-        regex.test(part) ? (
-          <span key={i} className="text-primary mx-0.5 font-bold">
-            {part}
-          </span>
-        ) : (
-          part
-        ),
-      );
-    };
-    console.log("passa", passage);
     return (
       <Card className="bg-muted ring-border mb-4 rounded-xl shadow-inner ring-1">
         <CardContent className="px-3 pt-3 pb-3">
@@ -76,7 +60,7 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
                 >
                   <Badge
                     variant="outline"
-                    className="text-primary border-primary/20 bg-background pointer-events-none flex h-5 min-w-[1.5rem] items-center justify-center px-1.5 font-black"
+                    className="text-primary border-primary/20 bg-background pointer-events-none flex h-5 min-w-6 items-center justify-center px-1.5 font-black"
                   >
                     {item.label}
                   </Badge>

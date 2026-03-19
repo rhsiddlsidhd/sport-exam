@@ -31,6 +31,9 @@ src/
 │   └── subject.ts                 # SubjectCode 타입
 ├── constants/                     # 상수
 │   └── label.ts                   # subjectLabel 맵 (코드 → 한국어)
+├── utils/                         # 프로젝트 전용 순수 함수
+├── lib/                           # 외부 라이브러리 설정/래핑
+│   └── utils.ts                   # cn 함수 (shadcn/ui 자동 생성)
 └── data/                          # 정적 JSON
     └── exam/
         └── {SUBJECT}_{year}_sports_instructor_exam.json
