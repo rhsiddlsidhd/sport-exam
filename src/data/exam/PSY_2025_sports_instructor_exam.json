@@ -172,7 +172,7 @@
       ],
       "answer": 2,
       "explanation": "세로토닌, 도파민 등 모노아민 계열의 신경전달물질 변화를 통해 운동의 심리적 효과(우울증 개선 등)를 설명하는 가설은 모노아민 가설입니다."
-    },
+    },    
     {
       "id": "PSY-2025-6",
       "questionNumber": 6,
@@ -215,10 +215,12 @@
       "logicType": "SINGLE_CHOICE",
       "question": "그림에서 ㉠의 고원현상에 관한 설명으로 옳지 않은 것은?",
       "view": {
-        "type": "NONE",
-        "passage": [
-          "수행-시간 그래프에서 일정 구간 수행이 정체되는 고원현상(㉠) 구간을 나타낸 그림"
-        ]
+        "type": "COMPOSITE",
+        "media": {
+          "type": "IMAGE",
+          "url": "/exam/PSY_2025_07.webp",
+          "alt": "수행-시간 그래프에서 일정 구간 수행이 정체되는 고원현상(㉠) 구간을 나타낸 그림"
+        }
       },
       "options": [
         {
@@ -311,7 +313,12 @@
       "logicType": "MATCHING",
       "question": "보기의 스포츠 상황과 반응시간 유형이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
+        "type": "COMPOSITE",
+        "media": {
+          "type": "IMAGE",
+          "url": "/exam/PSY_2025_10.webp",
+          "alt": "수행-시간 그래프에서 일정 구간 수행이 정체되는 고원현상(㉠) 구간을 나타낸 그림"
+        },
         "items": [
           {
             "label": "가",
@@ -330,7 +337,7 @@
       "options": [
         {
           "id": 1,
-          "content": "가-㉠(단순반응시간) / 나-㉡(선택반응시간) / 다-㉢(변별반응시간)"
+          "content": "가-㉠ / 나-㉡ / 다-㉢"
         },
         {
           "id": 2,
@@ -473,10 +480,12 @@
       "logicType": "SINGLE_CHOICE",
       "question": "그림에서 무관심 단계의 운동 실천 전략으로 가장 적절한 것은? (프로차스카 운동변화단계이론)",
       "view": {
-        "type": "NONE",
-        "passage": [
-          "프로차스카(J. Prochaska) 운동변화단계이론: 무관심 → 관심 → 준비 → 실천 → 유지"
-        ]
+        "type": "COMPOSITE",
+        "media": {
+          "type": "IMAGE",
+          "url": "/exam/PSY_2025_15.webp",
+          "alt": "프로차스카(J. Prochaska) 운동변화단계이론: 무관심 → 관심 → 준비 → 실천 → 유지"
+        }
       },
       "options": [
         {
@@ -635,10 +644,12 @@
       "logicType": "MATCHING",
       "question": "보기는 맥락간섭의 양에 따른 연습 형태이다. ㉠~㉢에 해당하는 코치를 바르게 나열한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "passage": [
-          "맥락간섭: 높음(㉠) / 중간(㉡) / 낮음(㉢). A코치: 무선연습, B코치: 구획연습, C코치: 계열연습"
-        ]
+        "type": "COMPOSITE",
+        "media":{
+          "type":"IMAGE",
+          "url":"/exam/PSY_2025_20.webp",
+          "alt":"맥락간섭: 높음(㉠) / 중간(㉡) / 낮음(㉢). A코치: 무선연습, B코치: 구획연습, C코치: 계열연습"
+        }
       },
       "options": [
         {

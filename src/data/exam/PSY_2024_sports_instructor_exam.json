@@ -449,6 +449,7 @@
     },
     {
       "id": "PSY-2024-14",
+      "questionNumber": 14,
       "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 정보처리이론에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
