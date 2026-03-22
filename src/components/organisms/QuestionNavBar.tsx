@@ -8,7 +8,8 @@ import { useQuizAnswer } from "@/contexts/QuizAnswerContext";
 const QuestionNavBar: React.FC = memo(() => {
   const navigate = useNavigate();
   const { subject, year } = useParams();
-  const { currentIndex, totalCount, api, currentQuestionId } = useQuizNavigation();
+  const { currentIndex, totalCount, api, currentQuestionId } =
+    useQuizNavigation();
   const { userAnswers } = useQuizAnswer();
 
   const isLastQuestion = currentIndex === totalCount - 1;

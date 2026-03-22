@@ -82,9 +82,12 @@ function Carousel({
       } else if (event.key === "ArrowRight") {
         event.preventDefault();
         scrollNext();
+      } else if (event.key === "Enter") {
+        event.preventDefault();
+        scrollNext();
       }
     },
-    [scrollPrev, scrollNext],
+    [scrollNext, scrollPrev],
   );
 
   React.useEffect(() => {

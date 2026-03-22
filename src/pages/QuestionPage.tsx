@@ -46,9 +46,7 @@ const QuestionPage = () => {
   const subject = useOutletContext<SubjectCode>();
   const { year } = useParams<{ year: string }>();
   const validYear = year && VALID_YEARS.has(year) ? year : null;
-
   const { questions, loading, error } = useSubjectExam(subject, validYear);
-
   const [api, setApi] = useState<CarouselApi>();
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -110,6 +108,11 @@ const QuestionPage = () => {
           <Carousel
             setApi={setApi}
             opts={{ watchDrag: false }}
+            onKeyDown={() => {
+              questions.forEach((q) => {
+                if (!userAnswers[q.id]) return;
+              });
+            }}
             className="flex-1 overflow-hidden **:data-[slot='carousel-content']:h-full"
           >
             <CarouselContent className="h-full">
