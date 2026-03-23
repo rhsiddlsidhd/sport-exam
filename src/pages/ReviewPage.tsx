@@ -15,21 +15,30 @@ interface LocationState {
 }
 
 const ReviewPage = () => {
-  const { subject: rawSubject, year } = useParams<{ subject: string; year: string }>();
+  const { subject: rawSubject, year } = useParams<{
+    subject: string;
+    year: string;
+  }>();
   const subject = rawSubject as SubjectCode | undefined;
   const location = useLocation();
   const navigate = useNavigate();
   const state = location.state as LocationState | null;
   const { add, remove, isBookmarked } = useNotes();
 
-  const { questions, loading } = useSubjectExam(subject ?? ("" as SubjectCode), year ?? null, {
-    shuffle: false,
-  });
+  const { questions, loading } = useSubjectExam(
+    subject ?? ("" as SubjectCode),
+    year ?? null,
+    {
+      shuffle: false,
+    },
+  );
 
   if (!state?.userAnswers || !subject || !year) {
     return (
       <div className="flex flex-col items-center gap-4 p-10 text-center">
-        <p className="text-foreground text-sm font-bold">결과 데이터가 없습니다.</p>
+        <p className="text-foreground text-sm font-bold">
+          결과 데이터가 없습니다.
+        </p>
         <Button asChild className="rounded-xl font-bold">
           <Link to="/">홈으로 돌아가기</Link>
         </Button>
@@ -41,7 +50,9 @@ const ReviewPage = () => {
     return (
       <div className="flex h-full min-h-60 flex-col items-center justify-center gap-4">
         <div className="border-muted border-t-primary h-10 w-10 animate-spin rounded-full border-2" />
-        <TypographySmall className="text-muted-foreground">결과를 불러오는 중...</TypographySmall>
+        <TypographySmall className="text-muted-foreground">
+          결과를 불러오는 중...
+        </TypographySmall>
       </div>
     );
   }
@@ -57,7 +68,9 @@ const ReviewPage = () => {
 
     const getUserAnswerContent = () => {
       if (userAnswerId === undefined || userAnswerId === null) return "미선택";
-      return q.options.find((opt) => opt.id === userAnswerId)?.content || "미선택";
+      return (
+        q.options.find((opt) => opt.id === userAnswerId)?.content || "미선택"
+      );
     };
 
     const getCorrectAnswerContent = () => {
@@ -111,7 +124,12 @@ const ReviewPage = () => {
         {/* 원형 점수 게이지 */}
         <div className="mb-7 flex flex-col items-center gap-5">
           <div className="relative">
-            <svg width="96" height="96" viewBox="0 0 96 96" className="-rotate-90">
+            <svg
+              width="96"
+              height="96"
+              viewBox="0 0 96 96"
+              className="-rotate-90"
+            >
               <circle
                 cx="48"
                 cy="48"
@@ -138,7 +156,9 @@ const ReviewPage = () => {
               <span className="text-foreground text-2xl leading-none font-black tabular-nums">
                 {score}
               </span>
-              <span className="text-muted-foreground text-[10px] font-bold">점</span>
+              <span className="text-muted-foreground text-[10px] font-bold">
+                점
+              </span>
             </div>
           </div>
 
@@ -147,7 +167,9 @@ const ReviewPage = () => {
               <span className="text-success/70 mb-1 text-[9px] font-black tracking-wider uppercase">
                 정답
               </span>
-              <span className="text-success text-xl font-black tabular-nums">{correctCount}</span>
+              <span className="text-success text-xl font-black tabular-nums">
+                {correctCount}
+              </span>
             </div>
             <div className="bg-destructive/8 border-destructive/20 flex min-w-[72px] flex-col items-center rounded-2xl border px-5 py-3">
               <span className="text-destructive/70 mb-1 text-[9px] font-black tracking-wider uppercase">
@@ -272,13 +294,135 @@ const ReviewPage = () => {
 
                 {/* 해설 */}
                 {res.explanation && (
-                  <div className="mt-3 p-3 bg-primary/5 border border-primary/10 rounded-xl">
-                    <span className="text-[9px] font-black text-primary/60 uppercase tracking-wider mb-1 block">
-                      해설
-                    </span>
-                    <TypographySmall className="text-foreground/90 block leading-snug break-keep">
-                      {res.explanation}
-                    </TypographySmall>
+                  <div className="mt-4 space-y-3">
+                    {res.explanation.split("\n\n").map((block, bIdx) => {
+                      const isCorrect = block.includes("[정답 분석]");
+                      const isWrong = block.includes("[오답 분석]");
+                      const isSummary = block.includes("[핵심 정리]");
+
+                      const lines = block.split("\n");
+
+                      return (
+                        <div
+                          key={bIdx}
+                          className={cn(
+                            "rounded-2xl border p-4 shadow-sm",
+                            isCorrect && "bg-success/5 border-success/20",
+                            isWrong && "bg-destructive/5 border-destructive/20",
+                            isSummary && "bg-primary/5 border-primary/20",
+                            !isCorrect &&
+                              !isWrong &&
+                              !isSummary &&
+                              "bg-muted/30 border-border",
+                          )}
+                        >
+                          {lines.map((line, lIdx) => {
+                            // 태그 제거 및 본문 추출 (괄호 안의 내용까지 유연하게 매칭)
+                            const content = line
+                              .replace(
+                                /\*\*\[(정답 분석|지문 분석|오답 분석|핵심 정리).*?\]\*\*:/g,
+                                "",
+                              )
+                              .trim();
+                            const hasHeader = line !== content;
+
+                            // **텍스트** 패턴을 <strong> 태그로 변환하여 렌더링하는 함수
+                            const renderText = (text: string) => {
+                              const parts = text.split(/(\*\*.*?\*\*)/g);
+                              return parts.map((part, i) => {
+                                if (
+                                  part.startsWith("**") &&
+                                  part.endsWith("**")
+                                ) {
+                                  return (
+                                    <strong
+                                      key={i}
+                                      className="text-foreground font-black"
+                                    >
+                                      {part.slice(2, -2)}
+                                    </strong>
+                                  );
+                                }
+                                return part;
+                              });
+                            };
+
+                            if (hasHeader) {
+                              const fullHeader =
+                                line.match(/\[(.*?)\]/)?.[1] || "";
+                              const isFalseState =
+                                fullHeader.includes("옳지 않은");
+                              const isTrueState =
+                                fullHeader.includes("옳은 설명");
+
+                              return (
+                                <div key={lIdx} className="mb-2 last:mb-0">
+                                  <span
+                                    className={cn(
+                                      "mb-2 inline-block rounded-lg px-2 py-1 text-[9px] font-black tracking-widest uppercase",
+                                      isTrueState &&
+                                        "bg-success/15 text-success",
+                                      isFalseState &&
+                                        "bg-destructive/15 text-destructive",
+                                      !isTrueState &&
+                                        !isFalseState &&
+                                        isSummary &&
+                                        "bg-primary/15 text-primary",
+                                      !isTrueState &&
+                                        !isFalseState &&
+                                        !isSummary &&
+                                        "bg-muted text-muted-foreground",
+                                    )}
+                                  >
+                                    {fullHeader}
+                                  </span>
+                                  {content && (
+                                    <TypographySmall className="text-foreground/90 block leading-relaxed font-medium break-keep">
+                                      {renderText(content)}
+                                    </TypographySmall>
+                                  )}
+                                </div>
+                              );
+                            }
+
+                            if (line.startsWith("- ")) {
+                              const listItem = line.substring(2);
+                              return (
+                                <div
+                                  key={lIdx}
+                                  className="mb-1.5 flex gap-2.5 last:mb-0"
+                                >
+                                  <span
+                                    className={cn(
+                                      "mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full",
+                                      isCorrect && "bg-success/40",
+                                      isWrong && "bg-destructive/40",
+                                      isSummary && "bg-primary/40",
+                                      !isCorrect &&
+                                        !isWrong &&
+                                        !isSummary &&
+                                        "bg-muted-foreground/40",
+                                    )}
+                                  />
+                                  <TypographySmall className="text-foreground/90 block leading-relaxed font-medium break-keep">
+                                    {renderText(listItem)}
+                                  </TypographySmall>
+                                </div>
+                              );
+                            }
+
+                            return content ? (
+                              <TypographySmall
+                                key={lIdx}
+                                className="text-foreground/90 mb-1.5 block leading-relaxed font-medium break-keep last:mb-0"
+                              >
+                                {renderText(content)}
+                              </TypographySmall>
+                            ) : null;
+                          })}
+                        </div>
+                      );
+                    })}
                   </div>
                 )}
               </div>
