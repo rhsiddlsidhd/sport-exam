@@ -108,10 +108,15 @@ const QuestionPage = () => {
           <Carousel
             setApi={setApi}
             opts={{ watchDrag: false }}
-            onKeyDown={() => {
-              questions.forEach((q) => {
-                if (!userAnswers[q.id]) return;
-              });
+            onKeyDown={(e) => {
+              if (e.key === "ArrowRight" || e.key === "Enter") {
+                const currentQuestionId = questions[currentIndex]?.id;
+                const isAnswered = !!userAnswers[currentQuestionId];
+
+                if (!isAnswered) {
+                  e.preventDefault();
+                }
+              }
             }}
             className="flex-1 overflow-hidden **:data-[slot='carousel-content']:h-full"
           >

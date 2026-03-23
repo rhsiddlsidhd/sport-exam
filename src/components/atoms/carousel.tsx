@@ -121,12 +121,20 @@ function Carousel({
       }}
     >
       <div
-        onKeyDownCapture={handleKeyDown}
+        {...props}
+        onKeyDown={(e) => {
+          // 외부에서 전달된 onKeyDown 핸들러를 먼저 실행
+          props.onKeyDown?.(e);
+
+          // 외부 로직에서 e.preventDefault()를 호출하지 않았을 때만 내부 로직 실행
+          if (!e.isDefaultPrevented()) {
+            handleKeyDown(e);
+          }
+        }}
         className={cn("relative", className)}
         role="region"
         aria-roledescription="carousel"
         data-slot="carousel"
-        {...props}
       >
         {children}
       </div>
