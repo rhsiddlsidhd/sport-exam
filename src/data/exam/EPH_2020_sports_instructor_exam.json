@@ -1,0 +1,656 @@
+{
+  "subject": "EPH",
+  "exam": "2020년도 2급 생활스포츠지도사 필기시험",
+  "date": "2020-07-04",
+  "questions": [
+    {
+      "id": "EPH-2020-1",
+      "questionNumber": 1,
+      "logicType": "SINGLE_CHOICE",
+      "question": "유산소 시스템의 특징으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "장시간의 저강도 운동 시 사용된다."
+        },
+        {
+          "id": 2,
+          "content": "무산소 시스템에 비해 ATP 합성률이 빠르다."
+        },
+        {
+          "id": 3,
+          "content": "산소를 이용하여 에너지 기질(substrate)을 분해한다."
+        },
+        {
+          "id": 4,
+          "content": "에너지 기질로 탄수화물과 지방을 모두 이용할 수 있다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "EPH-2020-2",
+      "questionNumber": 2,
+      "logicType": "SINGLE_CHOICE",
+      "question": "근육 내에서 산소를 운반하는 물질은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "알부민(albumin)"
+        },
+        {
+          "id": 2,
+          "content": "신경전달물질(neurotransmitter)"
+        },
+        {
+          "id": 3,
+          "content": "마이오글로빈(myoglobin)"
+        },
+        {
+          "id": 4,
+          "content": "아세틸콜린(acetylcholine)"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "EPH-2020-3",
+      "questionNumber": 3,
+      "logicType": "SINGLE_CHOICE",
+      "question": "고강도 운동 시 ATP 합성에 사용되는 주요 기질(substrate)로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "젖산"
+        },
+        {
+          "id": 2,
+          "content": "지방"
+        },
+        {
+          "id": 3,
+          "content": "근육 단백질"
+        },
+        {
+          "id": 4,
+          "content": "근육 글리코겐"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "EPH-2020-4",
+      "questionNumber": 4,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>가 설명하는 호르몬은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "부신수질로부터 분비된다.",
+          "운동의 강도와 시간이 증가함에 따라 분비가 증가하며, 지방조직과 근육 내 지방의 분해를 촉진하는 역할을 한다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "인슐린(insulin)"
+        },
+        {
+          "id": 2,
+          "content": "글루카곤(glucagon)"
+        },
+        {
+          "id": 3,
+          "content": "에피네프린(epinephrine)"
+        },
+        {
+          "id": 4,
+          "content": "알도스테론(aldosterone)"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "EPH-2020-5",
+      "questionNumber": 5,
+      "logicType": "SINGLE_CHOICE",
+      "question": "장기간의 저항성 트레이닝에 따른 골격근의 적응으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "근형질(sarcoplasm)의 양이 증가한다."
+        },
+        {
+          "id": 2,
+          "content": "근원섬유(myofibril)의 수가 증가한다."
+        },
+        {
+          "id": 3,
+          "content": "속근섬유(type II fiber)의 단면적이 증가한다."
+        },
+        {
+          "id": 4,
+          "content": "미토콘드리아(mitochondria)의 밀도가 증가한다."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "EPH-2020-6",
+      "questionNumber": 6,
+      "logicType": "MATCHING",
+      "question": "<보기>의 ㉠과 ㉡에 들어갈 용어를 바르게 나열한 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "지구성 트레이닝에 대한 적응으로 최대 동-정맥산소차는 ( ㉠ )하고,"
+          },
+          {
+            "label": "㉡",
+            "content": "최대 1회박출량(stroke volume)은 ( ㉡ )한다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-증가 / ㉡-증가"
+        },
+        {
+          "id": 2,
+          "content": "㉠-증가 / ㉡-감소"
+        },
+        {
+          "id": 3,
+          "content": "㉠-감소 / ㉡-감소"
+        },
+        {
+          "id": 4,
+          "content": "㉠-감소 / ㉡-증가"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "EPH-2020-7",
+      "questionNumber": 7,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>의 신경세포 구조 및 전기적 활동에 관한 적절한 설명을 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "안정 시 신경세포 막의 안쪽은 Na+의 농도가 높고, 바깥쪽은 K+의 농도가 높다."
+          },
+          {
+            "label": "㉡",
+            "content": "역치(threshold)는 신경세포 막의 차등성전위(graded potential)가 안정막전위(resting membrane potential)로 바뀌는 시점을 말한다."
+          },
+          {
+            "label": "㉢",
+            "content": "활동전위(action potential)는 신경세포 막의 탈분극(depolarization)을 유도한다."
+          },
+          {
+            "label": "㉣",
+            "content": "신경세포는 신경-근접합부(neuromuscular junction)를 통해 근섬유와 상호신호전달을 한다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉡"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉣"
+        },
+        {
+          "id": 3,
+          "content": "㉡, ㉢"
+        },
+        {
+          "id": 4,
+          "content": "㉢, ㉣"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "EPH-2020-8",
+      "questionNumber": 8,
+      "logicType": "SINGLE_CHOICE",
+      "question": "적혈구용적률(hematocrit)에 관한 설명으로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "높은 적혈구용적률(60% 이상)은 혈액의 흐름을 수월하게 한다."
+        },
+        {
+          "id": 2,
+          "content": "일반적으로 성인 여성이 성인 남성보다 높은 적혈구용적률을 보인다."
+        },
+        {
+          "id": 3,
+          "content": "전체 혈액량 대비 혈장(plasma)량의 비율이 높을수록 적혈구용적률은 낮다."
+        },
+        {
+          "id": 4,
+          "content": "지구성 트레이닝에 대한 적응으로 혈장량이 감소하여 적혈구용적률은 증가한다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "EPH-2020-9",
+      "questionNumber": 9,
+      "logicType": "SINGLE_CHOICE",
+      "question": "근세사 활주설(sliding filament theory)에 관한 설명으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "액틴(actin)은 근절(sarcomere)의 중앙부위로 마이오신(myosin)을 잡아당긴다."
+        },
+        {
+          "id": 2,
+          "content": "마이오신 머리(myosin head)에 있는 인산기(Pi)가 방출되면서 파워 스트로크(power stroke)가 일어난다."
+        },
+        {
+          "id": 3,
+          "content": "활동전위는 근형질세망(sarcoplasmic reticulum)으로부터 나온 Ca2+을 근형질(sarcoplasm) 내로 유입하게 한다."
+        },
+        {
+          "id": 4,
+          "content": "Ca2+은 액틴 세사의 트로포닌(troponin)과 결합하고 트로포닌은 트로포마이오신(tropomyosin)을 이동시켜 마이오신 머리가 액틴과 결합할 수 있도록 한다."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "EPH-2020-10",
+      "questionNumber": 10,
+      "logicType": "MATCHING",
+      "question": "<보기>는 산소-헤모글로빈 해리 곡선의 운동 시 변화에 관한 설명이다. ㉠, ㉡, ㉢, ㉣에 들어갈 용어를 바르게 나열한 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "심부체온이 증가하여 산소-헤모글로빈 해리 곡선은 ( ㉠ )으로 이동하며,"
+          },
+          {
+            "label": "㉡",
+            "content": "헤모글로빈의 산소 친화력을 ( ㉡ )시킨다."
+          },
+          {
+            "label": "㉢",
+            "content": "신체의 pH가 감소하여 산소-헤모글로빈 해리 곡선은 ( ㉢ )으로 이동하며,"
+          },
+          {
+            "label": "㉣",
+            "content": "헤모글로빈의 산소 친화력을 ( ㉣ )시킨다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-오른쪽 / ㉡-감소 / ㉢-오른쪽 / ㉣-감소"
+        },
+        {
+          "id": 2,
+          "content": "㉠-오른쪽 / ㉡-증가 / ㉢-왼쪽 / ㉣-감소"
+        },
+        {
+          "id": 3,
+          "content": "㉠-왼쪽 / ㉡-증가 / ㉢-왼쪽 / ㉣-증가"
+        },
+        {
+          "id": 4,
+          "content": "㉠-왼쪽 / ㉡-감소 / ㉢-오른쪽 / ㉣-증가"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "EPH-2020-11",
+      "questionNumber": 11,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>의 근수축 유형에 따른 힘-속도-파워 간의 관계에 관한 설명으로 적절한 것만 고른 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "신장성 수축은 수축 속도가 빠를수록 힘이 더 증가한다."
+          },
+          {
+            "label": "㉡",
+            "content": "단축성 수축은 수축 속도가 빠를수록 최대파워가 더 증가한다."
+          },
+          {
+            "label": "㉢",
+            "content": "동일 근육에서의 느린 단축성 수축은 빠른 신장성 수축에 비해 더 큰 힘이 생성된다."
+          },
+          {
+            "label": "㉣",
+            "content": "동일 근육에서의 신장성 수축은 단축성 수축에 비해 같은 속도에서 더 큰 힘이 생성된다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠, ㉢"
+        },
+        {
+          "id": 2,
+          "content": "㉠, ㉢, ㉣"
+        },
+        {
+          "id": 3,
+          "content": "㉠, ㉣"
+        },
+        {
+          "id": 4,
+          "content": "㉡, ㉢"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "EPH-2020-12",
+      "questionNumber": 12,
+      "logicType": "SINGLE_CHOICE",
+      "question": "장시간의 운동 시 발생하는 탈수현상이 심혈관계에 미치는 영향으로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "혈액량이 점차 증가한다."
+        },
+        {
+          "id": 2,
+          "content": "심박수가 점차 증가한다."
+        },
+        {
+          "id": 3,
+          "content": "심실의 확장기말 용량(end-diastolic volume)이 점차 증가한다."
+        },
+        {
+          "id": 4,
+          "content": "우심방으로 돌아오는 정맥환류(venous return)의 양이 점차 증가한다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "EPH-2020-13",
+      "questionNumber": 13,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동단위(motor unit)에 관한 설명으로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "하나의 근섬유와 연결되는 여러 개의 알파운동뉴런을 말한다."
+        },
+        {
+          "id": 2,
+          "content": "Type I 운동단위는 Type II 운동단위 보다 단위 당 근섬유 수가 많다."
+        },
+        {
+          "id": 3,
+          "content": "Type I 운동단위는 Type II 운동단위 보다 일반적으로 먼저 동원된다."
+        },
+        {
+          "id": 4,
+          "content": "Type I 운동단위는 Type II 운동단위 보다 알파운동뉴런의 크기가 크다."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "EPH-2020-14",
+      "questionNumber": 14,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>가 설명하는 호르몬은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "운동 시 뇌하수체 전엽에서 분비된다.",
+          "트라이아이오드타이로닌(T3)과 티록신(T4) 호르몬의 분비를 조절한다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "갑상선자극호르몬(thyroid-stimulating hormone)"
+        },
+        {
+          "id": 2,
+          "content": "노르에피네프린(norepinephrine)"
+        },
+        {
+          "id": 3,
+          "content": "성장호르몬(growth hormone)"
+        },
+        {
+          "id": 4,
+          "content": "인슐린(insulin)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "EPH-2020-15",
+      "questionNumber": 15,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>에서 ㉠과 ㉡의 근섬유 유형별 특성으로 적절한 것은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "훈련되지 않은 사람과 비교하여 단거리 선수의 장딴지 근육은 주로 ( ㉠ )의 비율이 높고, 장거리 수영선수의 팔 근육은 ( ㉡ )의 비율이 높은 경향이 있다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠은 ㉡에 비하여 수축 속도가 느리다."
+        },
+        {
+          "id": 2,
+          "content": "㉠은 ㉡에 비하여 피로에 대한 저항성이 낮다."
+        },
+        {
+          "id": 3,
+          "content": "㉡은 ㉠에 비하여 미토콘드리아 밀도가 낮다."
+        },
+        {
+          "id": 4,
+          "content": "㉡은 ㉠에 비하여 해당 능력(glycolytic capacity)이 높다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "EPH-2020-16",
+      "questionNumber": 16,
+      "logicType": "SINGLE_CHOICE",
+      "question": "<보기>가 설명하는 것은?",
+      "view": {
+        "type": "PASSAGE",
+        "passage": [
+          "우심방 벽에 위치한다.",
+          "심장수축을 위한 전기적 자극이 시작되므로 페이스메이커(pacemaker)라고 한다."
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "동방결절(SA node)"
+        },
+        {
+          "id": 2,
+          "content": "퍼킨제섬유(purkinje fibers)"
+        },
+        {
+          "id": 3,
+          "content": "방실다발(AV bundle)"
+        },
+        {
+          "id": 4,
+          "content": "삼첨판막(tricuspid valve)"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "EPH-2020-17",
+      "questionNumber": 17,
+      "logicType": "SINGLE_CHOICE",
+      "question": "저강도(1RM의 30~40%)의 고반복(세트당 20~25회) 저항성 트레이닝에 따른 골격근의 주요 변화로 적절한 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "근비대(muscle hypertrophy)"
+        },
+        {
+          "id": 2,
+          "content": "근력(muscle strength) 향상"
+        },
+        {
+          "id": 3,
+          "content": "근파워(muscle power) 향상"
+        },
+        {
+          "id": 4,
+          "content": "근지구력(muscle endurance) 향상"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "id": "EPH-2020-18",
+      "questionNumber": 18,
+      "logicType": "MATCHING",
+      "question": "<보기>에서 인체 내 가스교환에 관한 설명 중 ㉠과 ㉡에 들어갈 용어를 바르게 나열한 것은?",
+      "view": {
+        "type": "ITEMIZED",
+        "items": [
+          {
+            "label": "㉠",
+            "content": "운동 시 폐포로 유입된 ( ㉠ )는 폐 모세혈관으로 확산된다."
+          },
+          {
+            "label": "㉡",
+            "content": "운동 시 근육에서 생성된 ( ㉡ )는 모세혈관으로 확산된다."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "㉠-산소 / ㉡-산소"
+        },
+        {
+          "id": 2,
+          "content": "㉠-산소 / ㉡-이산화탄소"
+        },
+        {
+          "id": 3,
+          "content": "㉠-이산화탄소 / ㉡-이산화탄소"
+        },
+        {
+          "id": 4,
+          "content": "㉠-이산화탄소 / ㉡-산소"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "EPH-2020-19",
+      "questionNumber": 19,
+      "logicType": "SINGLE_CHOICE",
+      "question": "운동 시 교감신경계의 활성화에 따른 반응으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "심박수가 증가한다."
+        },
+        {
+          "id": 2,
+          "content": "소화기계 활동이 증가한다."
+        },
+        {
+          "id": 3,
+          "content": "골격근의 혈류량이 증가한다."
+        },
+        {
+          "id": 4,
+          "content": "호흡수 및 가스교환율이 증가한다."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "EPH-2020-20",
+      "questionNumber": 20,
+      "logicType": "SINGLE_CHOICE",
+      "question": "장기간의 유산소 트레이닝에 따른 심혈관계의 적응으로 적절하지 않은 것은?",
+      "view": {
+        "type": "NONE"
+      },
+      "options": [
+        {
+          "id": 1,
+          "content": "안정시 심박수 감소"
+        },
+        {
+          "id": 2,
+          "content": "최대산소섭취량(V̇O2max) 증가"
+        },
+        {
+          "id": 3,
+          "content": "최대 심박출량(cardiac output) 증가"
+        },
+        {
+          "id": 4,
+          "content": "안정시 1회박출량(stroke volume) 감소"
+        }
+      ],
+      "answer": 4
+    }
+  ]
+}

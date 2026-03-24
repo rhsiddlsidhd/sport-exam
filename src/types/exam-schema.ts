@@ -1,4 +1,4 @@
-export type SubjectCode = "SOC" | "ETH" | "PSY" | "HIS" | "PHY";
+export type SubjectCode = "SSO" | "SET" | "SPS" | "KHS" | "EPH";
 
 export type QuestionLogicType =
   | "SINGLE_CHOICE"
