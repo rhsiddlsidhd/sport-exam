@@ -43,6 +43,7 @@
 - `BLANK`: 빈칸/마커형 (텍스트 내 (ㄱ), (ㄴ) 포함 및 강조 필요)
 - `VISUAL`: 시각 자료형 (이미지, 도표 중심)
 - `COMPOSITE`: 복합형 (지문/이미지 + 항목 리스트 조합)
+- `TABLE`: 표 데이터형 (병합 헤더, ○/× 기호 포함)
 
 ### ExamView (보기 영역 데이터)
 | 필드 | 타입 | 필수 | 설명 |
@@ -51,6 +52,33 @@
 | `passage` | `string[]` | ❌ | 지문 데이터 (줄바꿈 단위 배열) |
 | `items` | `ExamViewItem[]` | ❌ | 기호 기반 항목 데이터 ({ label, content }) |
 | `media` | `ExamMedia` | ❌ | 이미지 또는 도표 정보 |
+| `table` | `ExamTable` | ❌ | 표 데이터 (TABLE 타입에서 사용) |
+
+### ExamTable / ExamTableRow / ExamTableCell (표 데이터)
+
+**ExamTable**
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `caption` | `string` | ❌ | 표 제목 (접근성용, `sr-only` 처리) |
+| `headers` | `ExamTableRow[]` | ✅ | 헤더 행 목록 (2단 헤더는 2개 행) |
+| `rows` | `ExamTableRow[]` | ✅ | 데이터 행 목록 |
+
+**ExamTableRow**
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `cells` | `ExamTableCell[]` | ✅ | 셀 목록 |
+
+**ExamTableCell**
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `content` | `string` | ✅ | 셀 내용 (`○`, `×`, 또는 텍스트) |
+| `colSpan` | `number` | ❌ | 병합 열 수 (기본 1) |
+| `rowSpan` | `number` | ❌ | 병합 행 수 (기본 1) |
+| `isHeader` | `boolean` | ❌ | `<th>` 여부 |
+
+> **렌더링 규칙**: `○` → 초록(text-green-600), `×` → 빨강(text-red-500), `㉠` 같은 기호 → primary 색상 강조
+
+---
 
 ### ExamMedia (시각 매체 데이터)
 | 필드 | 타입 | 필수 | 설명 |
@@ -74,7 +102,51 @@
 
 ## 파일 구조 예시
 
-### 1. 복합형 (COMPOSITE - 이미지 + 항목 리스트)
+### 1. 표 데이터형 (TABLE - 2단 병합 헤더 + ○/× 셀)
+```json
+{
+  "logicType": "MATCHING",
+  "question": "운동 자극에 관한 신체 내 기관(organs)과 기능에 대한 설명이다. ㉠~㉢에 해당하는 것으로 옳은 것은?",
+  "view": {
+    "type": "TABLE",
+    "table": {
+      "caption": "기관별 기능 여부 표",
+      "headers": [
+        {
+          "cells": [
+            { "content": "기능", "rowSpan": 2, "isHeader": true },
+            { "content": "기관", "colSpan": 3, "isHeader": true }
+          ]
+        },
+        {
+          "cells": [
+            { "content": "뇌하수체", "isHeader": true },
+            { "content": "부신", "isHeader": true },
+            { "content": "㉠", "isHeader": true }
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            { "content": "고온다습한 환경에서 운동 중 체액량 조절을 위한 호르몬을 분비한다" },
+            { "content": "㉡" },
+            { "content": "○" },
+            { "content": "×" }
+          ]
+        }
+      ]
+    }
+  },
+  "answer": 1
+}
+```
+
+> **rowSpan 주의**: `rowSpan: 2`인 셀이 있으면 다음 헤더 행의 cells에서 해당 열을 생략해야 한다.
+
+---
+
+### 2. 복합형 (COMPOSITE - 이미지 + 항목 리스트)
 ```json
 {
   "logicType": "SINGLE_CHOICE",
