@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/atoms/card";
 import { Badge } from "@/components/atoms/badge";
 import { TypographySmall } from "@/components/atoms/Typography";
 import { renderTextWithHighlight } from "@/utils/highlight";
+import TableView from "@/components/molecules/TableView";
 
 interface QuestionContextProps {
   view: ExamView;
@@ -11,7 +12,7 @@ interface QuestionContextProps {
 
 const QuestionContext: React.FC<QuestionContextProps> = React.memo(
   ({ view }) => {
-    const { type, passage, items, media } = view;
+    const { type, passage, items, media, table } = view;
 
     if (type === "NONE") return null;
 
@@ -21,6 +22,13 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
           <TypographySmall className="text-muted-foreground mb-2.5 block text-center font-black tracking-[0.2em] uppercase">
             &lt;보 기&gt;
           </TypographySmall>
+
+          {/* 0. 표 영역 (TABLE) */}
+          {table && (
+            <div className="mb-1">
+              <TableView table={table} />
+            </div>
+          )}
 
           {/* 1. 지문 영역 (PASSAGE, BLANK, COMPOSITE, VISUAL) */}
           {passage && passage.length > 0 && (

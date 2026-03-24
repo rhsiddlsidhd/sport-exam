@@ -12,7 +12,25 @@ export type QuestionViewType =
   | "ITEMIZED"
   | "BLANK"
   | "VISUAL"
-  | "COMPOSITE";
+  | "COMPOSITE"
+  | "TABLE";
+
+export interface ExamTableCell {
+  content: string;
+  colSpan?: number;
+  rowSpan?: number;
+  isHeader?: boolean;
+}
+
+export interface ExamTableRow {
+  cells: ExamTableCell[];
+}
+
+export interface ExamTable {
+  caption?: string;
+  headers: ExamTableRow[];
+  rows: ExamTableRow[];
+}
 
 export interface ExamMedia {
   type: "IMAGE" | "CHART" | "SVG";
@@ -30,6 +48,7 @@ export interface ExamView {
   passage?: string[];
   items?: ExamViewItem[];
   media?: ExamMedia;
+  table?: ExamTable;
 }
 
 export interface ExamOption {
