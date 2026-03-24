@@ -36,9 +36,14 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
               {passage.map((line, idx) => (
                 <TypographySmall
                   key={idx}
-                  className="text-muted-foreground block leading-normal font-medium break-keep"
+                  className={[
+                    "text-muted-foreground block leading-normal font-medium break-keep",
+                    line.underline ? "underline underline-offset-2" : "",
+                  ]
+                    .filter(Boolean)
+                    .join(" ")}
                 >
-                  {type === "BLANK" ? renderTextWithHighlight(line) : line}
+                  {type === "BLANK" ? renderTextWithHighlight(line.text) : line.text}
                 </TypographySmall>
               ))}
             </div>

@@ -43,9 +43,14 @@ export interface ExamViewItem {
   content: string;
 }
 
+export interface PassageLine {
+  text: string;
+  underline?: boolean;
+}
+
 export interface ExamView {
   type: QuestionViewType;
-  passage?: string[];
+  passage?: PassageLine[];
   items?: ExamViewItem[];
   media?: ExamMedia;
   table?: ExamTable;
