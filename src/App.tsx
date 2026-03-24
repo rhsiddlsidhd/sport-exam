@@ -4,7 +4,6 @@ import { SUBJECT_CODES } from "./types/subject";
 import type { SubjectCode } from "./types/subject";
 import { subjectLabel } from "./constants/label";
 import SelectableCard from "./components/molecules/SelectableCard";
-import { Button } from "./components/atoms/Button";
 
 const SUBJECT_META: Record<
   SubjectCode,
@@ -18,11 +17,6 @@ const SUBJECT_META: Record<
 };
 
 function App() {
-  const deleteLocalStorage = () => {
-    window.localStorage.clear();
-    alert("초기화 완료");
-  };
-
   return (
     <div className="p-5">
       <div className="mb-8 pt-2">
@@ -38,13 +32,6 @@ function App() {
         <p className="text-muted-foreground text-sm">
           5개 과목 · 2019~2025년 수록
         </p>
-        <Button
-          variant={"destructive"}
-          onClick={deleteLocalStorage}
-          className="cursor-pointer"
-        >
-          로컬스토리지 초기화 버튼
-        </Button>
       </div>
 
       <main className="flex flex-col gap-3">
