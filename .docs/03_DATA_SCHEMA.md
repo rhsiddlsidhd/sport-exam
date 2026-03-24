@@ -21,7 +21,7 @@
 
 | 필드 | 타입 | 필수 | 설명 |
 |------|------|------|------|
-| `subject` | `SubjectCode` | ✅ | 과목 코드. `"SOC"` \| `"ETH"` \| `"PSY"` \| `"HIS"` \| `"PHY"` |
+| `subject` | `SubjectCode` | ✅ | 과목 코드. `"SSO"` \| `"SET"` \| `"SPS"` \| `"KHS"` \| `"EPH"` |
 | `exam` | `string` | ✅ | 시험명. 예: `"2025년도 2급류 체육지도자 필기시험"` |
 | `date` | `string` | ✅ | 시험일. `YYYY-MM-DD` 형식 |
 | `questions` | `ExamQuestion[]` | ✅ | 문제 목록 |
@@ -94,9 +94,9 @@
 ### 이미지 (Images)
 - **저장 위치**: `public/exam/`
 - **파일명 규칙**: `{SUBJECT}_{YEAR}_{QuestionNumber}.png`
-  - 예: `PHY_2024_17.png`
+  - 예: `EPH-2024-17.webp`
 - **데이터 입력**: `/exam/{FILENAME}` 형식으로 입력
-  - 예: `"url": "/exam/PHY_2024_17.png"`
+  - 예: `"url": "/exam/EPH-2024-17.webp"`
 
 ---
 
@@ -155,7 +155,7 @@
     "type": "COMPOSITE",
     "media": {
       "type": "IMAGE",
-      "url": "/exam/PHY_2024_17.png",
+      "url": "/exam/EPH-2024-17.webp",
       "alt": "폐환기 검사 결과 데이터 표"
     },
     "items": [

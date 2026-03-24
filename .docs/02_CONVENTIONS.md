@@ -13,7 +13,7 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
 | 페이지 파일         | PascalCase | `NotesPage.tsx`, `ReviewPage.tsx`  |
 | 훅/유틸 파일        | camelCase  | `useQuiz.ts`, `shuffle.ts`         |
 | 상수/타입 파일      | camelCase  | `label.ts`                         |
-| JSON 데이터 파일    | `{SUBJECT}_{year}_snake_case` | `SOC_2025_sports_instructor_exam.json` |
+| JSON 데이터 파일    | `{SUBJECT}_{year}_snake_case` | `SSO_2025_sports_instructor_exam.json` |
 | CSS 클래스 (커스텀) | kebab-case | `.scrollbar-hide`                  |
 
 ## TypeScript 규칙
@@ -45,7 +45,7 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
   ```
 - `as const` + `typeof` 패턴으로 enum 대체:
   ```ts
-  export const SUBJECT_CODES = ["SOC", "ETH"] as const;
+  export const SUBJECT_CODES = ["SSO", "SET"] as const;
   export type SubjectCode = (typeof SUBJECT_CODES)[number];
   ```
 - 타입 import는 `import type` 사용

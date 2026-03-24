@@ -9,14 +9,19 @@ const SUBJECT_META: Record<
   SubjectCode,
   { icon: React.ReactNode; desc: string }
 > = {
-  SOC: { icon: <Users className="h-5 w-5" />, desc: "사회와 스포츠의 관계" },
-  PSY: { icon: <Brain className="h-5 w-5" />, desc: "스포츠와 심리" },
-  HIS: { icon: <BookOpen className="h-5 w-5" />, desc: "한국 체육의 역사" },
-  PHY: { icon: <Activity className="h-5 w-5" />, desc: "운동과 신체 생리" },
-  ETH: { icon: <Scale className="h-5 w-5" />, desc: "스포츠의 윤리 기준" },
+  SSO: { icon: <Users className="h-5 w-5" />, desc: "사회와 스포츠의 관계" },
+  SPS: { icon: <Brain className="h-5 w-5" />, desc: "스포츠와 심리" },
+  KHS: { icon: <BookOpen className="h-5 w-5" />, desc: "한국 체육의 역사" },
+  EPH: { icon: <Activity className="h-5 w-5" />, desc: "운동과 신체 생리" },
+  SET: { icon: <Scale className="h-5 w-5" />, desc: "스포츠의 윤리 기준" },
 };
 
 function App() {
+  const handleClearStorage = () => {
+    window.localStorage.clear();
+    alert("초기화 완료");
+  };
+
   return (
     <div className="p-5">
       <div className="mb-8 pt-2">
@@ -32,6 +37,12 @@ function App() {
         <p className="text-muted-foreground text-sm">
           5개 과목 · 2019~2025년 수록
         </p>
+        <button
+          onClick={handleClearStorage}
+          className="text-muted-foreground hover:text-destructive mt-2 text-xs underline"
+        >
+          저장 데이터 초기화
+        </button>
       </div>
 
       <main className="flex flex-col gap-3">

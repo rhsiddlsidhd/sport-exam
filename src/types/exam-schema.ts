@@ -1,4 +1,4 @@
-export type SubjectCode = "SOC" | "ETH" | "PSY" | "HIS" | "PHY";
+export type SubjectCode = "SSO" | "SET" | "SPS" | "KHS" | "EPH";
 
 export type QuestionLogicType =
   | "SINGLE_CHOICE"
@@ -43,9 +43,14 @@ export interface ExamViewItem {
   content: string;
 }
 
+export interface PassageLine {
+  text: string;
+  underline?: boolean;
+}
+
 export interface ExamView {
   type: QuestionViewType;
-  passage?: string[];
+  passage?: PassageLine[];
   items?: ExamViewItem[];
   media?: ExamMedia;
   table?: ExamTable;

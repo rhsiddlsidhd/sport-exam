@@ -9,11 +9,11 @@ const SUBJECT_META: Record<
   SubjectCode,
   { icon: React.ReactNode; desc: string }
 > = {
-  SOC: { icon: <Users className="w-5 h-5" />, desc: "사회와 스포츠의 관계" },
-  PSY: { icon: <Brain className="w-5 h-5" />, desc: "스포츠와 심리" },
-  HIS: { icon: <BookOpen className="w-5 h-5" />, desc: "한국 체육의 역사" },
-  PHY: { icon: <Activity className="w-5 h-5" />, desc: "운동과 신체 생리" },
-  ETH: { icon: <Scale className="w-5 h-5" />, desc: "스포츠의 윤리 기준" },
+  SSO: { icon: <Users className="w-5 h-5" />, desc: "사회와 스포츠의 관계" },
+  SPS: { icon: <Brain className="w-5 h-5" />, desc: "스포츠와 심리" },
+  KHS: { icon: <BookOpen className="w-5 h-5" />, desc: "한국 체육의 역사" },
+  EPH: { icon: <Activity className="w-5 h-5" />, desc: "운동과 신체 생리" },
+  SET: { icon: <Scale className="w-5 h-5" />, desc: "스포츠의 윤리 기준" },
 };
 
 import React from "react";
