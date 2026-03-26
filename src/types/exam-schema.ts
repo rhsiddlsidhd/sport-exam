@@ -40,7 +40,7 @@ export interface ExamMedia {
 
 export interface ExamViewItem {
   label: string;
-  content: string;
+  content: string[];
 }
 
 export interface PassageLine {
@@ -61,6 +61,17 @@ export interface ExamOption {
   content: string;
 }
 
+export interface ExamDistractor {
+  term: string;
+  reason: string;
+}
+
+export interface ExamExplanation {
+  correct: string;
+  distractors?: ExamDistractor[];
+  summary?: string;
+}
+
 export interface ExamQuestion {
   id: string;
   questionNumber: number;
@@ -69,7 +80,7 @@ export interface ExamQuestion {
   view: ExamView;
   options: ExamOption[];
   answer: number | number[];
-  explanation?: string;
+  explanation?: ExamExplanation;
 }
 
 export interface SubjectExam {

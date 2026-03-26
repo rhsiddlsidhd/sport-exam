@@ -152,15 +152,43 @@ const NotesPage = () => {
                   </span>
                 </div>
 
-                {/* 해설 추가 */}
+                {/* 해설 */}
                 {note.explanation && (
-                  <div className="mt-3 p-3 bg-primary/5 border border-primary/10 rounded-xl">
-                    <span className="text-[9px] font-black text-primary/60 uppercase tracking-wider mb-1 block">
-                      해설
-                    </span>
-                    <TypographySmall className="text-foreground/90 block leading-snug break-keep">
-                      {note.explanation}
-                    </TypographySmall>
+                  <div className="mt-3 space-y-2">
+                    <div className="rounded-xl border border-success/20 bg-success/5 p-3">
+                      <span className="mb-1 block text-[9px] font-black tracking-wider text-success/60 uppercase">
+                        정답 분석
+                      </span>
+                      <TypographySmall className="text-foreground/90 block leading-snug break-keep">
+                        {note.explanation.correct}
+                      </TypographySmall>
+                    </div>
+                    {note.explanation.distractors && note.explanation.distractors.length > 0 && (
+                      <div className="rounded-xl border border-destructive/20 bg-destructive/5 p-3">
+                        <span className="mb-1 block text-[9px] font-black tracking-wider text-destructive/60 uppercase">
+                          오답 분석
+                        </span>
+                        <div className="space-y-1.5">
+                          {note.explanation.distractors.map((d, i) => (
+                            <TypographySmall key={i} className="text-foreground/90 block leading-snug break-keep">
+                              <strong className="text-foreground font-black">{d.term}</strong>
+                              {": "}
+                              {d.reason}
+                            </TypographySmall>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {note.explanation.summary && (
+                      <div className="rounded-xl border border-primary/10 bg-primary/5 p-3">
+                        <span className="mb-1 block text-[9px] font-black tracking-wider text-primary/60 uppercase">
+                          핵심 정리
+                        </span>
+                        <TypographySmall className="text-foreground/90 block leading-snug break-keep">
+                          {note.explanation.summary}
+                        </TypographySmall>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

@@ -77,9 +77,13 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
                   >
                     {item.label}
                   </Badge>
-                  <TypographySmall className="text-muted-foreground pt-0.5 font-medium break-keep">
-                    {item.content}
-                  </TypographySmall>
+                  <div className="flex flex-col gap-0.5">
+                    {item.content.map((line, i) => (
+                      <TypographySmall key={i} className="text-muted-foreground pt-0.5 font-medium break-keep">
+                        {line}
+                      </TypographySmall>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
