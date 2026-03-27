@@ -4,7 +4,7 @@
 export const renderTextWithHighlight = (
   text: string,
 ): (string | React.ReactElement)[] => {
-  const regex = /(\([ㄱ-ㅎㅏ-ㅣ가-힣\d\s㉠-㉿]+\)|[ㄱ-ㅎㅏ-ㅣ가-힣㉠-㉿]\s*:)/;
+  const regex = /(\(\s*[ㄱ-ㅎㅏ-ㅣ가-힣\d㉠-㉿\s]+\s*\)|(?<![가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z])[ㄱ-ㅎㅏ-ㅣ가-힣㉠-㉿A-Z]\s*:)/;
   const parts = text.split(regex);
 
   return parts.map((part, i) =>
