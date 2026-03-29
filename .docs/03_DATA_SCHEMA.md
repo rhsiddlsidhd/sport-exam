@@ -28,6 +28,28 @@
 
 ---
 
+### ExamQuestion (문제 단위)
+
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `id` | `string` | ✅ | 문제 고유 ID. `"{SUBJECT}-{YEAR}-{문제번호}"` 형식. 예: `"SSO-2023-1"` |
+| `questionNumber` | `number` | ✅ | 문제 번호. 예: `1` |
+| `logicType` | `QuestionLogicType` | ✅ | 채점 로직 타입 |
+| `question` | `string` | ✅ | 문제 본문 |
+| `view` | `ExamView` | ✅ | 보기 영역 데이터 (`type: "NONE"`이면 나머지 필드 불필요) |
+| `options` | `ExamOption[]` | ✅ | 선택지 목록 |
+| `answer` | `number \| number[]` | ✅ | 정답 선택지 id. 단일 정답은 숫자, 복수 정답은 배열 |
+| `explanation` | `ExamExplanation` | ❌ | 해설 (추출 시 생략) |
+
+### ExamOption (선택지)
+
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `id` | `number` | ✅ | 선택지 번호. 예: `1`, `2`, `3`, `4` |
+| `content` | `string` | ✅ | 선택지 텍스트 |
+
+---
+
 ## 세부 타입 정의
 
 ### QuestionLogicType (채점 로직)
@@ -45,12 +67,24 @@
 - `COMPOSITE`: 복합형 (지문/이미지 + 항목 리스트 조합)
 - `TABLE`: 표 데이터형 (병합 헤더, ○/× 기호 포함)
 
+### PassageLine (지문 한 줄)
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `text` | `string` | ✅ | 줄 텍스트 |
+| `underline` | `boolean` | ❌ | 밑줄 여부 (기본 `false`) |
+
+### ExamViewItem (항목 리스트 한 항목)
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `label` | `string` | ✅ | 항목 기호. 예: `"ㄱ"`, `"㉠"`, `"가"` |
+| `content` | `string[]` | ✅ | 항목 내용 (줄바꿈 단위 배열) |
+
 ### ExamView (보기 영역 데이터)
 | 필드 | 타입 | 필수 | 설명 |
 |------|------|------|------|
 | `type` | `QuestionViewType` | ✅ | 보기 렌더링 타입 |
-| `passage` | `string[]` | ❌ | 지문 데이터 (줄바꿈 단위 배열) |
-| `items` | `ExamViewItem[]` | ❌ | 기호 기반 항목 데이터 ({ label, content }) |
+| `passage` | `PassageLine[]` | ❌ | 지문 데이터 (줄바꿈 단위 배열) |
+| `items` | `ExamViewItem[]` | ❌ | 기호 기반 항목 데이터 |
 | `media` | `ExamMedia` | ❌ | 이미지 또는 도표 정보 |
 | `table` | `ExamTable` | ❌ | 표 데이터 (TABLE 타입에서 사용) |
 
@@ -77,6 +111,23 @@
 | `isHeader` | `boolean` | ❌ | `<th>` 여부 |
 
 > **렌더링 규칙**: `○` → 초록(text-green-600), `×` → 빨강(text-red-500), `㉠` 같은 기호 → primary 색상 강조
+
+---
+
+### ExamExplanation (해설 데이터)
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `correct` | `string` | ✅ | 정답이 왜 맞는지 이론적 근거 서술. `**bold**` 마크다운 사용 가능 |
+| `distractors` | `ExamDistractor[]` | ❌ | 오답 분석 (학습에 도움이 될 때만) |
+| `summary` | `string` | ❌ | 핵심 정리 (개념 비교·확장이 필요할 때만) |
+
+**ExamDistractor**
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `term` | `string` | ✅ | 오답 선택지의 핵심 용어 또는 개념명 |
+| `reason` | `string` | ✅ | 해당 선택지가 오답인 이유 |
+
+> **주의**: 선택지 번호(`1번`, `(1)` 등) 절대 사용 금지. 반드시 용어·키워드를 직접 인용한다.
 
 ---
 
@@ -159,8 +210,8 @@
       "alt": "폐환기 검사 결과 데이터 표"
     },
     "items": [
-      { "label": "ㄱ", "content": "세 참가자의 분당환기량은 동일하다." },
-      { "label": "ㄴ", "content": "다영의 폐포 환기량은 분당 6L/min이다." }
+      { "label": "ㄱ", "content": ["세 참가자의 분당환기량은 동일하다."] },
+      { "label": "ㄴ", "content": ["다영의 폐포 환기량은 분당 6L/min이다."] }
     ]
   },
   "answer": 4

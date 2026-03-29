@@ -29,6 +29,8 @@ interface ExamExplanation {
 
 `explanation` 필드 외 `id`, `question`, `view`, `options`, `answer` 등 기존 데이터는 절대 변경하지 않는다.
 
+> **⚠️ 파일 수정 방법 강제 규칙**: `Write` 툴로 파일 전체를 덮어쓰는 것을 **절대 금지**한다. 반드시 **`Edit` 툴**로 해당 문제의 `explanation` 블록만 교체한다. Write를 쓰면 다른 필드가 조용히 변질될 수 있다.
+
 ---
 
 ## 핵심 규칙
@@ -107,4 +109,4 @@ interface ExamExplanation {
    - `(1)`, `(2)` 또는 "1번", "2번" 등 숫자 표현이 없는가?
    - `explanation` 외 다른 필드가 변경되지 않았는가?
    - `view` 데이터가 충분한가? (부족하면 [추론 불가] 처리)
-5. JSON 파일의 해당 문제 `explanation` 필드를 업데이트한다.
+5. **`Edit` 툴**로 해당 문제의 `"explanation": { ... }` 블록만 교체한다. `Write` 툴 사용 금지.
