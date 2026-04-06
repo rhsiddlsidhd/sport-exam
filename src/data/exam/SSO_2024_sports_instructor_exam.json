@@ -485,7 +485,7 @@
       "options": [
         {
           "id": 1,
-          "content": "극적잉 욘소가 늘어났다."
+          "content": "극적인 요소가 늘어났다."
         },
         {
           "id": 2,
@@ -613,7 +613,7 @@
         "type": "BLANK",
         "passage": [
           {
-            "text": "(ㄱ): 1936년 베를림 올림픽"
+            "text": "(ㄱ): 1936년 베를린 올림픽"
           },
           {
             "text": "(ㄴ): 1971년 미국 탁구팀의 중화인민공화국 방문"
@@ -867,7 +867,7 @@
       "id": "SSO-2024-19",
       "questionNumber": 19,
       "logicType": "MULTIPLE_CHOICE",
-      "question": "스포츠으로부터의 탈사회화에 관한 설명으로 옳은 것은?",
+      "question": "스포츠로부터의 탈사회화에 관한 설명으로 옳은 것은?",
       "view": {
         "type": "NONE"
       },
