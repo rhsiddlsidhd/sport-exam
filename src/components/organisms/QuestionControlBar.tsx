@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { ChevronLeft } from "lucide-react";
-import { Button } from "@/components/atoms/Button";
+import { Button } from "@/components/atoms/button";
 import ProgressBar from "@/components/molecules/ProgressBar";
 import { useQuizNavigation } from "@/contexts/QuizNavigationContext";
 import { useQuizAnswer } from "@/contexts/QuizAnswerContext";

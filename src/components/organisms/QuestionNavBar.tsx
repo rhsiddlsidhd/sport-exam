@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "@/components/atoms/Button";
+import { Button } from "@/components/atoms/button";
 import { useNavigate, useParams } from "react-router";
 import { useQuizNavigation } from "@/contexts/QuizNavigationContext";
 import { useQuizAnswer } from "@/contexts/QuizAnswerContext";

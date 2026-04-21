@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { TypographyH1, TypographyH3, TypographyP } from "../components/atoms/Typography";
+import { TypographyH1, TypographyH3, TypographyP } from "../components/atoms/typography";
 
 const NotFound = () => {
   return (

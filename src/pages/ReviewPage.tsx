@@ -1,7 +1,7 @@
 import { useLocation, useNavigate, Link } from "react-router";
 import { useLoaderData } from "react-router";
-import { TypographySmall } from "@/components/atoms/Typography";
-import { Button } from "@/components/atoms/Button";
+import { TypographySmall } from "@/components/atoms/typography";
+import { Button } from "@/components/atoms/button";
 import SectionHeader from "@/components/molecules/SectionHeader";
 import ScoreSummary from "@/components/organisms/ScoreSummary";
 import ReviewCard from "@/components/organisms/ReviewCard";

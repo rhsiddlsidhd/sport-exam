@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
-import { TypographyH4, TypographySmall } from "@/components/atoms/Typography";
+import { TypographyH4, TypographySmall } from "@/components/atoms/typography";
 
 interface EmptyStateProps {
   icon: React.ReactNode;

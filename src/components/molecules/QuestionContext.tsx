@@ -2,7 +2,7 @@ import React from "react";
 import type { ExamView } from "@/types/exam-schema";
 import { Card, CardContent } from "@/components/atoms/card";
 import { Badge } from "@/components/atoms/badge";
-import { TypographySmall } from "@/components/atoms/Typography";
+import { TypographySmall } from "@/components/atoms/typography";
 import { renderTextWithHighlight } from "@/utils/highlight";
 import TableView from "@/components/molecules/TableView";
 

@@ -3,7 +3,7 @@ import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
 import { INITIAL_YEAR } from "../constants/number";
 import SelectableCard from "../components/molecules/SelectableCard";
-import { TypographyH3, TypographyMuted } from "../components/atoms/Typography";
+import { TypographyH3, TypographyMuted } from "../components/atoms/typography";
 
 const YEARS = Array.from({ length: 7 }, (_, i) => INITIAL_YEAR - i);
 

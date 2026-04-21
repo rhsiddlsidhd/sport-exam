@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import { Button } from "@/components/atoms/Button";
+import { Button } from "@/components/atoms/button";
 import { subjectLabel } from "@/constants/label";
 import type { SubjectCode } from "@/types/subject";
 
@@ -13,7 +13,8 @@ interface ScoreSummaryProps {
   onRetry: () => void;
 }
 
-const circumference = 2 * Math.PI * 36;
+const CIRCLE_RADIUS = 36;
+const CIRCLE_CIRCUMFERENCE = 2 * Math.PI * CIRCLE_RADIUS;
 
 const ScoreSummary: React.FC<ScoreSummaryProps> = ({
   subject,
@@ -23,7 +24,7 @@ const ScoreSummary: React.FC<ScoreSummaryProps> = ({
   total,
   onRetry,
 }: ScoreSummaryProps) => {
-  const strokeDashoffset = circumference - (score / 100) * circumference;
+  const strokeDashoffset = CIRCLE_CIRCUMFERENCE * (1 - score / 100);
 
   return (
     <div className="bg-card border-border border-b px-5 py-8">
@@ -35,11 +36,16 @@ const ScoreSummary: React.FC<ScoreSummaryProps> = ({
 
       <div className="mb-7 flex flex-col items-center gap-5">
         <div className="relative">
-          <svg width="96" height="96" viewBox="0 0 96 96" className="-rotate-90">
+          <svg
+            width="96"
+            height="96"
+            viewBox="0 0 96 96"
+            className="-rotate-90"
+          >
             <circle
               cx="48"
               cy="48"
-              r="36"
+              r={CIRCLE_RADIUS}
               fill="none"
               stroke="currentColor"
               className="text-muted"
@@ -48,13 +54,13 @@ const ScoreSummary: React.FC<ScoreSummaryProps> = ({
             <circle
               cx="48"
               cy="48"
-              r="36"
+              r={CIRCLE_RADIUS}
               fill="none"
               stroke="currentColor"
               className="text-primary transition-all duration-700"
               strokeWidth="7"
               strokeLinecap="round"
-              strokeDasharray={circumference}
+              strokeDasharray={CIRCLE_CIRCUMFERENCE}
               strokeDashoffset={strokeDashoffset}
             />
           </svg>
@@ -62,12 +68,14 @@ const ScoreSummary: React.FC<ScoreSummaryProps> = ({
             <span className="text-foreground text-2xl leading-none font-black tabular-nums">
               {score}
             </span>
-            <span className="text-muted-foreground text-[10px] font-bold">점</span>
+            <span className="text-muted-foreground text-[10px] font-bold">
+              점
+            </span>
           </div>
         </div>
 
         <div className="flex gap-3">
-          <div className="bg-success/8 border-success/20 flex min-w-[72px] flex-col items-center rounded-2xl border px-5 py-3">
+          <div className="bg-success/8 border-success/20 flex min-w-18 flex-col items-center rounded-2xl border px-5 py-3">
             <span className="text-success/70 mb-1 text-[9px] font-black tracking-wider uppercase">
               정답
             </span>
@@ -75,7 +83,7 @@ const ScoreSummary: React.FC<ScoreSummaryProps> = ({
               {correctCount}
             </span>
           </div>
-          <div className="bg-destructive/8 border-destructive/20 flex min-w-[72px] flex-col items-center rounded-2xl border px-5 py-3">
+          <div className="bg-destructive/8 border-destructive/20 flex min-w-18 flex-col items-center rounded-2xl border px-5 py-3">
             <span className="text-destructive/70 mb-1 text-[9px] font-black tracking-wider uppercase">
               오답
             </span>

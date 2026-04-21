@@ -1,7 +1,7 @@
 import type { ExamQuestion } from "@/types/exam-schema";
 import React from "react";
 import { Check } from "lucide-react";
-import { TypographyLarge } from "../atoms/Typography";
+import { TypographyLarge } from "../atoms/typography";
 import IconBadge from "../molecules/IconBadge";
 import OptionButton from "../molecules/OptionButton";
 import QuestionContext from "../molecules/QuestionContext";

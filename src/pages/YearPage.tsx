@@ -17,7 +17,7 @@ const SUBJECT_META: Record<
 };
 
 import React from "react";
-import { TypographyH3, TypographyMuted } from "@/components/atoms/Typography";
+import { TypographyH3, TypographyMuted } from "@/components/atoms/typography";
 
 const YearPage = () => {
   const year = useOutletContext<string>();

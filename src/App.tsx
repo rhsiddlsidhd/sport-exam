@@ -4,7 +4,7 @@ import { SUBJECT_CODES } from "./types/subject";
 import type { SubjectCode } from "./types/subject";
 import { subjectLabel } from "./constants/label";
 import SelectableCard from "./components/molecules/SelectableCard";
-import { TypographyH3, TypographyMuted } from "./components/atoms/Typography";
+import { TypographyH3, TypographyMuted } from "./components/atoms/typography";
 
 const SUBJECT_META: Record<
   SubjectCode,

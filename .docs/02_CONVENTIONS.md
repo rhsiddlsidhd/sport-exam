@@ -9,7 +9,8 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
 
 | 대상                | 규칙       | 예시                               |
 | ------------------- | ---------- | ---------------------------------- |
-| 컴포넌트 파일       | PascalCase | `Typography.tsx`, `Header.tsx`     |
+| 컴포넌트 파일 (molecules 이상) | PascalCase | `QuestionCard.tsx`, `ScoreSummary.tsx` |
+| atoms 파일          | lowercase (shadcn 기준) | `button.tsx`, `typography.tsx` |
 | 페이지 파일         | PascalCase | `NotesPage.tsx`, `ReviewPage.tsx`  |
 | 훅/유틸 파일        | camelCase  | `useQuiz.ts`, `shuffle.ts`         |
 | 상수/타입 파일      | camelCase  | `label.ts`                         |
@@ -93,31 +94,20 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
   ```
 - 높이 체인: 전체 높이 레이아웃 필요 시 `h-screen flex-col` → `flex-1` → `h-full` 순으로 전달
 
-## localStorage 규칙
 
-- 키 네이밍: `sport-exam:{feature}` 형식
+## 상수 / 유틸 추출 기준
+
+- 한 파일에서만 쓰이는 상수·유틸은 해당 파일 상단에 위치. `constants/` 또는 `utils/`로 분리하지 않음
+- 매직 넘버는 의미를 드러내는 이름의 상수 변수로 교체
   ```ts
-  "sport-exam:notes"   // 오답노트 저장
+  // ❌
+  const circumference = 2 * Math.PI * 36;
+
+  // ✅
+  const CIRCLE_RADIUS = 36;
+  const CIRCLE_CIRCUMFERENCE = 2 * Math.PI * CIRCLE_RADIUS;
   ```
-- 직접 접근 금지. 반드시 커스텀 훅으로 감싸서 사용
-  ```ts
-  // hooks/useNotes.ts
-  const STORAGE_KEY = "sport-exam:notes";
-
-  export function useNotes() {
-    const save = (data: Note[]) =>
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-
-    const load = (): Note[] => {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      return raw ? (JSON.parse(raw) as Note[]) : [];
-    };
-
-    return { save, load };
-  }
-  ```
-- 저장 시 `JSON.stringify`, 읽기 시 `JSON.parse` + 타입 선언으로 처리
-- localStorage 접근 실패 대비 `try/catch` 필수
+- 여러 파일에서 실제로 재사용이 생기는 시점에 공용 위치(`constants/`, `utils/`)로 이동
 
 ---
 

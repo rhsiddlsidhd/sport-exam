@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "@/components/atoms/Button";
+import { Button } from "@/components/atoms/button";
 import { Badge } from "@/components/atoms/badge";
-import { TypographySmall } from "@/components/atoms/Typography";
+import { TypographySmall } from "@/components/atoms/typography";
 import { cn } from "@/lib/utils";
 
 interface OptionButtonProps {

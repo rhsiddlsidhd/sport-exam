@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
-import { TypographyLarge } from "@/components/atoms/Typography";
+import { TypographyLarge } from "@/components/atoms/typography";
 
 interface SectionHeaderProps {
   children: React.ReactNode;
