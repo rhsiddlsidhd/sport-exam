@@ -4,6 +4,7 @@ import { SUBJECT_CODES } from "./types/subject";
 import type { SubjectCode } from "./types/subject";
 import { subjectLabel } from "./constants/label";
 import SelectableCard from "./components/molecules/SelectableCard";
+import { TypographyH3, TypographyMuted } from "./components/atoms/Typography";
 
 const SUBJECT_META: Record<
   SubjectCode,
@@ -17,11 +18,6 @@ const SUBJECT_META: Record<
 };
 
 function App() {
-  const handleClearStorage = () => {
-    window.localStorage.clear();
-    alert("초기화 완료");
-  };
-
   return (
     <div className="p-5">
       <div className="mb-8 pt-2">
@@ -29,20 +25,12 @@ function App() {
           <span className="bg-primary h-1.5 w-1.5 rounded-full" />
           과목 선택
         </span>
-        <h2 className="text-foreground mb-1 text-2xl leading-tight font-black tracking-tight">
+        <TypographyH3 className="text-foreground mb-1 leading-tight font-black">
           어떤 과목을
           <br />
           풀어볼까요?
-        </h2>
-        <p className="text-muted-foreground text-sm">
-          5개 과목 · 2019~2025년 수록
-        </p>
-        <button
-          onClick={handleClearStorage}
-          className="text-muted-foreground hover:text-destructive mt-2 text-xs underline"
-        >
-          저장 데이터 초기화
-        </button>
+        </TypographyH3>
+        <TypographyMuted>5개 과목 · 2019~2025년 수록</TypographyMuted>
       </div>
 
       <main className="flex flex-col gap-3">

@@ -110,7 +110,7 @@
 | `rowSpan` | `number` | ❌ | 병합 행 수 (기본 1) |
 | `isHeader` | `boolean` | ❌ | `<th>` 여부 |
 
-> **렌더링 규칙**: `○` → 초록(text-green-600), `×` → 빨강(text-red-500), `㉠` 같은 기호 → primary 색상 강조
+> **렌더링 규칙**: `○` → `text-success`, `×` → `text-destructive`, `㉠` 같은 기호 → `text-primary` 강조
 
 ---
 

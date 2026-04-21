@@ -1,9 +1,6 @@
 import { useState, useEffect, memo } from "react";
-import { useNavigate, useOutletContext, useParams } from "react-router";
-import type { SubjectCode } from "@/types/subject";
+import { useNavigate, useLoaderData } from "react-router";
 import type { ExamQuestion } from "@/types/exam-schema";
-import { VALID_YEARS } from "@/constants/number";
-import { useSubjectExam } from "@/hooks/useSubjectExam";
 import { useQuiz } from "@/hooks/useQuiz";
 import {
   Carousel,
@@ -11,15 +8,12 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "@/components/atoms/carousel";
-import { Button } from "@/components/atoms/Button";
-import { TypographySmall } from "@/components/atoms/Typography";
 import QuestionCard from "@/components/organisms/QuestionCard";
 import QuestionControlBar from "@/components/organisms/QuestionControlBar";
 import QuestionNavBar from "@/components/organisms/QuestionNavBar";
-import EmptyState from "@/components/molecules/EmptyState";
-import NotFound from "./NotFound";
 import { QuizNavigationContext } from "@/contexts/QuizNavigationContext";
 import { QuizAnswerContext } from "@/contexts/QuizAnswerContext";
+import type { ExamLoaderData } from "@/loaders/examLoader";
 
 interface QuestionCarouselItemProps {
   question: ExamQuestion;
@@ -43,10 +37,7 @@ const QuestionCarouselItem = memo(
 
 const QuestionPage = () => {
   const navigate = useNavigate();
-  const subject = useOutletContext<SubjectCode>();
-  const { year } = useParams<{ year: string }>();
-  const validYear = year && VALID_YEARS.has(year) ? year : null;
-  const { questions, loading, error } = useSubjectExam(subject, validYear);
+  const { subject, questions } = useLoaderData<ExamLoaderData>();
   const [api, setApi] = useState<CarouselApi>();
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -60,35 +51,7 @@ const QuestionPage = () => {
 
   const { userAnswers, answeredCount, handleSelectOption } = useQuiz();
 
-  if (!validYear) return <NotFound />;
-
   const handleBack = () => navigate(`/${subject}`);
-
-  if (loading) {
-    return (
-      <div className="flex h-full min-h-60 flex-col items-center justify-center gap-4">
-        <div className="border-muted border-t-primary h-10 w-10 animate-spin rounded-full border-2" />
-        <TypographySmall className="text-muted-foreground">
-          문제를 불러오는 중...
-        </TypographySmall>
-      </div>
-    );
-  }
-
-  if (error || questions.length === 0) {
-    return (
-      <EmptyState
-        icon={<span className="text-3xl">📭</span>}
-        title={error ?? "등록된 기출문제가 없습니다."}
-        action={
-          <Button onClick={handleBack} className="rounded-xl font-bold">
-            돌아가기
-          </Button>
-        }
-        className="h-full min-h-60"
-      />
-    );
-  }
 
   return (
     <QuizNavigationContext.Provider
@@ -112,10 +75,7 @@ const QuestionPage = () => {
               if (e.key === "ArrowRight" || e.key === "Enter") {
                 const currentQuestionId = questions[currentIndex]?.id;
                 const isAnswered = !!userAnswers[currentQuestionId];
-
-                if (!isAnswered) {
-                  e.preventDefault();
-                }
+                if (!isAnswered) e.preventDefault();
               }
             }}
             className="flex-1 overflow-hidden **:data-[slot='carousel-content']:h-full"

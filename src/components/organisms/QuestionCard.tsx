@@ -19,12 +19,6 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
 }) => {
   return (
     <div className="p-5 border-y sm:border border-border rounded-none sm:rounded-2xl text-left bg-card shadow-sm sm:transition-all sm:hover:shadow-lg">
-      <div className="flex items-center justify-end mb-3">
-        <div className="text-[10px] font-bold text-muted-foreground/50">
-          {question.id} · {question.logicType}
-        </div>
-      </div>
-
       <TypographyLarge className="font-bold text-foreground mb-4 leading-snug break-keep">
         {question.question}
       </TypographyLarge>

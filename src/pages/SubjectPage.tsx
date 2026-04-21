@@ -3,6 +3,7 @@ import type { SubjectCode } from "../types/subject";
 import { subjectLabel } from "../constants/label";
 import { INITIAL_YEAR } from "../constants/number";
 import SelectableCard from "../components/molecules/SelectableCard";
+import { TypographyH3, TypographyMuted } from "../components/atoms/Typography";
 
 const YEARS = Array.from({ length: 7 }, (_, i) => INITIAL_YEAR - i);
 
@@ -16,14 +17,12 @@ const SubjectPage = () => {
           <span className="bg-primary h-1.5 w-1.5 rounded-full" />
           {subjectLabel[subject]} · 연도 선택
         </span>
-        <h2 className="text-foreground mb-1 text-2xl leading-tight font-black tracking-tight">
+        <TypographyH3 className="text-foreground mb-1 leading-tight font-black">
           어느 연도를
           <br />
           풀어볼까요?
-        </h2>
-        <p className="text-muted-foreground text-sm">
-          총 {YEARS.length}개년 기출문제 수록 · 각 20문항
-        </p>
+        </TypographyH3>
+        <TypographyMuted>총 {YEARS.length}개년 기출문제 수록 · 각 20문항</TypographyMuted>
       </div>
 
       <main className="grid grid-cols-2 gap-3">

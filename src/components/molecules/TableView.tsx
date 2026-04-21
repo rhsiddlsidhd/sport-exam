@@ -15,8 +15,8 @@ interface TableViewProps {
 }
 
 function getCellClass(content: string): string {
-  if (content === "○") return "font-bold text-green-600";
-  if (content === "×") return "font-bold text-red-500";
+  if (content === "○") return "font-bold text-success";
+  if (content === "×") return "font-bold text-destructive";
   return " leading-snug break-keep whitespace-normal";
 }
 
