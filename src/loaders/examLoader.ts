@@ -23,10 +23,12 @@ export async function examLoader({
   const module = await import(
     `../data/exam/${rawSubject}_${year}_sports_instructor_exam.json`
   );
-  const questions: ExamQuestion[] = module.default.questions.map((q) => ({
-    ...q,
-    options: shuffleArray(q.options),
-  }));
+  const questions: ExamQuestion[] = module.default.questions.map(
+    (q: ExamQuestion) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }),
+  );
 
   return { subject: rawSubject, year, questions };
 }
