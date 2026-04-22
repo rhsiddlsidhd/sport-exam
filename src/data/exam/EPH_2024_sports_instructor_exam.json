@@ -6,11 +6,7 @@
     {
       "id": "EPH-2024-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "지구성 훈련에 의한 지근섬유(Type I)의 생리적 변화로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,7 @@
     {
       "id": "EPH-2024-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "유산소성 트레이닝을 통한 근육 내 미토콘드리아 변화와 관련된 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -102,11 +94,7 @@
     {
       "id": "EPH-2024-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 지방분해를 촉진하는 요인으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -146,11 +134,7 @@
     {
       "id": "EPH-2024-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동에 대한 심혈관 반응에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -194,11 +178,9 @@
     {
       "id": "EPH-2024-5",
       "questionNumber": 5,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 들어갈 용어가 바르게 나열된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "심장의 부담을 나타내는 심근산소소비량은 심박수와 ( ㉠ )을 곱하여 산출한다."
           },
@@ -246,11 +228,9 @@
     {
       "id": "EPH-2024-6",
       "questionNumber": 6,
-      "logicType": "MATCHING",
       "question": "골격근의 수축 특성을 결정하는 요인에 대한 설명 중 〈보기〉의 ㉠, ㉡에 들어갈 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "특이장력 = 근력 / ( ㉠ )"
           },
@@ -288,10 +268,8 @@
     {
       "id": "EPH-2024-7",
       "questionNumber": 7,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠~㉢에 들어갈 용어가 바르게 나열된 것은?",
       "view": {
-        "type": "TABLE",
         "table": {
           "caption": "감각수용기별 정보 전달 항목",
           "headers": [
@@ -371,10 +349,8 @@
     {
       "id": "EPH-2024-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈그림〉은 도피반사(withdrawal reflex)와 교차신전반사(crossed-extensor reflex)를 나타낸 것이다. 이에 관한 설명으로 옳지 않은 것은?",
       "view": {
-        "type": "VISUAL",
         "media": {
           "type": "IMAGE",
           "url": "/exam/EPH-2024-08.webp",
@@ -420,11 +396,9 @@
     {
       "id": "EPH-2024-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 고온 환경의 장시간 최대하 운동 시 운동수행능력을 저하시키는 요인으로 옳은 것만을 모두 고른 것은? (단, 심각한 탈수 현상은 발생하지 않는 환경)",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -480,11 +454,9 @@
     {
       "id": "EPH-2024-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 조건으로 트레드밀 운동 시 운동량(kpm)은? (단, 운동량 = 힘 × 거리)",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "조건",
             "content": [
@@ -522,11 +494,7 @@
     {
       "id": "EPH-2024-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "에너지 대사 과정과 속도조절효소의 연결이 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -570,11 +538,9 @@
     {
       "id": "EPH-2024-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 근육의 힘, 파워, 속도의 관계에 대한 설명 중 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -636,11 +602,7 @@
     {
       "id": "EPH-2024-13",
       "questionNumber": 13,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "카테콜라민(에피네프린, 노르에피네프린)에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -681,11 +643,9 @@
     {
       "id": "EPH-2024-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 에너지 대사 과정에 관한 설명 중 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -741,11 +701,7 @@
     {
       "id": "EPH-2024-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 혈중 포도당 농도를 유지하기 위한 호르몬에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -785,11 +741,9 @@
     {
       "id": "EPH-2024-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 수분과 전해질 균형에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -855,10 +809,8 @@
     {
       "id": "EPH-2024-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈표〉는 참가자의 폐환기 검사 결과이다. 〈보기〉에서 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "TABLE",
         "table": {
           "caption": "참가자별 폐환기 검사 결과",
           "headers": [
@@ -934,7 +886,7 @@
             }
           ]
         },
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -984,11 +936,7 @@
     {
       "id": "EPH-2024-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "1회 박출량(stroke volume) 증가 요인으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1032,11 +980,7 @@
     {
       "id": "EPH-2024-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "골격근 섬유에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1080,11 +1024,7 @@
     {
       "id": "EPH-2024-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "지근섬유(Type I)와 비교되는 속근섬유(Type II)의 특성으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

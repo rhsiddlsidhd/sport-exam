@@ -6,11 +6,7 @@
     {
       "id": "KHS-2025-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "고구려의 씨름에 관한 물적 사료는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -53,11 +49,9 @@
     {
       "id": "KHS-2025-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 체육사관(體育史觀)에 관한 옳은 설명을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -118,11 +112,7 @@
     {
       "id": "KHS-2025-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "부족국가 시대에 신체활동이 이루어진 행사가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -151,11 +141,7 @@
     {
       "id": "KHS-2025-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "신라 화랑도의 체육활동과 사상에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -182,7 +168,7 @@
         "distractors": [
           {
             "term": "화랑도 정신",
-            "reason": "도의(道義) 함양(1), 세속오계 중심의 윤리 실천(2), 국가 위기 시 군사 조직으로서의 임전무퇴 정신(4) 등이 화랑도 체육의 핵심 사상이었습니다."
+            "reason": "도의(道義)와 덕행 함양, 세속오계를 중심으로 한 윤리 실천, 국가 위기 시 군사 조직으로서의 임전무퇴 정신 등이 화랑도 체육의 핵심 사상이었습니다."
           }
         ]
       }
@@ -190,11 +176,9 @@
     {
       "id": "KHS-2025-5",
       "questionNumber": 5,
-      "logicType": "MATCHING",
       "question": "보기의 ㉠~㉢에 들어갈 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "고구려에 관한 사료인 (㉠)에 따르면, “풍속에 독서를 즐긴다. 천민의 집까지 이르는 거리에 큰 집을 지어 이를 (㉡)이라고 한다. 여기서 미혼의 자제들이 밤새워 책을 읽으며 (㉢)을/를 익힌다.”라고 하였다."
           }
@@ -228,11 +212,7 @@
     {
       "id": "KHS-2025-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "고려의 민속놀이에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -259,15 +239,15 @@
         "distractors": [
           {
             "term": "석전",
-            "reason": "돌을 던져 승부를 겨루는 돌싸움입니다(1)."
+            "reason": "돌을 던져 승부를 겨루는 돌싸움입니다."
           },
           {
             "term": "추천",
-            "reason": "그네뛰기를 의미합니다(2)."
+            "reason": "그네뛰기를 의미합니다."
           },
           {
             "term": "축국",
-            "reason": "가죽 공을 발로 차는 공차기입니다(4)."
+            "reason": "가죽 공을 발로 차는 공차기입니다."
           }
         ]
       }
@@ -275,11 +255,9 @@
     {
       "id": "KHS-2025-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 방응(放鷹)에 관한 설명을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -340,11 +318,7 @@
     {
       "id": "KHS-2025-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대의 훈련원(訓鍊院)에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -371,7 +345,7 @@
         "distractors": [
           {
             "term": "주요 기능",
-            "reason": "군사들의 기량을 시험(시재)하여 선발하고(2), 실무 교육(3) 및 무경칠서와 같은 병법 지식 습득(4)을 장려했습니다."
+            "reason": "군사들의 기량을 시험(시재)하여 선발하고, 실무 무예 교육 및 무경칠서와 같은 병법 지식 습득을 장려했습니다."
           }
         ]
       }
@@ -379,11 +353,9 @@
     {
       "id": "KHS-2025-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 『활인심방(活人心房)』에 관한 옳은 설명을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -438,11 +410,7 @@
     {
       "id": "KHS-2025-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대의 식년무과(式年武科)에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -469,15 +437,15 @@
         "distractors": [
           {
             "term": "소과/대과",
-            "reason": "문과(文科)의 선발 방식입니다(1)."
+            "reason": "문과(文科)의 선발 방식입니다."
           },
           {
             "term": "강서 포함",
-            "reason": "강서(병서 시험)는 주로 복시 단계에서 중요하게 다루어졌습니다(3)."
+            "reason": "강서(병서 시험)는 주로 복시 단계에서 중요하게 다루어졌습니다."
           },
           {
             "term": "전시 종목",
-            "reason": "전시는 기사나 보사 성적을 바탕으로 임금 앞에서 최종 등급을 매기는 과정입니다(4)."
+            "reason": "전시는 기사나 보사 성적을 바탕으로 임금 앞에서 최종 등급을 매기는 과정입니다."
           }
         ]
       }
@@ -485,11 +453,9 @@
     {
       "id": "KHS-2025-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 설명에 해당하는 체조는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "개화기 학교에서는 정규과목으로 체조가 편성되었으며 연령과 성별에 따라서 다양하게 실시되었다"
           },
@@ -524,11 +490,11 @@
         "distractors": [
           {
             "term": "유희체조",
-            "reason": "즐거움과 놀이 중심입니다(1)."
+            "reason": "즐거움과 놀이 중심입니다."
           },
           {
             "term": "기공체조",
-            "reason": "전통적인 기 순환과 수련을 중시합니다(4)."
+            "reason": "전통적인 기 순환과 수련을 중시합니다."
           }
         ]
       }
@@ -536,11 +502,9 @@
     {
       "id": "KHS-2025-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에 해당하는 시기는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "황국신민체조와 함께 검도, 유도, 궁도 등을 여학생에게 실시하게 한 것은 일본의 군국주의를 드러낸 것이었다"
           },
@@ -575,11 +539,11 @@
         "distractors": [
           {
             "term": "무단통치기(1910년대)",
-            "reason": "초기 강압 통치기입니다(1)."
+            "reason": "초기 강압 통치기입니다."
           },
           {
             "term": "문화통치기(1920년대)",
-            "reason": "겉으로 유화 정책을 폈으며 근대 스포츠 단체들이 활동했습니다(3)."
+            "reason": "겉으로 유화 정책을 폈으며 근대 스포츠 단체들이 활동했습니다."
           }
         ]
       }
@@ -587,11 +551,9 @@
     {
       "id": "KHS-2025-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 문곡(文谷) 서상천(徐상천)의 활동을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -652,11 +614,9 @@
     {
       "id": "KHS-2025-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 설명에 해당하는 교육기관은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "이 교육기관은 개항 이후에 일본인의 세력에 대응하고자 설립되었다"
           },
@@ -693,11 +653,7 @@
     {
       "id": "KHS-2025-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "1991년에 있었던 남북한 단일팀의 국제대회 참가에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -724,7 +680,7 @@
         "distractors": [
           {
             "term": "성과",
-            "reason": "지바 세계탁구선수권 여자 단체전 우승(3)과 포르투갈 청소년축구 8강 진출(2)은 1991년 단일팀이 거둔 눈부신 성과입니다."
+            "reason": "지바 세계탁구선수권 여자 단체전 우승과 포르투갈 청소년축구 8강 진출은 1991년 단일팀이 거둔 눈부신 성과입니다."
           }
         ]
       }
@@ -732,11 +688,7 @@
     {
       "id": "KHS-2025-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "제5공화국의 스포츠 정책으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -763,7 +715,7 @@
         "distractors": [
           {
             "term": "5공화국 정책",
-            "reason": "3S 정책의 일환인 프로 스포츠 출범(4), 엘리트 스포츠 지원을 위한 국군체육부대(상무) 창설(2), 86 아시안게임 개최(3) 등이 이 시기에 이루어졌습니다."
+            "reason": "3S 정책의 일환인 야구·축구·씨름 프로 스포츠 출범, 엘리트 스포츠 지원을 위한 국군체육부대(상무) 창설, 86 아시안게임 개최 등이 이 시기에 이루어졌습니다."
           }
         ]
       }
@@ -771,11 +723,7 @@
     {
       "id": "KHS-2025-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "광복 이후 우리나라 선수단이 최초로 참가한 올림픽경기대회는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -804,11 +752,7 @@
     {
       "id": "KHS-2025-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "광복 이후 제5공화국까지의 체육에서 나타난 사상적 특징으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -835,7 +779,7 @@
         "distractors": [
           {
             "term": "사상적 배경",
-            "reason": "메달 지상주의인 엘리트주의(1), 체육을 통한 국가 홍보인 국가주의(2), 강인한 국민 육성을 내세운 건민주의(4) 등이 당시 지배적인 사상이었습니다."
+            "reason": "메달 지상주의인 엘리트주의, 체육을 통한 국가 홍보인 국가주의, 강인한 국민 육성을 내세운 건민주의 등이 당시 지배적인 사상이었습니다."
           }
         ]
       }
@@ -843,11 +787,7 @@
     {
       "id": "KHS-2025-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "'국민생활체육진흥종합계획(호돌이 계획)'의 내용으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -874,11 +814,11 @@
         "distractors": [
           {
             "term": "시점",
-            "reason": "올림픽 대비가 아닌 **사후(Post-Olympic)** 활용 계획입니다(1)."
+            "reason": "올림픽 대비가 아닌 **사후(Post-Olympic)** 활용 계획입니다."
           },
           {
             "term": "성격",
-            "reason": "엘리트 혜택 강화(4)보다는 일반 대중의 '복지 체육' 실현에 중점을 두었습니다."
+            "reason": "엘리트 혜택 강화보다는 일반 대중의 '복지 체육' 실현에 중점을 두었습니다."
           }
         ]
       }
@@ -886,11 +826,9 @@
     {
       "id": "KHS-2025-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 광복 이후 1940년대 말까지 체육의 내용을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [

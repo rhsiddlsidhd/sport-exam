@@ -6,11 +6,7 @@
     {
       "id": "KHS-2021-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "한국체육사의 시대구분에 관한 내용으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -50,11 +46,7 @@
     {
       "id": "KHS-2021-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "체육 관련 사료 중 문헌사료가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -101,11 +93,7 @@
     {
       "id": "KHS-2021-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "부족국가시대의 저포(樗蒲)에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -148,11 +136,7 @@
     {
       "id": "KHS-2021-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "화랑도의 교육방법에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -191,11 +175,7 @@
     {
       "id": "KHS-2021-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "삼국시대 민속놀이의 명칭이 바르게 연결된 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -238,11 +218,9 @@
     {
       "id": "KHS-2021-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ( ) 안에 들어갈 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "고려시대 최고의 교육기관인 국자감에는 7재(七齋)를 두었는데, 그 중 무학을 공부하는 ( )가 있었다. 이를 통해 고려의 관학에서는 무예교육이 중시되었음을 알 수 있다."
           }
@@ -276,11 +254,9 @@
     {
       "id": "KHS-2021-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 고려시대 격구(擊毬)에 관한 설명 중 옳은 것으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -345,11 +321,9 @@
     {
       "id": "KHS-2021-8",
       "questionNumber": 8,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 고려시대 무예의 명칭이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -392,11 +366,7 @@
     {
       "id": "KHS-2021-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대 사정(射亭)에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -435,11 +405,7 @@
     {
       "id": "KHS-2021-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대 줄다리기에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -482,11 +448,7 @@
     {
       "id": "KHS-2021-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기 이화학당에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -529,11 +491,9 @@
     {
       "id": "KHS-2021-12",
       "questionNumber": 12,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -576,11 +536,7 @@
     {
       "id": "KHS-2021-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기에 설립된 체육단체가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -615,11 +571,9 @@
     {
       "id": "KHS-2021-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 인물은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "조선체력증진법연구회를 설립하고, 전국의 역도 보급에 앞장섰다."
           },
@@ -659,11 +613,7 @@
     {
       "id": "KHS-2021-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "일제강점기에 발생한 체육사적 사실이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -706,11 +656,9 @@
     {
       "id": "KHS-2021-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 해당하는 체육단체에 관한 설명으로 옳지 않은 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "고려구락부를 모체로 설립된 단체이다."
           },
@@ -753,11 +701,9 @@
     {
       "id": "KHS-2021-17",
       "questionNumber": 17,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 국제대회가 바르게 연결된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "1990년 남북체육장관회담의 결과, 1991년 사상 첫 남북 스포츠 단일팀이 구성되었다. ( ㉠ )에 남북단일팀으로 참가한 코리아 팀은 여자단체전에서 세계를 제패했다."
           },
@@ -794,11 +740,9 @@
     {
       "id": "KHS-2021-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠∼㉣을 연대순으로 바르게 연결한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -854,11 +798,9 @@
     {
       "id": "KHS-2021-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 올림픽경기대회는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1936년에 개최된 하계올림픽경기대회였다."
           },
@@ -898,11 +840,9 @@
     {
       "id": "KHS-2021-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 내용을 실시한 정권의 스포츠 정책이 아닌 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1982년 중앙정부행정조직에 체육부를 신설하고, 아시안게임과 올림픽 경기대회의 준비, 우수선수육성 및 지도자의 양성 등 스포츠 진흥운동을 전개했다."
           }

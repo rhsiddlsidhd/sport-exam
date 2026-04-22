@@ -6,11 +6,9 @@
     {
       "id": "SPS-2022-1",
       "questionNumber": 1,
-      "logicType": "MATCHING",
       "question": "<보기>는 레빈(K. Lewin, 1935)이 주장한 내용이다. ㉠, ㉡에 들어갈 개념으로 바르게 묶인 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "인간의 행동은 ( ㉠ )과 ( ㉡ )에 의해 결정된다."
           },
@@ -61,11 +59,7 @@
     {
       "id": "SPS-2022-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "아동의 운동 발달을 평가할 때 심리적 안정을 도모하기 위한 평가 방법으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -108,11 +102,9 @@
     {
       "id": "SPS-2022-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 일반화된 운동프로그램(Generalized Motor Program: GMP)에 관한 설명으로 바르게 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -178,11 +170,9 @@
     {
       "id": "SPS-2022-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "자극반응 대안 수가 증가할수록 선택반응시간도 증가한다."
           },
@@ -233,11 +223,9 @@
     {
       "id": "SPS-2022-5",
       "questionNumber": 5,
-      "logicType": "MATCHING",
       "question": "<보기>에 제시된 번스타인(N. Bernstein)의 운동학습 단계에 대한 설명으로 바르게 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -287,11 +275,7 @@
     {
       "id": "SPS-2022-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "레이데크와 스미스(T. Raedeke & A. Smith, 2001)의 운동선수 탈진 질문지(Athlete Burnout Questionnaire: ABQ)의 세 가지 측정 요인이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -326,11 +310,7 @@
     {
       "id": "SPS-2022-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "웨이스와 아모로스(M. Weiss & A. Amorose, 2008)가 제시한 스포츠 재미(sport enjoyment)의 영향 요인으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -365,11 +345,9 @@
     {
       "id": "SPS-2022-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 도식이론(schema theory)에 관하여 옳은 설명으로 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -435,11 +413,9 @@
     {
       "id": "SPS-2022-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 심리적 불응기(Psychological Refractory Period: PRP)에 관하여 옳은 설명으로 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -504,11 +480,7 @@
     {
       "id": "SPS-2022-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "인간 발달의 특징에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -551,11 +523,7 @@
     {
       "id": "SPS-2022-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "시각탐색에 사용되는 안구 움직임의 형태로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -590,11 +558,9 @@
     {
       "id": "SPS-2022-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 불안과 운동수행의 관계를 설명하는 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "선수가 불안을 어떻게 '해석'하느냐에 따라 운동수행이 달라질 수 있다."
           },
@@ -645,11 +611,9 @@
     {
       "id": "SPS-2022-13",
       "questionNumber": 13,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠과 ㉡에 들어갈 알맞은 용어는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ )은 불안을 감소시키기 위해 자기최면을 사용하여 무거움과 따뜻함을 실제처럼 느끼도록 유도하는 방법이다."
           },
@@ -696,11 +660,7 @@
     {
       "id": "SPS-2022-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "와이너(B. Weiner)의 경기 승패에 대한 귀인이론에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -744,11 +704,9 @@
     {
       "id": "SPS-2022-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 심상에 대한 이론과 설명이 바르게 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -813,11 +771,9 @@
     {
       "id": "SPS-2022-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 첼라드라이(P. Chelladerai)의 다차원리더십 모델에 관한 설명으로 옳게 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -883,11 +839,9 @@
     {
       "id": "SPS-2022-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 운동심리 이론(모형)은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "지역사회가 여성 전용 스포츠 센터를 확충한다."
           },
@@ -941,11 +895,7 @@
     {
       "id": "SPS-2022-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "프로차스카(J. O. Prochaska)의 운동변화단계 모형(Transtheoretical Model)에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -989,11 +939,7 @@
     {
       "id": "SPS-2022-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "한국스포츠심리학회가 제시한 스포츠 심리상담사 상담윤리에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1036,11 +982,9 @@
     {
       "id": "SPS-2022-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 폭스(K. Fox)의 위계적 신체적 자기개념 가설(hypothesized hierarchical organization of physical self-perception)에 관한 설명으로 바르게 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [

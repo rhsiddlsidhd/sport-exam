@@ -6,11 +6,7 @@
     {
       "id": "SPS-2020-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "다이나믹 시스템 관점에서의 협응구조 형성에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,7 @@
     {
       "id": "SPS-2020-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "목표설정에서 수행목표로 적합하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -102,11 +94,9 @@
     {
       "id": "SPS-2020-3",
       "questionNumber": 3,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -150,11 +140,7 @@
     {
       "id": "SPS-2020-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "주의집중 방법으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -197,11 +183,9 @@
     {
       "id": "SPS-2020-5",
       "questionNumber": 5,
-      "logicType": "MATCHING",
       "question": "<보기>에 제시된 심상(imagery)의 요소로 바르게 나타낸 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -259,11 +243,9 @@
     {
       "id": "SPS-2020-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 지도자가 제공하는 보강적 피드백의 유형으로 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "지도자 : 창하야! 다운스윙 전에 백스윙이 제대로 이루어지지 않았어."
           }
@@ -312,11 +294,9 @@
     {
       "id": "SPS-2020-7",
       "questionNumber": 7,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "줄다리기에서 집단이 내는 힘의 총합이 개인의 힘을 모두 합친 것보다 적게 나타나는 현상은 ( ㉠ )이며, 집단의 인원수가 증가할 때 발생하는 개인의 수행 감소는 ( ㉡ ) 때문이다."
           }
@@ -360,11 +340,9 @@
     {
       "id": "SPS-2020-8",
       "questionNumber": 8,
-      "logicType": "MATCHING",
       "question": "<보기>에서 피츠(P. Fitts)와 포스너(M. Posner)의 운동학습 단계와 설명이 바르게 제시된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -414,11 +392,9 @@
     {
       "id": "SPS-2020-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 참가자를 위한 와이너(B. Weiner)의 귀인 이론에 기반한 지도 방법으로 옳은 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "수영 교실에 참가하는 A씨는 다른 참가자들보다 수영에 재능이 없어 기술 습득이 늦다고 생각한다. 이로 인해 결석이 잦고 운동 중단이 예상된다."
           }
@@ -467,11 +443,9 @@
     {
       "id": "SPS-2020-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "수현이는 오랫동안 배드민턴을 즐기다가 새롭게 테니스 교실에 등록했다. 테니스 코치는 포핸드 스트로크를 지도할 때, 수현이가 손목 스냅을 습관적으로 사용하는 것을 보고 손목을 고정하도록 지도했다."
           }
@@ -519,11 +493,9 @@
     {
       "id": "SPS-2020-11",
       "questionNumber": 11,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡, ㉢에 해당하는 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -579,11 +551,9 @@
     {
       "id": "SPS-2020-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "양궁 선수 A는 첫 엔드에서 6점을 한 발 기록했다. 그러나 A는 바람 부는 상황으로 인해 총 36발의 슈팅 중에서 6점은 한 번 정도 나올 수 있는 점수이며, 첫 엔드에 나온 것이 다행이라고 긍정적으로 생각했다."
           }
@@ -631,11 +601,9 @@
     {
       "id": "SPS-2020-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "철수는 처음으로 깊은 바닷속으로 다이빙하면서 각성 수준이 높아졌다. 높은 각성 수준으로 인해 깊은 바닷속에서 시야가 평소보다 훨씬 좁아졌다."
           }
@@ -683,11 +651,7 @@
     {
       "id": "SPS-2020-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 지도자의 리더십 행동으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -730,10 +694,8 @@
     {
       "id": "SPS-2020-15",
       "questionNumber": 15,
-      "logicType": "MATCHING",
       "question": "<보기>에서 ㉠, ㉡, ㉢에 해당하는 기억의 유형이 바르게 연결된 것은?",
       "view": {
-        "type": "TABLE",
         "table": {
           "caption": "기억 유형별 특성 비교표",
           "headers": [
@@ -839,11 +801,7 @@
     {
       "id": "SPS-2020-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "프로차스카(J. Prochaska)의 운동변화단계 이론(transtheoretical model)에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -886,11 +844,9 @@
     {
       "id": "SPS-2020-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 개념은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "피겨 스케이팅 경기에서 영희는 앞 선수가 완벽에 가까운 연기를 펼치자, 불안해지고 긴장되었다."
           }
@@ -938,10 +894,8 @@
     {
       "id": "SPS-2020-18",
       "questionNumber": 18,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 배구 기술을 지도하기 위한 연습구조가 적절하게 제시된 것은?",
       "view": {
-        "type": "TABLE",
         "table": {
           "caption": "배구 기술 연습구조 비교표",
           "headers": [
@@ -1099,11 +1053,7 @@
     {
       "id": "SPS-2020-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 심리상담사에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1146,11 +1096,7 @@
     {
       "id": "SPS-2020-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "정보처리 3단계의 관점에서 100m 달리기 스타트의 반응시간이 배구 서브 리시브 상황에서의 반응시간보다 짧은 이유로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

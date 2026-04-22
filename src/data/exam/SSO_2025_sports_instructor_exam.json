@@ -6,11 +6,7 @@
     {
       "id": "SSO-2025-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회학의 주요 연구 영역에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,7 @@
     {
       "id": "SSO-2025-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 교육적 순기능에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -98,11 +90,9 @@
     {
       "id": "SSO-2025-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 사례에 해당하는 버렐(S. Birrell)과 로이(J. Loy)의 미디어스포츠 수용자의 욕구 유형으로 가장 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "NBA 팀의 정보를 얻으려고 인터넷 검색을 한다"
           },
@@ -154,11 +144,7 @@
     {
       "id": "SSO-2025-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "국제스포츠이벤트가 지역사회에 미치는 긍정적 영향으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -202,11 +188,9 @@
     {
       "id": "SSO-2025-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 미래 스포츠 특성에 관한 설명으로 적절한 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -268,11 +252,9 @@
     {
       "id": "SSO-2025-6",
       "questionNumber": 6,
-      "logicType": "MATCHING",
       "question": "보기에서 ㄱ에 해당하는 투민(M. Tumin)의 계층 특성과 ㄴ에 해당하는 베블런(T. Veblen)의 이론은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -316,11 +298,9 @@
     {
       "id": "SSO-2025-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기 중 스포츠가 미디어에 미친 영향에 해당하는 것으로만 묶은 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -386,11 +366,9 @@
     {
       "id": "SSO-2025-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 스포츠사회학 이론으로 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "미시적 관점의 이론이다"
           },
@@ -437,11 +415,7 @@
     {
       "id": "SSO-2025-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "국제스포츠 사례에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -468,11 +442,11 @@
         "distractors": [
           {
             "term": "정치적 갈등",
-            "reason": "1969년 축구전쟁(1)과 2008년 베이징 올림픽 인권 이슈(2)는 스포츠가 국제 정치와 맞물린 사례입니다."
+            "reason": "1969년 온두라스-엘살바도르 축구전쟁과 2008년 베이징 올림픽 인권 이슈는 스포츠가 국제 정치와 맞물린 사례입니다."
           },
           {
             "term": "이데올로기 화합",
-            "reason": "88 서울 올림픽(3)은 냉전 시대 보이콧의 악순환을 끊은 평화의 제전이었습니다."
+            "reason": "88 서울 올림픽은 냉전 시대 보이콧의 악순환을 끊은 평화의 제전이었습니다."
           }
         ],
         "summary": "스포츠와 정치의 교차점 - 갈등의 도화선이 되기도 하고, 화해의 다리가 되기도 함."
@@ -481,11 +455,9 @@
     {
       "id": "SSO-2025-10",
       "questionNumber": 10,
-      "logicType": "MATCHING",
       "question": "보기의 ㄱ에 해당하는 로버트슨(R. Robertson)이 제시한 스포츠 세계화의 결과와 ㄴ에 해당하는 매기(J. Magee)와 서덴(J. Sugden)이 제시한 스포츠 노동 이주 유형으로 가장 적절한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -529,11 +501,9 @@
     {
       "id": "SSO-2025-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 사례에 해당하는 머튼(R. Merton)의 일탈행동 유형은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -583,11 +553,9 @@
     {
       "id": "SSO-2025-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 스포츠 계층 이동 유형과 사례에 관한 설명으로 옳은 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -649,11 +617,7 @@
     {
       "id": "SSO-2025-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회화 이론에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -693,11 +657,9 @@
     {
       "id": "SSO-2025-14",
       "questionNumber": 14,
-      "logicType": "MATCHING",
       "question": "보기는 스포츠사회학 수업에서 교수와 학생의 대화이다. ㉠, ㉡에 들어갈 내용으로 적절한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -741,11 +703,9 @@
     {
       "id": "SSO-2025-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 내용에 해당하는 거트만(A. Guttmann)이 제시한 근대스포츠의 특징은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -801,11 +761,9 @@
     {
       "id": "SSO-2025-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 사례에 해당하는 베커(H. Becker)의 스포츠 일탈 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "생활체육 배드민턴 동호회에서 신입 회원이 실력이 부족하다는 이유로 민폐 회원이라는 별명을 듣게 되었다"
           },
@@ -852,11 +810,7 @@
     {
       "id": "SSO-2025-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "코클리(J. Coakley)가 제시한 상업주의 스포츠 출현의 사회적·경제적 조건에 해당하지 않는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -883,7 +837,7 @@
         "distractors": [
           {
             "term": "활성화 조건",
-            "reason": "자본의 자유로운 이동이 가능한 체제(1), 관중 수요를 확보할 수 있는 밀집된 도시(4), 스포츠 관람과 용품 구매를 권장하는 소비 문화(3)가 갖춰졌을 때 상업주의가 꽃을 피웁니다."
+            "reason": "자본의 자유로운 이동이 가능한 체제, 관중 수요를 확보할 수 있는 밀집된 도시 환경, 스포츠 관람과 용품 구매를 권장하는 소비 문화가 갖춰졌을 때 상업주의가 꽃을 피웁니다."
           }
         ],
         "summary": "스포츠 상업화의 3대 기반 - 자본주의, 도시화, 미디어/소비 문화."
@@ -892,11 +846,9 @@
     {
       "id": "SSO-2025-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 사례에 해당하는 정치가 스포츠를 이용하는 방법으로 가장 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "정권은 국민의 관심을 돌리고 정권을 유지하기 위해 프로스포츠를 장려했다"
           }
@@ -941,11 +893,9 @@
     {
       "id": "SSO-2025-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 사례에 해당하는 스포츠사회화 과정이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -1001,11 +951,9 @@
     {
       "id": "SSO-2025-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 사례에 해당하는 사회화 주관자는?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [

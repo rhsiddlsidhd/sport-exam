@@ -6,11 +6,7 @@
     {
       "id": "SSO-2021-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회학에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,9 @@
     {
       "id": "SSO-2021-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠의 국제 정치적 사건은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "온두라스와 엘살바도르 간의 갈등 심화"
           },
@@ -110,11 +104,7 @@
     {
       "id": "SSO-2021-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "파슨즈(T. Parsons)의 AGIL 모형에 근거한 스포츠의 사회적 기능으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -158,11 +148,7 @@
     {
       "id": "SSO-2021-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "훌리한(B. Houlihan)이 제시한 정부(정치)가 스포츠에 개입한 목적에 해당하지 않는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -206,11 +192,9 @@
     {
       "id": "SSO-2021-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 프로스포츠의 순기능을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -266,11 +250,9 @@
     {
       "id": "SSO-2021-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 스포츠 상업화에 따른 변화를 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -344,11 +326,9 @@
     {
       "id": "SSO-2021-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 투민(M. Tumin)의 스포츠계층 형성과정의 서열화에 관한 설명 중 옳은 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -410,11 +390,7 @@
     {
       "id": "SSO-2021-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "로이(J. Loy)와 레오나르드(G. Leonard)가 제시한 사회이동 기제로서 스포츠 역할의 근거로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -458,11 +434,7 @@
     {
       "id": "SSO-2021-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 미디어 이론에 관한 설명이 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -506,11 +478,9 @@
     {
       "id": "SSO-2021-10",
       "questionNumber": 10,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉣에 해당하는 머튼(R. Merton)의 아노미이론에서 제시한 일탈행동 유형이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -566,11 +536,9 @@
     {
       "id": "SSO-2021-11",
       "questionNumber": 11,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉣에 해당하는 집합행동 이론이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -626,11 +594,9 @@
     {
       "id": "SSO-2021-12",
       "questionNumber": 12,
-      "logicType": "MATCHING",
       "question": "<보기>는 코클리(J. Coakley)가 제시한 일탈적 과잉동조를 유발하는 스포츠 윤리규범의 유형과 특징에 관한 설명이다. ㉠∼㉢에 들어갈 내용이 바르게 연결된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ ) : 운동선수는 위험을 받아들이고 고통 속에서도 경기에 참여해야 한다."
           },
@@ -671,11 +637,9 @@
     {
       "id": "SSO-2021-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 매기(J. Magee)와 서덴(J. Sugden)이 제시한 스포츠의 노동이주 유형은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "종목의 특성으로 인해 국가 간 이동이 발생한다."
           },
@@ -730,11 +694,9 @@
     {
       "id": "SSO-2021-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠일탈이론의 관점은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "동일한 행위도 상황에 따라 일탈로 규정되거나 그렇지 않을 수 있다."
           },
@@ -786,11 +748,9 @@
     {
       "id": "SSO-2021-15",
       "questionNumber": 15,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉢에 해당하는 스포츠사회화 과정이 바르게 연결된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ ) : 테니스 지도자가 되어 초등학교에서 테니스를 가르치게 되었다."
           },
@@ -834,11 +794,9 @@
     {
       "id": "SSO-2021-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 신자유주의 시대 스포츠 세계화의 특징에 해당하는 것으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -904,11 +862,9 @@
     {
       "id": "SSO-2021-17",
       "questionNumber": 17,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "미디어는 스포츠 중계를 통해 시청자들의 상품 소비를 촉진시키는 (㉠) 이데올로기를 생산한다."
           },
@@ -956,11 +912,7 @@
     {
       "id": "SSO-2021-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "교육현장에서 스포츠의 역기능에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1004,11 +956,9 @@
     {
       "id": "SSO-2021-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠사회화 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "상과 벌을 통해 행동의 변화가 일어난다."
           },
@@ -1063,11 +1013,7 @@
     {
       "id": "SSO-2021-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "미래 스포츠의 변화와 전망에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

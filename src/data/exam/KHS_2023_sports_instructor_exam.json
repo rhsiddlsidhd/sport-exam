@@ -6,11 +6,7 @@
     {
       "id": "KHS-2023-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "체육사 연구에서 사관(史觀)에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -49,11 +45,9 @@
     {
       "id": "KHS-2023-2",
       "questionNumber": 2,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠~㉢에 들어갈 용어가 바르게 연결된 것은? (단, 시대구분은 나현성의 방식을 따름)",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ ) 이전은 무예를 중심으로 한 무사 체육 등의 ( ㉡ ) 체육을 강조하였다."
           },
@@ -90,11 +84,9 @@
     {
       "id": "KHS-2023-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 민속놀이는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "사희(柶戲)라고도 불리었다"
           },
@@ -134,11 +126,7 @@
     {
       "id": "KHS-2023-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "화랑도에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -177,11 +165,9 @@
     {
       "id": "KHS-2023-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 신체활동은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "가죽 주머니로 공을 만들어 발로 차는 놀이였다"
           },
@@ -235,11 +221,9 @@
     {
       "id": "KHS-2023-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 민속놀이와 주요 활동 계층이 바르게 연결된 것으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -304,11 +288,7 @@
     {
       "id": "KHS-2023-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "고려시대 수박(手搏)에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -351,11 +331,9 @@
     {
       "id": "KHS-2023-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 조선시대의 훈련원에 관한 설명으로 옳은 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -416,11 +394,7 @@
     {
       "id": "KHS-2023-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대 궁술(弓術)에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -463,11 +437,9 @@
     {
       "id": "KHS-2023-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 조선시대의 무예서는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "24종류의 무예가 기록되어 있다"
           },
@@ -507,11 +479,9 @@
     {
       "id": "KHS-2023-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 개화기 민족사립학교는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1907년에 이승훈이 설립하였다"
           },
@@ -565,11 +535,7 @@
     {
       "id": "KHS-2023-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기의 체육사적 사실에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -612,11 +578,7 @@
     {
       "id": "KHS-2023-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기의 체육단체에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -659,11 +621,7 @@
     {
       "id": "KHS-2023-14",
       "questionNumber": 14,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "일제강점기 체육에 관한 사실로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -703,11 +661,9 @@
     {
       "id": "KHS-2023-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 단체는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "외국인 선교사가 근대스포츠인 야구, 농구, 배구를 도입하였다"
           },
@@ -744,11 +700,9 @@
     {
       "id": "KHS-2023-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 박정희 정부 때 실시한 체력장 제도에 관한 설명으로 옳은 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -803,11 +757,9 @@
     {
       "id": "KHS-2023-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 스포츠 경기 종목은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1988년 제24회 서울올림픽경기대회에서 시범 종목으로 채택되었다"
           },
@@ -847,11 +799,7 @@
     {
       "id": "KHS-2023-18",
       "questionNumber": 18,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "1948년 제5회 동계올림픽경기대회에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -891,11 +839,7 @@
     {
       "id": "KHS-2023-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "대한민국에서 개최된 하계아시아경기대회가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -924,11 +868,7 @@
     {
       "id": "KHS-2023-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "1991년에 남한과 북한이 단일팀으로 탁구 종목에 참가한 국제경기대회는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

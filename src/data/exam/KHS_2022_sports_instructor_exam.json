@@ -6,11 +6,7 @@
     {
       "id": "KHS-2022-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "체육사에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -49,11 +45,9 @@
     {
       "id": "KHS-2022-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 체육사 연구의 사료(史料)에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -114,11 +108,7 @@
     {
       "id": "KHS-2022-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "부족국가와 삼국시대의 신체활동이 포함된 제천의식에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -161,11 +151,9 @@
     {
       "id": "KHS-2022-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 화랑도에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -226,11 +214,9 @@
     {
       "id": "KHS-2022-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠에 해당하는 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "『구당서(舊唐書)』에 따르면, \"고구려의 풍속은 책 읽기를 좋아하며, 허름한 서민의 집에 이르기까지 거리에 큰 집을 지어 이를 ( ㉠ )이라고 하고, 미혼의 자제들이 여기에서 밤낮으로 독서하고 활쏘기를 익힌다.\"라고 되어 있다."
           }
@@ -264,11 +250,7 @@
     {
       "id": "KHS-2022-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "고려시대의 무학(武學) 전문 강좌인 강예재(講藝齋)가 개설된 교육기관은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -297,11 +279,9 @@
     {
       "id": "KHS-2022-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 고려시대 무예의 특징으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -356,11 +336,7 @@
     {
       "id": "KHS-2022-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대 무과제도에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -403,11 +379,9 @@
     {
       "id": "KHS-2022-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 해당하는 신체활동은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "군사훈련의 성격을 지니고 실시된 무예 활동"
           },
@@ -464,11 +438,9 @@
     {
       "id": "KHS-2022-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 조선시대 체육사상에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -529,11 +501,7 @@
     {
       "id": "KHS-2022-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "일제강점기에 설립된 체육 단체가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -572,11 +540,9 @@
     {
       "id": "KHS-2022-12",
       "questionNumber": 12,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 해당하는 여성 스포츠인이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㆍ",
             "content": [
@@ -625,11 +591,9 @@
     {
       "id": "KHS-2022-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠, ㉡에 해당하는 개최지가 바르게 연결된 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "우리나라는 1986년 서울아시아경기대회, 2002년 ( ㉠ ) 아시아경기대회, 2014년 ( ㉡ )아시아경기대회를 성공적으로 개최했다."
           }
@@ -663,11 +627,9 @@
     {
       "id": "KHS-2022-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 해당하는 인물은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "제6회, 제7회 아시아경기대회에서 수영 종목 400 M, 1,500 M 2관왕 2연패"
           },
@@ -707,11 +669,7 @@
     {
       "id": "KHS-2022-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기에 도입된 근대스포츠 종목으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -750,11 +708,7 @@
     {
       "id": "KHS-2022-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "광복 이전 조선체육회에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -797,11 +751,9 @@
     {
       "id": "KHS-2022-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 올림픽경기대회는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "우리 민족이 일장기를 달고 출전한 대회"
           },
@@ -838,11 +790,9 @@
     {
       "id": "KHS-2022-18",
       "questionNumber": 18,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 알맞은 용어로 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -885,11 +835,9 @@
     {
       "id": "KHS-2022-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 설명과 관련 있는 정권은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "호돌이 계획 시행"
           },
@@ -932,11 +880,7 @@
     {
       "id": "KHS-2022-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "2002년 제17회 월드컵축구대회에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

@@ -6,11 +6,9 @@
     {
       "id": "SSO-2023-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 스포츠의 교육적 순기능으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -84,11 +82,9 @@
     {
       "id": "SSO-2023-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 코클리(J. Coakley)의 상업주의에 따른 스포츠의 변화에 관한 설명으로 옳은 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -150,11 +146,9 @@
     {
       "id": "SSO-2023-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 스포츠 세계화의 원인은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "'코먼웰스 게임(commonwealth games)'은 영연방국가들이 참가하는 스포츠 메가 이벤트로, 영연방국가의 통합에 기여하는 측면이 있다"
           },
@@ -192,11 +186,9 @@
     {
       "id": "SSO-2023-4",
       "questionNumber": 4,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "〈보기〉에 해당하는 케년(G. Kenyon)의 스포츠 참가유형은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "특정 선수의 사인볼 수집"
           },
@@ -239,11 +231,9 @@
     {
       "id": "SSO-2023-5",
       "questionNumber": 5,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 해당하는 거트만(A. Guttmann)의 근대스포츠 특징은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -297,11 +287,7 @@
     {
       "id": "SSO-2023-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "스나이더(E. Snyder)가 제시한 스포츠 사회화의 전이 조건이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -337,11 +323,9 @@
     {
       "id": "SSO-2023-7",
       "questionNumber": 7,
-      "logicType": "MATCHING",
       "question": "〈보기〉는 버렐(S. Birrell)과 로이(J. Loy)의 스포츠 미디어를 통해 충족할 수 있는 욕구에 관한 설명이다. ㉠~㉢에 해당하는 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -391,11 +375,9 @@
     {
       "id": "SSO-2023-8",
       "questionNumber": 8,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 해당하는 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -449,11 +431,9 @@
     {
       "id": "SSO-2023-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 프로스포츠의 제도는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "프로스포츠 구단이 소속 선수와의 계약을 해지하고 다른 구단에게 해당 선수를 양도받을 의향이 있는지 공개적으로 묻는 제도이다"
           },
@@ -501,11 +481,7 @@
     {
       "id": "SSO-2023-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈의 순기능에 관한 사례로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -532,7 +508,7 @@
         "distractors": [
           {
             "term": "일탈의 순기능",
-            "reason": "규범의 중요성을 재확인(1), 억눌린 감정의 배출구(2), 기존 관행을 깬 새로운 기술 혁신(4) 등이 이에 해당합니다."
+            "reason": "규범의 중요성을 재확인하게 하는 경각심, 허용된 신체 접촉을 통한 억눌린 감정의 배출구, 기존 관행을 깬 새로운 기술 혁신 등이 이에 해당합니다."
           }
         ],
         "summary": "일탈의 이중성 - 규범 파괴(역기능)와 사회적 활력 및 규범 재확립(순기능)."
@@ -541,11 +517,9 @@
     {
       "id": "SSO-2023-11",
       "questionNumber": 11,
-      "logicType": "MATCHING",
       "question": "〈보기〉는 스트렌크(A. Strenk)가 제시한 국제정치에서 스포츠의 기능에 관한 설명이다. ㉠~㉢에 해당하는 내용이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -595,11 +569,9 @@
     {
       "id": "SSO-2023-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 부르디외(P. Bourdieu)의 문화자본 유형은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "테니스의 경기 기술뿐만 아니라 경기 매너도 습득하게 된다"
           },
@@ -650,11 +622,9 @@
     {
       "id": "SSO-2023-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 투민(M. Tumin)이 제시한 스포츠계층의 특성 중 보편성(편재성)에 해당하는 것으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -720,11 +690,9 @@
     {
       "id": "SSO-2023-14",
       "questionNumber": 14,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 밑줄 친 ㉠, ㉡을 설명하는 집합행동 이론이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -768,11 +736,7 @@
     {
       "id": "SSO-2023-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "메기(J. Magee)와 서덴(J. Sugden)이 제시한 스포츠 노동이주의 유형에 관한 설명 중 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -802,11 +766,9 @@
     {
       "id": "SSO-2023-16",
       "questionNumber": 16,
-      "logicType": "MATCHING",
       "question": "〈보기〉는 코클리(J. Coakley)가 제시한 스포츠 일탈에 관한 설명이다. ㉠, ㉡에 해당하는 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -850,11 +812,7 @@
     {
       "id": "SSO-2023-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회화를 이해하기 위한 사회학습이론의 관점으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -890,11 +848,9 @@
     {
       "id": "SSO-2023-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 스포츠의 정치적 속성은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "에티즌(D. Eitzen)과 세이지(G. Sage)에 의하면 다양한 팀, 리그, 선수단체 및 행정기구는 각각의 특성에 따라 불평등하게 배분된 자원과 권한을 갖게 되고, 더 많은 권한을 갖기 위해 대립적 갈등을 겪게 된다"
           }
@@ -929,11 +885,9 @@
     {
       "id": "SSO-2023-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 맥퍼슨(B. McPherson)의 스포츠 미디어 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "대중매체를 통한 개인의 스포츠 소비 형태는 중요타자의 가치와 소비행동에 의해 영향을 받는다"
           },
@@ -971,11 +925,9 @@
     {
       "id": "SSO-2023-20",
       "questionNumber": 20,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "〈보기〉에서 설명하는 스포츠사회학 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "일상에서 특정 물건을 소비하는 것은 자신의 계급 위치를 상징화하는 행위이다"
           },

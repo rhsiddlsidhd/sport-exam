@@ -6,11 +6,7 @@
     {
       "id": "EPH-2025-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "400m 트랙을 약 60초로 전력 질주 시 가장 많이 기여하는 에너지 공급 시스템에서 1분자의 글루코스(glucose) 분해로 얻을 수 있는 ATP 수는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -50,11 +46,7 @@
     {
       "id": "EPH-2025-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "중-고강도 운동 시 필요한 ATP 합성에 사용되지 않는 기질(substrate)은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -94,11 +86,9 @@
     {
       "id": "EPH-2025-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 장기간의 무산소 트레이닝에 따른 생리학적 적응으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -160,11 +150,9 @@
     {
       "id": "EPH-2025-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 에너지 대사 과정은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "무산소성 에너지 시스템이다"
           },
@@ -219,11 +207,9 @@
     {
       "id": "EPH-2025-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 감각수용기는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "주동근의 수축을 억제한다"
           },
@@ -274,11 +260,9 @@
     {
       "id": "EPH-2025-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 장기간 유산소 트레이닝에 의한 생리적 적응 현상으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -334,11 +318,9 @@
     {
       "id": "EPH-2025-7",
       "questionNumber": 7,
-      "logicType": "MATCHING",
       "question": "보기의 골격근 수축 과정에 관한 설명 중 ㉠~㉢에 들어갈 용어로 옳은 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "활동전위(action potential)는 가로세관(T-tubes)으로 이동하여 ( ㉠ )에서 ( ㉡ ) 방출을 자극한다. ( ㉠ )에서 방출된 ( ㉡ )이 트로포닌(troponin)과 결합하게 되면 ( ㉢ )의 위치를 이동시켜 마이오신 머리(myosin head)와 액틴 필라멘트(actin filament)가 강하게 결합하게 한다."
           }
@@ -387,16 +369,14 @@
     {
       "id": "EPH-2025-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "그림의 산소-헤모글로빈 해리 곡선을 참고하여 보기에서 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "COMPOSITE",
         "media": {
           "type": "IMAGE",
           "url": "/exam/EPH-2025-8.webp",
           "alt": "산소-헤모글로빈 해리 곡선 그림"
         },
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -462,11 +442,9 @@
     {
       "id": "EPH-2025-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 건강관련체력 요인으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -528,11 +506,9 @@
     {
       "id": "EPH-2025-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 동방결절(SA node)에 관한 특성으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -598,16 +574,14 @@
     {
       "id": "EPH-2025-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "안정 시와 운동 중 심장 주기에 따른 좌심실의 용적과 압력을 나타낸 곡선을 참고하여 보기에서 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "COMPOSITE",
         "media": {
           "type": "IMAGE",
           "url": "/exam/EPH-2025-11.webp",
           "alt": "좌심실 용적-압력 루프 그림(안정 시 vs 운동 중)"
         },
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -673,11 +647,9 @@
     {
       "id": "EPH-2025-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 고지대 환경에서 장기간 노출 시 나타나는 생리학적 적응으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -743,10 +715,8 @@
     {
       "id": "EPH-2025-13",
       "questionNumber": 13,
-      "logicType": "MATCHING",
       "question": "운동 자극에 관한 신체 내 기관(organs)과 기능에 대한 설명이다. ㉠~㉢에 해당하는 것으로 옳은 것은?",
       "view": {
-        "type": "TABLE",
         "table": {
           "caption": "기관별 기능 여부 표",
           "headers": [
@@ -872,16 +842,14 @@
     {
       "id": "EPH-2025-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "단축성 수축 시 그림의 골격근 초미세구조를 참고하여 보기에서 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "COMPOSITE",
         "media": {
           "type": "IMAGE",
           "url": "/exam/EPH-2025-14.webp",
           "alt": "골격근 초미세구조(액틴, 마이오신, Z선, A밴드, I밴드, 근절) 그림"
         },
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -947,11 +915,9 @@
     {
       "id": "EPH-2025-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 속근섬유(type Ⅱ) 관한 특성으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -1013,11 +979,7 @@
     {
       "id": "EPH-2025-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "순환계의 구조와 기능에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1060,11 +1022,9 @@
     },
     {
       "id": "EPH-2025-17",
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 설명하는 호르몬은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "간의 글리코겐을 분해한다"
           },
@@ -1120,11 +1080,7 @@
     {
       "id": "EPH-2025-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "골격근의 운동단위(motor unit) 동원에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1168,11 +1124,9 @@
     {
       "id": "EPH-2025-19",
       "questionNumber": 19,
-      "logicType": "MATCHING",
       "question": "보기의 ㉠, ㉡에 들어갈 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ )은 근육조직에서 산소를 저장하고, 운반하는 데 중요한 역할을 한다. 적혈구용적률이 증가하면 혈액의 점성은 ( ㉡ )한다."
           }
@@ -1217,11 +1171,9 @@
     {
       "id": "EPH-2025-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 운동 중 혈류 재분배(blood re-distribution)에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [

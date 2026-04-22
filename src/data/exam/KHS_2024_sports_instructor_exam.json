@@ -6,11 +6,9 @@
     {
       "id": "KHS-2024-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 한국체육사에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -71,11 +69,9 @@
     {
       "id": "KHS-2024-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 신체활동이 행해진 제천의식과 부족국가가 바르게 연결된 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -140,11 +136,9 @@
     {
       "id": "KHS-2024-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에 해당하는 부족국가시대 신체활동의 목적은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "중국 역사 자료인「위지·동이전(魏志·東夷傳)」에 따르면, '나이 어리고 씩씩한 청년들의 등가죽을 뚫고 굵은 줄로 그곳을 꿰었다"
           },
@@ -190,11 +184,9 @@
     {
       "id": "KHS-2024-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 삼국시대의 무예에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -249,11 +241,7 @@
     {
       "id": "KHS-2024-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "고려시대 최고 교육기관과 무학(武學) 교육이 바르게 연결된 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -292,11 +280,7 @@
     {
       "id": "KHS-2024-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "고려시대의 신체활동에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -335,11 +319,7 @@
     {
       "id": "KHS-2024-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "석전(石戰)의 성격에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -378,11 +358,7 @@
     {
       "id": "KHS-2024-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대 서민층이 주로 행했던 민속놀이와 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -425,11 +401,7 @@
     {
       "id": "KHS-2024-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대의 무예서에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -468,11 +440,9 @@
     {
       "id": "KHS-2024-10",
       "questionNumber": 10,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "〈보기〉에서 조선시대의 궁술에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -533,11 +503,7 @@
     {
       "id": "KHS-2024-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "고종(高宗)의 교육입국조서(教育立國詔書)에서 삼양(三養)이 표기된 순서는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -566,11 +532,9 @@
     {
       "id": "KHS-2024-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 개화기의 기독교계 학교는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "헐버트(H.B. Hulbert)이 도수체조를 지도하였다."
           },
@@ -616,11 +580,7 @@
     {
       "id": "KHS-2024-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기 학교 운동회에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -655,11 +615,7 @@
     {
       "id": "KHS-2024-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "다음 중 개화기에 설립된 체육단체가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -694,11 +650,9 @@
     {
       "id": "KHS-2024-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 활동을 주도한 체육사상가는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "체조 강습회 개최"
           },
@@ -748,11 +702,7 @@
     {
       "id": "KHS-2024-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "일제강점기의 체육사적 사실에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -795,11 +745,9 @@
     {
       "id": "KHS-2024-17",
       "questionNumber": 17,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "〈보기〉에서 일제강점기의 조선체육회에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -854,11 +802,9 @@
     {
       "id": "KHS-2024-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 괄호 안에 들어갈 일제강점기의 체육사상가는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "( )은/는 '체육 조선의 건설'이라는 글에서 사회를 강하게 하는 것은 구성원의 힘을 강하게 하는 것이며, 그 방법은 교육이며, 어린 교육의 기초는 체육이라고 강조하였다."
           }
@@ -898,11 +844,7 @@
     {
       "id": "KHS-2024-19",
       "questionNumber": 19,
-      "logicType": "ORDERING",
       "question": "대한민국 정부의 체육정책 담당 부처의 변천 순서가 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -931,11 +873,9 @@
     {
       "id": "KHS-2024-20",
       "questionNumber": 20,
-      "logicType": "MATCHING",
       "question": "〈보기〉는 국제대회에서 한국 여자 선수의 저도 성과를 나타낸 것이다. 〈보기〉의 ㉠~㉢에 해당하는 종목이 바르게 나열된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [

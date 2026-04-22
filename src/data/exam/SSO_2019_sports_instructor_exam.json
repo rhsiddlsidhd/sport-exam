@@ -6,11 +6,7 @@
     {
       "id": "SSO-2019-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회학의 연구영역과 주제 중 거시영역의 사회제도와 관련된 연구내용이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -46,11 +42,9 @@
     {
       "id": "SSO-2019-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠의 사회적 기능으로 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "2002년 한일월드컵에서 한국축구대표팀은 4강 신화를 만들었다."
           },
@@ -98,11 +92,7 @@
     {
       "id": "SSO-2019-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "현대 스포츠의 발전에 영향을 미친 요소에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -142,11 +132,9 @@
     {
       "id": "SSO-2019-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠로의 사회화(socialization into sport) 요인 중 <보기>의 설명에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "여성의 신체노출을 금기시 하는 일부 중동국가의 문화는 여성의 스포츠 참가를 불가능하게 하며 스포츠 경기 관람조차 허용하지 않고 있다."
           }
@@ -191,11 +179,7 @@
     {
       "id": "SSO-2019-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "신자유주의 시대의 스포츠 세계화에 대한 특징으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -222,7 +206,7 @@
         "distractors": [
           {
             "term": "자본의 논리",
-            "reason": "이윤 극대화(1)를 위해 국경 없는 시장(2)을 개척하고, 전 세계 수용자에게 동일한 브랜드와 규칙의 스포츠(3)를 소비하게 만드는 것이 세계화의 주된 양상입니다."
+            "reason": "이윤 극대화를 위해 국경 없는 시장을 개척하고, 전 세계 수용자에게 동일한 브랜드와 규칙의 스포츠 상품을 소비하게 만드는 것이 세계화의 주된 양상입니다."
           }
         ],
         "summary": "스포츠 세계화의 이면 - 문화적 제국주의 우려, 자본 중심의 시장 재편, 로컬 문화의 소멸 위기."
@@ -231,11 +215,7 @@
     {
       "id": "SSO-2019-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠정책과 정치에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -262,7 +242,7 @@
         "distractors": [
           {
             "term": "정치적 메커니즘",
-            "reason": "스포츠는 국가 권력 강화를 위해 상징이나 조작(3) 등의 수단으로 쓰이며, 정부는 국민 건강 증진을 통한 경제적 이득(4)을 위해 정책적으로 개입(1)합니다."
+            "reason": "스포츠는 국가 권력 강화를 위해 상징이나 조작 등의 수단으로 쓰이며, 정부는 국민 건강 증진을 통한 경제적 이득을 위해 정책적으로 개입합니다."
           }
         ],
         "summary": "국가의 스포츠 개입 목적 - 사회 통합, 국위 선양, 정치적 지지 확보, 경제적 효용성(보건비 절감)."
@@ -271,11 +251,9 @@
     {
       "id": "SSO-2019-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠일탈에 관한 스포츠사회학 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "일탈은 현존하는 사회질서의 유지에 기여한다는 점에서 정상적인 것으로 간주된다."
           },
@@ -327,11 +305,9 @@
     {
       "id": "SSO-2019-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 상업화에 따른 변화 중 <보기>의 사례에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "2013년 미국프로야구 LA 다저스와 신시내티 레즈의 경기에서 한국의 류현진 선수와 추신수 선수 간의 맞대결이 펼쳐지자 미국프로야구 사무국은 이 날을 코리안 데이로 지정하고 한국의 걸그룹 소녀시대를 초청하여 애국가를 제창하게 하였다."
           },
@@ -375,11 +351,7 @@
     {
       "id": "SSO-2019-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "프로스포츠에서 시행되는 제도와 특징이 바르게 연결된 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -423,11 +395,9 @@
     {
       "id": "SSO-2019-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 디 플로어(M. DeFleur)의 미디어 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "미디어의 영향력과 스포츠의 소비 형태는 연령, 성, 사회계층, 교육수준, 결혼여부 등에 따라 달라질 수 있다."
           }
@@ -476,11 +446,7 @@
     {
       "id": "SSO-2019-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠와 계급·계층에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -524,11 +490,9 @@
     {
       "id": "SSO-2019-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "정치가 스포츠를 이용하는 방법 중 <보기>의 사례에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "스포츠에 참여하는 선수나 팀이 스포츠 경기 자체를 뛰어넘어 특정 집단을 대리 또는 대표하는 것으로 의미가 확장되는 과정을 일컫는다."
           }
@@ -573,11 +537,7 @@
     {
       "id": "SSO-2019-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "코클리(J. Coakley)가 제시한 일탈적 과잉동조를 유발하는 스포츠 윤리규범의 유형과 특징이 바르게 연결되지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -613,11 +573,7 @@
     {
       "id": "SSO-2019-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "크로젯(T. Crosset)의 여성에 대한 남성선수의 폭력과 남성 스포츠문화와의 관련성에 대한 연구내용에 해당하는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -647,11 +603,9 @@
     {
       "id": "SSO-2019-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하고 있는 레오나르드(W. Leonard II)의 스포츠 사회화 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "A고교 농구 감독은 팀 훈련 과정에서 학생선수들의 운동 수행 능력을 향상시키기 위하여 상과 벌을 활용한다."
           },
@@ -699,11 +653,9 @@
     {
       "id": "SSO-2019-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "우리나라 학원스포츠의 문화적 특성 중 <보기>의 설명에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "학생선수들은 교실공간과 분리되어 합숙소와 운동장에서 주로 생활하며 그들만의 공동체 문화를 만들어 간다."
           },
@@ -751,11 +703,7 @@
     {
       "id": "SSO-2019-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 상업화에 따른 스포츠와 미디어의 관계에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -782,7 +730,7 @@
         "distractors": [
           {
             "term": "공생 관계",
-            "reason": "미디어는 흥행을 위해 규칙 개정을 요구하고(4), 스포츠는 미디어를 통해 거대 시장을 형성(1)하며, 최근에는 쌍방향 소통의 뉴미디어(2)가 발달하고 있습니다."
+            "reason": "미디어는 흥행을 위해 규칙 개정을 요구하고, 스포츠는 미디어를 통해 거대 시장을 형성하며, 최근에는 쌍방향 소통의 뉴미디어가 발달하고 있습니다."
           }
         ],
         "summary": "스포츠와 미디어의 공생 - 스포츠(콘텐츠 제공), 미디어(자본 및 홍보 제공)."
@@ -791,11 +739,7 @@
     {
       "id": "SSO-2019-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 세계화와 민족주의의 관계에 대한 설명으로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -825,11 +769,7 @@
     {
       "id": "SSO-2019-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠사회학의 정의에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -856,7 +796,7 @@
         "distractors": [
           {
             "term": "사회학적 관점",
-            "reason": "사회학의 원리를 스포츠에 적용하여(3) 집단적 행동 법칙을 찾고(1), 전체 사회 구조 속에서 스포츠의 위치를 분석(2)하는 학문입니다."
+            "reason": "사회학의 원리를 스포츠에 적용하여 집단적 행동 법칙을 찾고, 전체 사회 구조 속에서 스포츠의 위치를 분석하는 학문입니다."
           }
         ],
         "summary": "스포츠사회학의 연구 대상 - 사회화, 계층, 일탈, 정치, 경제, 미디어 등 스포츠의 사회적 차원."
@@ -865,11 +805,7 @@
     {
       "id": "SSO-2019-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠와 계층이동 유형에 대한 설명으로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -896,15 +832,15 @@
         "distractors": [
           {
             "term": "수평이동",
-            "reason": "지위 변화 없이 팀만 옮기는 경우(1)입니다."
+            "reason": "지위 변화 없이 팀만 옮기는 경우입니다."
           },
           {
             "term": "수직이동",
-            "reason": "2군에서 1군 승격처럼 위계적 지위가 변하는 경우(3)입니다."
+            "reason": "2군에서 1군 승격처럼 위계적 지위가 변하는 경우입니다."
           },
           {
             "term": "집단이동",
-            "reason": "개인의 노력이 아닌 사회 전체의 변화로 집단이 통째로 이동하는 경우(2)입니다."
+            "reason": "개인의 노력이 아닌 사회 전체의 변화로 집단이 통째로 이동하는 경우입니다."
           }
         ],
         "summary": "사회 이동의 분류 - 수직/수평(방향), 세대 내/세대 간(시간), 개인/집단(주체)."

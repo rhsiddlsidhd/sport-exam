@@ -6,11 +6,9 @@
     {
       "id": "SPS-2024-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉가 설명하는 성격 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "자기가 좋아하는 국가대표선수가 무더위에서 진행된 올림픽 마라톤 경기에서 불굴의 정신력으로 완주하는 모습을 보고, 자기도 포기하지 않는 정신력으로 10 km 마라톤을 완주하였다."
           }
@@ -58,11 +56,7 @@
     {
       "id": "SPS-2024-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "개방운동기술(open motor skills)에 해당하지 않는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -106,11 +100,9 @@
     {
       "id": "SPS-2024-3",
       "questionNumber": 3,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠~㉢에 들어갈 개념을 바르게 나열한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ ): 노력의 방향과 강도로 설명된다."
           },
@@ -156,11 +148,9 @@
     {
       "id": "SPS-2024-4",
       "questionNumber": 4,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 들어갈 정보처리 단계를 바르게 나열한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ ): 테니스 선수가 상대 코트에서 넘어오는 공의 궤적, 방향, 속도에 관한 환경정보를 탐지한다."
           },
@@ -204,11 +194,9 @@
     {
       "id": "SPS-2024-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 심리기술훈련 기법은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "밀리뛰기의 도움닫기에서 파울을 할 것 같은 부정적인 생각이 든다."
           },
@@ -262,11 +250,7 @@
     {
       "id": "SPS-2024-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동발달의 단계가 순서대로 바르게 제시된 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -305,11 +289,7 @@
     {
       "id": "SPS-2024-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "반두라(A. Bandura)가 제시한 4가지 정보원에서 자기효능감에 가장 큰 영향을 미치는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -353,11 +333,9 @@
     {
       "id": "SPS-2024-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 연습방법에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -419,11 +397,7 @@
     {
       "id": "SPS-2024-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "미국 응용스포츠심리학회(AAASP)의 스포츠심리상담 윤리 규정이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -466,11 +440,9 @@
     {
       "id": "SPS-2024-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉가 설명하는 기억의 유형은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "학창 시절 자전거를 타고 학교에 등하교 했던 A는 오랜 기간 자전거를 타지 않았음에도 불구하고 여전히 자전거를 탈 수 있다."
           },
@@ -521,10 +493,8 @@
     {
       "id": "SPS-2024-11",
       "questionNumber": 11,
-      "logicType": "MATCHING",
       "question": "〈보기〉는 피들러(F. Fiedler)의 상황부합 리더십 모형이다. 〈보기〉의 ㉠, ㉡에 들어갈 내용을 바르게 나열한 것은?",
       "view": {
-        "type": "VISUAL",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2024-11.webp",
@@ -560,11 +530,7 @@
     {
       "id": "SPS-2024-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동학습에 의한 인지역량의 변화에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -599,11 +565,9 @@
     {
       "id": "SPS-2024-13",
       "questionNumber": 13,
-      "logicType": "MATCHING",
       "question": "〈보기〉는 아이젠(I. Ajzen)의 계획행동이론이다. 〈보기〉의 ㉠~㉣에 들어갈 개념을 바르게 나열한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ )는 행동을 수행하는 것에 대해 개인의 정서적이고 평가적인 요소를 반영한다. ( ㉡ )은/는 어떤 행동을 할 것인지 또는 안 할 것인지에 대해 개인이 느끼는 사회적 압박을 말한다. 이러한 행동은 개인의 ( ㉢ )에 따라 그 행동 여부가 결정된다. ( ㉣ )은/는 어떤 행동을 하기가 쉽거나 어려운 정도에 대한 인식 정도를 의미한다."
           }
@@ -648,11 +612,9 @@
     {
       "id": "SPS-2024-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 정보처리이론에 관한 설명으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -713,11 +675,9 @@
     {
       "id": "SPS-2024-15",
       "questionNumber": 15,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠~㉢에 들어갈 개념을 바르게 나열한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "( ㉠ ): 타인의 존재가 과제수행에 미치는 영향을 말한다."
           },
@@ -764,11 +724,7 @@
     {
       "id": "SPS-2024-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "힉스(W. Hick)의 법칙에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -811,11 +767,9 @@
     {
       "id": "SPS-2024-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 ㉠에 들어갈 용어는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "복싱선수가 상대의 펀치를 맞고 실신하는 장면이 계속해서 떠오른다."
           },
@@ -866,11 +820,9 @@
     {
       "id": "SPS-2024-18",
       "questionNumber": 18,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡에 들어갈 운동 수행에 관한 개념이 바르게 제시된 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "운동 기술 과제가 너무 쉬울 때 ( ㉠ )가 나타난다."
           },
@@ -925,11 +877,9 @@
     {
       "id": "SPS-2024-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 운동 실천을 위한 환경적 영향요인을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -991,11 +941,9 @@
     {
       "id": "SPS-2024-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉가 설명하는 개념은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "농구 경기에서 수비수가 공격수의 첫 번째 페이크 슛 동작에 반응하여, 바로 이어지는 두 번째 실제 슛 동작에 제대로 반응하지 못하는 현상이 발생한다."
           }

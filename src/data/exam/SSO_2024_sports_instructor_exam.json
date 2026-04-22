@@ -6,11 +6,9 @@
     {
       "id": "SSO-2024-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 홀리한(B. Houlihan)이 제시한 '정부(정치)의 스포츠 개입 목적'에 관한 사례인 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -60,11 +58,7 @@
     {
       "id": "SSO-2024-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠클럽법(시행 2022.6.16.)의 내용으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -100,11 +94,9 @@
     {
       "id": "SSO-2024-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 스티븐슨(C. Stevenson)과 닉슨(J. Nixon)이 구조기능주의 관점으로 설명한 스포츠의 사회적 기능 중 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -166,11 +158,9 @@
     {
       "id": "SSO-2024-4",
       "questionNumber": 4,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠~㉢에 해당하는 스포츠 육성 정책 모형이 바르게 제시된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -220,11 +210,9 @@
     {
       "id": "SSO-2024-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 스포츠 세계화의 동인으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -292,11 +280,7 @@
     {
       "id": "SSO-2024-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "투민(M. Tumin)이 제시한 사회계층의 특성을 스포츠에 적용한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -340,11 +324,7 @@
     {
       "id": "SSO-2024-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠에서 나타나는 사회계층 이동에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -384,11 +364,9 @@
     {
       "id": "SSO-2024-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 설명하는 스포츠 일탈과 관련된 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "스포츠 일탈을 상호작용론 관점으로 설명한다"
           },
@@ -439,11 +417,9 @@
     {
       "id": "SSO-2024-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "스미스(M. Smith)가 제시한 경기장 내 신체 폭력 유형 중 〈보기〉의 설명에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "경기의 규칙을 위반하는 행위지만, 대부분의 선수나 지도자들이 용인하는 폭력 행위 유형이다"
           },
@@ -495,11 +471,7 @@
     {
       "id": "SSO-2024-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "코클리(J. Coakley)가 제시한 상업주의와 관련된 스포츠 규칙 변화에 따른 결과로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -535,11 +507,7 @@
     {
       "id": "SSO-2024-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "파슨즈(T. Parsons)의 AGIL이론에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -575,11 +543,9 @@
     {
       "id": "SSO-2024-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "에티즌(D. Eitzen)과 세이지(G. Sage)가 제시한 스포츠의 정치적 속성 중 <보기>의 설명에 해당하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "국가대표 선수는 스포츠를 통해 국위를 선양하고 국가는 선수에게 혜택을 준다."
           },
@@ -631,11 +597,9 @@
     {
       "id": "SSO-2024-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기>의 ㄱ~ㄹ에 들어갈 스트랭크(A. Strenk)의 '국제정치 관계에서 스포츠 기능'을 바르게 제시한 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "(ㄱ): 1936년 베를린 올림픽"
           },
@@ -679,11 +643,7 @@
     {
       "id": "SSO-2024-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "베일(J. Bale)이 제시한 스포츠 세계화의 특징에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -719,11 +679,7 @@
     {
       "id": "SSO-2024-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 교육적 역기능에 해당하는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -759,11 +715,7 @@
     {
       "id": "SSO-2024-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠미디어가 생산하는 성차별 이데올로기에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -799,11 +751,9 @@
     {
       "id": "SSO-2024-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 사례에 관한 스포츠 일탈 유형과 휴즈(R. Hughes)와 코클리(J. Coakley)가 제시한 윤리 규범이 바르게 연결된 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "2002년 한일월드컵 당시 황선홍 선수, 김태영 선수의 부상 투혼"
           },
@@ -847,11 +797,9 @@
     {
       "id": "SSO-2024-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "레오나르드(W. Leonard)의 사회학습이론에서 〈보기〉의 설명과 관련된 사회화 기제는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "새로운 운동기능과 반응이 학습된다."
           },
@@ -902,11 +850,7 @@
     {
       "id": "SSO-2024-19",
       "questionNumber": 19,
-      "logicType": "MULTIPLE_CHOICE",
       "question": "스포츠로부터의 탈사회화에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -930,7 +874,7 @@
         3
       ],
       "explanation": {
-        "correct": "**탈사회화**는 부상이나 실력 미달 등 다양한 이유로 스포츠 활동을 중단하는 과정(1)을 포함하며, 자신의 심리적 요인 때문에 스스로 참여를 포기하는 현상을 **내재적 제약**(3)이라고 합니다. 두 지문 모두 정확한 정의를 담고 있습니다.",
+        "correct": "**탈사회화**는 부상이나 실력 미달 등 다양한 이유로 스포츠 활동을 중단하는 과정을 포함하며, 자신의 심리적 요인 때문에 스스로 참여를 포기하는 현상을 **내재적 제약**이라고 합니다. 두 지문 모두 정확한 정의를 담고 있습니다.",
         "distractors": [
           {
             "term": "행동의 변화",
@@ -947,11 +891,7 @@
     {
       "id": "SSO-2024-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "과학기술의 발전에 따른 스포츠의 변화에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

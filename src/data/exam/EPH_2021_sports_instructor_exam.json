@@ -6,11 +6,9 @@
     {
       "id": "EPH-2021-1",
       "questionNumber": 1,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠∼㉣에 해당하는 용어를 바르게 나열한 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "골격근은 ( ㉠ )신경계의 조절에 의해 ( ㉡ )으로 수축한다."
           },
@@ -48,11 +46,7 @@
     {
       "id": "EPH-2021-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "안정 시와 운동 중 에너지 소비량 측정 및 추정에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -92,11 +86,7 @@
     {
       "id": "EPH-2021-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 중 심근(myocardium)으로 혈액을 공급하는 동맥은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -126,11 +116,7 @@
     {
       "id": "EPH-2021-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "해수면과 비교하여 고지 환경에서 운동 시 생리적 반응으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -174,11 +160,7 @@
     {
       "id": "EPH-2021-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "유산소 트레이닝에 의한 골격근의 적응 현상으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -214,11 +196,9 @@
     {
       "id": "EPH-2021-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 운동 중 호흡계 전도영역의 기능으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -280,11 +260,9 @@
     {
       "id": "EPH-2021-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 내용 중 옳은 것으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -366,11 +344,9 @@
     {
       "id": "EPH-2021-8",
       "questionNumber": 8,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 호르몬이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -414,11 +390,7 @@
     {
       "id": "EPH-2021-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "근섬유(muscle fiber) 및 근원섬유(myofibril)에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -462,11 +434,7 @@
     {
       "id": "EPH-2021-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "골격근의 수축형태와 기능에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -510,11 +478,9 @@
     {
       "id": "EPH-2021-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 심전도(ECG)에 관한 설명 중 옳은 것으로만 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -586,11 +552,7 @@
     {
       "id": "EPH-2021-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 시 호르몬이 분비되는 내분비선과 주요기능에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -634,11 +596,7 @@
     {
       "id": "EPH-2021-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "유산소 운동 중 호흡계의 환기량 증가 요인에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -678,11 +636,9 @@
     {
       "id": "EPH-2021-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 신경세포 활동전위의 단계는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "칼륨(K+) 채널이 열려있고, 칼륨이 세포 외로 이동하면서 세포 내는 음전하를 띠게 되는 단계"
           },
@@ -720,11 +676,9 @@
     {
       "id": "EPH-2021-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 용어는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "운동뉴런의 말단과 근섬유가 접합되어 있는 기능적 연결부위"
           },
@@ -765,11 +719,9 @@
     {
       "id": "EPH-2021-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 열손실 기전은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "피부의 땀이나 호흡을 통하여 체열을 손실시킨다."
           },
@@ -810,11 +762,9 @@
     {
       "id": "EPH-2021-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "고온환경의 운동 중 극도의 피로, 혼란, 혼미, 현기증, 구토"
           },
@@ -861,11 +811,9 @@
     {
       "id": "EPH-2021-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 제시된 감각-운동 신경계의 인체 운동 반응 조절 과정을 단계별로 바르게 나열한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -927,11 +875,7 @@
     {
       "id": "EPH-2021-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "저항성 트레이닝에 의한 근력 향상의 요인으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -971,11 +915,7 @@
     {
       "id": "EPH-2021-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "고강도 운동 시 심박출량 증가 요인으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

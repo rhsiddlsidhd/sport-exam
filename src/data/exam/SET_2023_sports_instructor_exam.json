@@ -6,11 +6,7 @@
     {
       "id": "SET-2023-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠맨십(sportsmanship) 행위가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,9 @@
     {
       "id": "SET-2023-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 스포츠에 관한 결과론적 윤리관에 해당하는 것으로만 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -124,11 +118,7 @@
     {
       "id": "SET-2023-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠에서 나타나는 인종차별에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -171,11 +161,7 @@
     {
       "id": "SET-2023-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠윤리 이론 중 덕윤리의 특징으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -219,11 +205,9 @@
     {
       "id": "SET-2023-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 스포츠윤리의 역할로 적절한 것으로만 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -289,11 +273,9 @@
     {
       "id": "SET-2023-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 괄호 안에 공통으로 들어갈 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "칸트(I. Kant)에게 도덕성의 기준은 ( )이다"
           },
@@ -348,11 +330,9 @@
     {
       "id": "SET-2023-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 스포츠 선수의 유전자 도핑을 반대해야 하는 이유로 적절한 것을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -408,11 +388,9 @@
     {
       "id": "SET-2023-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 괄호 안에 들어갈 정의(justice)의 유형은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "운동선수의 신체는 훈련으로 만들어지기도 하지만 유전적 요인으로 결정되는 경우가 많다"
           },
@@ -456,11 +434,9 @@
     {
       "id": "SET-2023-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 A 선수의 판단 근거가 되는 윤리이론의 난점에 관한 설명으로 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "농구경기 4쿼터 종료 3분 전, 감독에게 의도적 파울을 지시받은 A 선수는, 의도적 파울이 팀 승리에 기여할 수 있지만, 상대 선수에게 위협을 가하거나 자칫 부상을 입힐 수 있기 때문에 도덕적으로 옳지 않다고 판단했다"
           }
@@ -509,11 +485,9 @@
     {
       "id": "SET-2023-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉의 괄호 안에 공통으로 들어갈 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "예진: 스포츠에는 규칙으로 통제된 ( )이 존재해. 대표적으로 복싱과 태권도와 같은 투기종목은 최소한의 안전장치가 마련되고 그 속에서 힘의 우열이 가려지는 것이지. 따라서 스포츠 내에서 폭력은 용인된 폭력과 그렇지 않은 폭력으로 구분할 수 있어!"
           },
@@ -565,11 +539,9 @@
     {
       "id": "SET-2023-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 국제수영연맹(FINA)이 기술도핑을 금지한 이유는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "2008년 베이징올림픽 수영종목에서는 25개의 세계신기록이 쏟아져 나왔다"
           },
@@ -610,11 +582,9 @@
     {
       "id": "SET-2023-12",
       "questionNumber": 12,
-      "logicType": "MATCHING",
       "question": "〈보기〉에서 나타난 현준과 수연의 공정시합에 관한 관점이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "현준",
             "content": [
@@ -658,11 +628,9 @@
     {
       "id": "SET-2023-13",
       "questionNumber": 13,
-      "logicType": "MATCHING",
       "question": "〈보기〉의 ㉠, ㉡과 관련된 맹자(孟子)의 사상이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -716,11 +684,7 @@
     {
       "id": "SET-2023-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "장애인의 스포츠 참여를 지원하는 방법으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -764,11 +728,7 @@
     {
       "id": "SET-2023-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 지속 가능한 발전에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -812,11 +772,9 @@
     {
       "id": "SET-2023-16",
       "questionNumber": 16,
-      "logicType": "MATCHING",
       "question": "〈그림〉은 스포츠윤리규범의 구조이다. ㉠~㉢에 해당하는 용어가 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -866,11 +824,7 @@
     {
       "id": "SET-2023-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "국민체육진흥법(시행 2022.8.11.) 제18조의3 '스포츠윤리센터의 설립'에 관한 사항으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -914,11 +868,9 @@
     {
       "id": "SET-2023-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "〈보기〉에서 국제육상경기연맹(IFFA)이 출전금지를 판단한 이유는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "2011년 대구세계육상선수권대회에서 남아프리카공화국의 의족 스프린터 피스토리우스(O. Pistorius)는 비장애인육상경기에 참가 신청을 했으나, 국제육상경기연맹은 경기에 사용되는 의족의 탄성이 피스토리우스에게 유리하다는 이유로 출전을 허용하지 않았다고 한다"
           }
@@ -953,11 +905,7 @@
     {
       "id": "SET-2023-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠에서 나타나는 성차별의 원인이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -1001,11 +949,7 @@
     {
       "id": "SET-2023-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠에서 심판윤리에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

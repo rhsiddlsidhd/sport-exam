@@ -6,11 +6,7 @@
     {
       "id": "EPH-2020-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "유산소 시스템의 특징으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,7 @@
     {
       "id": "EPH-2020-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "근육 내에서 산소를 운반하는 물질은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -98,11 +90,7 @@
     {
       "id": "EPH-2020-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "고강도 운동 시 ATP 합성에 사용되는 주요 기질(substrate)로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -142,11 +130,9 @@
     {
       "id": "EPH-2020-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 호르몬은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "부신수질로부터 분비된다."
           },
@@ -184,11 +170,7 @@
     {
       "id": "EPH-2020-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "장기간의 저항성 트레이닝에 따른 골격근의 적응으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -228,11 +210,9 @@
     {
       "id": "EPH-2020-6",
       "questionNumber": 6,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠과 ㉡에 들어갈 용어를 바르게 나열한 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "지구성 트레이닝에 대한 적응으로 최대 동-정맥산소차는 ( ㉠ )하고, 최대 1회박출량(stroke volume)은 ( ㉡ )한다."
           }
@@ -267,11 +247,9 @@
     {
       "id": "EPH-2020-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 신경세포 구조 및 전기적 활동에 관한 적절한 설명을 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -337,11 +315,7 @@
     {
       "id": "EPH-2020-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "적혈구용적률(hematocrit)에 관한 설명으로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -385,11 +359,7 @@
     {
       "id": "EPH-2020-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "근세사 활주설(sliding filament theory)에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -429,16 +399,14 @@
     {
       "id": "EPH-2020-10",
       "questionNumber": 10,
-      "logicType": "MATCHING",
       "question": "<보기>는 산소-헤모글로빈 해리 곡선의 운동 시 변화에 관한 설명이다. ㉠, ㉡, ㉢, ㉣에 들어갈 용어를 바르게 나열한 것은?",
       "view": {
-        "type": "COMPOSITE",
         "media": {
           "type": "IMAGE",
           "url": "/exam/EPH-2020-10.webp",
           "alt": "산소-헤모글로빈 해리 곡선의 운동 시 변화"
         },
-        "passage": [
+        "text": [
           {
             "text": "심부체온이 증가하여 산소-헤모글로빈 해리 곡선은 ( ㉠ )으로 이동하며, 헤모글로빈의 산소 친화력을 ( ㉡ )시킨다."
           },
@@ -476,11 +444,9 @@
     {
       "id": "EPH-2020-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 근수축 유형에 따른 힘-속도-파워 간의 관계에 관한 설명으로 적절한 것만 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -546,11 +512,7 @@
     {
       "id": "EPH-2020-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "장시간의 운동 시 발생하는 탈수현상이 심혈관계에 미치는 영향으로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -580,11 +542,7 @@
     {
       "id": "EPH-2020-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동단위(motor unit)에 관한 설명으로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -624,11 +582,9 @@
     {
       "id": "EPH-2020-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 호르몬은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "운동 시 뇌하수체 전엽에서 분비된다."
           },
@@ -666,11 +622,9 @@
     {
       "id": "EPH-2020-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 ㉠과 ㉡의 근섬유 유형별 특성으로 적절한 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "훈련되지 않은 사람과 비교하여 단거리 선수의 장딴지 근육은 주로 ( ㉠ )의 비율이 높고, 장거리 수영선수의 팔 근육은 ( ㉡ )의 비율이 높은 경향이 있다."
           }
@@ -705,11 +659,9 @@
     {
       "id": "EPH-2020-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "우심방 벽에 위치한다."
           },
@@ -747,11 +699,7 @@
     {
       "id": "EPH-2020-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "저강도(1RM의 30~40%)의 고반복(세트당 20~25회) 저항성 트레이닝에 따른 골격근의 주요 변화로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -781,11 +729,9 @@
     {
       "id": "EPH-2020-18",
       "questionNumber": 18,
-      "logicType": "MATCHING",
       "question": "<보기>에서 인체 내 가스교환에 관한 설명 중 ㉠과 ㉡에 들어갈 용어를 바르게 나열한 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "운동 시 폐포로 유입된 ( ㉠ )는 폐 모세혈관으로 확산된다."
           },
@@ -823,11 +769,7 @@
     {
       "id": "EPH-2020-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 시 교감신경계의 활성화에 따른 반응으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -857,11 +799,7 @@
     {
       "id": "EPH-2020-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "장기간의 유산소 트레이닝에 따른 심혈관계의 적응으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

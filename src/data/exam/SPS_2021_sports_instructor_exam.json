@@ -6,11 +6,7 @@
     {
       "id": "SPS-2021-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠와 운동의 참여가 개인의 심리적 발달에 미치는 영향에 관한 연구주제로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -53,11 +49,7 @@
     {
       "id": "SPS-2021-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "보강적 피드백(augmented feedback)의 유형에 해당하는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -101,11 +93,9 @@
     {
       "id": "SPS-2021-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "나이데퍼(R. Nideffer)의 주의초점모형을 근거로, <보기>의 내용에 해당하는 주의의 폭과 방향은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "배구 선수가 서브를 준비하면서 상대 진영을 살핀 후, 빈 곳을 확인하여 그곳으로 공을 서브하였다."
           }
@@ -154,11 +144,7 @@
     {
       "id": "SPS-2021-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "아이젠(I. Ajen)의 계획된행동이론(theory of planned behavior)의 구성요인으로만 묶인 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -198,11 +184,7 @@
     {
       "id": "SPS-2021-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠심리기술 훈련에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -245,11 +227,7 @@
     {
       "id": "SPS-2021-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "캐런(A.V. Carron)의 팀 응집력 모형에서 응집력의 결정요인으로만 묶인 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -285,11 +263,7 @@
     {
       "id": "SPS-2021-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "인지평가이론(cognitive evaluation theory)에서 내적 동기를 높일 수 있는 방법으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -332,10 +306,8 @@
     {
       "id": "SPS-2021-8",
       "questionNumber": 8,
-      "logicType": "MATCHING",
       "question": "<보기>의 정보처리 과정과 반응시간의 관계에서 ㉠~㉢에 들어갈 단계가 바르게 연결된 것은?",
       "view": {
-        "type": "VISUAL",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2021-8.webp",
@@ -377,11 +349,7 @@
     {
       "id": "SPS-2021-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동실천을 위한 행동수정 중재전략으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -424,11 +392,9 @@
     {
       "id": "SPS-2021-10",
       "questionNumber": 10,
-      "logicType": "MATCHING",
       "question": "<보기>의 사례와 관련있는 데시(E.L. Deci)와 라이언(R.M. Ryan)의 자결성이론(self-determination theory)의 구성요인이 바르게 연결된 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -482,11 +448,9 @@
     {
       "id": "SPS-2021-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>는 성취목표성향 이론에서 자기목표성향(ego-goal orientation)과 과제목표성향(task-goal orientation)에 관한 예시이다. 이에 대한 해석이 옳은 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "인호와 영찬이는 수업에서 테니스를 배운다. 이 둘은 실력이 비슷하다. 하지만 수업에서 인호는 테니스 기술을 배우는 것보다 다른 친구와 테니스 게임을 하여 이기는 것을 좋아한다. 반면에 영찬이는 테니스 기술에 중점을 두며 테니스 기술을 연마할 때마다 뿌듯해 한다."
           }
@@ -535,11 +499,9 @@
     {
       "id": "SPS-2021-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 운동기능 연습법 내용과 관련 있는 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "각 부분을 따로 연습한 후 전체 기술을 종합적으로 연습하는 순수 분습법(pure-part practice)과 전체 운동기술 중에 첫 번째와 두 번째 요소를 각각 연습한 후 그 두 요소를 결합하고 이후 다음 요소를 다시 연습하는 과정을 거쳐 전체 기술을 습득해가는 점진적 분습법(progressive-part practice)으로 구분된다."
           }
@@ -588,11 +550,7 @@
     {
       "id": "SPS-2021-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "특성불안을 측정하는 검사지는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -636,11 +594,9 @@
     {
       "id": "SPS-2021-14",
       "questionNumber": 14,
-      "logicType": "ORDERING",
       "question": "<보기>의 ㉠~㉢에 들어갈 운동발달의 단계를 바르게 나열한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "반사운동단계 → ( ㉠ ) → ( ㉡ ) → 스포츠기술단계 → ( ㉢ ) → 최고수행단계 → 퇴보단계"
           }
@@ -675,11 +631,7 @@
     {
       "id": "SPS-2021-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "와인버그(R.S. Weinberg)와 굴드(D. Gould)의 바람직한 처벌 행동 지침에 관한 내용으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -722,11 +674,7 @@
     {
       "id": "SPS-2021-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠심리상담에서 상담자가 활용할 수 있는 기법에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -769,11 +717,7 @@
     {
       "id": "SPS-2021-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동발달에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -817,11 +761,7 @@
     {
       "id": "SPS-2021-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "신체활동은 일련의 단계를 거쳐 변화한다는 것을 기본적인 전제로 하는 운동행동이론은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -865,10 +805,8 @@
     {
       "id": "SPS-2021-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 내용과 관련 있는 불안이론은?",
       "view": {
-        "type": "VISUAL",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2021-19.webp",
@@ -917,11 +855,7 @@
     {
       "id": "SPS-2021-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "사회적 태만(social loafing) 현상을 극복하기 위한 지도전략으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

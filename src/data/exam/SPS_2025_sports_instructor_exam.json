@@ -6,11 +6,7 @@
     {
       "id": "SPS-2025-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠심리학자의 역할로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -40,11 +36,7 @@
     {
       "id": "SPS-2025-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "심상에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -74,11 +66,9 @@
     {
       "id": "SPS-2025-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기> 중 내적동기를 향상하는 전략으로 옳은 것만을 모두 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -149,11 +139,7 @@
     {
       "id": "SPS-2025-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "목표설정 원리로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -183,11 +169,9 @@
     {
       "id": "SPS-2025-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 가설은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "운동은 세로토닌, 노르에피네프린, 도파민과 같은 신경전달물질 분비를 증가시켜 우울증을 개선한다."
           }
@@ -235,11 +219,9 @@
     {
       "id": "SPS-2025-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 해당하는 학자는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "주요 활동은 1921~1938년"
           },
@@ -299,10 +281,8 @@
     {
       "id": "SPS-2025-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "그림에서 ㉠의 고원현상에 관한 설명으로 옳지 않은 것은?",
       "view": {
-        "type": "VISUAL",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2025-07.webp",
@@ -351,11 +331,7 @@
     {
       "id": "SPS-2025-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "루틴(routine)에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -398,11 +374,9 @@
     {
       "id": "SPS-2025-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 심리기술훈련은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1958년 월피(J. Wolpe)가 개발함"
           },
@@ -459,16 +433,14 @@
     {
       "id": "SPS-2025-10",
       "questionNumber": 10,
-      "logicType": "MATCHING",
       "question": "<보기>의 스포츠 상황과 반응시간 유형이 바르게 연결된 것은?",
       "view": {
-        "type": "COMPOSITE",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2025-10.webp",
           "alt": "스포츠 상황과 반응시간 유형 그림"
         },
-        "items": [
+        "list": [
           {
             "label": "가",
             "content": [
@@ -518,11 +490,7 @@
     {
       "id": "SPS-2025-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠심리상담사의 상담 윤리에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -565,11 +533,7 @@
     {
       "id": "SPS-2025-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "추동이론(drive theory)에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -613,11 +577,9 @@
     {
       "id": "SPS-2025-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠, ㉡에 해당하는 용어가 바르게 나열된 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "교사: 줄다리기의 경우, 집단이 내는 힘의 총합은 개인의 힘을 모두 합친 것보다 작아지게 된다. 이것을 ( ㉠ ) 효과라고 해."
           },
@@ -667,11 +629,7 @@
     {
       "id": "SPS-2025-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "질문지 측정법 도구가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -715,10 +673,8 @@
     {
       "id": "SPS-2025-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "그림에서 무관심 단계의 운동 실천 전략으로 가장 적절한 것은?",
       "view": {
-        "type": "VISUAL",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2025-15.webp",
@@ -768,11 +724,7 @@
     {
       "id": "SPS-2025-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "본능이론(instinct theory)에 관한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -816,11 +768,9 @@
     {
       "id": "SPS-2025-17",
       "questionNumber": 17,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㄱ~ㄷ에 해당하는 베일리(R. Vealey)의 스포츠자신감 원천을 바르게 연결한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -869,11 +819,7 @@
     {
       "id": "SPS-2025-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "주의집중을 높이는 방법으로 가장 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -916,11 +862,7 @@
     {
       "id": "SPS-2025-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "지도자의 처벌 행동 지침으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -963,14 +905,12 @@
     {
       "id": "SPS-2025-20",
       "questionNumber": 20,
-      "logicType": "MATCHING",
       "question": "<보기>는 맥락간섭의 양에 따른 연습 형태이다. ㉠~㉢에 해당하는 코치를 바르게 나열한 것은?",
       "view": {
-        "type": "COMPOSITE",
-        "passage": [
+        "text": [
           "맥락간섭 높음 - ㉠ 맥락간섭 중간 - ㉡ 맥락간섭 낮음 ㉢"
         ],
-        "items": [
+        "list": [
           {
             "label": "A코치",
             "content": [

@@ -7,7 +7,7 @@
 
 ## 개요
 
-문제 데이터는 **과목 + 연도** 단위로 분리된 파일로 관리하며, **채점 로직(Logic)**과 **시각적 형태(View)**를 분리하여 설계한다.
+문제 데이터는 **과목 + 연도** 단위로 분리된 파일로 관리한다.
 
 | 포맷 | 위치 | 타입 정의 |
 |------|------|----------|
@@ -34,12 +34,11 @@
 |------|------|------|------|
 | `id` | `string` | ✅ | 문제 고유 ID. `"{SUBJECT}-{YEAR}-{문제번호}"` 형식. 예: `"SSO-2023-1"` |
 | `questionNumber` | `number` | ✅ | 문제 번호. 예: `1` |
-| `logicType` | `QuestionLogicType` | ✅ | 채점 로직 타입 |
 | `question` | `string` | ✅ | 문제 본문 |
-| `view` | `ExamView` | ✅ | 보기 영역 데이터 (`type: "NONE"`이면 나머지 필드 불필요) |
+| `view` | `ExamView` | ❌ | 보기 영역 데이터. 없으면 필드 자체를 생략 |
 | `options` | `ExamOption[]` | ✅ | 선택지 목록 |
-| `answer` | `number \| number[]` | ✅ | 정답 선택지 id. 단일 정답은 숫자, 복수 정답은 배열 |
-| `explanation` | `ExamExplanation` | ❌ | 해설 (추출 시 생략) |
+| `answer` | `number[]` | ✅ | 정답 선택지 id 배열. 단일 정답도 배열로 표기. 예: `[2]`, 출제 오류 복수 정답: `[2, 3]` |
+| `explanation` | `ExamExplanation` | ❌ | 해설 (추출 시 생략 가능) |
 
 ### ExamOption (선택지)
 
@@ -52,22 +51,18 @@
 
 ## 세부 타입 정의
 
-### QuestionLogicType (채점 로직)
-- `SINGLE_CHOICE`: 일반적인 4지선다 (정답 1개)
-- `MULTIPLE_CHOICE`: 중복 정답 허용 (여러 정답 후보 중 하나만 선택해도 정답으로 인정)
-- `MATCHING`: 항목 간 연결 (가-㉠ 등)
-- `ORDERING`: 발생 순서 나열
+### ExamView (보기 영역 데이터)
 
-### QuestionViewType (시각적 형태)
-- `NONE`: 보기 영역 없음
-- `PASSAGE`: 지문 서술형 (텍스트 블록)
-- `ITEMIZED`: 항목 나열형 (ㄱ, ㄴ, ㄷ 리스트)
-- `BLANK`: 빈칸/마커형 (텍스트 내 (ㄱ), (ㄴ) 포함 및 강조 필요)
-- `VISUAL`: 시각 자료형 (이미지, 도표 중심)
-- `COMPOSITE`: 복합형 (지문/이미지 + 항목 리스트 조합)
-- `TABLE`: 표 데이터형 (병합 헤더, ○/× 기호 포함)
+보기가 없는 문제는 `view` 필드 자체를 생략한다. 각 필드 존재 여부로 렌더링이 결정된다.
 
-### PassageLine (지문 한 줄)
+| 필드 | 타입 | 필수 | 설명 |
+|------|------|------|------|
+| `text` | `TextLine[]` | ❌ | 텍스트 지문 (줄바꿈 단위 배열). 빈칸 `( ㉠ )` 포함 가능 |
+| `list` | `ExamViewItem[]` | ❌ | 기호 기반 항목 데이터 (ㄱ, ㄴ, ㉠ 등) |
+| `media` | `ExamMedia` | ❌ | 이미지 또는 도표 정보 |
+| `table` | `ExamTable` | ❌ | 표 데이터 |
+
+### TextLine (지문 한 줄)
 | 필드 | 타입 | 필수 | 설명 |
 |------|------|------|------|
 | `text` | `string` | ✅ | 줄 텍스트 |
@@ -78,15 +73,6 @@
 |------|------|------|------|
 | `label` | `string` | ✅ | 항목 기호. 예: `"ㄱ"`, `"㉠"`, `"가"` |
 | `content` | `string[]` | ✅ | 항목 내용 (줄바꿈 단위 배열) |
-
-### ExamView (보기 영역 데이터)
-| 필드 | 타입 | 필수 | 설명 |
-|------|------|------|------|
-| `type` | `QuestionViewType` | ✅ | 보기 렌더링 타입 |
-| `passage` | `PassageLine[]` | ❌ | 지문 데이터 (줄바꿈 단위 배열) |
-| `items` | `ExamViewItem[]` | ❌ | 기호 기반 항목 데이터 |
-| `media` | `ExamMedia` | ❌ | 이미지 또는 도표 정보 |
-| `table` | `ExamTable` | ❌ | 표 데이터 (TABLE 타입에서 사용) |
 
 ### ExamTable / ExamTableRow / ExamTableCell (표 데이터)
 
@@ -144,7 +130,7 @@
 
 ### 이미지 (Images)
 - **저장 위치**: `public/exam/`
-- **파일명 규칙**: `{SUBJECT}_{YEAR}_{QuestionNumber}.png`
+- **파일명 규칙**: `{SUBJECT}-{YEAR}-{QuestionNumber}.webp`
   - 예: `EPH-2024-17.webp`
 - **데이터 입력**: `/exam/{FILENAME}` 형식으로 입력
   - 예: `"url": "/exam/EPH-2024-17.webp"`
@@ -153,13 +139,70 @@
 
 ## 파일 구조 예시
 
-### 1. 표 데이터형 (TABLE - 2단 병합 헤더 + ○/× 셀)
+### 1. 텍스트 지문 (text)
 ```json
 {
-  "logicType": "MATCHING",
-  "question": "운동 자극에 관한 신체 내 기관(organs)과 기능에 대한 설명이다. ㉠~㉢에 해당하는 것으로 옳은 것은?",
+  "question": "다음 중 옳은 것은?",
   "view": {
-    "type": "TABLE",
+    "text": [
+      { "text": "운동훈련에 의한 효과는 운동량이 일상생활 수준보다 높을 때 일어난다." },
+      { "text": "운동량은 운동의 빈도, 강도 또는 지속시간을 증가시킴으로써 늘릴 수 있다." }
+    ]
+  },
+  "answer": [2]
+}
+```
+
+### 2. 빈칸 포함 텍스트 (text with blanks)
+```json
+{
+  "question": "㉠, ㉡에 해당하는 것으로 옳은 것은?",
+  "view": {
+    "text": [
+      { "text": "자율신경계는 '흥분성'의 ( ㉠ )과 '억제성'의 ( ㉡ )으로 구분된다." }
+    ]
+  },
+  "answer": [3]
+}
+```
+
+### 3. 항목 리스트 (list)
+```json
+{
+  "question": "〈보기〉에서 옳은 것을 모두 고른 것은?",
+  "view": {
+    "list": [
+      { "label": "ㄱ", "content": ["세 참가자의 분당환기량은 동일하다."] },
+      { "label": "ㄴ", "content": ["다영의 폐포 환기량은 분당 6L/min이다."] }
+    ]
+  },
+  "answer": [4]
+}
+```
+
+### 4. 이미지 + 텍스트 (media + text)
+```json
+{
+  "question": "㉠~㉣에 해당하는 것으로 옳은 것은?",
+  "view": {
+    "media": {
+      "type": "IMAGE",
+      "url": "/exam/EPH-2020-10.webp",
+      "alt": "산소-헤모글로빈 해리 곡선의 운동 시 변화"
+    },
+    "text": [
+      { "text": "심부체온이 증가하여 산소-헤모글로빈 해리 곡선은 ( ㉠ )으로 이동한다." }
+    ]
+  },
+  "answer": [1]
+}
+```
+
+### 5. 표 데이터 (table, 2단 병합 헤더)
+```json
+{
+  "question": "㉠~㉢에 해당하는 것으로 옳은 것은?",
+  "view": {
     "table": {
       "caption": "기관별 기능 여부 표",
       "headers": [
@@ -180,7 +223,7 @@
       "rows": [
         {
           "cells": [
-            { "content": "고온다습한 환경에서 운동 중 체액량 조절을 위한 호르몬을 분비한다" },
+            { "content": "체액량 조절 호르몬 분비" },
             { "content": "㉡" },
             { "content": "○" },
             { "content": "×" }
@@ -189,31 +232,8 @@
       ]
     }
   },
-  "answer": 1
+  "answer": [1]
 }
 ```
 
 > **rowSpan 주의**: `rowSpan: 2`인 셀이 있으면 다음 헤더 행의 cells에서 해당 열을 생략해야 한다.
-
----
-
-### 2. 복합형 (COMPOSITE - 이미지 + 항목 리스트)
-```json
-{
-  "logicType": "SINGLE_CHOICE",
-  "question": "〈표〉는 참가자의 폐환기 검사 결과이다. 〈보기〉에서 옳은 것을 모두 고른 것은?",
-  "view": {
-    "type": "COMPOSITE",
-    "media": {
-      "type": "IMAGE",
-      "url": "/exam/EPH-2024-17.webp",
-      "alt": "폐환기 검사 결과 데이터 표"
-    },
-    "items": [
-      { "label": "ㄱ", "content": ["세 참가자의 분당환기량은 동일하다."] },
-      { "label": "ㄴ", "content": ["다영의 폐포 환기량은 분당 6L/min이다."] }
-    ]
-  },
-  "answer": 4
-}
-```

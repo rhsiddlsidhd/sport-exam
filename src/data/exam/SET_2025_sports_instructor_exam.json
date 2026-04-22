@@ -6,11 +6,7 @@
     {
       "id": "SET-2025-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠윤리센터의 주요 역할에 해당하지 않는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -50,11 +46,7 @@
     {
       "id": "SET-2025-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠에 관한 가치 판단에 해당하지 않는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -90,11 +82,9 @@
     {
       "id": "SET-2025-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 스포츠 상황에 부합하는 개념과 해석은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "태권도 겨루기에서 소극적인 자세로 경기에 임하는 선수는 제재를 받는다"
           },
@@ -141,11 +131,7 @@
     {
       "id": "SET-2025-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "'타이틀 나인(Title Ⅸ)'에 따른 스포츠계의 변화로 가장 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -189,11 +175,7 @@
     {
       "id": "SET-2025-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "세계도핑방지기구(World Anti-Doping Agency)가 정한 '금지 방법'의 분류 목록에 해당하지 않는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -229,11 +211,7 @@
     {
       "id": "SET-2025-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "레건(T. Regan)의 동물권리론에 가장 부합하는 태도는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -269,11 +247,9 @@
     {
       "id": "SET-2025-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 대화 내용에 해당하는 정의(justice)의 유형에 가장 가까운 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "A: 오늘 테니스 경기 봤어? 한쪽 코트는 해가 정면에서 비치고 다른 쪽은 완전 그늘이더라"
           },
@@ -320,11 +296,7 @@
     {
       "id": "SET-2025-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "롤랜드(S. Loland)가 분류한 규칙 위반의 유형에 연결한 사례로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -364,11 +336,9 @@
     {
       "id": "SET-2025-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "칸트(I. Kant)의 의무론에서 보기 속 A와 B의 태도에 부합하는 행위 유형은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "선생님: 도핑을 하면 경기 결과가 달라질 수 있는데, 여러분은 왜 하지 않나요?"
           },
@@ -409,11 +379,7 @@
     {
       "id": "SET-2025-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "부올레(P. Vuolle)가 분류한 스포츠 환경이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -457,11 +423,7 @@
     {
       "id": "SET-2025-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "뒤르켐(E. Durkheim)의 도덕교육론에 근거한 스포츠윤리 교육의 내용과 방법으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -497,11 +459,7 @@
     {
       "id": "SET-2025-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠조직의 윤리경영에 관한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -531,11 +489,9 @@
     {
       "id": "SET-2025-13",
       "questionNumber": 13,
-      "logicType": "MATCHING",
       "question": "보기의 사례에서 ㉠에 해당하는 심판의 자질과 ㉡에 해당하는 맹자의 사단(四端)은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "배구 경기의 주심인 ㉠ A 심판은 최근 개정된 규정을 정확하게 숙지하지 못하여 오심을 범했다. 부심으로 경기를 관장하던 B심판은 오심임을 알았으나 A 심판에 대한 징계가 걱정되어 침묵했다. 시합이 끝난 후 ㉡ B 심판은 양심의 가책을 지우지 못하고 활동을 중단했다."
           }
@@ -584,11 +540,7 @@
     {
       "id": "SET-2025-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "공리주의 윤리 규범을 스포츠에 바르게 적용한 것이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -624,11 +576,9 @@
     {
       "id": "SET-2025-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기에서 장애 차별의 개선을 위한 스포츠 실천의 조건만을 고른 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "ㄱ",
             "content": [
@@ -694,11 +644,9 @@
     {
       "id": "SET-2025-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기의 내용에 부합하는 철학자와 개념의 연결이 옳은 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "지도자와 선배의 체벌과 폭력이 일상화되어 있다"
           },
@@ -745,11 +693,9 @@
     {
       "id": "SET-2025-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "의무주의 윤리 규범에 근거할 경우, 보기의 괄호 안에 들어갈 내용으로 옳은 것은?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "나는 반칙을 하지 않으려고 노력한다"
           },
@@ -793,11 +739,9 @@
     {
       "id": "SET-2025-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "보기는 트랜스젠더 여성의 여성 스포츠 참여에 관한 설명이다. 이를 지지하는 견해의 근거가 아닌 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "국제올림픽위원회(IOC)는 2016년 1월에 올림픽 대회를 비롯한 국제 경기대회에서 외과적인 수술을 받지 않은 성 전환자들도 선수로 출전할 수 있도록 허용해야 한다는 새로운 지침을 발표했다."
           }
@@ -838,11 +782,7 @@
     {
       "id": "SET-2025-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "함무라비 법전의 탈리오 법칙(Lex Talionis)이 정확하게 적용된 상황은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -872,11 +812,7 @@
     {
       "id": "SET-2025-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "인종 차별과 관련된 사례로 맞지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,

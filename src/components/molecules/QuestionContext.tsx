@@ -7,14 +7,14 @@ import { renderTextWithHighlight } from "@/utils/highlight";
 import TableView from "@/components/molecules/TableView";
 
 interface QuestionContextProps {
-  view: ExamView;
+  view?: ExamView;
 }
 
 const QuestionContext: React.FC<QuestionContextProps> = React.memo(
   ({ view }) => {
-    const { type, passage, items, media, table } = view;
+    if (!view) return null;
 
-    if (type === "NONE") return null;
+    const { text, list, media, table } = view;
 
     return (
       <Card className="bg-muted ring-border mb-4 rounded-xl shadow-inner ring-1">
@@ -31,9 +31,9 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
           )}
 
           {/* 1. 지문 영역 (PASSAGE, BLANK, COMPOSITE, VISUAL) */}
-          {passage && passage.length > 0 && (
+          {text && text.length > 0 && (
             <div className="mb-2.5 space-y-1.5">
-              {passage.map((line, idx) => (
+              {text.map((line, idx) => (
                 <TypographySmall
                   key={idx}
                   className={[
@@ -43,7 +43,7 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
                     .filter(Boolean)
                     .join(" ")}
                 >
-                  {type === "BLANK" ? renderTextWithHighlight(line.text) : line.text}
+                  {renderTextWithHighlight(line.text)}
                 </TypographySmall>
               ))}
             </div>
@@ -64,9 +64,9 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
           )}
 
           {/* 3. 항목 리스트 영역 (ITEMIZED, COMPOSITE) */}
-          {items && items.length > 0 && (
+          {list && list.length > 0 && (
             <div className="space-y-2">
-              {items.map((item, index) => (
+              {list.map((item, index) => (
                 <div
                   key={`${item.label}-${index}`}
                   className="flex items-start gap-2"

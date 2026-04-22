@@ -26,7 +26,6 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
       {/* <보기> 섹션 (시각적 렌더링 영역) */}
       <QuestionContext view={question.view} />
 
-      {/* 4지선다 선택지 (미래에 MULTIPLE_CHOICE 등 logicType에 따라 UI 분기 가능) */}
       <div className="grid grid-cols-1 gap-2 ">
         {question.options.map((option, idx) => (
           <OptionButton

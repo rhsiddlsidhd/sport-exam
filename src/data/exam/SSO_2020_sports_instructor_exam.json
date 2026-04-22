@@ -6,11 +6,7 @@
     {
       "id": "SSO-2020-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠의 사회적 순기능으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -54,11 +50,9 @@
     {
       "id": "SSO-2020-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "지배계급은 피지배계급을 억압하고 착취한다."
           },
@@ -113,11 +107,9 @@
     {
       "id": "SSO-2020-3",
       "questionNumber": 3,
-      "logicType": "MATCHING",
       "question": "<보기>에서 정치가 스포츠를 이용하는 방식을 바르게 연결한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -167,11 +159,7 @@
     {
       "id": "SSO-2020-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠와 미디어의 상호관계에서 미디어가 스포츠에 미치는 영향에 해당하는 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -215,11 +203,7 @@
     {
       "id": "SSO-2020-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "상업주의 심화에 따른 스포츠의 변화에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -263,11 +247,9 @@
     {
       "id": "SSO-2020-6",
       "questionNumber": 6,
-      "logicType": "MATCHING",
       "question": "<보기>의 A 선수에 해당하는 사회계층 이동의 유형을 바르게 연결한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "A 선수는 2002년부터 2019년까지 프로축구리그 S 팀의 주전선수로 활동하면서 MVP 3회 수상 등 축구선수로서 명성을 얻었다. 은퇴 후, 2020년부터 프로축구 A 팀의 수석코치로 활동하게 되었다."
           }
@@ -316,11 +298,7 @@
     {
       "id": "SSO-2020-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "버렐(S. Birrell)과 로이(J. Loy)가 제시한 스포츠미디어를 통해 충족할 수 있는 욕구유형에 대한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -364,11 +342,9 @@
     {
       "id": "SSO-2020-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 에티즌(D. Eitzen)과 세이지(G. Sage)가 제시한 스포츠의 정치적 속성은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "스포츠 경기에 수반되는 의식과 행동은 선수의 충성심을 상징적으로 재확인하는 것에 목적이 있다."
           },
@@ -420,11 +396,7 @@
     {
       "id": "SSO-2020-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈의 유형과 원인을 규정하기 어려운 이유로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -468,11 +440,7 @@
     {
       "id": "SSO-2020-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "맥루한(M. McLuhan)의 미디어 이론에 따른 구분 및 특성을 바르게 제시한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -512,11 +480,9 @@
     {
       "id": "SSO-2020-11",
       "questionNumber": 11,
-      "logicType": "ORDERING",
       "question": "<보기>를 투민(M. Tumin)의 스포츠계층 형성과정 순서에 따라 바르게 배열한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -572,11 +538,7 @@
     {
       "id": "SSO-2020-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 세계화의 원인이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -620,11 +582,9 @@
     {
       "id": "SSO-2020-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 ㉠이 설명하는 집합행동의 유형과 관련된 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "A : 어제 축구 봤어? 경기 도중 관중 폭력이 발생했잖아."
           },
@@ -679,11 +639,7 @@
     {
       "id": "SSO-2020-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈에 관한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -727,11 +683,7 @@
     {
       "id": "SSO-2020-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 일탈을 설명하는 이론과 그 특징이 바르게 연결된 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -775,11 +727,9 @@
     {
       "id": "SSO-2020-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 사건은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1972년 제20회 뮌헨올림픽에서 발생"
           },
@@ -830,11 +780,7 @@
     {
       "id": "SSO-2020-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "상류계급의 스포츠 참가 특징에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -878,11 +824,9 @@
     {
       "id": "SSO-2020-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠사회화 과정은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "이용대 선수의 경기 보도 증가는 대중들의 배드민턴 참여를 촉진한다."
           },
@@ -937,11 +881,9 @@
     {
       "id": "SSO-2020-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 스포츠의 교육적 순기능은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "스포츠 참여를 통해 생애주기에 적합한 스포츠를 즐길 수 있는 습관을 형성할 수 있다."
           },
@@ -993,11 +935,9 @@
     {
       "id": "SSO-2020-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 케년(G. Kenyon)의 스포츠 참가유형은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "스포츠 상황 내에서 다양한 지위와 규범을 이행함으로써 스포츠에 실질적으로 참가하는 형태"
           },

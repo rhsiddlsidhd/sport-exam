@@ -6,11 +6,7 @@
     {
       "id": "KHS-2019-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "체육사 연구에서 사료(史料)에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -53,11 +49,9 @@
     {
       "id": "KHS-2019-2",
       "questionNumber": 2,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠, ㉡에 들어갈 알맞은 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "선사시대에는 애니미즘(animism, 만유정령설)에 대한 믿음을 바탕으로 놀이와 신체활동이 포함된 제천의식을 시행하였다. 부족국가와 삼국시대의 제천의식으로는 부여의 영고, 동예의 무천, 고구려의 ( ㉠ )이/가 있었다."
           },
@@ -94,11 +88,7 @@
     {
       "id": "KHS-2019-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "삼국시대 민속놀이에 대한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -141,11 +131,9 @@
     {
       "id": "KHS-2019-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 고려시대의 민속놀이는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "단오절 행사에 여성들의 놀이로 인기가 있었다."
           },
@@ -196,11 +184,9 @@
     {
       "id": "KHS-2019-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 조선 시대의 무예는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "무과 시험 과목의 하나였다."
           },
@@ -247,11 +233,9 @@
     {
       "id": "KHS-2019-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 고려 시대의 무예는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "무인집권시대에 인재 선발의 중요한 수단이었다."
           },
@@ -298,11 +282,9 @@
     {
       "id": "KHS-2019-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 괄호 안에 들어갈 알맞은 용어는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "정조(正祖, 1752~1800)는 문무겸비를 강조한 왕으로서 문과 무를 양립시키는 것이 국가를 부강하게 하는 계책이라고 여겼다."
           },
@@ -342,11 +324,9 @@
     {
       "id": "KHS-2019-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 단체의 활동으로 옳은 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1903년 '황성기독교청년회'라는 이름으로 창설된 단체이다."
           },
@@ -400,11 +380,7 @@
     {
       "id": "KHS-2019-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기 교육입국조서(敎育立國詔書)가 반포된 이후의 체육사적 사실이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -439,11 +415,7 @@
     {
       "id": "KHS-2019-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기에 발생한 체육사적 사실이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -478,11 +450,9 @@
     {
       "id": "KHS-2019-11",
       "questionNumber": 11,
-      "logicType": "ORDERING",
       "question": "<보기>의 ㉠~㉣을 연대순으로 바르게 연결한 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -537,11 +507,7 @@
     {
       "id": "KHS-2019-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "개화기 배재학당에 대한 설명으로 옳은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -584,11 +550,7 @@
     {
       "id": "KHS-2019-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선체육회에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -627,11 +589,9 @@
     {
       "id": "KHS-2019-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 정부가 시행한 체육 정책에 해당하지 않은 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "이 정부는 '체력은 국력'이란 슬로건을 채택했으며, '국민재건체조'를 제정하고 대한체육회의 예산을 정부가 지원하기로 결정했다."
           },
@@ -674,11 +634,9 @@
     {
       "id": "KHS-2019-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 체육 단체는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "제24회 서울올림픽경기대회를 기념하여 1989년 공익법인으로 설립되었다."
           },
@@ -718,11 +676,9 @@
     {
       "id": "KHS-2019-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 인물은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "1903년 황성기독교청년회 초대 총무를 역임하였다."
           },
@@ -762,11 +718,7 @@
     {
       "id": "KHS-2019-17",
       "questionNumber": 17,
-      "logicType": "SINGLE_CHOICE",
       "question": "조선시대에 남성들이 양편으로 나누어 서로 마주 보고 돌을 던지던 민속놀이는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -809,11 +761,7 @@
     {
       "id": "KHS-2019-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "우리나라가 대한민국 국호를 걸고 최초로 참가한 동계올림픽 경기대회는?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -842,11 +790,9 @@
     {
       "id": "KHS-2019-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 올림픽 경기대회는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "분단 후 남한과 북한의 선수가 최초로 동시에 입장한 대회였다."
           },
@@ -886,11 +832,9 @@
     {
       "id": "KHS-2019-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 장소는?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "대한체육회가 1966년 우수선수의 육성을 위해 건립했다."
           },

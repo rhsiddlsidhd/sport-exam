@@ -6,11 +6,9 @@
     {
       "id": "SPS-2019-1",
       "questionNumber": 1,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 ㉠에 해당하는 스포츠심리학의 하위 분야는?",
       "view": {
-        "type": "BLANK",
-        "passage": [
+        "text": [
           {
             "text": "야구에서 공을 잡은 외야수는 2루 주자의 주력과 경기상황을 고려하여 홈으로 송구하기로 결정한다."
           },
@@ -65,11 +63,7 @@
     {
       "id": "SPS-2019-2",
       "questionNumber": 2,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동기술(motor skill)의 일차원적 분류체계가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -113,11 +107,7 @@
     {
       "id": "SPS-2019-3",
       "questionNumber": 3,
-      "logicType": "SINGLE_CHOICE",
       "question": "스포츠 상황에서 루틴(routine)에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -161,11 +151,7 @@
     {
       "id": "SPS-2019-4",
       "questionNumber": 4,
-      "logicType": "SINGLE_CHOICE",
       "question": "응용스포츠심리학회(AAASP)가 제시하는 스포츠심리상담의 윤리규정이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -209,11 +195,7 @@
     {
       "id": "SPS-2019-5",
       "questionNumber": 5,
-      "logicType": "SINGLE_CHOICE",
       "question": "정보처리단계 중 '반응실행 단계'에 해당하는 내용으로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -253,11 +235,7 @@
     {
       "id": "SPS-2019-6",
       "questionNumber": 6,
-      "logicType": "SINGLE_CHOICE",
       "question": "반두라(A. Bandura)의 자기효능감(self-efficacy)이론에 대한 설명으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -301,11 +279,9 @@
     {
       "id": "SPS-2019-7",
       "questionNumber": 7,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에 해당하는 와이너(B. Weiner)의 귀인 범주를 바르게 나열한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "탁구 선수 A는 경기에서 패배한 것을 상대 선수의 능력이 자신보다 더 우수하였기 때문이라고 생각했다."
           }
@@ -340,11 +316,9 @@
     {
       "id": "SPS-2019-8",
       "questionNumber": 8,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 이론은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "각성 수준에 대한 개인의 인지적 해석에 따라 정서 경험이 다를 수 있다."
           },
@@ -399,16 +373,14 @@
     {
       "id": "SPS-2019-9",
       "questionNumber": 9,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>의 야구 투구와 타격 상황에 대한 해석으로 적절하지 않은 것은?",
       "view": {
-        "type": "COMPOSITE",
         "media": {
           "type": "IMAGE",
           "url": "/exam/SPS-2019-9.webp",
           "alt": "야구 투구와 타격 상황에 대한 그림"
         },
-        "passage": [
+        "text": [
           {
             "text": "투수가 시속 145 km의 속도로 던진 공이 홈플레이트에 도달하는 시간은 460 ms이다."
           },
@@ -459,11 +431,7 @@
     {
       "id": "SPS-2019-10",
       "questionNumber": 10,
-      "logicType": "SINGLE_CHOICE",
       "question": "자기목표성향(ego-goal orientation)보다 과제목표성향(task-goal orientation)이 높은 선수의 특성으로 가장 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -499,11 +467,9 @@
     {
       "id": "SPS-2019-11",
       "questionNumber": 11,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>가 설명하는 자기결정이론(self-determination theory)의 동기 유형으로 가장 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "동수는 배드민턴에 흥미를 느끼고 스포츠클럽 활동을 시작했다."
           },
@@ -551,11 +517,9 @@
     {
       "id": "SPS-2019-12",
       "questionNumber": 12,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 자기존중감(self-esteem) 향상과 관련된 가설로 가장 적절한 것은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "정기적으로 운동하여 체지방의 감량과 체형의 변화를 확인하였다."
           },
@@ -609,11 +573,7 @@
     {
       "id": "SPS-2019-13",
       "questionNumber": 13,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동학습의 정의 및 특성에 대한 설명으로 옳지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -657,11 +617,9 @@
     {
       "id": "SPS-2019-14",
       "questionNumber": 14,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 설명하는 심리기술훈련은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "테니스선수 A는 평소 연습과는 달리 시합만 하면 생리적 각성상태가 높아져서 서비스 실수가 자주 발생한다."
           },
@@ -716,11 +674,7 @@
     {
       "id": "SPS-2019-15",
       "questionNumber": 15,
-      "logicType": "SINGLE_CHOICE",
       "question": "운동 애착(exercise adherence)을 촉진하는 스포츠지도사의 전략으로 적절하지 않은 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -764,11 +718,9 @@
     {
       "id": "SPS-2019-16",
       "questionNumber": 16,
-      "logicType": "SINGLE_CHOICE",
       "question": "<보기>에서 대한야구협회가 활용한 행동수정 전략은?",
       "view": {
-        "type": "PASSAGE",
-        "passage": [
+        "text": [
           {
             "text": "본 협회는 선수들의 경기장 폭력을 감소시키기 위해 폭력 정도에 따라 출전시간을 제한하는 제도를 시행합니다."
           }
@@ -813,11 +765,9 @@
     {
       "id": "SPS-2019-17",
       "questionNumber": 17,
-      "logicType": "MATCHING",
       "question": "<보기>의 ㉠과 ㉡에 들어갈 용어가 바르게 묶인 것은?",
       "view": {
-        "type": "ITEMIZED",
-        "items": [
+        "list": [
           {
             "label": "㉠",
             "content": [
@@ -867,11 +817,7 @@
     {
       "id": "SPS-2019-18",
       "questionNumber": 18,
-      "logicType": "SINGLE_CHOICE",
       "question": "캐론(A. V. Carron)의 응집력 모형에서 응집력과 관련이 있는 팀 요소가 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -898,7 +844,7 @@
         "distractors": [
           {
             "term": "팀 요인",
-            "reason": "팀이 공유하는 목표(3), 팀 전체의 수행 능력(1), 팀의 정체성과 공동의 규범 등이 이에 포함됩니다."
+            "reason": "팀이 공유하는 목표, 팀 전체의 수행 능력, 팀의 정체성과 공동의 규범 등이 이에 포함됩니다."
           }
         ],
         "summary": "캐론의 응집력 선행 요인은 환경 요인, 개인 요인, 리더십 요인, 팀 요인의 네 가지 범주로 구성됩니다."
@@ -907,11 +853,7 @@
     {
       "id": "SPS-2019-19",
       "questionNumber": 19,
-      "logicType": "SINGLE_CHOICE",
       "question": "수영장에서 연습한 수영기술이 바다에서도 잘 발휘할 수 있는지를 확인하는 검사로 적절한 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
@@ -951,11 +893,7 @@
     {
       "id": "SPS-2019-20",
       "questionNumber": 20,
-      "logicType": "SINGLE_CHOICE",
       "question": "반응시간(reaction time)의 유형이 아닌 것은?",
-      "view": {
-        "type": "NONE"
-      },
       "options": [
         {
           "id": 1,
