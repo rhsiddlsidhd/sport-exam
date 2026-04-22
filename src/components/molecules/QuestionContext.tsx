@@ -14,7 +14,7 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
   ({ view }) => {
     if (!view) return null;
 
-    const { text, list, media, table } = view;
+    const { text, blanks, underlines, list, media, table } = view;
 
     return (
       <Card className="bg-muted ring-border mb-4 rounded-xl shadow-inner ring-1">
@@ -30,7 +30,7 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
             </div>
           )}
 
-          {/* 1. 지문 영역 (PASSAGE, BLANK, COMPOSITE, VISUAL) */}
+          {/* 1. 순수 지문 영역 */}
           {text && text.length > 0 && (
             <div className="mb-2.5 space-y-1.5">
               {text.map((line, idx) => (
@@ -38,18 +38,32 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
                   key={idx}
                   className={[
                     "text-muted-foreground block leading-normal font-medium break-keep",
-                    line.underline ? "underline underline-offset-2" : "",
+                    underlines?.includes(idx) ? "underline underline-offset-2" : "",
                   ]
                     .filter(Boolean)
                     .join(" ")}
                 >
-                  {renderTextWithHighlight(line.text)}
+                  {line}
                 </TypographySmall>
               ))}
             </div>
           )}
 
-          {/* 2. 시각 자료 영역 (VISUAL) */}
+          {/* 2. 빈칸 채우기 지문 영역 */}
+          {blanks && blanks.length > 0 && (
+            <div className="mb-2.5 space-y-1.5">
+              {blanks.map((line, idx) => (
+                <TypographySmall
+                  key={idx}
+                  className="text-muted-foreground block leading-normal font-medium break-keep"
+                >
+                  {renderTextWithHighlight(line)}
+                </TypographySmall>
+              ))}
+            </div>
+          )}
+
+          {/* 3. 시각 자료 영역 */}
           {media && (
             <div className="mb-3 flex justify-center">
               {media.type === "IMAGE" && (
@@ -63,7 +77,7 @@ const QuestionContext: React.FC<QuestionContextProps> = React.memo(
             </div>
           )}
 
-          {/* 3. 항목 리스트 영역 (ITEMIZED, COMPOSITE) */}
+          {/* 4. 항목 리스트 영역 */}
           {list && list.length > 0 && (
             <div className="space-y-2">
               {list.map((item, index) => (

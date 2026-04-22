@@ -29,15 +29,12 @@ export interface ExamOption {
 // --- ExamView ---
 
 export interface ExamView {
-  text?: TextLine[];
+  text?: string[];
+  blanks?: string[];
+  underlines?: number[];
   list?: ListItem[];
   media?: ExamMedia;
   table?: ExamTable;
-}
-
-export interface TextLine {
-  text: string;
-  underline?: boolean;
 }
 
 export interface ListItem {
