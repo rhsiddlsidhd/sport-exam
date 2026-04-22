@@ -11,7 +11,7 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
 | ------------------- | ---------- | ---------------------------------- |
 | 컴포넌트 파일 (molecules 이상) | PascalCase | `QuestionCard.tsx`, `ScoreSummary.tsx` |
 | atoms 파일          | lowercase (shadcn 기준) | `button.tsx`, `typography.tsx` |
-| 페이지 파일         | PascalCase | `NotesPage.tsx`, `ReviewPage.tsx`  |
+| 페이지 파일         | PascalCase | `SubjectPage.tsx`, `ReviewPage.tsx`  |
 | 훅/유틸 파일        | camelCase  | `useQuiz.ts`, `shuffle.ts`         |
 | 상수/타입 파일      | camelCase  | `label.ts`                         |
 | JSON 데이터 파일    | `{SUBJECT}_{year}_snake_case` | `SSO_2025_sports_instructor_exam.json` |
@@ -36,11 +36,11 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
   ```
 - 동적 import 는 반환 타입이 명시된 함수로 감싸서 사용. `as` 사용 금지
   ```ts
-  async function loadExam(year: string): Promise<Exam> {
+  async function loadExam(subject: string, year: string): Promise<SubjectExam> {
     const module = await import(
-      `../../data/exam/${year}_sports-instructor_exam.json`
+      `../../data/exam/${subject}_${year}_sports_instructor_exam.json`
     );
-    const data: Exam = module.default;
+    const data: SubjectExam = module.default;
     return data;
   }
   ```
@@ -132,8 +132,8 @@ AI가 코드를 작성할 때 반드시 준수해야 하는 규칙을 담고 있
   // 허용 — UI 상태, 단순 토글
   const [isOpen, setIsOpen] = useState(false);
 
-  // 훅으로 분리 — localStorage 접근
-  const { save, load } = useNotes();
+  // 훅으로 분리 — 외부 의존 또는 연관 상태 복수
+  const { currentIndex, setCurrentIndex } = useQuiz();
   ```
 
 

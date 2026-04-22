@@ -29,11 +29,13 @@ src/
 │   ├── examLoader.ts              # /:subject/:year 검증 + 문제 로드 (셔플 포함)
 │   └── reviewLoader.ts            # /:subject/:year/review 검증 + 문제 로드 (셔플 없음)
 ├── hooks/                         # 커스텀 훅
+│   └── useQuiz.ts                 # 퀴즈 진행 상태 관리
 ├── types/                         # 타입 정의
 │   ├── exam-schema.ts             # Exam 관련 타입
 │   └── subject.ts                 # SubjectCode 타입
 ├── constants/                     # 상수
-│   └── label.ts                   # subjectLabel 맵 (코드 → 한국어)
+│   ├── label.ts                   # subjectLabel 맵 (코드 → 한국어)
+│   └── number.ts                  # 숫자 상수
 ├── utils/                         # 프로젝트 전용 순수 함수
 │   ├── shuffle.ts                 # Fisher-Yates 셔플
 │   ├── highlight.tsx              # BLANK 타입 텍스트 하이라이트

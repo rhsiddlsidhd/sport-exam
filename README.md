@@ -1,75 +1,41 @@
-# React + TypeScript + Vite
+# 스포츠지도사 기출문제 풀이
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+생활체육지도자 2급 필기시험 기출문제를 과목별·연도별로 풀어볼 수 있는 모바일 우선 웹 애플리케이션입니다.
 
-Currently, two official plugins are available:
+**→ [sport-exam.vercel.app](https://sport-exam.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 기능
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 5개 과목 선택 (스포츠사회학 · 스포츠윤리 · 스포츠심리학 · 한국체육사 · 운동생리학)
+- 연도별 기출문제 (2019 ~ 2025)
+- 선택지 셔플 + 진행 현황 표시
+- 채점 결과 및 문제별 해설 리뷰
 
-Note: This will impact Vite dev & build performances.
+## 기술 스택
 
-## Expanding the ESLint configuration
+| 구분 | 기술 |
+|------|------|
+| 프레임워크 | React 19 + TypeScript + Vite |
+| 라우팅 | React Router v7 |
+| 스타일링 | Tailwind CSS v4 + shadcn/ui |
+| 배포 | Vercel |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 로컬 실행
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 문서
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| 문서 | 내용 |
+|------|------|
+| [00. Project Overview](.docs/00_PROJECT_OVERVIEW.md) | 프로젝트 목적, 기능, 과목 코드 |
+| [01. Architecture](.docs/01_ARCHITECTURE.md) | 폴더 구조, 라우팅, 데이터 흐름 |
+| [02. Conventions](.docs/02_CONVENTIONS.md) | 코딩 스타일, 네이밍, TypeScript 규칙 |
+| [03. Data Schema](.docs/03_DATA_SCHEMA.md) | JSON 데이터 구조 및 타입 정의 |
+| [04. Component Guide](.docs/04_COMPONENT_GUIDE.md) | 컴포넌트 설계 기준 |
+| [05. PDF Conversion Guide](.docs/05_PDF_CONVERSION_GUIDE.md) | PDF → JSON 변환 판단 사례 |
