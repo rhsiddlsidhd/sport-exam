@@ -79,7 +79,7 @@ export interface ExamQuestion {
   question: string;
   view: ExamView;
   options: ExamOption[];
-  answer: number | number[];
+  answer: number[];
   explanation?: ExamExplanation;
 }
 

@@ -17,7 +17,7 @@ interface TableViewProps {
 function getCellClass(content: string): string {
   if (content === "○") return "font-bold text-success";
   if (content === "×") return "font-bold text-destructive";
-  return " leading-snug break-keep whitespace-normal";
+  return "leading-snug break-keep whitespace-normal";
 }
 
 const TableView: React.FC<TableViewProps> = ({ table }) => {
