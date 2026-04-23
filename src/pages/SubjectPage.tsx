@@ -11,7 +11,7 @@ const SubjectPage = () => {
   const subject = useOutletContext<SubjectCode>();
 
   return (
-    <div className="p-5">
+    <div className="scrollbar-hide h-full overflow-y-auto p-5">
       <div className="mb-8 pt-2">
         <span className="text-primary mb-3 inline-flex items-center gap-1.5 text-[10px] font-black tracking-widest uppercase">
           <span className="bg-primary h-1.5 w-1.5 rounded-full" />

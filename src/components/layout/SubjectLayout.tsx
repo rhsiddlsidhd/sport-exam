@@ -21,17 +21,15 @@ const SubjectLayout = () => {
         >
           <ChevronLeft className="h-4 w-4" />
         </Link>
-        <div className="flex items-center gap-2">
-          <span className="text-foreground text-xs font-black">
-            {subjectLabel[subject]}
-          </span>
-          <span className="text-muted-foreground text-[10px] font-medium">
-            생활체육지도자 2급
-          </span>
-        </div>
+        <span className="text-foreground text-xs font-black">
+          {subjectLabel[subject]}
+        </span>
+        <span className="text-muted-foreground text-[10px] font-medium">
+          생활체육지도자 2급
+        </span>
       </div>
 
-      <div className="scrollbar-hide flex-1 overflow-y-auto">
+      <div className="flex-1 overflow-hidden">
         <Outlet context={subject} />
       </div>
     </div>

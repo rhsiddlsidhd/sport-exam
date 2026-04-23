@@ -18,6 +18,7 @@ export interface ExamQuestion {
   view?: ExamView;
   options: ExamOption[];
   answer: number[];
+  category?: string;
   explanation?: ExamExplanation;
 }
 

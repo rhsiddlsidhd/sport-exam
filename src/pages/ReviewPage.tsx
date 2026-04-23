@@ -36,7 +36,7 @@ const ReviewPage = () => {
   const score = Math.round((correctCount / questions.length) * 100);
 
   return (
-    <div className="bg-background min-h-full pb-10">
+    <div className="scrollbar-hide bg-background h-full overflow-y-auto pb-10">
       <ScoreSummary
         subject={subject}
         year={year}

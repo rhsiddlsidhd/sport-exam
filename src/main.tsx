@@ -20,14 +20,12 @@ const router = createBrowserRouter([
       { index: true, element: <App /> },
       {
         element: <SubjectLayout />,
-        children: [{ path: ":subject", element: <SubjectPage /> }],
+        children: [
+          { path: ":subject", element: <SubjectPage /> },
+          { path: ":subject/:year", element: <QuestionPage />, loader: examLoader },
+          { path: ":subject/:year/review", element: <ReviewPage />, loader: reviewLoader },
+        ],
       },
-      {
-        path: ":subject/:year",
-        element: <QuestionPage />,
-        loader: examLoader,
-      },
-      { path: ":subject/:year/review", element: <ReviewPage />, loader: reviewLoader },
       { path: "*", element: <NotFound /> },
     ],
   },

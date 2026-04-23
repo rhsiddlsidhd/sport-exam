@@ -3,7 +3,6 @@ import { ChevronLeft } from "lucide-react";
 import { Button } from "@/components/atoms/button";
 import ProgressBar from "@/components/molecules/ProgressBar";
 import { useQuizNavigation } from "@/contexts/QuizNavigationContext";
-import { useQuizAnswer } from "@/contexts/QuizAnswerContext";
 
 interface QuestionControlBarProps {
   onBack: () => void;
@@ -12,7 +11,6 @@ interface QuestionControlBarProps {
 const QuestionControlBar: React.FC<QuestionControlBarProps> = memo(
   ({ onBack }) => {
     const { currentIndex, totalCount } = useQuizNavigation();
-    const { answeredCount } = useQuizAnswer();
 
     return (
       <div className="bg-card border-border flex shrink-0 items-center justify-between gap-3 border-b px-4 py-2">
@@ -32,9 +30,6 @@ const QuestionControlBar: React.FC<QuestionControlBarProps> = memo(
           <span className="text-foreground text-xs font-black tabular-nums">
             <span className="text-primary">{currentIndex + 1}</span>
             <span className="text-muted-foreground/60">/{totalCount}</span>
-          </span>
-          <span className="text-muted-foreground text-[9px] font-medium">
-            {answeredCount}개 선택됨
           </span>
         </div>
       </div>
